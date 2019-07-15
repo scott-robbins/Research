@@ -11,7 +11,7 @@ GPIO.setup(16, GPIO.OUT)
 
 for i in range(N):
 	GPIO.output(16, GPIO.HIGH)
-	time.sleep(.2)
+	time.sleep(.55555)
 	GPIO.output(16, GPIO.LOW)
 	
 # CLEAN UP ON EXIT
