@@ -1,0 +1,78 @@
+import tkinter as tk
+import tkMessageBox
+from PIL import Image, ImageTk
+
+HEIGHT = 650
+WIDTH = 800
+
+
+def mode0(cmd, b):
+    if cmd == 'quit':
+        tkMessageBox.showinfo("COMMAND", "** Exiting!! **")
+        exit(0)
+    b.delete(0, 'end')
+    commands['text'] = cmd
+    # TODO: Actually execute something!
+    print 'Executing < ' + cmd + ' >'
+    return cmd
+
+
+def mode1(cmd, b):
+    if cmd == 'quit':
+        tkMessageBox.showinfo("COMMAND", "** Exiting!! **")
+        exit(0)
+    b.delete(0, 'end')
+    commands['text'] = cmd
+    print 'Executing < ' + cmd + ' >'
+    # TODO: Actually execute something!
+    return cmd
+
+
+root = tk.Tk()
+# APPLICATION
+canvas = tk.Canvas(root, height=HEIGHT,width=WIDTH)
+canvas.pack()
+
+background_image = tk.PhotoImage(file='bg.png')
+background_label = tk.Label(root,image=background_image)
+background_label.place(relx=0, rely=0, relwidth=1, relheight=1)
+
+frame = tk.Frame(root, bg='#80c1ff')  # Nicer Colors
+frame.place(relx=0.1, rely=0.1, relwidth=0.8, relheight=0.8)
+
+# Use lambda for button press
+# command=Lambda: function(entry.get())
+
+window = tk.Frame(root, bg='#ec5151', bd=3)
+window.place(x=WIDTH/2, y=HEIGHT/14, relx=0.1, rely=0.1, relwidth=0.275, relheight=0.5)
+
+commands = tk.Label(window,font=('Courier', 10))
+commands.place(relwidth=1,relheight=1)
+
+# List Box:
+Lb1 = tk.Listbox(root,highlightcolor='yellow')
+Lb1.insert(1, "Reboot")
+Lb1.insert(2, "Connect")
+Lb1.insert(3, "Query")
+Lb1.insert(4, "Command")
+Lb1.insert(5, "Disconnect")
+Lb1.insert(6, "Quit")
+Lb1.place(x=WIDTH/9,y=HEIGHT/2,relwidth=0.2,relheight=0.3)
+
+B1 = tk.Button(frame, text="NODE 1", command=lambda: mode0(e1.get(),e1), bg='gray')
+B1.grid(row=0, column=0)
+
+B2 = tk.Button(frame, text="NODE 2", command=lambda: mode1(e2.get(),e2), bg='gray')
+B2.grid(row=1, column=0)
+
+label = tk.Label(frame, text='Command Window', bg='#ec5151')
+label.grid(row=0, column=2, padx=WIDTH/5)
+
+e1 = tk.Entry(frame, font=12, bd=1)
+e1.grid(row=0, column=1)
+
+e2 = tk.Entry(frame, font=12, bd=1)
+e2.grid(row=1, column=1)
+
+root.mainloop()
+
