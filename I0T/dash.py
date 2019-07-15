@@ -1,7 +1,6 @@
 import tkinter as tk
 import tkMessageBox
 import backend
-from PIL import Image, ImageTk
 
 HEIGHT = 650
 WIDTH = 800
