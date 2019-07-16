@@ -133,7 +133,7 @@ def cloud_two(c, n_points, n_steps, state):
         walk.append([plt.imshow(state)])
     print '\033[1m\033[3mSIMULATION FINISHED \033[0m\033[1m[%ss Elapsed]\033[0m' % str(time.time() - tic)
     a = animation.ArtistAnimation(f, walk, interval=100, blit=True, repeat_delay=900)
-    w = FFMpegWriter(fps=30, metadata=dict(artist='Me'), bitrate=1800)
+    w = FFMpegWriter(fps=20, metadata=dict(artist='Me'), bitrate=1800)
     a.save('pattern_generator_1.mp4', writer=w)
     plt.show()
     state[:, :, 2] = np.zeros((state.shape[0], state.shape[1]))
@@ -144,17 +144,19 @@ def apply_rule(i, state, rch, gch, bch, points):
     x = points[i][0]
     y = points[i][1]
     try:
-        if rch[x, y] % 8 == 0:
-            state[x, y, :] -= [0, 1, 0]
+        if gch[x, y] > 0 and bch[x,y]%2==0:
+            state[x, y, :] = [1, 0, 1]
+        if bch[x,y]>=10:
+            state[x,y,:] = [0,0,0]
     except IndexError:
         pass
     return state, points
 
 
-n_pts = 500
+n_pts = 520
 steps = 150
-width   = 150
-height  = 150
+width = 200
+height= 200
 canvas = np.zeros((width, height, 3))
 
 if 'point' in sys.argv:
@@ -162,7 +164,7 @@ if 'point' in sys.argv:
     movts = imutils.spawn_random_walk(start, steps)
     show_walk('R', movts, start, canvas)
 else:
-    final_image = show_cloud('B', n_pts, steps, canvas)
+    final_image = cloud_two('B', n_pts, steps, canvas)
     plt.close()
     plt.show(final_image)
     plt.title('Final State')
