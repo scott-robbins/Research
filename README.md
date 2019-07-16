@@ -13,3 +13,4 @@ cumulative density of points slowly adds color in the green and red channels).
 ![HowItsMade](https://raw.githubusercontent.com/scott-robbins/Research/master/Visual/pattern_generator_0.mp4)
 
 ![HowItsMade2](https://raw.githubusercontent.com/scott-robbins/Research/master/Visual/pattern_generator_1.mp4)
+

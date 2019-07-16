@@ -112,6 +112,11 @@ def cloud_two(c, n_points, n_steps, state):
     for step in range(n_steps):
         ind = 0
         new_positions = []
+
+        rmean = state[:,:,0].mean()
+        gmean = state[:,:,1].mean()
+        bmean = state[:,:,2].mean()
+        imean = [rmean, gmean, bmean]
         for pt in starting_points:
             px = walks[ind][step]
             try:
@@ -123,40 +128,63 @@ def cloud_two(c, n_points, n_steps, state):
             ind += 1
 
             rch = ndi.convolve(state[:, :, 0], k1)
-            gch = ndi.convolve(state[:, :, 0], k0)
+            gch = ndi.convolve(state[:, :, 0], k1)
             bch = ndi.convolve(state[:, :, 2], k1)
             # for ii in range(len(new_positions)):
-            state, starting_points = apply_rule(ind - 1, state, rch, gch, bch, starting_points)
+            state, starting_points = rule_two(ind - 1, state, rch, gch, bch, starting_points, imean)
+            # state, starting_points = apply_rule(ind - 1, state, rch, gch, bch, starting_points, imean)
         starting_points = new_positions
-        state[:, :, 0] += bch / (n_steps)
+        state[:, :, 2] += 2*bch / (n_steps)
         state[:, :, 1] += gch / (2 * n_steps)
         walk.append([plt.imshow(state)])
     print '\033[1m\033[3mSIMULATION FINISHED \033[0m\033[1m[%ss Elapsed]\033[0m' % str(time.time() - tic)
     a = animation.ArtistAnimation(f, walk, interval=100, blit=True, repeat_delay=900)
     w = FFMpegWriter(fps=20, metadata=dict(artist='Me'), bitrate=1800)
-    a.save('pattern_generator_1.mp4', writer=w)
+    a.save('pattern_generator_2.mp4', writer=w)
     plt.show()
-    state[:, :, 2] = np.zeros((state.shape[0], state.shape[1]))
     return state
 
 
-def apply_rule(i, state, rch, gch, bch, points):
+def rule_two(i, state, rch, gch, bch, points, means):
     x = points[i][0]
     y = points[i][1]
+    ravg = means[0]
+    bavg = means[1]
+    gavg = means[2]
     try:
-        if gch[x, y] > 0 and bch[x,y]%2==0:
-            state[x, y, :] = [1, 0, 1]
-        if bch[x,y]>=10:
-            state[x,y,:] = [0,0,0]
+        if rch[x, y] > 2*ravg and rch[x,y]%6==0:
+            state[x, y, :] += [.31, .20,.1]
+        if (gch[x,y] and rch[x,y])>0 and (bch[x,y] or gch[x,y])%8==0:
+            state[x,y,:] += [0,1,1]
+        if state[x,y,0]>.5 and state[x,y,1]>.5 and bch[x,y]>bavg:
+            state[x, y, :] += [0, 0.1, -0.31]
     except IndexError:
         pass
     return state, points
 
 
-n_pts = 520
+def apply_rule(i, state, rch, gch, bch, points, means):
+    x = points[i][0]
+    y = points[i][1]
+    ravg = means[0]
+    bavg = means[1]
+    gavg = means[2]
+    try:
+        if rch[x, y] > ravg and bch[x,y]%6==0:
+            state[x, y, :] += [.31, 0, .31]
+        if gch[x,y] >=2*gavg and bch[x,y]>bavg:
+            state[x,y,:] = [0,0,0]
+        if state[x,y,0]>.5 and state[x,y,2]>.5 and bch[x,y]%4==0:
+            state[x, y, :] = [0, 0, 0]
+    except IndexError:
+        pass
+    return state, points
+
+
+n_pts = 420
 steps = 150
-width = 200
-height= 200
+width = 125
+height= 125
 canvas = np.zeros((width, height, 3))
 
 if 'point' in sys.argv:
@@ -170,3 +198,5 @@ else:
     plt.title('Final State')
     plt.imshow(final_image)
     plt.show()
+
+#  rsync -avzhe ssh root@192.168.0.100:/root/install.log /tmp/
