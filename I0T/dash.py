@@ -13,7 +13,6 @@ def mode(cmd, node, b):
     b.delete(0, 'end')
 
     print 'Executing < ' + cmd + ' >'
-    # TODO: Actually execute something!
     uname, pword = backend.get_creds(node)
     reply = backend.ssh_command(node,uname,pword,cmd,True)
     data = uname+'@'+node+':~$' + reply
