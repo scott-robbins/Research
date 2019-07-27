@@ -1,28 +1,26 @@
 import Tkinter as Tk
 import PIL.ImageTk
 import PIL.Image as Image
+import numpy as np
+import imutils
 import time
-import io
 
 root = Tk.Tk()
 canvas = Tk.Canvas(root, height = 500, width = 500)
 tic = time.time()
 
-# Create two images
-R = PIL.Image.open("red_box.png")
-G = PIL.Image.open("green_box.png")
-B = PIL.Image.open("blue_box.png")
+cell_file = PIL.Image.open("box.png")
+cell_mat = cell_file.resize((100, 100))
+cell_im = PIL.ImageTk.PhotoImage(cell_mat)
+cell = canvas.create_image(100, 100, image=cell_im, tags='cell')
 
-imR = R.resize((80, 80))
-imG = G.resize((80, 80))
-imB = B.resize((80, 80))
-rim = PIL.ImageTk.PhotoImage(imR)
-gim = PIL.ImageTk.PhotoImage(imG)
-bim = PIL.ImageTk.PhotoImage(imB)
-rbox = canvas.create_image(100, 100, image=rim, tags="red")
-gbox = canvas.create_image(100, 250, image=gim, tags="green")
-bbox = canvas.create_image(100, 400, image=bim, tags="blue")
-images = [rbox, gbox, bbox]
+# Create ANT Object(s)
+ant_start = imutils.spawn_random_point(np.zeros((500, 500)))
+ant_file = PIL.Image.open("ant.png")
+ant_mat = ant_file.resize((20, 35))
+ant_im = PIL.ImageTk.PhotoImage(ant_mat)
+ant = canvas.create_image(ant_start[0], ant_start[1],image=ant_im,tags='ant')
+images = [cell]
 
 
 def getImage(imagePI, x, y):
@@ -44,15 +42,9 @@ def click(event):
             # Here I select image1 or image2 depending on where I click, and
             # drag them on the canvas. The problem is when I put the rectangle
             # on top using tag_raise (see below).
-            id = getImage(rim, event.x, event.y)
+            id = getImage(cell_im, event.x, event.y)
             if id:
                 canvas.coords(id, (event.x, event.y))
-
-
-# Binding
-canvas.bind("<B1-Motion>", click)
-# Place the rectangle on top of all
-canvas.pack()
 
 
 def leftKey(event):
@@ -75,15 +67,10 @@ def upKey(event):
     click(event)
 
 
-def snapshot(event=None):
-    """freeze screen and save to file"""
-    root.title("RGB")
-
-    # save the PIL image
-    print 'Snapshot Saved'
-    exit()
-
-
+# Binding
+canvas.bind("<B1-Motion>", click)
+# Place the rectangle on top of all
+canvas.pack()
 
 frame = Tk.Frame(root, width=100, height=100)
 
@@ -92,7 +79,7 @@ root.bind('<Left>', leftKey)
 root.bind('<Right>', rightKey)
 root.bind('<Down>', downKey)
 root.bind('<Up>', upKey)
-root.bind('<Return>', snapshot)
+# root.bind('<Return>', snapshot)
 frame.pack()
 
 print 'Press Enter To Save Workspace... '
