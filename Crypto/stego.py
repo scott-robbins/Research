@@ -28,11 +28,8 @@ if 'run' in sys.argv and len(sys.argv) >= 3:
         data_in.append(ord('\n'))
     print '%d Codepoints in Input Data [%ss Elapsed]' % (len(data_in),str(time.time()-tic))
 
-
-    #''' TESTING STEGO '''
-    #import test
-
-
+    ''' TESTING STEGO '''
+    import test
 
     ''' GET VIDEO DATA FOR STEGANOGRAPHIC COVER '''
     sample_video_1 = '/home/tylersdurden/Documents/PiCam/code/Examples/mail_truck.mp4'
@@ -44,9 +41,9 @@ if 'run' in sys.argv and len(sys.argv) >= 3:
     os.system('find -name "*frame*.png" | cut -b 3- | while read n; do echo $n >> images.txt; done')
     for frame in swap('images.txt', True):
         num = int(frame.split('frame')[1].split('.')[0])
-        images[num] = plt.imread(frame)
+        images[num] = np.array(plt.imread(frame))
     print '%d Images Indexed [%ss Elapsed]' % (len(images.keys()),str(time.time()-tic))
     N = np.array(images.keys()).max()
 
     ''' CLEANUP IMAGES ON EXIT '''
-    #os.system('ls *.png | while read n; do rm $n; done')
+    os.system('ls *.png | while read n; do rm $n; done')
