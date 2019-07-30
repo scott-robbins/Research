@@ -23,14 +23,8 @@ def create_stego(file_name, image_in, preview):
         for element in line:
             data_in.append(ord(element) / 256.)
         data_in.append(ord('\n') / 256.)
-
-    print '%d Codepoints in Input Data [%ss Elapsed]' % (len(data_in), str(time.time() - tic))
-    N =len(data_in)
-    # Make BLOCKS?
-    # for pad in range(int(N * N - len(data_in))):
-    #     data_in.append(0)
-    # test_matrix = np.array(data_in).reshape((N, N))
-    # print 'Added %d Padding to make %dx%d image from codepoints' % ((N * N) - n0, N, N)
+    N = len(data_in)
+    print '%d Codepoints in Input Data [%ss Elapsed]' % (N, str(time.time() - tic))
 
     test_image = plt.imread(image_in)
 

@@ -1,7 +1,10 @@
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+from matplotlib.figure import Figure
 from matplotlib.animation import FFMpegWriter
 import matplotlib.animation as animation
 import matplotlib.pyplot as plt
 import scipy.ndimage as ndi
+import tkinter as Tk
 import numpy as np
 import imutils
 import time
@@ -10,7 +13,7 @@ import sys
 tic = time.time()
 
 colors = {'R': [1,0,0],
-          'G': [0,1,0],
+                    'G': [0,1,0],
           'B': [0,0,1],
           'C': [0,1,1],
           'M': [1,0,1],
@@ -42,9 +45,16 @@ def generate_seed_state(width, height, d, show):
 
 
 def simple_sime(depth, WIDTH, HEIGHT):
-    f = plt.figure()
+
+    root = Tk.Tk()
+    f = Figure(figsize=(5, 4), dpi=100)
+    a = f.add_subplot(111)
+    button = Tk.Button(master=root, text='Quit', command=sys.exit)
+    button.pack(side=Tk.BOTTOM)
+    # a tk.DrawingArea
+    canvas = FigureCanvasTkAgg(f, master=root)
     simulation = []
-    simulation.append([plt.imshow(seed, 'gray')])
+    simulation.append([a.imshow(seed, 'gray')])
     flipped = np.zeros((WIDTH, HEIGHT))
     for step in range(depth):
         c0 = ndi.convolve(seed, net_0)
@@ -71,7 +81,12 @@ def simple_sime(depth, WIDTH, HEIGHT):
                         flipped[x, y] += 1
                 if c2[x, y] > 10:
                     seed[x, y] = 0
-        simulation.append([plt.imshow(seed, 'gray')])
+        simulation.append([a.imshow(seed, 'gray')])
+        canvas.draw()
+        canvas.get_tk_widget().pack(side=Tk.TOP, fill=Tk.BOTH, expand=1)
+        canvas._tkcanvas.pack(side=Tk.TOP, fill=Tk.BOTH, expand=1)
+
+    Tk.mainloop()
     print 'SIMULATION FINISHED [%ss Elapsed]' % str(time.time() - tic)
     a = animation.ArtistAnimation(f, simulation, interval=70, blit=True, repeat_delay=900)
     if save:
@@ -88,6 +103,7 @@ seed = np.zeros((W, H))
 seed[50:200, 50:200] = generate_seed_state(150, 150, density, False)
 seed[150:200,150:200] = imutils.draw_centered_circle(np.zeros((50, 50)), 10,1,False)
 seed = np.abs(seed)
+
 net_0 = [[0,0,0,0],
          [0,2,2,0],
          [0,2,2,0],
@@ -119,5 +135,8 @@ save = False
 if len(sys.argv) ==3 and '-s' in sys.argv:
     save_name = sys.argv[2]
     save = True
+if 'test' in sys.argv:
+    print '* Experimental MODES *'
+
 # RUN IT
 simple_sime(length, W, H)
