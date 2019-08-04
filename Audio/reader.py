@@ -68,34 +68,34 @@ def playback(audio_data, sample_rate, volume, delete):
             os.remove('clip.wav')
 
 
-if len(sys.argv) >= 2:
-    file_in = sys.argv[1]
-    sample_rate, audio = wavfile.read(file_in)
-    audio = np.array(audio)
-    len_sec = audio.shape[0]/sample_rate
-    print audio.shape
-    print '~%dm:%ds of audio' % (int(len_sec/60.0), int(60*(len_sec/60.-int(len_sec/60.))))
-    if len(sys.argv)>=5 and '-snip' in sys.argv:
-        start = int(sys.argv[3])
-        stop = int(sys.argv[4])
-        data = snip_audio(start,stop,audio,sample_rate)
-        playback(data, sample_rate, 9, True)
+if __name__ == '__main__':
+    if len(sys.argv) >= 2:
+        file_in = sys.argv[1]
+        sample_rate, audio = wavfile.read(file_in)
+        audio = np.array(audio)
+        len_sec = audio.shape[0] / sample_rate
+        print audio.shape
+        print '~%dm:%ds of audio' % (int(len_sec / 60.0), int(60 * (len_sec / 60. - int(len_sec / 60.))))
+        if len(sys.argv) >= 5 and '-snip' in sys.argv:
+            start = int(sys.argv[3])
+            stop = int(sys.argv[4])
+            data = snip_audio(start, stop, audio, sample_rate)
+            playback(data, sample_rate, 9, True)
 
-
-if 'mon' in sys.argv:
-    running = True
-    file_in = sys.argv[1]
-    n_read = 0
-    while running:
-        try:
-            sample_rate, audio = wavfile.read(file_in)
-            audio = np.array(audio)
-            print audio.shape
-            audio = np.zeros((0, 0))
-            time.sleep(0.1)
-            n_read += 1
-        except KeyboardInterrupt:
-            running = False
-            break
-    print '[*] %d File Reads Executed ' % n_read
-print '[%ss Elapsed] ' % str(time.time()-tic)
+    if 'mon' in sys.argv:
+        running = True
+        file_in = sys.argv[1]
+        n_read = 0
+        while running:
+            try:
+                sample_rate, audio = wavfile.read(file_in)
+                audio = np.array(audio)
+                print audio.shape
+                audio = np.zeros((0, 0))
+                time.sleep(0.1)
+                n_read += 1
+            except KeyboardInterrupt:
+                running = False
+                break
+        print '[*] %d File Reads Executed ' % n_read
+    print '[%ss Elapsed] ' % str(time.time() - tic)
