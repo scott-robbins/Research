@@ -30,7 +30,7 @@ class Cloud:
 
     def pre_process_audio(self, track):
         sample_rate, audio = wavfile.read(track)
-        audio = np.array(audio)
+        audio = np.array(audio).astype(np.uint)
         if sample_rate == 48000:
             self.W = 240
             self.H = 400
