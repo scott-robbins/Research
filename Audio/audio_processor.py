@@ -47,8 +47,7 @@ def automatize(sec, state,W,H):
         if cell % 2 and frame[ii] == []:
             frame[ii] = 1
         ii += 1
-    if sec % 10 ==:
-        
+
     return np.array(frame.reshape(state.shape))
 
 
