@@ -17,6 +17,18 @@ h = 210
 k0 = [[1,1,1],[1,0,1],[1,1,1]]
 
 
+def draw_progress_bar(depth, index):
+    os.system('clear')
+    print '\033[1m'+'#'*8+' << \033[31m\033[3mCR34TOR\033[0m\033[1m >> '+'#'*8+'\033[0m'
+    bar = '#'
+    for b in range(int(index*31/depth)):
+        bar += '#'
+    if index != depth:
+        print '\033[1m' + bar + ' [\033[32m'+str(100*index/depth + 1)+'% Complete\033[0m\033[1m]\033[0m'
+    else:
+        print '\033[1m' + bar + ' [\033[32m100% Complete\033[0m\033[1m]\033[0m'
+
+
 def play(song):
     print 'Playing %s' % song
     os.system('sleep 4; paplay %s &' % song)
@@ -71,8 +83,9 @@ if '-in' in sys.argv and len(sys.argv) >= 2:
         for j in range(2):
             state = automatize(i, np.array(state),w,h)
             ani.append([plt.imshow(np.array(state))])
+        draw_progress_bar(len_sec,i)
     sound.start()
     sound.join()
-    a = animation.ArtistAnimation(f, ani, interval=250, blit=True, repeat_delay=900)
+    a = animation.ArtistAnimation(f, ani, interval=275, blit=True, repeat_delay=900)
     print '\033[1m\033[31mSHOWING VISUALS [%ss Elapsed]\033[0m' % str(time.time()-tic)
     plt.show()
