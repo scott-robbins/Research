@@ -56,8 +56,6 @@ def automatize(sec, state,W,H):
             frame[ii] += 1
         if cell % 6 == 0 and frame[ii] >= 1:
             frame[ii] -= 1
-        if cell % 2 and frame[ii] == []:
-            frame[ii] = 1
         ii += 1
 
     return np.array(frame.reshape(state.shape))
@@ -76,16 +74,20 @@ if '-in' in sys.argv and len(sys.argv) >= 2:
     ani = []
     for i in range(0, int(len_sec)):
         arr = np.fft.fft(np.array(audio[i*sample_rate:i*sample_rate+sample_rate,0]), axis=0)
-        state = np.array(sigmoid(arr)).astype(np.float).reshape((w, h))
+        state = np.array(sigmoid(arr)).astype(np.uint).reshape((w, h))
         maxima = state.max()
-        ani.append([plt.imshow(state)])
-        ''' DO VISUALIZER MODS HERE '''
-        for j in range(2):
-            state = automatize(i, np.array(state),w,h)
-            ani.append([plt.imshow(np.array(state))])
+        ani.append([plt.imshow(state,'gray')])
+        state = automatize(i, np.array(state).astype(np.float), w, h)
+        ani.append([plt.imshow(state, 'gray')])
+        # ''' DO VISUALIZER MODS HERE '''
+        # for j in range(2):
+        #     state = automatize(i, np.array(state),w,h)
+        #     ani.append([plt.imshow(np.array(state))])
         draw_progress_bar(len_sec,i)
     sound.start()
     sound.join()
-    a = animation.ArtistAnimation(f, ani, interval=275, blit=True, repeat_delay=900)
+    a = animation.ArtistAnimation(f, ani, interval=750, blit=True, repeat_delay=900)
+    w = FFMpegWriter(fps=2, metadata=dict(artist='<muzik>'), bitrate=1800)
+    a.save('deadset_1.mp4', writer=w)
     print '\033[1m\033[31mSHOWING VISUALS [%ss Elapsed]\033[0m' % str(time.time()-tic)
     plt.show()
