@@ -74,16 +74,28 @@ Artists = Categories[0-9] <--> "Name"
 Tracks =  Library[Artist][N] <---> [0010110111010]
 '''
 
-f = plt.figure()
+f, ax = plt.subplots(2, 1, sharex=True)
 
 test_artist = 'Vulfpeck'
+control_artist = 'PoppaSquat'
 # For Debugging I will start with Vulfpeck. Bc, short songs and only a few of them
 test_artist_tracks = load_artist_data(test_artist, tracks)
 print '\033[1m\033[32mPre-Processing Tracks By\033[0m\033[1m %s\033[0m' % test_artist
 for track in test_artist_tracks.keys():
     test = np.array(utils.process_song(test_artist_tracks[track], track))
-    plt.plot(test)
-plt.show()
+    ax[0].plot(test,label=track.split('/').pop())
+ax[0].set_title(test_artist)
+ax[0].legend()
+ax[0].grid()
+control_artist_tracks = load_artist_data(control_artist, tracks)
+print '\033[1m\033[32mPre-Processing Tracks By\033[0m\033[1m %s\033[0m' % control_artist
+ax[1].set_title(control_artist)
+for song in control_artist_tracks.keys():
+    t = np.array(utils.process_song(control_artist_tracks[song], song))
+    ax[1].plot(t,label=song.split('/').pop())
+ax[1].legend()
+ax[1].grid()
 ''' FINISHED '''
 os.system('ls *.wav | while read n; do rm "$n"; done') # CLEANUP WAV FILES
 print '[\033[1m\033[36m%ss Elapsed\033[0m]' % str(time.time()-tic)
+plt.show()
