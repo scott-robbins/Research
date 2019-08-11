@@ -1,4 +1,5 @@
 import numpy as np
+import sys
 import os
 
 
@@ -10,6 +11,11 @@ def swap(fname, destroy):
         os.remove(fname)
     return data
 
+def piped_input():
+    data = []
+    for line in sys.stdin:
+        data.append(line.replace('\n', ''))
+    return data
 
 def process_song(audio_data, name):
     sample_rate = audio_data[0]
