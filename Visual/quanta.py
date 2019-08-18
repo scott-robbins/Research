@@ -42,8 +42,13 @@ def force_field(pts, nsteps, state):
             [x, y] = steps[px][jj]
             if jj > 0:
                 [x0, y0] = steps[px][jj - 1]
-                state[x0, y0, :] = 0
-                state[x, y, :] += [0, 0, 1]
+                if state[x,y,2] != 0 or state[x,y,0]!=0:
+                    state[x0,y0,:] = 0
+                    state[x, y, :] = [1, 0, 1]
+                else:
+                    state[x0, y0, :] = 0
+                    state[x, y, :] += [0, 0, 1]
+
             mm += 1
         for px in range(len(pts)):
             [x, y] = steps[px][jj]
@@ -54,9 +59,9 @@ def force_field(pts, nsteps, state):
                 state[x,y,0] = 1
         # TODO: APPLY CELLULAR AUTOMATA RULES
         state[:, :, 1] += ndi.convolve(bch, k1, origin=0) / np.sum(k2)
-        state[:, :, 0] += ndi.convolve(bch, k0, origin=0) / 16.
         test.append([plt.imshow(state)])
     a = animation.ArtistAnimation(f, test, interval=65, blit=True, repeat_delay=900)
+    print 'FINISHED [%ss Elapsed]' % str(time.time()-tic)
     plt.show()
     return state
 
@@ -70,8 +75,8 @@ colors = {'R': [1,0,0],
           'K': [0,0,0],
           'W': [1,1,1]}
 
-n_particles = 850
-n_steps = 100
+n_particles = 1250
+n_steps = 200
 width = 450
 height = 450
 state = np.zeros((width, height, 3))
