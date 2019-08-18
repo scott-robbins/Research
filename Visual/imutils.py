@@ -183,3 +183,21 @@ def kernel_gen(bit_depth, seed_size, kernel_sz):
             np.random.random_integers(0, bit_depth,
                                       kernel_sz*kernel_sz).reshape((kernel_sz, kernel_sz)))
     return kernels
+
+
+def draw_blue_point_cloud(width, height, state, n_particles, radius, show):
+    points = []
+    cx = width / 2
+    cy = height / 2
+    # Add blue particle cloud
+    for bpt in range(n_particles):
+        [x, y] = spawn_random_point(state[:, :, 2])
+        r = np.sqrt(((cx - x) ** 2 + (cy - y) ** 2))
+        if r <= radius and len(np.nonzero(state[x,y,:])) == 1:
+            state[x, y, 2] = 1
+            points.append([x, y])
+    if show:
+        plt.title('%d Particle Cloud' % len(points))
+        plt.imshow(state)
+        plt.show()
+    return state, points

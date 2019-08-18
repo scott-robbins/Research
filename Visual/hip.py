@@ -44,7 +44,7 @@ def generate_seed_state(width, height, d, show):
     return state
 
 
-def simple_sime(depth, WIDTH, HEIGHT):
+def simple_sim(depth, WIDTH, HEIGHT):
 
     root = Tk.Tk()
     f = Figure(figsize=(5, 4), dpi=100)
@@ -123,11 +123,6 @@ net_2 = [[0,0,0,0,0,0,0],
          [0,1,1,1,1,1,0],
          [0,0,1,0,1,0,0]]
 
-# f, ax = plt.subplots(1, 3, sharey=True,sharex=True)
-# ax[0].imshow(seed, 'gray')
-# ax[1].imshow(ndi.convolve(seed,net_0), 'gray')
-# ax[2].imshow(ndi.convolve(seed, net_1), 'gray')
-# plt.show()
 
 # RUN SIMULATION
 save_name = ''
@@ -139,4 +134,4 @@ if 'test' in sys.argv:
     print '* Experimental MODES *'
 
 # RUN IT
-simple_sime(length, W, H)
+simple_sim(length, W, H)

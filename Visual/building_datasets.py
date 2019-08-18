@@ -91,9 +91,8 @@ def read_images(dataset_path, mode, batch_size):
     return X, Y
 
 # -----------------------------------------------
-# THIS IS A CLASSIC CNN (see examples, section 3)
+# CLASSIC CNN
 # -----------------------------------------------
-# Note that a few elements have changed (usage of queues).
 
 
 # Parameters
@@ -102,11 +101,8 @@ num_steps = 10000
 batch_size = 128
 display_step = 100
 
-# Network Parameters
-dropout = 0.75 # Dropout, probability to keep units
-
-# Build the data input
-X, Y = read_images(DATASET_PATH, MODE, batch_size)
+dropout = 0.75                                          # Dropout, probability to keep units
+X, Y = read_images(DATASET_PATH, MODE, batch_size)      # Build the data input
 
 
 def conv_net(x, n_classes, dropout, reuse, is_training):
@@ -149,8 +145,7 @@ logits_train = conv_net(X, N_CLASSES, dropout, reuse=False, is_training=True)
 logits_test = conv_net(X, N_CLASSES, dropout, reuse=True, is_training=False)
 
 # Define loss and optimizer (with train logits, for dropout to take effect)
-loss_op = tf.reduce_mean(tf.nn.sparse_softmax_cross_entropy_with_logits(
-    logits=logits_train, labels=Y))
+loss_op = tf.reduce_mean(tf.nn.sparse_softmax_cross_entropy_with_logits(logits=logits_train, labels=Y))
 optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate)
 train_op = optimizer.minimize(loss_op)
 
