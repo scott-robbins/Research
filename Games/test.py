@@ -75,27 +75,19 @@ def upKey(event):
     click(event)
 
 
-def snapshot(event=None):
-    """freeze screen and save to file"""
-    root.title("RGB")
-
-    # save the PIL image
-    print 'Snapshot Saved'
-    exit()
-
+def enter(event):
+    print '[Enter]'
 
 
 frame = Tk.Frame(root, width=100, height=100)
 
-''' GET ARROW KEY BINDINGS [L D R U '''
+''' GET ARROW KEY BINDINGS [L D R U] '''
 root.bind('<Left>', leftKey)
 root.bind('<Right>', rightKey)
 root.bind('<Down>', downKey)
 root.bind('<Up>', upKey)
-root.bind('<Return>', snapshot)
+root.bind('<Return>', enter)
 frame.pack()
-
-print 'Press Enter To Save Workspace... '
 
 ''' RUN MAIN LOOP '''
 root.mainloop()
