@@ -1,8 +1,9 @@
+import matplotlib.animation as animation
+import matplotlib.pyplot as plt
 from scipy.io import wavfile
 from threading import Thread
 import numpy as np
 import time
-import sys
 import os
 
 
@@ -50,10 +51,12 @@ def load_track(file_name, verbose):
     track['sample_rate'] = sample_rate
     track['audio'] = np.array(audio_data)
     track['file'] = file_name
-    track['length'] = float(track['audio'])/sample_rate
+    track['length'] = float(track['audio'].shape[0])/sample_rate
     if verbose:
-        print '%s Loaded' % file_name
-        print '* %f seconds of Audio Data' % track['length']
-        print 'Sample Rate: %d' % sample_rate
+        print '\033[1m%s \033[31mLoaded\033[0m' % file_name
+        print '  * %f seconds of Audio Data' % track['length']
+        print '  * Sample Rate: %d' % sample_rate
+
     return track
+
 
