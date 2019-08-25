@@ -49,8 +49,8 @@ def analyze_music_library():
 
 
 # TODO: DEBUG/DEVELOPING
-song = 'test_sound'
-sample = song.split('.')[0]'+'.wav'
+song = 'test.mp3'
+sample = song.split('.')[0]+'.wav'
 if len(sys.argv) >= 2:
     song = sys.argv[1]
 cmd = 'ffmpeg -loglevel quiet -i %s -ar 44100 -ac 2 -b:a 192k %s' %\
