@@ -33,3 +33,7 @@ def short_time_fast_fourier_transform(content_file, style_file):
     kernel = np.random.randn(1, 11, N_CHANNELS, N_FILTERS) * std
 
 
+
+content='inputs/me_30s.mp3'
+style = 'inputs/beastly_30s.mp3'
+short_time_fast_fourier_transform(content, style)

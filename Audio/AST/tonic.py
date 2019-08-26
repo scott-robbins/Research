@@ -3,9 +3,11 @@ import tensorflow as tf
 import numpy as np
 import librosa
 import time
+import sys
 
 N_FFT = 2048
 tic = time.time()
+verbose = False
 
 
 def read_audio_spectum(filename):
@@ -23,23 +25,33 @@ def read_audio_spectum(filename):
     return S, fs
 
 
-CONTENT_FILENAME = 'bass.mp3'
-STYLE_FILENAME = 'guitar3.mp3'
+if '-v' in sys.argv:
+    sys.argv.remove('-v')
+    verbose = True
+if len(sys.argv) < 3:
+    CONTENT_FILENAME = 'bass.mp3'   # default content
+    STYLE_FILENAME = 'guitar3.mp3'  # default style
+else:
+    CONTENT_FILENAME = sys.argv[1]  # USER-DEFINED CONTENT
+    STYLE_FILENAME = sys.argv[2]    # USER-DEFINED STYLE
 a_content, fs = read_audio_spectum(CONTENT_FILENAME)
 a_style, fs = read_audio_spectum(STYLE_FILENAME)
 
 N_SAMPLES = a_content.shape[1]
 N_CHANNELS = a_content.shape[0]
+a_content = a_content[:N_CHANNELS, :N_SAMPLES]
 a_style = a_style[:N_CHANNELS, :N_SAMPLES]
 
-# plt.figure(figsize=(10, 5))
-# plt.subplot(1, 2, 1)
-# plt.title('Content')
-# plt.imshow(a_content[:400,:])
-# plt.subplot(1, 2, 2)
-# plt.title('Style')
-# plt.imshow(a_style[:400,:])
-# plt.show()
+if verbose:
+    plt.figure(figsize=(10, 5))
+    plt.subplot(1, 2, 1)
+    plt.title('Content')
+    plt.imshow(a_content[:400,:])
+    plt.subplot(1, 2, 2)
+    plt.title('Style')
+    plt.imshow(a_style[:400,:])
+    plt.show()
+
 print '\033[1m[AUDIO LOADED. ANALYZATION STARTED... [%ss Elapsed]\033[0m' % str(time.time()-tic)
 
 ''' STYLE FEATURES'''
@@ -74,8 +86,8 @@ with g.as_default(), g.device('/cpu:0'), tf.Session() as sess:
 print '\033[1mFEATURES MAPPED. OPTIMIZATION STARTED  [%ss Elapsed]\033[0m' % str(time.time()-tic)
 ''' OPTIMIZE '''
 ALPHA = 1e-4
-learning_rate = 2e-3
-iterations = 100
+learning_rate = 1e-3
+iterations = 110
 
 result = None
 with tf.Graph().as_default():
@@ -133,7 +145,7 @@ for i in range(500):
     x = librosa.istft(S)
     p = np.angle(librosa.stft(x, N_FFT))
 
-OUTPUT_FILENAME = 'outputs/beatle_jackson.wav'
+OUTPUT_FILENAME = 'outputs/' + 'beatleflea.wav'
 librosa.output.write_wav(OUTPUT_FILENAME, x, fs)
 
 print '\033[1mFINISHED  [%ss Elapsed]\033[0m' % str(time.time()-tic)
