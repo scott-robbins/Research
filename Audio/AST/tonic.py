@@ -162,3 +162,5 @@ plt.title('Result')
 plt.imshow(a[:400,:])
 plt.show()
 
+os.system('paplay %s' % OUTPUT_FILENAME)
+

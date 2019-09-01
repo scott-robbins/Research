@@ -17,16 +17,7 @@ def swap(fname, destroy):
     return data
 
 
-def play():
-    volume = 9
-    vol = {}
-    i = 0
-    for ii in np.linspace(0, 65535, 10):
-        vol[i] = ii
-        i += 1
-    cmd = 'paplay --volume=%d clip.wav' % (vol[volume])
-    print cmd
-    os.system(cmd)
+
 
 
 def rec(name):
