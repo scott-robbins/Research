@@ -4,6 +4,7 @@ import numpy as np
 import librosa
 import time
 import sys
+import os
 
 N_FFT = 2048
 tic = time.time()
@@ -145,7 +146,7 @@ for i in range(500):
     x = librosa.istft(S)
     p = np.angle(librosa.stft(x, N_FFT))
 
-OUTPUT_FILENAME = 'outputs/' + 'beatleflea.wav'
+OUTPUT_FILENAME = 'COMBO.wav'
 librosa.output.write_wav(OUTPUT_FILENAME, x, fs)
 
 print '\033[1mFINISHED  [%ss Elapsed]\033[0m' % str(time.time()-tic)
