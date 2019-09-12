@@ -180,7 +180,7 @@ def dissolve(state, depth, save):
     print 'SIMILATION FINISHED [%ss Elapsed]' % str(time.time()-tic)
     if save:
         writer = animation.FFMpegWriter(fps=5,bitrate=1800)
-        a.save('earth_gif.mp4', writer)
+        a.save('meow.mp4', writer)
     plt.show()
 
 
@@ -232,6 +232,69 @@ def beatify(state, depth, save):
     plt.show()
 
 
+def morph(state_in, state_out, duration, save):
+    f = plt.figure()
+    print 'State In: %s' % str(state_in.shape)
+    print 'State Out: %s' % str(state_out.shape)
+
+    # if state_in.shape[0]!=state_out.shape[0] and state_in.shape[1]!=state_out.shape[1]:
+    #     dx = 0
+    #     dy = 0
+    #     if state_in.shape[0] > state_out.shape[0]:
+    #         dx = state_in.shape[0]
+    #     if state_in.shape[1] > state_out.shape[1]:
+    #         dy = state_in.shape[1]
+    #     if state_in.shape[0] < state_out.shape[0]:
+    #         dx = state_out.shape[0]
+    #     if state_in.shape[1] < state_out.shape[1]:
+    #         dy = state_out.shape[1]
+    #     state = np.zeros((dx, dy, 3))
+    # else:
+    #     state = np.zeros((state_in.shape))
+    #
+    # sx = int(state_in.shape[0]/2)
+    # sy = int(state_in.shape[1]/2)
+    # cx = int(state.shape[0]/2)
+    # cy = int(state.shape[1]/2)
+
+    state = state_in
+    cx = int(state_out.shape[0]/2)
+    cy = int(state_out.shape[1]/2)
+    sx = int(state_out.shape[0]/2)
+    sy = int(state_out.shape[1]/2)
+    print '%s %s %s %s' % (cx, cy, sx, sy)
+    ke = [[1, 1, 1, 1, 1, 1],
+          [1, 0, 0, 0, 0, 1],
+          [1, 0, 1, 1, 0, 1],
+          [1, 0, 1, 1, 0, 1],
+          [1, 0, 0, 0, 0, 1],
+          [1, 1, 1, 1, 1, 1]]
+
+    ind2sub = imutils.LIH_flat_map_creator(state[:, :, 0])
+    reel = []
+    reel.append([plt.imshow(state)])
+    reel.append([plt.imshow(state)])
+    reel.append([plt.imshow(state)])
+    for step in range(duration):
+        ascii_art(step, duration, 1)
+
+        for ii in range(state.shape[0]*state.shape[1]):
+            [x, y] = ind2sub[ii]
+            flip = np.random.random_integers(1, 24, 1)[0]
+            if flip % 10 == 0:
+                try:
+                    state[x-1:x+1, y-1:y+1, :] = state_out[x+1, y-1, :]
+                except:
+                    pass
+        reel.append([plt.imshow(state[cx-sx:cx+sx,cy-sy:cy+sy,:])])
+    a  = animation.ArtistAnimation(f,reel,interval=save['frame_rate'],blit=True,repeat_delay=900)
+    if save['save']:
+        writer = animation.FFMpegWriter(fps=save['frame_rate'], metadata=dict(artist='tyl3r5durd3n'),bitrate=1800)
+        a.save(save['name'], writer=writer)
+    plt.show()
+    return state
+
+
 if __name__ == '__main__':
     WIDTH = 60
     HEIGHT = 60
@@ -251,8 +314,20 @@ if __name__ == '__main__':
         simulation(world, DEPTH, mutation_rate, save)
     if '-d' in sys.argv:
         dissolve(world, DEPTH, save)
-    beatify(world, DEPTH, save)
+    if '-b' in sys.argv:
+        beatify(world, DEPTH, save)
+    if '-morph' in sys.argv:
+        im1 = np.array(plt.imread(sys.argv[2])).astype(np.uint8)
+        im2 = np.array(plt.imread(sys.argv[3])).astype(np.uint8)
+
+        # f,ax = plt.subplots(1, 2)
+        # ax[0].imshow(im1)
+        # ax[1].imshow(im2)
+        # plt.show()
+        file_out = sys.argv[2].split('.')[0]+'2'+sys.argv[3].split('.')[0]+'.mp4'
+        morph(im1, im2, 20, {'save': save, 'frame_rate': 30, 'name': 'stealurmorty.mp4'})
 
     # if save:
     #     os.system(ani_cmd)
     #     os.system(clean)
+print 'DONE [%ss Elapsed]' % str(time.time()-tic)
