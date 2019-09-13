@@ -39,7 +39,7 @@ def ascii_art(n, N, rate):
     print ''
     print ' [*] Mutation Rate: %s' % str(rate)
     print ' [*] %s Frames Simulated' % str(n)
-    print '%s Percent Complete\t\t\t[%ss Elapsed]' % (str(100.*n/(N-1)), str(time.time()-tic))
+    print '%s Percent Complete\t\t  [%ss Elapsed]' % (str(100.*n/(N-1)), str(time.time()-tic))
     print '='*int(70.*n/N)+'\033[0m'
 
 
@@ -280,8 +280,8 @@ def morph(state_in, state_out, duration, save):
 
         for ii in range(state.shape[0]*state.shape[1]):
             [x, y] = ind2sub[ii]
-            flip = np.random.random_integers(1, 24, 1)[0]
-            if flip % 10 == 0:
+            flip = np.random.random_integers(1, 256, 1)[0]
+            if flip % 25 == 0:
                 try:
                     state[x-1:x+1, y-1:y+1, :] = state_out[x+1, y-1, :]
                 except:
@@ -325,7 +325,7 @@ if __name__ == '__main__':
         # ax[1].imshow(im2)
         # plt.show()
         file_out = sys.argv[2].split('.')[0]+'2'+sys.argv[3].split('.')[0]+'.mp4'
-        morph(im1, im2, 20, {'save': save, 'frame_rate': 30, 'name': 'stealurmorty.mp4'})
+        morph(im1, im2, DEPTH, {'save': save, 'frame_rate': 30, 'name': 'stealurmorty.mp4'})
 
     # if save:
     #     os.system(ani_cmd)
