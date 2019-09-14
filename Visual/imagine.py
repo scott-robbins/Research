@@ -295,10 +295,51 @@ def morph(state_in, state_out, duration, save):
     return state
 
 
+def experiment(state, depth, save):
+    f = plt.figure()
+    film = []
+    film.append([plt.imshow(state)])
+    film.append([plt.imshow(state)])
+    film.append([plt.imshow(state)])
+    ind2sub = imutils.LIH_flat_map_creator(state[:, :, 0])
+    for step in range(depth+1):
+        ascii_art(step, depth, 0)
+        rch = np.array(state[:, :, 0])
+        gch = np.array(state[:, :, 1])
+        bch = np.array(state[:, :, 2])
+
+        rc1 = ndi.convolve(rch, k1, origin=0)
+        gc1 = ndi.convolve(gch, k1, origin=0)
+        bc1 = ndi.convolve(bch, k1, origin=0)
+
+        rmean = rch.mean()
+        gmean = gch.mean()
+        bmean = bch.mean()
+
+        for ii in range(state.shape[0]*state.shape[1]):
+            [x, y] = ind2sub[ii]
+            if rch[x, y] > rmean and gch[x, y] > gmean and bch[x, y] > bmean:
+                if rc1[x, y] % 4 == 0:
+                    state[x, y, 0] -= 20
+                if gc1[x, y] % 4 == 0:
+                    state[x, y, 1] -= 20
+                if bc1[x, y] % 4 == 0:
+                    state[x, y, 2] -= 20
+            if abs(rch[x, y] - rmean and gch[x, y] - gmean and bch[x, y] - bmean) < 10:
+                    state[x, y, :] = 255
+        film.append([plt.imshow(state)])
+    print 'SIMILATION FINISHED [%ss Elapsed]' % str(time.time() - tic)
+    a = animation.ArtistAnimation(f, film, interval=100, blit=True, repeat_delay=900)
+    if save:
+        writer = animation.FFMpegWriter(fps=save['frame_rate'], bitrate=1800)
+        a.save(save['name'], writer)
+    plt.show()
+
+
 if __name__ == '__main__':
     WIDTH = 60
     HEIGHT = 60
-    DEPTH = 150
+    DEPTH = 85
     save = True
     world = np.zeros((WIDTH, HEIGHT, 3))
     # SAPLING
@@ -325,8 +366,9 @@ if __name__ == '__main__':
         # ax[1].imshow(im2)
         # plt.show()
         file_out = sys.argv[2].split('.')[0]+'2'+sys.argv[3].split('.')[0]+'.mp4'
-        morph(im1, im2, DEPTH, {'save': save, 'frame_rate': 30, 'name': 'stealurmorty.mp4'})
-
+        morph(im1, im2, DEPTH, {'save': save, 'frame_rate': 30, 'name': 'planet.mp4'})
+    if '-e' in sys.argv:
+        experiment(np.array(plt.imread(sys.argv[2])), DEPTH, {'save': save, 'frame_rate': 30, 'name': 'experimental3.mp4'})
     # if save:
     #     os.system(ani_cmd)
     #     os.system(clean)
