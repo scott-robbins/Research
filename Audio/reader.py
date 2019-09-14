@@ -17,9 +17,6 @@ def swap(fname, destroy):
     return data
 
 
-
-
-
 def rec(name):
     cmd = 'sox -t alsa default %s &' % name
     os.system(cmd)

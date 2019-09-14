@@ -9,80 +9,67 @@ import time
 import sys
 
 tic = time.time()
-
-k0 = [[1,1,1],
-      [1,0,1],
-      [1,1,1]]
-
-k1 = [[0,0,0,0],
-      [0,1,1,0],
-      [0,1,1,0],
-      [0,0,0,0]]
-
-k2 = [[1,1,1,1],
-      [1,0,0,1],
-      [1,0,0,1],
-      [1,1,1,1]]
+G = 6.6743e-11
 
 
-def force_field(pts, nsteps, state):
-    f = plt.figure()
-    steps = {}
-    ii = 0
-    for pt in pts:
-        steps[ii] = imutils.spawn_random_walk(pt, nsteps)
-        ii += 1
-    test = []
-    for jj in range(nsteps):
-        rch = ndi.convolve(state[:, :, 0], k1, origin=0)
-        gch = ndi.convolve(state[:, :, 1], k1, origin=0)
-        bch = ndi.convolve(state[:, :, 2], k1, origin=0)
-        mm = 0
-        for px in range(len(pts)):
-            [x, y] = steps[px][jj]
-            if jj > 0:
-                [x0, y0] = steps[px][jj - 1]
-                if state[x,y,2] != 0 or state[x,y,0]!=0:
-                    state[x0,y0,:] = 0
-                    state[x, y, :] = [1, 0, 1]
-                else:
-                    state[x0, y0, :] = 0
-                    state[x, y, :] += [0, 0, 1]
+class Particle:
+    mass = 0
+    size = 0
+    rvec = 0
+    position = []
+    velocity = []
 
-            mm += 1
-        for px in range(len(pts)):
-            [x, y] = steps[px][jj]
-            if jj > 0:
-                [x0, y0] = steps[px][jj - 1]
-            if state[x,y,2] == 1 and gch[x,y] >= gch.mean():
-                state[x,y,:] = 0
-                state[x,y,0] = 1
-        # TODO: APPLY CELLULAR AUTOMATA RULES
-        state[:, :, 1] += ndi.convolve(bch, k1, origin=0) / np.sum(k2)
-        test.append([plt.imshow(state)])
-    a = animation.ArtistAnimation(f, test, interval=65, blit=True, repeat_delay=900)
-    print 'FINISHED [%ss Elapsed]' % str(time.time()-tic)
-    plt.show()
-    return state
+    def __init__(self, m, sz, loc):
+        self.mass = m
+        self.size = sz
+        self.position = loc
+
+    def calculate_gravitational_attraction(self, m2):
+        return G*(self.mass*m2.mass)/(self.rvec**2)
 
 
-colors = {'R': [1,0,0],
-          'G': [0,1,0],
-          'B': [0,0,1],
-          'C': [0,1,1],
-          'M': [1,0,1],
-          'Y': [1,1,0],
-          'K': [0,0,0],
-          'W': [1,1,1]}
+def add_particles(world, particle, n):
+    points = []
+    for pt in range(n):
+        try:
+            [x, y] = imutils.spawn_random_point(world[:, :, 0])
+            world[x, y, 0] = 1
+            p = Particle(1, 1, [x, y])
+            nx = particle.position[0]
+            ny = particle.position[1]
+            px = p.position[0]
+            py = p.position[1]
+            p.rvec = np.sqrt((px - nx) ** 2 + (py - ny) ** 2)
+            p.calculate_gravitational_attraction(particle)
+            points.append(p)
+        except IndexError:
+            pass
+    return points
 
-n_particles = 1250
-n_steps = 200
-width = 450
-height = 450
-state = np.zeros((width, height, 3))
-Rad = 85
 
-# draw a centered point cloud (blue particles)
-state, points = imutils.draw_blue_point_cloud(width,height,state,n_particles,Rad, False)
-print '%d Points in Cloud ' % len(points)
-final_state = force_field(points, n_steps, state)
+def main():
+    colors = {'R': [1, 0, 0],
+              'G': [0, 1, 0],
+              'B': [0, 0, 1],
+              'C': [0, 1, 1],
+              'M': [1, 0, 1],
+              'Y': [1, 1, 0],
+              'K': [0, 0, 0],
+              'W': [1, 1, 1]}
+    width = 250
+    height = 250
+    n_particles = 100
+    state = np.zeros((width, height, 3))
+
+    ''' Adding Electro Circle] '''
+    e_sz = 10
+    state[:, :, 2] = imutils.draw_centered_circle(state[:, :, 2], e_sz, 1, False)
+    nucleus = Particle(10, e_sz, [int(width / 2), int(height / 2)])
+
+    ''' Adding particles '''
+    add_particles(state, nucleus, n_particles)
+
+
+
+if __name__ == '__main__':
+    main()
