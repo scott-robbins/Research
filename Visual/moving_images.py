@@ -72,12 +72,12 @@ images = get_images(verbose=True)
 
 
 if '-t' in sys.argv:   # Test Mode
-    experiment(images, show={'frame_rate': 6,
+    experiment(images, show={'frame_rate': 10,
                              'show': True,
                              'slower': 3,
                              'faster': 0,
                              'save': True,
-                             'name': 'heel.mp4'})
+                             'name': 'nollie_heel.mp4'})
 
 ''' Clean up! '''
 os.system('ls *img*.jpg | while read n; do rm $n; done; rm pics.txt')
