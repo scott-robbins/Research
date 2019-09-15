@@ -8,8 +8,3 @@
 
 [Fronside Flip](https://raw.githubusercontent.com/scott-robbins/Research/master/Visual/Simulations/frontside_flip.mp4)
 
-[]()
-
-[]()
-
-[]()

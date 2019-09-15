@@ -66,18 +66,18 @@ if len(sys.argv) >= 3:
 ''' Convert Video to Images '''
 test_cmd = base_cmd + file_in + extract_frame_cmd
 os.system(test_cmd)
-
+print test_cmd
 ''' Load Images into Program'''
 images = get_images(verbose=True)
 
 
 if '-t' in sys.argv:   # Test Mode
-    experiment(images, show={'frame_rate': 20,
+    experiment(images, show={'frame_rate': 6,
                              'show': True,
-                             'slower': 1,
+                             'slower': 3,
                              'faster': 0,
-                             'save': False,
-                             'name': 'hardflip.mp4'})
+                             'save': True,
+                             'name': 'heel.mp4'})
 
 ''' Clean up! '''
 os.system('ls *img*.jpg | while read n; do rm $n; done; rm pics.txt')
