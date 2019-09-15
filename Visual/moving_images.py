@@ -56,7 +56,7 @@ def experiment(images_in, show):
 
 
 base_cmd = 'ffmpeg -loglevel quiet -i '
-extract_frame_cmd = ' -vf fps=2 img%03d.jpg -hide_banner'
+extract_frame_cmd = ' -vf fps=1 img%03d.jpg -hide_banner'
 file_in = 'herm_tre.mkv'
 
 ''' Choose How to Process the Images '''
@@ -72,12 +72,12 @@ images = get_images(verbose=True)
 
 
 if '-t' in sys.argv:   # Test Mode
-    experiment(images, show={'frame_rate': 10,
+    experiment(images, show={'frame_rate': 20,
                              'show': True,
-                             'slower': 8,
+                             'slower': 1,
                              'faster': 0,
-                             'save': True,
-                             'name': 'frontside_flips.mp4'})
+                             'save': False,
+                             'name': 'hardflip.mp4'})
 
 ''' Clean up! '''
 os.system('ls *img*.jpg | while read n; do rm $n; done; rm pics.txt')
