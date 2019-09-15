@@ -369,7 +369,5 @@ if __name__ == '__main__':
         morph(im1, im2, DEPTH, {'save': save, 'frame_rate': 30, 'name': 'planet.mp4'})
     if '-e' in sys.argv:
         experiment(np.array(plt.imread(sys.argv[2])), DEPTH, {'save': save, 'frame_rate': 30, 'name': 'experimental3.mp4'})
-    # if save:
-    #     os.system(ani_cmd)
-    #     os.system(clean)
+
 print 'DONE [%ss Elapsed]' % str(time.time()-tic)
