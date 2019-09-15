@@ -37,15 +37,15 @@ def experiment(images_in, show):
         mean[:, :, 1] = im[:, :, 1] - im[:, :, 1].mean()
         mean[:, :, 2] = im[:, :, 2] - im[:, :, 2].mean()
         edges = ndi.gaussian_laplace(mean, sigma=1)
-
+        state = edges * im
         if 'slower' in show.keys():
             for ix in range(show['slower']):
-                frames.append([plt.imshow(im*edges)])
+                frames.append([plt.imshow(state)])
                 n_frames += 1
         else:
-            frames.append([plt.imshow(im * edges)])
+            frames.append([plt.imshow(state)])
             n_frames += 1
-    a = animation.ArtistAnimation(f,frames,interval=show['frame_rate']/2, blit=True, repeat_delay=900)
+    a = animation.ArtistAnimation(f,frames,interval=5, blit=True, repeat_delay=900)
     print 'Finished Simulation. [%ss Elapsed]' % str(time.time()-tic)
     print '[Rendering %d Frames]' % n_frames
     if show['save']:
@@ -72,12 +72,12 @@ images = get_images(verbose=True)
 
 
 if '-t' in sys.argv:   # Test Mode
-    experiment(images, show={'frame_rate': 10,
+    experiment(images, show={'frame_rate': 5,
                              'show': True,
-                             'slower': 3,
+                             'slower': 4,
                              'faster': 0,
-                             'save': True,
-                             'name': 'nollie_heel.mp4'})
+                             'save': False,
+                             'name': 'prod.mp4'})
 
 ''' Clean up! '''
 os.system('ls *img*.jpg | while read n; do rm $n; done; rm pics.txt')

@@ -4,7 +4,30 @@ import matplotlib.pyplot as plt
 import scipy.ndimage as ndi
 import numpy as np
 import resource
+import time
 import os
+
+
+def create_timestamp():
+    date = time.localtime(time.time())
+    mo = str(date.tm_mon)
+    day = str(date.tm_mday)
+    yr = str(date.tm_year)
+
+    hr = str(date.tm_hour)
+    min = str(date.tm_min)
+    sec = str(date.tm_sec)
+
+    date = mo + '/' + day + '/' + yr
+    timestamp = hr + ':' + min + ':' + sec
+    return date, timestamp
+
+
+def arr2string(array):
+    str_out = ''
+    for element in array:
+        str_out += element + ' '
+    return str_out
 
 
 def swap(fname, destroy):
