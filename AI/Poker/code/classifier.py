@@ -1,3 +1,4 @@
+import matplotlib.pyplot as plt
 import numpy as np
 import utils
 import Cards
@@ -7,6 +8,7 @@ import os
 
 tic = time.time()
 DEBUG = True
+
 
 class Classifier:
 
@@ -22,9 +24,12 @@ class Classifier:
 
     def __init__(self):
         raw_data = self.load_training_data()
-        self.label_raw_data(raw_data)
+        labels = self.classify_raw_data(raw_data)
         if DEBUG:
             print '%d Hands Parsed [%ss Elapsed]' % (len(raw_data), str(time.time()-tic))
+        # Label the raw training data
+       # self.label_raw_data(labels, raw_data)
+        print '%d Hands Labeled [%ss Elapsed]' % (len(raw_data), str(time.time()-tic))
 
     @staticmethod
     def load_training_data():
@@ -35,10 +40,14 @@ class Classifier:
               (len(raw_data_in), str(time.time() - tic))
         return raw_data_in
 
-    def label_raw_data(self, raw_data):
-        classifications = {'High Card': 0,'Pair':0,'Two Pair': 0, 'Three Kind': 0,
+    def classify_raw_data(self, raw_data):
+        classifications = {'High Card': 0, 'Pair': 0, 'Two Pair': 0, 'Three Kind': 0,
                            'Straight': 0, 'Flush': 0, 'Full House': 0, 'Four Kind': 0,
                            'Straight Flush': 0}
+        labels = []
+        rankings = {}
+        for r in range(len(classifications.keys())):
+            rankings[r] = classifications.keys()[r]
         mapping = {}
         for k in classifications.keys():
             mapping[k] = 0
@@ -47,47 +56,30 @@ class Classifier:
         N = 7    # Including 2 Cards in Pocket, each table has 7 Cards
         for table in raw_data:
             '''         '''
-            hand = self.create_cards(table)
-            label = ''
-            if hand[0].Rank == hand[1].Rank:
-                label = 'Pair'
-                pp += 1
-
-            flushed = []
             paired = []
-            for ci in hand:
-                for cj in hand:
-                    if (ci.Rank == cj.Rank and ci.Suit != cj.Suit) or (ci.Rank != cj.Rank and ci.Suit == cj.Suit):
-                        if ci.Rank == cj.Rank:
-                            mapping['Pair'] += 1
-                            paired.append(ci.Rank)
-                            paired.append(cj.Rank)
-                        if ci.Suit == cj.Suit:
-                            flushed.append(ci)
-                            flushed.append(ci)
-            if np.unique(np.array(paired)).shape[0] == 2:
-                mapping['Two Pair'] += 1
-            if np.unique(np.array(paired)).shape[0] == 3:
-                mapping['Three Kind'] += 1
-            if np.unique(np.array(paired)).shape[0] == 3 and np.unique(np.array(flushed)).shape[0] == 3:
-                mapping['Full House'] += 1
-            if len(flushed) >= 5:
-                mapping['Flush'] += 1
-            if np.unique(np.array(paired)).shape[0] == 1 and len(paired)>=4:
-                mapping['Four Kind']
-            try:
-                classifications[tid] = label
-                self.hand_count[classifications[tid]] += 1
-            except:
-                pass
+            flushed = []
+            rank = 0
+            hand = self.create_cards(table)
+
+
+
+
             tid += 1
-        print '%d Pocket Pairs' % pp
-        print '%d Pairs' % mapping['Pair']
-        print '%d Two Pair(s)' % mapping['Two Pair']
-        print '%d Three Kind' % mapping['Three Kind']
-        print '%d Flushes' % mapping['Flush']
-        print '%d Full Houses(s)' % mapping['Full House']
-        print '%d Four Kind(s)' % mapping['Four Kind']
+        print '\033[1m==================================================\033[0m'
+        bars = []                       # TODO: FOR DEBUGGING PURPOSES SHOW DISTRIBUTION
+        for c in self.hand_count.keys():
+            bars.append(len(self.hand_count[c]))
+            print '%d %s [%f percent]' %\
+                  (len(self.hand_count[c]), c, float(len(self.hand_count[c]))/len(raw_data))
+        return classifications
+
+    def label_raw_data(self, labels, raw):
+        content = ''
+        ii = 0
+        for hand in raw:
+            content += hand+'\t'+labels.pop(ii)+'\n'
+            ii += 1
+        open('training_data.txt', 'w').write(content)
 
     @staticmethod
     def create_cards(cardstr_arr):
