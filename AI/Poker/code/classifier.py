@@ -57,11 +57,11 @@ class Classifier:
         for table in raw_data:
             '''         '''
             paired = []
-            flushed = []
+            flushed = {68: 0, 72: 0, 67: 0, 83: 0}
             rank = 0
             hand = self.create_cards(table)
 
-            # Check for pocket pair, or pair
+            '''           CHECK RANK RELATIONSHIPS          '''
             if hand[0].Rank == hand[1].Rank and (hand[0].Suit != hand[1].Suit):
                 paired.append(hand[0].Rank)
                 rank = 1
@@ -80,12 +80,36 @@ class Classifier:
             if hand[4].Rank == (hand[5].Rank or hand[6].Rank):
                 paired.append(hand[4].Rank)
                 rank = 1
-            if hand[5].Rank == hand[6].Rank:
+
+            '''           CHECK SUIT RELATIONSHIPS          '''
+            if hand[0].Suit != '' and hand[0].Suit == hand[1].Suit:
+                flushed[ord(hand[0].Suit)] += 1
+            if hand[0].Suit != '' and hand[0].Suit == (hand[2].Suit or hand[3].Suit or hand[4].Suit or hand[5].Suit or hand[6].Suit):
+                flushed[ord(hand[0].Suit)] += 1
+            if hand[1].Suit != '' and hand[1].Suit == (hand[2].Suit or hand[3].Suit or hand[4].Suit or hand[5].Suit or hand[6].Suit):
+                flushed[ord(hand[1].Suit)] += 1
+            if hand[2].Suit != '' and hand[2].Suit == (hand[3].Suit or hand[4].Suit or hand[5].Suit or hand[6].Suit):
+                flushed[ord(hand[2].Suit)] += 1
+            if hand[3].Suit != '' and hand[3].Suit == (hand[4].Suit or hand[5].Suit or hand[6].Suit):
+                flushed[ord(hand[3].Suit)] += 1
+            if hand[4].Suit != '' and hand[4].Suit == (hand[5].Suit or hand[6].Suit):
+                flushed[ord(hand[4].Suit)] += 1
+
+            '''         Choose the Best hand Made           '''
+            if hand[5].Rank == hand[6].Rank:                                # Pair
                 paired.append([hand[5].Rank])
-            if len(np.unique(np.array(paired))) == 2:
+            if len(np.unique(np.array(paired))) == 2:                       # Two Pair
                 rank = 2
-            if len(np.unique(np.array(paired))) == 3:
+            if len(np.unique(np.array(paired))) == 1 and len(paired) == 3:  # Three Kind
                 rank = 3
+            for suit in flushed.keys():
+                if flushed[suit] >= 4:
+                    rank = 5
+            if len(np.unique(np.array(paired))) == 2 and len(paired) > 3:   # Full House
+                rank = 6
+            if rank == 3 and len(paired) == 4:                              # Four Kind
+                rank = 7
+
             self.hand_count[rankings[rank]].append(hand)
             tid += 1
         print '\033[1m==================================================\033[0m'
@@ -94,9 +118,12 @@ class Classifier:
             bars.append(len(self.hand_count[c]))
             print '%d %s [%f percent]' %\
                   (len(self.hand_count[c]), c, 100*float(len(self.hand_count[c]))/len(raw_data))
-        ex = self.hand_count['Pair'].pop(np.random.random_integers(0,100,1)[0])
-        print Cards.show_cards(ex)
 
+        # TODO: For Debugging print examples of hands classified for validation
+        ex_pair = self.hand_count['Pair'].pop()
+        ex_twopair = self.hand_count['Two Pair'].pop()
+        ex_threekind = self.hand_count['Three Kind'].pop()
+        #
         return classifications
 
     def label_raw_data(self, labels, raw):
