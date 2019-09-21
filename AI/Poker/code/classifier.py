@@ -68,6 +68,24 @@ class Classifier:
             if hand[0].Rank == (hand[2].Rank or hand[3].Rank or hand[4].Rank or hand[5].Rank or hand[6].Rank):
                 paired.append(hand[0].Rank)
                 rank = 1
+            if hand[1].Rank == (hand[2].Rank or hand[3].Rank or hand[4].Rank or hand[5].Rank or hand[6].Rank):
+                paired.append(hand[1].Rank)
+                rank = 1
+            if hand[2].Rank == (hand[3].Rank or hand[4].Rank or hand[5].Rank or hand[6].Rank):
+                paired.append(hand[2].Rank)
+                rank = 1
+            if hand[3].Rank == (hand[4].Rank or hand[5].Rank or hand[6].Rank):
+                paired.append(hand[3].Rank)
+                rank = 1
+            if hand[4].Rank == (hand[5].Rank or hand[6].Rank):
+                paired.append(hand[4].Rank)
+                rank = 1
+            if hand[5].Rank == hand[6].Rank:
+                paired.append([hand[5].Rank])
+            if len(np.unique(np.array(paired))) == 2:
+                rank = 2
+            if len(np.unique(np.array(paired))) == 3:
+                rank = 3
             self.hand_count[rankings[rank]].append(hand)
             tid += 1
         print '\033[1m==================================================\033[0m'
@@ -75,7 +93,7 @@ class Classifier:
         for c in self.hand_count.keys():
             bars.append(len(self.hand_count[c]))
             print '%d %s [%f percent]' %\
-                  (len(self.hand_count[c]), c, float(len(self.hand_count[c]))/len(raw_data))
+                  (len(self.hand_count[c]), c, 100*float(len(self.hand_count[c]))/len(raw_data))
         ex = self.hand_count['Pair'].pop(np.random.random_integers(0,100,1)[0])
         print Cards.show_cards(ex)
 
