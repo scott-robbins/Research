@@ -24,11 +24,11 @@ class Classifier:
 
     def __init__(self):
         raw_data = self.load_training_data()
-        labels = self.classify_raw_data(raw_data)
+        classes, labels = self.classify_raw_data(raw_data)
         if DEBUG:
             print '%d Hands Parsed [%ss Elapsed]' % (len(raw_data), str(time.time()-tic))
         # Label the raw training data
-       # self.label_raw_data(labels, raw_data)
+        self.label_raw_data(labels, raw_data)
         print '%d Hands Labeled [%ss Elapsed]' % (len(raw_data), str(time.time()-tic))
 
     @staticmethod
@@ -47,7 +47,7 @@ class Classifier:
         labels = []
         rankings = {0:'High Card', 1: 'Pair', 2: 'Two Pair', 3: 'Three Kind', 4: 'Straight',
                     5: 'Flush', 6: 'Full House', 7: 'Four Kind', 8: 'Straight Flush'}
-
+        hit_flush = False
         mapping = {}
         for k in classifications.keys():
             mapping[k] = 0
@@ -58,6 +58,7 @@ class Classifier:
             '''         '''
             paired = []
             flushed = {68: 0, 72: 0, 67: 0, 83: 0}
+            faced = {'J': 11, 'Q': 12, 'K': 13, 'A': 14}
             rank = 0
             hand = self.create_cards(table)
 
@@ -80,9 +81,18 @@ class Classifier:
             if hand[4].Rank == (hand[5].Rank or hand[6].Rank):
                 paired.append(hand[4].Rank)
                 rank = 1
-
-
-
+            straight = []
+            rs = []
+            for card in hand:
+                if card.Rank in faced.keys():
+                    rs.append(faced[card.Rank])
+                elif card.Rank != '':
+                    rs.append(int(card.Rank))
+            for ri in rs:
+                for rj in rs:
+                    if abs(rj-ri) == 1:
+                        straight.append(rj)
+            strt = np.sort(np.array(straight))
             '''           CHECK SUIT RELATIONSHIPS          '''
             if hand[0].Suit != '' and hand[0].Suit == hand[1].Suit:
                 flushed[ord(hand[0].Suit)] += 1
@@ -102,19 +112,23 @@ class Classifier:
                 paired.append([hand[5].Rank])
             if len(np.unique(np.array(paired))) == 2:                       # Two Pair
                 rank = 2
-            # if len(straight) >= 5:                                          # Straight
-            #     rank = 4
+            if len(np.unique(straight))>=5 and np.diff(strt).max() == 1:    # Straight
+                rank = 4
             if len(np.unique(np.array(paired))) == 1 and len(paired) == 3:  # Three Kind
                 rank = 3
-            for suit in flushed.keys():
+            for suit in flushed.keys():                                     # Flush
                 if flushed[suit] >= 4:
                     rank = 5
+                    hit_flush = True
             if len(np.unique(np.array(paired))) == 2 and len(paired) > 3:   # Full House
                 rank = 6
+            if rank == 5 and hit_flush:                                     # Straight Flush
+                rank = 8
             if rank == 3 and len(paired) == 4:                              # Four Kind
                 rank = 7
 
             self.hand_count[rankings[rank]].append(hand)
+            labels.append(rankings[rank])
             tid += 1
         print '\033[1m==================================================\033[0m'
         bars = []                       # TODO: FOR DEBUGGING PURPOSES SHOW DISTRIBUTION
@@ -127,15 +141,22 @@ class Classifier:
         ex_pair = self.hand_count['Pair'].pop()
         ex_twopair = self.hand_count['Two Pair'].pop()
         ex_threekind = self.hand_count['Three Kind'].pop()
+        ex_straight = self.hand_count['Straight'].pop()
         #
-        return classifications
+        print '%d Labels Created and %d Hands Read' % (len(labels), len(raw_data))
+        return classifications, labels
 
     def label_raw_data(self, labels, raw):
         content = ''
-        ii = 0
-        for hand in raw:
-            content += hand+'\t'+labels.pop(ii)+'\n'
-            ii += 1
+        unlabeled = 0
+        for ii in range(len(raw)):
+            try:
+                content += raw.pop((ii)) + ',    ' + labels.pop(ii) + '\n'
+            except IndexError:
+                unlabeled += 1
+                pass
+        print '[*] %d Hands Missing Labels!' % unlabeled
+        print 'Finished Writing Labeled Data to \033[3mtraining_data.txt\033[0m'
         open('training_data.txt', 'w').write(content)
 
     @staticmethod

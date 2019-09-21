@@ -1,4 +1,3 @@
-import numpy as np
 import Cards
 import utils
 import time
