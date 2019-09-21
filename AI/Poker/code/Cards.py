@@ -20,6 +20,7 @@ class Card:
                 if srank == R:
                     self.Rank = srank
                 self.Suit = S
+
     def show(self):
         card = self.Rank + self.Suit
         print(card)
@@ -45,10 +46,11 @@ class Deck:
 
     def deal(self, n_cards):
         cs = []
-        for i in range(n_cards):
+        while len(cs) != n_cards:
             c = self.cards.pop()
-            cs.append(c)
-            self.dealt[c] = True
+            if not self.dealt[c]:
+                cs.append(c)
+                self.dealt[c] = True
         return cs
 
 

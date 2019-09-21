@@ -45,9 +45,9 @@ class Classifier:
                            'Straight': 0, 'Flush': 0, 'Full House': 0, 'Four Kind': 0,
                            'Straight Flush': 0}
         labels = []
-        rankings = {}
-        for r in range(len(classifications.keys())):
-            rankings[r] = classifications.keys()[r]
+        rankings = {0:'High Card', 1: 'Pair', 2: 'Two Pair', 3: 'Three Kind', 4: 'Straight',
+                    5: 'Flush', 6: 'Full House', 7: 'Four Kind', 8: 'Straight Flush'}
+
         mapping = {}
         for k in classifications.keys():
             mapping[k] = 0
@@ -61,9 +61,14 @@ class Classifier:
             rank = 0
             hand = self.create_cards(table)
 
-
-
-
+            # Check for pocket pair, or pair
+            if hand[0].Rank == hand[1].Rank and (hand[0].Suit != hand[1].Suit):
+                paired.append(hand[0].Rank)
+                rank = 1
+            if hand[0].Rank == (hand[2].Rank or hand[3].Rank or hand[4].Rank or hand[5].Rank or hand[6].Rank):
+                paired.append(hand[0].Rank)
+                rank = 1
+            self.hand_count[rankings[rank]].append(hand)
             tid += 1
         print '\033[1m==================================================\033[0m'
         bars = []                       # TODO: FOR DEBUGGING PURPOSES SHOW DISTRIBUTION
@@ -71,6 +76,9 @@ class Classifier:
             bars.append(len(self.hand_count[c]))
             print '%d %s [%f percent]' %\
                   (len(self.hand_count[c]), c, float(len(self.hand_count[c]))/len(raw_data))
+        ex = self.hand_count['Pair'].pop(np.random.random_integers(0,100,1)[0])
+        print Cards.show_cards(ex)
+
         return classifications
 
     def label_raw_data(self, labels, raw):
