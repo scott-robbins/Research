@@ -81,6 +81,8 @@ class Classifier:
                 paired.append(hand[4].Rank)
                 rank = 1
 
+
+
             '''           CHECK SUIT RELATIONSHIPS          '''
             if hand[0].Suit != '' and hand[0].Suit == hand[1].Suit:
                 flushed[ord(hand[0].Suit)] += 1
@@ -100,6 +102,8 @@ class Classifier:
                 paired.append([hand[5].Rank])
             if len(np.unique(np.array(paired))) == 2:                       # Two Pair
                 rank = 2
+            # if len(straight) >= 5:                                          # Straight
+            #     rank = 4
             if len(np.unique(np.array(paired))) == 1 and len(paired) == 3:  # Three Kind
                 rank = 3
             for suit in flushed.keys():
