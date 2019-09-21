@@ -23,6 +23,7 @@ class Classifier:
                   'Straight Flush': []}
 
     def __init__(self):
+        # Load Unlabeled Poker Data
         raw_data = self.load_training_data()
         classes, labels = self.classify_raw_data(raw_data)
         if DEBUG:
@@ -30,6 +31,39 @@ class Classifier:
         # Label the raw training data
         self.label_raw_data(labels, raw_data)
         print '%d Hands Labeled [%ss Elapsed]' % (len(raw_data), str(time.time()-tic))
+
+    @staticmethod
+    def create_cards(cardstr_arr):
+        cards_out = []
+        faces = ['J', 'Q', 'K', 'A']
+        # suits = ['C', 'D', 'S', 'H']
+        fmaps = {'J': 11, 'Q': 12, 'K': 13, 'A': 14}
+        for card in cardstr_arr.replace('\n', '').split(' '):
+            try:
+                r = list(card).pop(0)
+                s = list(card).pop()
+                if r in faces:
+                    r = fmaps[r]
+                elif card:
+                    r = int(r)
+                cards_out.append(Cards.Card(r, s))
+            except Exception:
+                pass
+        return cards_out
+
+    @staticmethod
+    def label_raw_data(labels, raw):
+        content = ''
+        unlabeled = 0
+        for ii in range(len(raw)):
+            try:
+                content += raw.pop((ii)) + ',    ' + labels.pop(ii) + '\n'
+            except IndexError:
+                unlabeled += 1
+                pass
+        print '[*] %d Hands Missing Labels!' % unlabeled
+        print 'Finished Writing Labeled Data to \033[3mtraining_data.txt\033[0m'
+        open('training_data.txt', 'w').write(content)
 
     @staticmethod
     def load_training_data():
@@ -145,38 +179,6 @@ class Classifier:
         #
         print '%d Labels Created and %d Hands Read' % (len(labels), len(raw_data))
         return classifications, labels
-
-    def label_raw_data(self, labels, raw):
-        content = ''
-        unlabeled = 0
-        for ii in range(len(raw)):
-            try:
-                content += raw.pop((ii)) + ',    ' + labels.pop(ii) + '\n'
-            except IndexError:
-                unlabeled += 1
-                pass
-        print '[*] %d Hands Missing Labels!' % unlabeled
-        print 'Finished Writing Labeled Data to \033[3mtraining_data.txt\033[0m'
-        open('training_data.txt', 'w').write(content)
-
-    @staticmethod
-    def create_cards(cardstr_arr):
-        cards_out = []
-        faces = ['J', 'Q', 'K', 'A']
-        suits = ['C', 'D', 'S', 'H']
-        fmaps = {'J': 11, 'Q': 12, 'K': 13, 'A': 14}
-        for card in cardstr_arr.replace('\n','').split(' '):
-            try:
-                r = list(card).pop(0)
-                s = list(card).pop()
-                if r in faces:
-                    r = fmaps[r]
-                elif card:
-                    r = int(r)
-                cards_out.append(Cards.Card(r, s))
-            except Exception:
-                pass
-        return cards_out
 
 
 if __name__ == '__main__':
