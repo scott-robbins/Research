@@ -3,7 +3,6 @@ import numpy as np
 import utils
 import Cards
 import time
-import sys
 import os
 
 tic = time.time()
@@ -27,10 +26,11 @@ class Classifier:
         raw_data = self.load_training_data()
         classes, labels = self.classify_raw_data(raw_data)
         if DEBUG:
-            print '%d Hands Parsed [%ss Elapsed]' % (len(raw_data), str(time.time()-tic))
-        # Label the raw training data
-        self.label_raw_data(labels, raw_data)
-        print '%d Hands Labeled [%ss Elapsed]' % (len(raw_data), str(time.time()-tic))
+            print '%d Hands Parsed [%ss Elapsed]' % (len(labels), str(time.time()-tic))
+        if not os.path.isfile('training_data.txt'):
+            # Label the raw training data
+            self.label_raw_data(labels, raw_data)
+            print '%d Hands Labeled [%ss Elapsed]' % (len(raw_data), str(time.time() - tic))
 
     @staticmethod
     def create_cards(cardstr_arr):
@@ -81,7 +81,7 @@ class Classifier:
         labels = []
         rankings = {0:'High Card', 1: 'Pair', 2: 'Two Pair', 3: 'Three Kind', 4: 'Straight',
                     5: 'Flush', 6: 'Full House', 7: 'Four Kind', 8: 'Straight Flush'}
-        hit_flush = False
+
         mapping = {}
         for k in classifications.keys():
             mapping[k] = 0
@@ -140,24 +140,25 @@ class Classifier:
                 flushed[ord(hand[3].Suit)] += 1
             if hand[4].Suit != '' and hand[4].Suit == (hand[5].Suit or hand[6].Suit):
                 flushed[ord(hand[4].Suit)] += 1
-
+            hit_flush = False
             '''         Choose the Best hand Made           '''
             if hand[5].Rank == hand[6].Rank:                                # Pair
                 paired.append([hand[5].Rank])
             if len(np.unique(np.array(paired))) == 2:                       # Two Pair
                 rank = 2
-            if len(np.unique(straight))>=5 and np.diff(strt).max() == 1:    # Straight
-                rank = 4
             if len(np.unique(np.array(paired))) == 1 and len(paired) == 3:  # Three Kind
                 rank = 3
             for suit in flushed.keys():                                     # Flush
                 if flushed[suit] >= 4:
                     rank = 5
                     hit_flush = True
+            if len(np.unique(straight))>=5 and np.diff(strt).max() == 1:    # Straight
+                rank = 4
             if len(np.unique(np.array(paired))) == 2 and len(paired) > 3:   # Full House
                 rank = 6
-            if rank == 5 and hit_flush:                                     # Straight Flush
-                rank = 8
+            if rank == 4 and hit_flush:                                     # Straight Flush
+                rank = 8    # TODO: The cards in the flush aren't
+                            #  necessarily same as straight so I'm getting false positives
             if rank == 3 and len(paired) == 4:                              # Four Kind
                 rank = 7
 
@@ -165,18 +166,29 @@ class Classifier:
             labels.append(rankings[rank])
             tid += 1
         print '\033[1m==================================================\033[0m'
-        bars = []                       # TODO: FOR DEBUGGING PURPOSES SHOW DISTRIBUTION
-        for c in self.hand_count.keys():
-            bars.append(len(self.hand_count[c]))
-            print '%d %s [%f percent]' %\
-                  (len(self.hand_count[c]), c, 100*float(len(self.hand_count[c]))/len(raw_data))
+        if DEBUG:
+            bars = []  # TODO: FOR DEBUGGING PURPOSES SHOW DISTRIBUTION
+            for c in self.hand_count.keys():
+                bars.append(len(self.hand_count[c]))
+                print '%d %s [%f percent]' % \
+                      (len(self.hand_count[c]), c, 100 * float(len(self.hand_count[c])) / len(raw_data))
+            print '\033[1m==================================================\033[0m'
+            # TODO: For Debugging print examples of hands classified for validation
+            ex_pair = self.hand_count['Pair'].pop()
+            ex_twopair = self.hand_count['Two Pair'].pop()
+            ex_flush = self.hand_count['Flush'].pop()
+            ex_threekind = self.hand_count['Three Kind'].pop()
+            ex_straight = self.hand_count['Straight'].pop()
+            ex_fullhouse = self.hand_count['Full House'].pop()
+            ex_strflush = self.hand_count['Straight Flush'].pop()
+            print 'Example Pair: %s' % Cards.show_cards(ex_pair)
+            print 'Example TwoPair: %s' % Cards.show_cards(ex_twopair)
+            print 'Example Three Kind: %s' % Cards.show_cards(ex_threekind)
+            print 'Example Straight: %s' % Cards.show_cards(ex_straight)
+            print 'Example Full House: %s' % Cards.show_cards(ex_fullhouse)
+            print 'Example Straight Flush: %s' % Cards.show_cards(ex_strflush)
+            print '\033[1m==================================================\033[0m'
 
-        # TODO: For Debugging print examples of hands classified for validation
-        ex_pair = self.hand_count['Pair'].pop()
-        ex_twopair = self.hand_count['Two Pair'].pop()
-        ex_threekind = self.hand_count['Three Kind'].pop()
-        ex_straight = self.hand_count['Straight'].pop()
-        #
         print '%d Labels Created and %d Hands Read' % (len(labels), len(raw_data))
         return classifications, labels
 

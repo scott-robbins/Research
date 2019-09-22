@@ -24,7 +24,7 @@ JS 3S 5S 6C 5H KD 8D ,    High Card
 8C KC 6S 7D 6D 8S 9C ,    High Card
 KH 2S 10S JD 7H 9S QS ,    High Card
 10C 3H 9C 5D 5H 8C JD ,    Pair
-JS 7H KS 4S 5S 2S 2C ,    Straight Flush
+JS 7H KS 4S 5S 2S 2C ,    Flush
 JC AD 6D 9S 7D AS KC ,    High Card
 AS 5S 3D QC 6H QD 9C ,    High Card
 AD 10H AC 6S JS KC QS ,    Pair
@@ -206,13 +206,13 @@ QD JS JH AH 9S AS 4S ,    Pair
 6D KD JS 10C 7S JC AD ,    High Card
 9H 8H 9D 9S 10D QH 8D ,    Pair
 6S KS 8D 10D 3H 2S 5H ,    High Card
-6H 7H KH 9H 9C 9D 9S ,    Straight Flush
+6H 7H KH 9H 9C 9D 9S ,    Flush
 4S QS QD 4H 7S 4D 8H ,    Pair
 5C QH 2C 3C 6D JS JH ,    High Card
 5D 9C 3C 9D 7S 4D 10C ,    High Card
 4C 3S JH 10S 6C KH 8H ,    High Card
 3H KC 10D AC 2H 2S 8C ,    Pair
-JS 2S 6S QS 2H QH 8H ,    Straight Flush
+JS 2S 6S QS 2H QH 8H ,    Flush
 3D 9S 8D 10S 7C 4S AC ,    High Card
 JC AH KC 4H JD KH KD ,    High Card
 6H 3C 7H QC 3H 8S 9H ,    High Card
@@ -266,7 +266,7 @@ AS 8H 5H 7H AC 7C 6D ,    High Card
 JH 2H AC KH 9H KS 9S ,    High Card
 9C 3D 4H QD 8H JD 3S ,    High Card
 4C AS 7C 10D JS 8S 7H ,    High Card
-3D AD 4D 8D 5C JH 5H ,    Straight Flush
+3D AD 4D 8D 5C JH 5H ,    Flush
 9S 2H 2S JS 10S AC KH ,    Pair
 QD JC 3S 9H 7D 8C AS ,    High Card
 AC 9S 2C QH 2S AH KD ,    High Card
@@ -314,7 +314,7 @@ JS 3D 4S 6C 7D 3C 5S ,    Straight
 2H 2C 2S AC 3S KS 10H ,    Three Kind
 4C 5S AD 8C JH JD QH ,    Pair
 4S 9H 6D 4H 9S 3S 5D ,    High Card
-KC JC QC 6C 3H AC 7D ,    Straight Flush
+KC JC QC 6C 3H AC 7D ,    Flush
 8H 7C 6S KD 5H 2S 10D ,    High Card
 QC KH KC 10H QD 6D 9H ,    Pair
 3C 2H QS 4H KD AC AD ,    High Card
@@ -532,7 +532,7 @@ AS QS 9D 9H JS 5H 10D ,    Pair
 5C KC 7D 8H 5S 2C 9C ,    High Card
 2C 2S 7C 4S KH 5D 4C ,    Pair
 3C QC 7D AS 5H 3D JS ,    High Card
-QH 9H 7H 6H 4D 10C 4H ,    Straight Flush
+QH 9H 7H 6H 4D 10C 4H ,    Flush
 2D 2H 4S 5S 7H 2S KC ,    Pair
 JH 4C 9S 9D AC QC 5H ,    Pair
 6S 8S 10C JS 2C 4D 7C ,    High Card
@@ -566,7 +566,7 @@ JC 10H 4S AH 5C AD 6H ,    High Card
 9H 7S KH 5C 2H 5S KD ,    High Card
 8S 2C QH 6H 5D 7D 6S ,    High Card
 10S QD 9C 7H 3H 4C QC ,    High Card
-JC 3C 7C QC QS KD 9S ,    Straight Flush
+JC 3C 7C QC QS KD 9S ,    Flush
 5C 9H 2C 5H QD 2D KS ,    High Card
 JH 8C QH 3S AC 2H 9D ,    High Card
 3D 8S AD QC 4C 2S 2D ,    High Card
@@ -618,7 +618,7 @@ KC 7D 4D 2S QD AC 9D ,    High Card
 8H 5C 5S JS QH JD 3D ,    Pair
 6D KH AD 10H 5D AS 6S ,    High Card
 8C 4C 2C 7H QS 6H AC ,    High Card
-9H JH 3H 8S 2H 5H 3S ,    Straight Flush
+9H JH 3H 8S 2H 5H 3S ,    Flush
 QD QC AD AC 7D JC 5C ,    Two Pair
 9D 8S 4C 9S KD 4D 10S ,    High Card
 3S 3C 6H 8H 5S 5H 6D ,    Two Pair
@@ -636,7 +636,7 @@ QC 4S 2D AD 6H 4C 5D ,    High Card
 10S QD 4H 2D 8S 4S 3S ,    High Card
 6D JH 9C 10C 6C 10D KS ,    High Card
 5D 3C 6H 7S JC 6S AS ,    High Card
-8C 2C 5C 4C QS 5S 10H ,    Straight Flush
+8C 2C 5C 4C QS 5S 10H ,    Flush
 4S 2H 2C QH KS 8H 7H ,    Pair
 4H JC 6C 4C KC 10C 3D ,    High Card
 QD 3C AD QS 6D 9D 3H ,    High Card
@@ -655,7 +655,7 @@ JS 3S 9S KD 4S 6H 4H ,    High Card
 10H AS 9D 2C 2H AC 4S ,    Pair
 JC QC 10C KS 10S 10D 6C ,    High Card
 5D 2D 9H QD AH 6S 4D ,    High Card
-3D 9D 7D 8D KH 8S KC ,    Straight Flush
+3D 9D 7D 8D KH 8S KC ,    Flush
 5H 2D JS 4H 7C 7S JD ,    Pair
 QC 4D KS 6S QD 6D 2S ,    High Card
 8H QH 5D 2C 6C 5S 10D ,    High Card
@@ -955,7 +955,7 @@ AD 3D 8C AC 9S 10C JH ,    High Card
 8C 10D 7S 3S 6H QD 9C ,    High Card
 10C KH JH 7D 6C QH 10S ,    High Card
 2S 4C 6S JD 9S AS 6D ,    High Card
-KH 2S AS JS KS 9S 7C ,    Straight Flush
+KH 2S AS JS KS 9S 7C ,    Flush
 9C 3S 5C 8C JH 7S 6H ,    Straight
 JD 6C 9H 8D 4H 4S 5S ,    Pair
 2C KC 3C 2H 6S 10H 10C ,    High Card
@@ -1028,7 +1028,7 @@ KC QC 3D 4H 8C 10S JH ,    High Card
 6H QH 8S 2H 5H 7D JS ,    High Card
 5D 8H KC 2H 2S 10C 7S ,    Pair
 5S JC 2D KH JD AH KD ,    High Card
-2C 4C QC 6C QH AC AD ,    Straight Flush
+2C 4C QC 6C QH AC AD ,    Flush
 5H 9D AS 8D 6D JS 9S ,    High Card
 9D JS 8S 2S 4H 3S 6S ,    High Card
 QH 10S JD 7H KC AC 2H ,    High Card
@@ -1069,7 +1069,7 @@ AH 10S KH 3C 8H 5H JC ,    High Card
 AH KD 3H 4S 4D 5D 9S ,    Pair
 6H 10D JH 2S 8H 2D 8S ,    High Card
 10C AS 6D 3D JD JC 9C ,    Pair
-JC 9C KC 3C AS JD 8D ,    Straight Flush
+JC 9C KC 3C AS JD 8D ,    Flush
 7C 3S 4D 3H 9S 5C 4H ,    High Card
 10H 4C QC 6H 2D 5D 10S ,    High Card
 8C QS 9D 7D AH AC 3D ,    Pair
@@ -1156,7 +1156,7 @@ JD KC 4D 8S 2C KH 4C ,    High Card
 9S QS AC 5C 10S 7C 2H ,    High Card
 5S 3D 8H JC 9D 6D 6C ,    High Card
 AC QD 7C 2D 10C 2S 4H ,    Pair
-KD JD 8D 10D 4D 8H 9C ,    Straight Flush
+KD JD 8D 10D 4D 8H 9C ,    Flush
 JC QC 5H 5D 7H QS 3D ,    Pair
 6C 9H 2H 10S 6D 10H AS ,    High Card
 9S 3D 8S 4H JC 3C 4C ,    High Card
@@ -1239,11 +1239,11 @@ AD 8H KS AC 10D 7D 3D ,    High Card
 QD 8S KH 7S 7C 3H 2H ,    Pair
 8C JD 2S 6C 8D 10C 6D ,    High Card
 AD 5D 7H 10D 4S 6S 5S ,    High Card
-9S 8S KS 3S QS 5C 4C ,    Straight Flush
+9S 8S KS 3S QS 5C 4C ,    Flush
 7H 10C QD 9H KD QH 7S ,    High Card
 3C AD JH 7C 7D KC 10S ,    Pair
 9D 8H 2H KS KH 9S 5C ,    Pair
-5S QS AS JS AC 2D 4H ,    Straight Flush
+5S QS AS JS AC 2D 4H ,    Flush
 AC JS 5D 6C JD 2H JH ,    High Card
 6D 8S 7S 2S 5H 8C 7H ,    High Card
 KH 9D 9H 3S QH 6S AH ,    Pair
@@ -1321,7 +1321,7 @@ JC AH JH 5D 8S KH AC ,    Pair
 2H 3S 6S 9H 5C KD 4H ,    Straight
 4D 3C QD 5D 6D 8H 6H ,    High Card
 QS 4C 2C 10D 8D AH 6C ,    High Card
-2S KS JS 6S 5H 5S AS ,    Straight Flush
+2S KS JS 6S 5H 5S AS ,    Flush
 7H 3S 8C JC 7C 3D 9D ,    High Card
 JH 8C 2H 10H 4C 6S KS ,    High Card
 KD 2C QH QS 3C 10D 5S ,    Pair
@@ -1351,7 +1351,7 @@ JS QH JC 4H KS 6C KH ,    Pair
 8C 4H JH QC 6C 6H JD ,    Pair
 8D 2D 5D 2H AS 3H 9H ,    High Card
 AH 4D KC 5C 7C QS KS ,    High Card
-6S 2S 8S 10S 4S JS 3D ,    Straight Flush
+6S 2S 8S 10S 4S JS 3D ,    Flush
 KS 2C JH 2H JC 9C QD ,    High Card
 8C 9H 4D 10H QH 6C JD ,    High Card
 AH 2D 9S 5H KC 4H 8S ,    High Card
@@ -1497,7 +1497,7 @@ QS 7S 2S QD JD 5H 8C ,    High Card
 4C JS JH 5H 3D AC 2H ,    Pair
 9H 3H 10D AD QC 7D 9S ,    High Card
 JC 9D 8D 4D 10H QD 6S ,    High Card
-8D 5D 4D JD 10H 3D 7H ,    Straight Flush
+8D 5D 4D JD 10H 3D 7H ,    Flush
 2D QH 7D AC QC 6S 7H ,    High Card
 7C 9D 10H JS 2C 4H 2H ,    High Card
 9H AH AS 10C 7S 5H 3H ,    Pair
@@ -1634,7 +1634,7 @@ AS 5H 10C QH 4S KC KS ,    High Card
 6H 10D 3D 4C 8S JH 2S ,    High Card
 JS 5S 6S KD 2D AC 2H ,    High Card
 4S 4D AC 10D 6D 7H 2C ,    Pair
-QH 3H 10S KH 5H JC 2D ,    Straight Flush
+QH 3H 10S KH 5H JC 2D ,    Flush
 JH 8D KS QC 3D 9H KD ,    High Card
 9S 6H 8C 9C 8H JD 6C ,    High Card
 9S QH 2S KH AC 3S 7D ,    High Card
@@ -1656,7 +1656,7 @@ AD 6D 9S 3S 9D 4S KD ,    High Card
 4D 4H 7S JD AH 7H AS ,    Pair
 2C QS 8S 5C 4C 5S JC ,    High Card
 7D 9D 2H 10D KS JS 10C ,    High Card
-7C 9C 5C 3C 6D 10S 3D ,    Straight Flush
+7C 9C 5C 3C 6D 10S 3D ,    Flush
 QH 10H AD 3S KD 4S JC ,    High Card
 9H JD QS AS QD 9S 8C ,    High Card
 4S 5S 6S 6C 5H 10H JS ,    Pair
@@ -1701,7 +1701,7 @@ QH 9C 7D 3S 10S 8S JC ,    High Card
 4S 6C 7C JC 7S JS KS ,    High Card
 3C 6H AS 5S KD AD 3D ,    High Card
 5H QC 4D 9D QH 8D JD ,    High Card
-4H AH KH 3H 7D 8S 6S ,    Straight Flush
+4H AH KH 3H 7D 8S 6S ,    Flush
 10D 3H 3D 6C AC 2S 10H ,    Pair
 5S JD 8H 5H 6H 7D 3C ,    High Card
 6D 2H AS 7C 7H JC 5C ,    Pair
@@ -1763,10 +1763,10 @@ QC KD 10C AS AD 6D 3S ,    Pair
 7S 2S 3C 9D 10S 4H 9S ,    High Card
 7C JS JD QH AH 4C 7H ,    Pair
 5D 2D 4H 10S 4C KH 2C ,    Pair
-8S QS 5S 9D 4S JS 3S ,    Straight Flush
+8S QS 5S 9D 4S JS 3S ,    Flush
 8C QH KS 3D 10D KC 3H ,    High Card
 8H 9H 2H 6S 7D 10H JH ,    High Card
-3D 9D 4D 7D JC JS 5D ,    Straight Flush
+3D 9D 4D 7D JC JS 5D ,    Flush
 2C 10S 10H 2D 8H QH 10D ,    Pair
 JD KS 7S 9C 9S 4C 8D ,    Pair
 KS 7S KD QC QD 10H 4C ,    Two Pair
@@ -1950,7 +1950,7 @@ QS 6H 10H 3H KH 5D 7C ,    High Card
 2D 3C 2S 4D JS QS 10H ,    Pair
 3H AS 9C QC 10D 5C 2S ,    High Card
 3C AC 5H 7S 6C 8D 8H ,    High Card
-5D KD 2D 9D JD 7D 3D ,    Straight Flush
+5D KD 2D 9D JD 7D 3D ,    Flush
 4H 9H 9S 6S 8S 5S AD ,    Pair
 8H 9H 10D 2C 2D 5D KS ,    Pair
 7D KD QS 5C 3S 2H 9D ,    High Card
@@ -2152,7 +2152,7 @@ JH 7D QS JS 7C 3C 4C ,    High Card
 3S 5D 5H 6D JC 8H 7C ,    Pair
 KS 4S 3D 4H 3H 8D 2H ,    High Card
 8C 4C 10C 6H AD 9S QH ,    High Card
-5D 3D 8D AD 4H 7C AH ,    Straight Flush
+5D 3D 8D AD 4H 7C AH ,    Flush
 6S JC KD 8C KH 5S 5C ,    High Card
 8S 3H 3S 2D 9C 3C 9S ,    Pair
 8H 8D 5S QH 3H 7D JC ,    Pair
@@ -2162,7 +2162,7 @@ KS 4S 3D 4H 3H 8D 2H ,    High Card
 3C KS 2C 5C 10H 7S 4C ,    High Card
 JC 4D 6S 7D QH QC QS ,    Two Pair
 JS JH 9D 7H 5H KH 6C ,    Pair
-4S AS 3S 2S KD 5H 7C ,    Straight Flush
+4S AS 3S 2S KD 5H 7C ,    Flush
 9D 9C QC 4C AH QS 7S ,    Pair
 2C 4H KC KS JD 6C 9S ,    Pair
 KH 8S AC 10S JS 8C 2D ,    High Card
@@ -2189,7 +2189,7 @@ JC QC QS 3S QH KH 5S ,    Pair
 8D 2S 2H 3C 9C 2D 7C ,    Pair
 10H AC 5S 8H 2S 7D 9S ,    High Card
 2D 3C 2C 10S 6S 6H 4C ,    Two Pair
-9D QD 8D AD QC KS JC ,    Straight Flush
+9D QD 8D AD QC KS JC ,    Flush
 6S 2S 2D AD 9S 3D KC ,    Pair
 2C 4C JH 7H 2H KD 4D ,    High Card
 10C KS 5D 9D 9H 4H QS ,    Pair
@@ -2424,7 +2424,7 @@ KH 4C AD 7D 8D 5C JS ,    High Card
 AS AC QC 9D 2S 8H 4H ,    Pair
 5S 10D 7C 6C 6S 3C 3S ,    Two Pair
 9S 10D 10C 6D KC 7D 2S ,    High Card
-8S KS AS AH 7S 5S 2H ,    Straight Flush
+8S KS AS AH 7S 5S 2H ,    Flush
 KD 5H 5C 3H 10H 6H QD ,    Pair
 JD KH 5D JC QH 9S KS ,    High Card
 7H 8C 8S 7C AC 6H AS ,    Pair
@@ -2481,7 +2481,7 @@ QH 8H 9C 2H 8S 3H 4D ,    High Card
 7D AH 4H 9D 10D QS AC ,    High Card
 7S 6H 3C 7C 9S 6C 2S ,    High Card
 JS 9H 7C 8H 10C QS AH ,    High Card
-KD 6D 3D 2C JD 2D 6H ,    Straight Flush
+KD 6D 3D 2C JD 2D 6H ,    Flush
 QH AC 3H 6C 8S 9D 3C ,    High Card
 2C 10H KD 6S 3S 9S QC ,    High Card
 9C JD 5D 4H 2S 7H QD ,    High Card
@@ -2602,7 +2602,7 @@ AC 5S KC 3H 6D 9C JS ,    High Card
 JH 8S 6S 8D 9S 7C 7D ,    High Card
 8H JC QD 4S 6H 2H 9H ,    High Card
 KH QH 4D 8C 9D 10H 5C ,    High Card
-6D 8D 4D 9D 6S 10D AC ,    Straight Flush
+6D 8D 4D 9D 6S 10D AC ,    Flush
 7S 7C JD KH 7H 6C JH ,    Pair
 5H 3D 4H QH AS KS 3C ,    High Card
 2D QS 7D 8D JS 10H 3H ,    High Card
@@ -2732,7 +2732,7 @@ QC 3C 9C 6S 10H 2H 9D ,    High Card
 7C 10C 4S 2C 9C 9H 8S ,    Pair
 6D QD QH 4H 3C QC 5S ,    Pair
 6S 5D JS 9S AH 9H JC ,    High Card
-KC 5C 2C 9C KS 7S 2S ,    Straight Flush
+KC 5C 2C 9C KS 7S 2S ,    Flush
 3S AH JC 10H 8D QH QC ,    High Card
 KS 5H 8C 6C 4C QS 7D ,    High Card
 7S 10C 9S 6D 4H 2H JD ,    High Card
@@ -2793,7 +2793,7 @@ QH AD JC 8C JD 3S 3C ,    High Card
 AD QC 8H 9D AS QS KH ,    High Card
 4S 8C 2H 6D 2D 7D 2C ,    High Card
 6S 9C 7C 10S 4C QD JD ,    High Card
-JS 3S 8S KS KD 3C 4H ,    Straight Flush
+JS 3S 8S KS KD 3C 4H ,    Flush
 10S JH 6S 9S 5H JS 6C ,    High Card
 KS AS 5C QS 8S 9D AH ,    High Card
 KC 10D 5S 7S 4C 2H 7H ,    High Card
@@ -2849,7 +2849,7 @@ AC 4S 6S KC 2H 2D 2S ,    Two Pair
 AS QH JS 10H KS 9D 7C ,    High Card
 9D 6S 8H 8S 10C 6C 7C ,    Pair
 KC 7C JH 4C 5H QC AH ,    High Card
-7S QS JS 4S 8H 10C 9H ,    Straight Flush
+7S QS JS 4S 8H 10C 9H ,    Flush
 10S 5C 5S 6D 2D 5D KS ,    Pair
 9C AS QH JC 8S 10H 7D ,    High Card
 QD 5C 9C KD KH 10C 4H ,    Pair
@@ -2871,7 +2871,7 @@ AD 2H 4C 3S 3H KS 2C ,    Pair
 5C AH 4C 2H 8S 3D JH ,    High Card
 6D 7S JH KD 8C 8D 6H ,    Pair
 9C 3C 4C 3S 4D 2S 5C ,    High Card
-10D 7C 6C JC 2C KC 4S ,    Straight Flush
+10D 7C 6C JC 2C KC 4S ,    Flush
 JD AS 8S 7H 10C QC 8H ,    High Card
 AS 3S QD 4D 8H 4C JC ,    High Card
 7H 5S 10S 9C JS 3H AC ,    High Card
@@ -2912,7 +2912,7 @@ AD 9S 4H 6C 7D 10D 6D ,    High Card
 4C 7S 6S 2S AC 7D 4S ,    High Card
 7C AH QD 5H JS 6C 4D ,    High Card
 QS 10D 9H 10H QC 6H 9C ,    High Card
-KD QD 5D JD 10D 5H AD ,    Straight Flush
+KD QD 5D JD 10D 5H AD ,    Flush
 3H 5S 3S 7C KH 6H 2S ,    Pair
 7D 10H QS 4D KS 8H 4H ,    High Card
 9S 8S 6C 10C 10S 5C 9C ,    High Card
@@ -3002,7 +3002,7 @@ QC JC QH JS 6D 8D 8S ,    Two Pair
 5H 5S 2S 3S 9D 10S 10D ,    Two Pair
 AD 10H 3H 9C QD KC AS ,    High Card
 5C 7S 4D 6S 2C 2D KS ,    Pair
-AD 7D 8D JD 6D 10D 7H ,    Straight Flush
+AD 7D 8D JD 6D 10D 7H ,    Flush
 9C 2H 2D 10S 2S 3C QD ,    Pair
 QH KC 5D 8H AS 4S 6S ,    High Card
 10S 6H 10C JC 7C QS KS ,    High Card
@@ -3043,14 +3043,14 @@ AH 8D 3H JD KD 9S 7D ,    High Card
 2H JH 6D 2C QC 5C 2S ,    High Card
 8C QS 4C 4H 6H 8S 4D ,    Pair
 7S 2D 3C 6C 9H 3S AD ,    High Card
-9D 8D 7D 5D 5S 8H 10C ,    Straight Flush
+9D 8D 7D 5D 5S 8H 10C ,    Flush
 4H 2D KS JC 9S 9D JS ,    Pair
 4S 10S 5C 3D 6H 6D 10D ,    Pair
 3S AH QD 4D QC 8C KC ,    High Card
 4D 10H 9D 4H AD AH 8H ,    Pair
 4C KD 6D AH 9H JD 3S ,    High Card
 5C 6H AS 3H 4S KS 10C ,    High Card
-4D 3D 7D 9S QD 10D 2D ,    Straight Flush
+4D 3D 7D 9S QD 10D 2D ,    Flush
 2H 8C AC 7C AD 9D 6S ,    High Card
 4S 2D QS 3S 10S 3H KD ,    Pair
 QH 4H 4C QD AS 2S 7C ,    Pair
@@ -3061,7 +3061,7 @@ QH 4H 4C QD AS 2S 7C ,    Pair
 6H KS 3H JS 10H 9C 7D ,    High Card
 JD 5H 2H 6C 8C 3D 3C ,    High Card
 JS 9C 10C 4D 10S 4S 2S ,    Pair
-3S AS 7S 5S KC AD 9S ,    Straight Flush
+3S AS 7S 5S KC AD 9S ,    Flush
 JC 8C AS 8D 5D 9D AH ,    High Card
 10D 4H AC 10H QD 7C 10C ,    High Card
 JD JH 7H 5H 3S 3H 4D ,    Two Pair
@@ -3077,7 +3077,7 @@ AC 4H AH 8D AS 6H QC ,    Pair
 5H 2S QC 4S 4D AS 7H ,    Pair
 10C 8C 8D 8S QD 6D 10D ,    Pair
 9C 8H 4D 8S 3C AH 10D ,    High Card
-QS KS 4S AS 10S 3D 3H ,    Straight Flush
+QS KS 4S AS 10S 3D 3H ,    Flush
 KH 4C JH 4H 7C 5S JS ,    High Card
 6D 7D 3S JC 5C 8C 7H ,    High Card
 3S 8H 10C AC 4S 9H 6H ,    High Card
@@ -3172,7 +3172,7 @@ AS 7C AH JH 2S 9H 9S ,    Two Pair
 2C 10H 2D JS JC 10C 8H ,    Two Pair
 JD 5S 7S AH 6C KS QH ,    High Card
 8C 9C 10S KH KC 3H 10D ,    Pair
-KD 3D AD 6D 2H 6H 7H ,    Straight Flush
+KD 3D AD 6D 2H 6H 7H ,    Flush
 6D 3C 3D 10C JD 2S 4H ,    Pair
 QH 8D 9C 7D 5D AD 6S ,    Straight
 KH 4C 7S 6H 7H 2D AS ,    High Card
@@ -3196,7 +3196,7 @@ KD 5H 10H JD 3C 5C 7D ,    High Card
 QS AS 9H JH 8S 3S 5S ,    High Card
 JH JS 2H 4C 8H KD AS ,    Pair
 7S KH 6C 9C QD 3C 5H ,    High Card
-6D 5D 10S 4D JD 10D 9S ,    Straight Flush
+6D 5D 10S 4D JD 10D 9S ,    Flush
 QH 4S 8S 7S 9S 9H 6H ,    Pair
 6D 3H 9S 4S 8H 4D 7C ,    High Card
 6C AC 10D 5H 6S 3S AD ,    High Card
@@ -3295,7 +3295,7 @@ JS JH 4D JD AC 3D 6C ,    Pair
 6S KH 3C 5H 5D AH 2H ,    Pair
 AD 4S 6H JC 3H 10D 9D ,    High Card
 9D JD 8H 7D 5D 3C 9S ,    High Card
-JS KH QS 6S AS 10C 2S ,    Straight Flush
+JS KH QS 6S AS 10C 2S ,    Flush
 6C 7H QC 3S 4C 10D AC ,    High Card
 7D 9D QH 9C 8D 10S 5C ,    High Card
 KD 10C 4C 8H 9C 7H 3S ,    High Card
@@ -3390,7 +3390,7 @@ KD 6D JC 6S 7H AS 9H ,    High Card
 QH AC QC 8C 7H KH AH ,    Pair
 5C 10D 9H 3D 7C 4C 4D ,    High Card
 JS JC 10C 2S 5D 2H QS ,    Pair
-8C 4H KC 4C AC 7C 7H ,    Straight Flush
+8C 4H KC 4C AC 7C 7H ,    Flush
 QS KH 5S 10C 2H 3D 10D ,    High Card
 JC 4S JS JD 2S 7D 9S ,    Pair
 6H 7S 5D 9C 6C 2C AH ,    High Card
@@ -3420,7 +3420,7 @@ QD KH 6S 2D 7S QS 9C ,    High Card
 2H 10S AS 7D 8H 4D 5C ,    High Card
 5S 10H 8S 6C 9H 6H AD ,    High Card
 5H 8H 7S 2H 9H 5C 9C ,    High Card
-JS JH 4S 2S 6S 5S 7H ,    Straight Flush
+JS JH 4S 2S 6S 5S 7H ,    Flush
 7D QH KH 4C 6H 3C KD ,    High Card
 6C 3D KC 10H 7C AC JD ,    High Card
 6S 3H AS QD 3D 5H 9C ,    High Card
@@ -3439,9 +3439,9 @@ QD 9C AS 3C KD KS 9H ,    Pair
 7S JH 4D 5C AS 8S JD ,    High Card
 9H AC 6H KD 5S 3S 4H ,    High Card
 QC KC 2D QD 7S 7H JS ,    Pair
-9D 4S 3D 8D AD 7D 5H ,    Straight Flush
+9D 4S 3D 8D AD 7D 5H ,    Flush
 QH 4H 8H KD 9S 5H 7C ,    High Card
-2S 2C 3S 8S 5S 10D AS ,    Straight Flush
+2S 2C 3S 8S 5S 10D AS ,    Flush
 3H 10C QC 2D 7S 8C 6C ,    High Card
 JS 6H AC 10S JH KH 4C ,    High Card
 9D 4D 9C 8C 7S 8D 5S ,    Pair
@@ -3505,7 +3505,7 @@ JH 8S JC 3H 10H 9D 7D ,    Pair
 9S JD 8D QH 9H 4H 10H ,    High Card
 KS 9D 3S JH 5S KD 8H ,    High Card
 2D 3H QD 7C 6S 10D 2C ,    High Card
-KH JH 6H QH 2H 9S 5D ,    Straight Flush
+KH JH 6H QH 2H 9S 5D ,    Flush
 6S KD 10D 4C 3C 10S 8S ,    High Card
 4D 3S AS QC 4S 10H 8H ,    High Card
 2S 10C 8D JS KC KS AD ,    Pair
@@ -3528,7 +3528,7 @@ JH 7H 5D AH 2S 5H 8C ,    High Card
 5S 8H 4D 2D JS 9S 6S ,    High Card
 QD AD 2D 10C 10D 7S 8C ,    High Card
 QS 10H 8S 4S JH 6D 5C ,    High Card
-4H 8H KH 5H QH 7H 9C ,    Straight Flush
+4H 8H KH 5H QH 7H 9C ,    Flush
 5S 5D 4C JS 6S 6H JC ,    Two Pair
 10H 3S 7C 7H 6S 2D 9H ,    Pair
 KH JC 8D AC 5C 6H 6C ,    High Card
@@ -3629,7 +3629,7 @@ AD 2S 5C 10H 7C 10D 2H ,    High Card
 AH 8D QD KC QC AS 3S ,    High Card
 6D 4D AD 6S 9S 9D 10C ,    Pair
 9C JD 8C 7H 7S 9H QS ,    Pair
-6H 8H QH 5H 10S 2D 8S ,    Straight Flush
+6H 8H QH 5H 10S 2D 8S ,    Flush
 JH 10D 4H 4D 3D 2H KC ,    Pair
 4S 8S 10C KH 3S 9H 5D ,    High Card
 7D AS 6C 6H JC 6S 2C ,    Pair
@@ -3638,7 +3638,7 @@ JH 10D 4H 4D 3D 2H KC ,    Pair
 6S 6H 7D AC JD 8S 10D ,    Pair
 9C 6C AS 9S 3H KC QH ,    High Card
 6D 7H QC QS 9D AS 4H ,    Pair
-2D 3D QD JD 3S 3C QH ,    Straight Flush
+2D 3D QD JD 3S 3C QH ,    Flush
 JS 6C 8C 2S 7S KH 8D ,    High Card
 3D AD 8H KC 6S 9S 2S ,    High Card
 4H 4S 10D 4D AC 3S QD ,    Three Kind
@@ -3647,9 +3647,9 @@ QS QC 10C KD 2D QH 2C ,    Pair
 8H 2H JD 4D 5S 2C 7H ,    High Card
 JH QS QH 2D 3H 6H 3C ,    Pair
 9C 8C 5H 9S AH 9H 4S ,    High Card
-JD 2D 9D 10C 6D 9S 7D ,    Straight Flush
+JD 2D 9D 10C 6D 9S 7D ,    Flush
 10D 4C AC 7D KD 8C 4D ,    High Card
-QH 7H AH 9H 8H 6D 10C ,    Straight Flush
+QH 7H AH 9H 8H 6D 10C ,    Flush
 2C JH KS 3D 2S KH 8D ,    High Card
 3H AD AS 5D 2D 9C JS ,    Pair
 2C 5H 9H 3C 8D 4H 4D ,    High Card
@@ -3768,7 +3768,7 @@ QC 9H JD 9C JH 7D QS ,    High Card
 2C 2H 5S 7C 2S 7H 6H ,    Pair
 KH 8D 8S 3H 3S 8C 5H ,    Two Pair
 9C 10H 8H 4C 10S QC 5S ,    High Card
-QD 2H 5D KD 3D 6D 6S ,    Straight Flush
+QD 2H 5D KD 3D 6D 6S ,    Flush
 AC 6D 9D QD 7C 4H 7S ,    High Card
 6C 7D 10H 5H KD JD 8C ,    High Card
 3C 4S 8S QH KC 6H 3H ,    High Card
@@ -3979,7 +3979,7 @@ JC 8S 8H 4H KS 7C 8D ,    Pair
 AD KS 4C 8S 9S QS 6D ,    High Card
 9C 5S JD QC 10S QH 7H ,    Pair
 5C 3D AC QD KH 2D 10D ,    High Card
-8H 4H 3H 6H AS 4D 2H ,    Straight Flush
+8H 4H 3H 6H AS 4D 2H ,    Flush
 4H KS 2H 6S AS 8D 6D ,    High Card
 QC 3S 9H 8S 7S 10S AD ,    High Card
 6C 5C 5H 10D 4C QD 7D ,    Pair
@@ -4003,7 +4003,7 @@ AH KD KH 6H 10C 5S KC ,    Pair
 4S JD 8D KC 6D QC AD ,    High Card
 6C QS 7C QD AC 4H 5D ,    High Card
 JC 7H 4C AC 8H 4H 9S ,    High Card
-KD 2D 5D 4D 5S 9D AH ,    Straight Flush
+KD 2D 5D 4D 5S 9D AH ,    Flush
 7D 2H AS 3H 5C 2S JH ,    High Card
 7D 9C AS JC 3C JH AD ,    High Card
 9D QS KH 6S QC 8H 3D ,    High Card
@@ -4220,7 +4220,7 @@ QC JS KS 10C QH AD 2H ,    High Card
 QH 10H JD 4S 10D 2D KS ,    High Card
 6S QC 3H 5H 4D 6C 8S ,    High Card
 2H AC 7H 8H 7D 10D 2S ,    High Card
-JS 7S 8S 3S 5S KH 6C ,    Straight Flush
+JS 7S 8S 3S 5S KH 6C ,    Flush
 2D 6H QC JH 10S QH AH ,    High Card
 10C AD 4D QD 3D 9C JD ,    High Card
 AD 10C 6S JS JC 5H QC ,    Pair
@@ -4316,7 +4316,7 @@ KC 10C 10D 5C JS 6H KS ,    High Card
 4S QD 9C 10D 10C 8D 2S ,    High Card
 3S 6C 7S 5H 4H 9D 6S ,    Straight
 5D 5S 8C 5C 7D AC 4D ,    Pair
-QD 2C 4C 5C AC QC 7H ,    Straight Flush
+QD 2C 4C 5C AC QC 7H ,    Flush
 6S 6C 9C 8H 3H 10C 8D ,    Pair
 9D 7C 3C 6D AD 8S 4H ,    High Card
 5H 9S QD KH 2H AH 6D ,    High Card
@@ -4461,7 +4461,7 @@ JC 9D JD 10H 2S QS 8H ,    Pair
 7D 3S 5S KD 9S 4C 6C ,    Straight
 5D AD QD 3H 2C AC 10D ,    High Card
 JH 3S 2S KH 2H 7H 4D ,    High Card
-8S 6S AS 7S JD 7C KS ,    Straight Flush
+8S 6S AS 7S JD 7C KS ,    Flush
 9H 10D 10S 5C 3C AC AS ,    High Card
 6S 2D 6C 3H 9D KH 10C ,    Pair
 6D QD 10H 5D 3S JH 5S ,    High Card
@@ -4605,7 +4605,7 @@ JS 3S 4D QD 7S 8D AD ,    High Card
 7D 10S 4H JS 7H KD 6D ,    High Card
 AH 8S 10C QC 3S 5S JD ,    High Card
 AD 9H 5C JC JH 3C 7C ,    Pair
-5C 2C QC 6C AC 5D 4S ,    Straight Flush
+5C 2C QC 6C AC 5D 4S ,    Flush
 7H AD 6S QH 3H 8H 9D ,    High Card
 8C QS 2D JS 6D 9C JD ,    High Card
 7C 7S 4C 3S 3D 10H JC ,    Two Pair
@@ -4764,7 +4764,7 @@ JC QS 10H 8C QD 3D 9H ,    High Card
 8H 3D 7S 9C AC JC 7C ,    High Card
 8C 10C 2H 7C KD QS 7S ,    High Card
 10S 3D 7D 6D 2C 5C AH ,    High Card
-QH 7H 8H 6H 9H 8S JH ,    Straight Flush
+QH 7H 8H 6H 9H 8S JH ,    Flush
 2S 3S 3H 4C 4H 6S 5S ,    Straight
 5S 5H 6H KS QD 9H 4D ,    Pair
 10H JC 7C KH 8C 8H 9D ,    Pair
@@ -4837,7 +4837,7 @@ QH 8H 4D 7H 8D KH 6D ,    High Card
 7D 5C 9C AD AS 5D 10S ,    Pair
 JC 10H 5S 3S 4H AH 10C ,    High Card
 7S 2D 10D 2H QC 2C KS ,    Pair
-JH 7C KC 6C JC QC 9C ,    Straight Flush
+JH 7C KC 6C JC QC 9C ,    Flush
 QS 5H 7H AD JS 4C 2H ,    High Card
 4S 3H 3C QD 10H JD 9H ,    Pair
 4D QC 7D AD 5C 10C 8C ,    High Card
@@ -4951,7 +4951,7 @@ JD AH 10S QD 4C 9D QC ,    High Card
 8H AD 3C 7C 6D 4S 10C ,    High Card
 3S JC 2S 3H 7H 2D 9C ,    High Card
 5S 5D KD 2H 8S AC 2C ,    Pair
-4D JD 3D 8D AH 7D QS ,    Straight Flush
+4D JD 3D 8D AH 7D QS ,    Flush
 4D 5D KH 3D 7S 9S JD ,    High Card
 4S 4H 8C 9H AC QH 7C ,    Pair
 2C 7D QS 10S 8S 2D QD ,    High Card
@@ -5047,7 +5047,7 @@ AD 8D JC 9D 9C 10C JS ,    Pair
 10S 8D KC JS 6S 4C 10H ,    High Card
 AH 2S QD 4D 7S 9S KD ,    High Card
 8S 2D JD 2C 8C 3H 9D ,    High Card
-6C QC AC 2C 5C QD KC ,    Straight Flush
+6C QC AC 2C 5C QD KC ,    Flush
 4H 3D 2C KC QD 6S 3S ,    High Card
 10H JH 7D 4C 9C JS 2H ,    High Card
 9H 8D KH 10S 7H AH 8H ,    High Card
@@ -5178,7 +5178,7 @@ AD 7D 3C 9C AC JC QD ,    High Card
 8S 7S 10S 8D 4S 9D 5D ,    Pair
 8D 10D 10S JH KS 6H 5S ,    High Card
 QD 7D 3H AH AS 2C 7H ,    Pair
-QC JC 4C 10C KC 3S 2S ,    Straight Flush
+QC JC 4C 10C KC 3S 2S ,    Flush
 7C KH 2H AC 5D 9H 6S ,    High Card
 JS 8D 4S 6C 2D 5D JC ,    High Card
 JD 3D QD 5C 10D KS KH ,    High Card
@@ -5228,7 +5228,7 @@ AH QH JC 7C AS 5H 6H ,    High Card
 3C 6S AD 7D 4C QC JD ,    High Card
 9C 7H 8S AH 8D 2C 3H ,    High Card
 4D KC 8C 6H 10H AD 6C ,    High Card
-AS KS QS 10D 7S 3C JD ,    Straight Flush
+AS KS QS 10D 7S 3C JD ,    Flush
 9D 2S 6D 7C 4C QH QC ,    High Card
 6S AH AC 7D KD 9D 3H ,    Pair
 JD 10S 2S 9C 4S 7S AD ,    High Card
@@ -5247,7 +5247,7 @@ QC 8H 6C 2H 10D 4S 5S ,    High Card
 9H KH 8D 6C 2D 10S 9S ,    High Card
 KC 5H 10D JD 4D 9C 4S ,    High Card
 JC 4C QD 7C 7D 3S AS ,    Pair
-4S 6S AS QS AD JH 6H ,    Straight Flush
+4S 6S AS QS AD JH 6H ,    Flush
 8D 6H 5H QD 6S 4C AC ,    High Card
 5D QH 7S 8C AD 9H 5C ,    High Card
 JH 6C 10D AS 7H JC QS ,    High Card
@@ -5271,7 +5271,7 @@ JC 8H 6S AH KS 3H 7C ,    High Card
 JD 2S 3C AH KS 4D 8C ,    High Card
 5S JC 5H KH 6S KD 6D ,    Pair
 AD KC JS QH 8D 4D JH ,    High Card
-9C 7C 6C 10C 2C 9H 3S ,    Straight Flush
+9C 7C 6C 10C 2C 9H 3S ,    Flush
 AC 4S 3D 2S 2D 6H 9D ,    Pair
 6C 6D 4D 7D 7H KD 8D ,    Two Pair
 KC JH 9D 9C JD 4S 10H ,    Pair
@@ -5379,7 +5379,7 @@ JS 3H 10C QH 7S 5H JC ,    High Card
 KH 4D 3D 6H 3S AD 6D ,    High Card
 5H 9H 5D 5C 9C 7S 3C ,    Pair
 7H QC 5S AH 10D 9D QH ,    High Card
-JS KS 8S 2S 9S 4S JD ,    Straight Flush
+JS KS 8S 2S 9S 4S JD ,    Flush
 5H 5C 4H 3D AH 3H QD ,    Pair
 AD 7D QS 8D 3C 8S JS ,    High Card
 2H 7H 7C 2C 6D KD JH ,    Pair
@@ -5464,7 +5464,7 @@ JC 4S KS 7S 6S 5D 2D ,    High Card
 6H 8D 10D QS JH KD 8C ,    High Card
 JC 10C 6D 3D 9C 10H 5D ,    High Card
 8D 3S 5H 8S 6H AC 8H ,    High Card
-4D 9S 9D AD KD 2D KC ,    Straight Flush
+4D 9S 9D AD KD 2D KC ,    Flush
 2C 10D 7H 2H QH QC 10S ,    Pair
 3C 6S 3D 7D 6H 7C 6D ,    Pair
 QH 9C JC 2S AS JS 8H ,    High Card
@@ -5572,7 +5572,7 @@ QC 2D JC AH 4C 8D 5D ,    High Card
 AD 9C 6D 2S 7S AC 7C ,    High Card
 JD 5D 8H 10C 2H 3S 4D ,    High Card
 3C 10H JC QD 7D 9D 9S ,    High Card
-AH KD KH 3H 4H 7H 6C ,    Straight Flush
+AH KD KH 3H 4H 7H 6C ,    Flush
 JC AC 6C 3H JH KC 9S ,    High Card
 5C 10C 4D QC 10H 4H JD ,    High Card
 3D QS QH KD 8S 7C 5S ,    Pair
@@ -5593,7 +5593,7 @@ JC 8C 9C 8S AD 3D 9S ,    High Card
 KD 8H 8D 7C 10C KH 4C ,    Pair
 5D 10D 5S 4S 9S 10H AH ,    Pair
 KS 7H 5C 6H 9D 6S 9H ,    High Card
-AC 6C 3C 8C QH 2H QS ,    Straight Flush
+AC 6C 3C 8C QH 2H QS ,    Flush
 9H 2C 5D 7D KC AD 6S ,    High Card
 QC 8C 10H KD 4C 4S KH ,    Pair
 8S 4H 2H AC 7H AH JC ,    High Card
@@ -5808,7 +5808,7 @@ QC 5C QS 2H 7S 9S QD ,    Pair
 KH 2D 3S 8D 6D 3D 10D ,    High Card
 4S 4C KC AH AD 10S 7C ,    Two Pair
 QC KS 6S KD JC 8C 2C ,    High Card
-7D QD 9D 5D JD 4H 5S ,    Straight Flush
+7D QD 9D 5D JD 4H 5S ,    Flush
 6S KD 7H AD 3C QS 9D ,    High Card
 6D 2C 4D 8S 10C 2D AC ,    High Card
 5D KS 6H 8H 6C AH 8C ,    High Card
@@ -6010,7 +6010,7 @@ QD 7C AH 3D 4S 10C 9C ,    High Card
 KS 5S 9H 4H 9D 8S 3S ,    High Card
 JD 7S 4D JH 8D 3H QS ,    High Card
 8C JH QD 4S 9C QC KH ,    High Card
-7H 9H 8H 10S 3H 6H 10H ,    Straight Flush
+7H 9H 8H 10S 3H 6H 10H ,    Flush
 6D 7C 3S QH 2H KC AH ,    High Card
 10C 3C 8C 7H 8S JH 2D ,    High Card
 4D 7C 4S QS JD AS 9D ,    Pair
@@ -6124,7 +6124,7 @@ KD 5S 7D 4C 4H 5H 10D ,    Pair
 6H 3D JD 6D QH 2H 8D ,    High Card
 9D 8C 10H 2D QS JC KC ,    High Card
 QS 6S 7D 3C JS 9D 5C ,    High Card
-3D QD JD KD 2S 8C KC ,    Straight Flush
+3D QD JD KD 2S 8C KC ,    Flush
 4C 10S AC 5D 2D 2C 7C ,    Pair
 2D 3S 4D 10H JC JD 9C ,    Pair
 KS 8S 8D QH 9S 5H QC ,    Pair
@@ -6226,7 +6226,7 @@ QD 5C 2S KD KH 9C 9D ,    Two Pair
 2D 6C KH 6H 8D QH JC ,    High Card
 10H 5S 6D 2C 7C KC 4S ,    High Card
 JH 8S 3D 2S 6S 7H 10C ,    High Card
-2H 7H KH 6C 6H 9H 3S ,    Straight Flush
+2H 7H KH 6C 6H 9H 3S ,    Flush
 5C 7C 10S 2D 10H 3C QH ,    High Card
 3D 8C QC 9S KC 8D KD ,    High Card
 10D 3H 2C 7D JD AS KS ,    High Card
@@ -6278,7 +6278,7 @@ JS KD JD QD AC 5C KS ,    Pair
 KC 5S 7S 6C 4C 10C QC ,    High Card
 7D AD QC 8S 2H 8D 3D ,    High Card
 KD 3S AH 9H 7S 9D KS ,    High Card
-4C 7C 5C 6C KH JC 2D ,    Straight Flush
+4C 7C 5C 6C KH JC 2D ,    Flush
 4S JH AC AS 7H 5H 3H ,    Pair
 5H 5C 10S 3H AH JS KD ,    Pair
 2C 6H 6S 5S 3C 5D AD ,    Pair
@@ -6289,7 +6289,7 @@ KD 3S AH 9H 7S 9D KS ,    High Card
 QS 9S 2D 8C KC 2C 6C ,    High Card
 10D KS 9C AH 7D 3C 4S ,    High Card
 10S 5H 7S 5D 5C KH QH ,    Pair
-QC 7C KC 4C JH 8S 2H ,    Straight Flush
+QC 7C KC 4C JH 8S 2H ,    Flush
 KH JC AC QC KD KC 7S ,    Pair
 8S 6C JD 5H 9D 8D 9S ,    High Card
 5S 10S 2C 8C 10H 5C QD ,    High Card
@@ -6311,7 +6311,7 @@ KH 7H 4H QC QS 8S KS ,    Pair
 2D 7C 9H JS 10H 8D 10S ,    High Card
 QC 8H 9C JH KD 5S 6D ,    High Card
 JC 10S 4D AH 6H 8D 9S ,    High Card
-9D JD AD 9H 7D QD KH ,    Straight Flush
+9D JD AD 9H 7D QD KH ,    Flush
 8S QH 7S 9H 6C QD KD ,    High Card
 7H 4S JH 2S 2D JC AS ,    Pair
 AD 5D KC 4D 2H 9D 3C ,    High Card
@@ -6349,7 +6349,7 @@ AC KS 7D KH 10C 7C 9H ,    High Card
 9C 5C JC 4H QC 4D 6C ,    High Card
 9H 3C JD JS 7C 8S 9D ,    Pair
 KC 2D 5H JH 7H 10C 2S ,    High Card
-JD KS 3D 6D 4D AD 5C ,    Straight Flush
+JD KS 3D 6D 4D AD 5C ,    Flush
 9H AH AS 10D 5S 8C 5D ,    Pair
 KH 8H 3C QH 7D 6H 2C ,    High Card
 6D AH 8C 9D 9S QC 5S ,    Pair
@@ -6426,7 +6426,7 @@ AD 4S 8D 7S QH AH JD ,    High Card
 JS 5S 3D 8C AS 5D JH ,    High Card
 6D QD QC KC 10D 7D 8H ,    Pair
 4D 4H JC 7S KH 10H 10S ,    Two Pair
-5S 4S 8S AS JH JD 9C ,    Straight Flush
+5S 4S 8S AS JH JD 9C ,    Flush
 3C 10D 2D 8D 2H QH KS ,    High Card
 JS 10S 6S 5D 7C 3S QS ,    High Card
 AH QC 3H AC 6H 10C KH ,    High Card
@@ -6574,8 +6574,8 @@ QH AC 3S 5H AD JC 2D ,    High Card
 5S JH 2C KH 4D 3C 7S ,    High Card
 3D 2H 5C AS 8S 9D 10C ,    High Card
 QC QS 2S 7S 6C KC 7H ,    Pair
-6D 5D 3D 9D KD 3H 2H ,    Straight Flush
-4H 10C 9H JH AH KH 4C ,    Straight Flush
+6D 5D 3D 9D KD 3H 2H ,    Flush
+4H 10C 9H JH AH KH 4C ,    Flush
 AS 4C 6D 4D JD 3D 9D ,    High Card
 8S 9H 3C 8D 9S KS 7C ,    High Card
 8C 4S 4H KH KD KC 5S ,    Two Pair
@@ -6589,7 +6589,7 @@ AD KH 2C JD 4C AS 8S ,    High Card
 3D QC 7H JC 2D 7C JS ,    High Card
 9C 4S 7H JC 7C 2C 5H ,    High Card
 3H 9S JS 9D 3D 4C 2H ,    High Card
-QH 9H 8H 4H 6D 8S AD ,    Straight Flush
+QH 9H 8H 4H 6D 8S AD ,    Flush
 9C 9D 7H 3C KC 10C 7S ,    Pair
 QH AH 7D 6H AS 3S QS ,    High Card
 5C KS 6C 2C 2D 2H 5D ,    Pair
@@ -6720,7 +6720,7 @@ AS 9D KH 2H 6C QS 4C ,    High Card
 6D QC QS 9D KS 2H 10S ,    Pair
 5S JH JS 3C 5D 8S JD ,    Pair
 3C 8C KD 7S AS 9S QC ,    High Card
-6C 5D JD 4D 9D QD 7D ,    Straight Flush
+6C 5D JD 4D 9D QD 7D ,    Flush
 6S 10D 3H 7C 4C 9C JH ,    High Card
 8S 6D 6H 8H JC 8D 2H ,    Pair
 3D QH JD 7H 4D AS 5S ,    High Card
@@ -6829,7 +6829,7 @@ AC 8S KD 5D 10H 6S KH ,    High Card
 KS AD 3D QS 3S 9H JH ,    High Card
 10D AS KC 6C 5C 4H 4C ,    High Card
 10S JC 6S 7S 10C 8H 6D ,    High Card
-3C 9C 8C QC 9D AC 6H ,    Straight Flush
+3C 9C 8C QC 9D AC 6H ,    Flush
 2S 8C 3S 4C KH 10C 9D ,    High Card
 6H 7C QH KS 4S JC 5D ,    High Card
 2D AC 7D 3H 8D 4D 4H ,    High Card
@@ -7113,7 +7113,7 @@ QS 5S 5H 10H 3S KH JC ,    Pair
 7S 8C 9H 4C 3S KD AD ,    High Card
 4S 10C 2C 10H 8D 5D 6H ,    High Card
 7H 9D AS 6C 3C 9S 10C ,    High Card
-3D 2S 2D KD 4D AD JD ,    Straight Flush
+3D 2S 2D KD 4D AD JD ,    Flush
 9H KS 8S 4H QD 10H 3H ,    High Card
 7C 2C 3S 10D 5H 7S AH ,    High Card
 6D 6H QS 10S JH 9D 9H ,    Two Pair
@@ -7236,7 +7236,7 @@ QS 8S 2S JH AD JC AC ,    High Card
 7D 6C 8H QH 3C AH 9H ,    High Card
 6D JC 4S 3S 9D 8S 5S ,    High Card
 7S 2D 2S 9S KC 2C 10H ,    Pair
-5H JH 2H 3H 10C AC 6H ,    Straight Flush
+5H JH 2H 3H 10C AC 6H ,    Flush
 9C AC 9D KS JH 7C 8H ,    Pair
 AS 2S 9H 10S 8S 10D QC ,    High Card
 KC KD 5C AD AH 3S 3D ,    Pair
@@ -7291,7 +7291,7 @@ QC 9C 7S QD QS 7C 10H ,    Pair
 KH 8C 7S QC 2H 4S 9S ,    High Card
 QD 7H AC AD 10S AS KD ,    Pair
 9S 3S JH 4H JD 6C 8C ,    High Card
-8S 2S 10H QS JS KC 9C ,    Straight Flush
+8S 2S 10H QS JS KC 9C ,    Flush
 7H 8H 2H 7C 6D 7S 5H ,    High Card
 3C AH 5C 2D 9D 10D AC ,    High Card
 6C JD 4C 10H KC 6D 10D ,    High Card
@@ -7575,7 +7575,7 @@ JH JD 5D 7H AS 9H 8S ,    Pair
 10S JH 9D 4H 7S 8D 6D ,    High Card
 2S 9D QH 7C JD 10C AD ,    High Card
 QD 8S KS 6D 4H 10S AH ,    High Card
-JC KC 8C 9C 5C 2D QS ,    Straight Flush
+JC KC 8C 9C 5C 2D QS ,    Flush
 QC 3H 6C 6D 4S KC QS ,    Pair
 AH 4H 7H 4C 10C 3D 2S ,    High Card
 8C 3S 2D 6S 8H JD JC ,    High Card
@@ -7606,11 +7606,11 @@ QH JH 6C 6H 3H 7D QC ,    Pair
 AS 9C KD QS QC 7S KS ,    Pair
 QD 3C JD AH AD 4S 4H ,    Two Pair
 5H 8S 9H 2S 3C 8D 9C ,    High Card
-AH 4H 8H JH QD KS 8C ,    Straight Flush
+AH 4H 8H JH QD KS 8C ,    Flush
 10H 3D QC 7C 9D 7S 7H ,    High Card
 AS KC 2C 2H QS 5D 5S ,    Two Pair
 JC 5D AS 4S 5C 2H 2S ,    High Card
-3D 4D 9D KD 6H 5H 8H ,    Straight Flush
+3D 4D 9D KD 6H 5H 8H ,    Flush
 9H 2C AD 3H 10C QC JH ,    High Card
 10S 4D 9H 2S KS 10C 2C ,    High Card
 5H 7D 3D AS JS 7H 10H ,    High Card
@@ -7648,7 +7648,7 @@ QC JD 6C 9C 4H 3S QH ,    High Card
 AC 3D 6S 7D 3H JH KH ,    High Card
 7C 9H 10H 2S 2H AD KC ,    Pair
 JC 9S 9H 2S 10S 8H 8C ,    Two Pair
-7S 5S 10S JS 4S 2H 7H ,    Straight Flush
+7S 5S 10S JS 4S 2H 7H ,    Flush
 8S 6S KD AC 3H 6C 10D ,    High Card
 10C 9H 3S 8D KH 3C 5C ,    High Card
 KC 5H 6D 8C JH AS KS ,    High Card
@@ -7704,7 +7704,7 @@ JH 8S KC 10C 4C JD 6C ,    High Card
 2D 9S 6H JS 7H 9H 2S ,    High Card
 2S AS 8S 2C 9C KD 8D ,    High Card
 QC 6D 5S 4C 6C 7S JD ,    High Card
-8H AH 7H 10S 4H AD QS ,    Straight Flush
+8H AH 7H 10S 4H AD QS ,    Flush
 9D 8D 3C 4H 6S 9S 3H ,    High Card
 7C 7S 6H 5S 10C 3S QS ,    Pair
 7H 10S 4D 9C 9H 6C JD ,    Pair
@@ -7730,7 +7730,7 @@ AC QD 7H 9D 6D 8H 6C ,    High Card
 QC QS 10C 2D 10S 9C 6H ,    Pair
 5H 9H JD 9S 8C 7S 2C ,    High Card
 JC AD KS AH KH 10D 6C ,    High Card
-KH 4D 8H 7H 2H 9H JD ,    Straight Flush
+KH 4D 8H 7H 2H 9H JD ,    Flush
 QD 6C 5H 5S QS 4C QH ,    Pair
 4H 9C 7S 10H 2C 3S 7D ,    High Card
 7D AH 4H 2D 2S AD 7C ,    Pair
@@ -7755,7 +7755,7 @@ QH 10H AS 7S 6C 8H 8S ,    High Card
 4S 2H KC 2C 3S AC 10D ,    High Card
 3C QS QC 10H 4C KS JH ,    Pair
 9C 9H 8H AH AD 8C KH ,    Two Pair
-6S 7S 2S KS KH 5C 4S ,    Straight Flush
+6S 7S 2S KS KH 5C 4S ,    Flush
 8C 6H KD KC QH 4C 3S ,    Pair
 JS AD 10H 9H QS JC 10S ,    High Card
 JD 10D 2D 8S AC 7D 8D ,    High Card
@@ -7931,7 +7931,7 @@ AH QS QD QH 8S JC 2H ,    Pair
 KC 9H QC AC KD 7C 5D ,    High Card
 3D 8D 6S 9D 10D 9S JH ,    Pair
 7C JS 7D 5C 4S 6H AD ,    Pair
-3C AC 8C JC 10H 10C 4C ,    Straight Flush
+3C AC 8C JC 10H 10C 4C ,    Flush
 2H 6S QC JD KS KC 2D ,    Pair
 3C 10S 9D 5S JH AC KH ,    High Card
 6H 8C 5D 10H 7S 5C QD ,    High Card
@@ -7972,7 +7972,7 @@ JS 9H 7S AC 10C 4S 9D ,    High Card
 AC JS 3H 2D 8H JD 7D ,    High Card
 6D 10D AD 5H KS 8S 9D ,    High Card
 KC 4S 3C AS 6S 10S 4H ,    High Card
-9S 5S 3S 2S 9H QH 6C ,    Straight Flush
+9S 5S 3S 2S 9H QH 6C ,    Flush
 4D KD 3D KS AS 7D 9S ,    High Card
 QD 6H 10C JC 8C 2C 5H ,    High Card
 10S 9C 8H QS 5S 2S 7H ,    High Card
@@ -8155,7 +8155,7 @@ QH 8D 3D KC 9C 5D 6C ,    High Card
 7H 5C 2H 8C 9S 8H 6C ,    Straight
 JH 5S 4D 10H AH 3D 4S ,    High Card
 KH AC 9C JC 4C 8S 2C ,    High Card
-3S 4S 9S 8D QS 6S 7H ,    Straight Flush
+3S 4S 9S 8D QS 6S 7H ,    Flush
 5H 8H KS 2H 7S 9D JS ,    High Card
 AH QD 8C 6C 7D QH 2S ,    High Card
 2D 4D 4C KC 10H 4H AS ,    Pair
@@ -8260,7 +8260,7 @@ QC 10D 2H 6D 4C 6S 2S ,    High Card
 QD 5S AH KC 7D JC 4H ,    High Card
 3S QS QC 5C JS 2D 5H ,    Pair
 JD 4C 10C 5D KH 4S 7C ,    High Card
-2H JH 4H 5H KS 7S KC ,    Straight Flush
+2H JH 4H 5H KS 7S KC ,    Flush
 7H AC 8C 3S 5C 9C 8H ,    High Card
 5S 6H 4C KH 4H AD JH ,    High Card
 10S QS 7H 9C 7C 3D 7D ,    High Card
@@ -8311,7 +8311,7 @@ AD 10C AS 3D KD 2C 9H ,    Pair
 3D 7D 9C 9S QD KD AS ,    Pair
 5H 4D 8S 10S 3H JD JS ,    High Card
 KS 7D AD 7H 2D 6S 5C ,    High Card
-8C AC 3C 7C JC 9D 8D ,    Straight Flush
+8C AC 3C 7C JC 9D 8D ,    Flush
 2H 2C 8D 6C 3D JS 7D ,    Pair
 2S QC 10H 4D AC KD 9D ,    High Card
 7C 4S 3C QH 9H 7S KH ,    High Card
@@ -8336,7 +8336,7 @@ JC 5S 3H 10D 2C 9C 4C ,    High Card
 8S QS 4C KD 4H 9S 7C ,    High Card
 3H AD 6D KC 5C 6C 6S ,    High Card
 4S 7D 5S 10D 9C 8H 2D ,    High Card
-7H JH QH 9H 9D 8D 10C ,    Straight Flush
+7H JH QH 9H 9D 8D 10C ,    Flush
 9H 5C 9C 10S KH 6S 8H ,    Pair
 2H 3H 10C 7C 3D 4H KC ,    High Card
 QS KD AH 5H 6H 8C 8S ,    High Card
@@ -8409,10 +8409,10 @@ KC 2H QS 9C 3C 3S KD ,    Pair
 6H KH 10H 8D 4H 7S 7H ,    High Card
 8S 5D AS 8H KC AD AH ,    High Card
 JH 3D 10S 3C JS 6D 9D ,    Pair
-6D 3D KD 4D 7C 2S 9S ,    Straight Flush
+6D 3D KD 4D 7C 2S 9S ,    Flush
 8C 10H 9H 5C JS 3S 9C ,    High Card
 5H 8H 3C AD 5D 5S 2C ,    Pair
-8C 4C 9C 8S 3C QC 8H ,    Straight Flush
+8C 4C 9C 8S 3C QC 8H ,    Flush
 7H 10H 4H 6S 2S 7S AS ,    High Card
 JS QH 9H 8D JC QS 3S ,    High Card
 5D AC 2C 2H 5S 10D AH ,    Pair
@@ -8443,7 +8443,7 @@ QS JD 6S 6C 2D KD JS ,    Pair
 QC 9C 9S JH 4H 10S JS ,    Pair
 3D 4S 3S 3C AC 5C 7C ,    Pair
 5H KC AS QH 6D 10C QS ,    High Card
-QD 8D JD 2D JC 5S 10H ,    Straight Flush
+QD 8D JD 2D JC 5S 10H ,    Flush
 QH KH 5H KD AS 7D 4S ,    High Card
 JS QS 8H 4C JC 10D 7S ,    High Card
 2D 3H 9H AC 5S 2H 9C ,    High Card
@@ -8475,7 +8475,7 @@ JD KS AC 7S 10C 4S 8C ,    High Card
 10H 2S 6C 4D 7D 9H 9C ,    High Card
 KS 3S QC 6H 7D 4C QS ,    High Card
 AH AD KC 8C QD 6C 4S ,    Pair
-9D 4D 10H 8D KD 2D 5C ,    Straight Flush
+9D 4D 10H 8D KD 2D 5C ,    Flush
 2S 4H QS 8D 10C 10S 7S ,    High Card
 10D 4S 2D 5D 5H 2H 7D ,    Pair
 QC KD 3S 6S KH 6H AD ,    High Card
@@ -8608,7 +8608,7 @@ KS 2S 7C 10C QS 8D AH ,    High Card
 QD 9H JH 2D AC 7H KC ,    High Card
 QC 5H 3H AH KD KH AS ,    Pair
 5D JD JS 7C 9S 3D 4S ,    Pair
-8C 4C 2C 10H 10D 5C 9C ,    Straight Flush
+8C 4C 2C 10H 10D 5C 9C ,    Flush
 KS 3C 10C 3H 2S 8D QC ,    Pair
 JH 4H 6H JS 2H JC 2C ,    High Card
 6D 9C QH 3D 6S 10H 10D ,    High Card
@@ -8688,7 +8688,7 @@ QH 5C KS 9S 7D 5D 2C ,    High Card
 8H 3S 6S KD QS 4D 2D ,    High Card
 3C 7C 10D AC 7S 9D JD ,    High Card
 6S AS 9H 7S 6C 5D 4C ,    High Card
-9D KS 7D 8D 6D QD 2S ,    Straight Flush
+9D KS 7D 8D 6D QD 2S ,    Flush
 JS AH KD 4D 5C 5H KC ,    Pair
 4S 5C KD 7D AH 3S KS ,    High Card
 8H 4C KC 7C 6S 10S 4D ,    High Card
@@ -8696,7 +8696,7 @@ JS AH KD 4D 5C 5H KC ,    Pair
 QS QD 5D QH 7S JC 10D ,    Pair
 QD 7S JS QC 10C 4S 5H ,    High Card
 QS 6S 3S 6C 7H 9H JD ,    High Card
-JC 9C 10S KC 2C 8S JH ,    Straight Flush
+JC 9C 10S KC 2C 8S JH ,    Flush
 10C 8C 10D 3H 4H 10H 6H ,    High Card
 QD 8C AH 7D JS 4S 9S ,    High Card
 KD QC AS 6C JD 7C QS ,    High Card
@@ -8705,7 +8705,7 @@ KD QC AS 6C JD 7C QS ,    High Card
 3D AS AC QH 5S 10C 7D ,    Pair
 5H 9D 10H 3C QD 4S KH ,    High Card
 JD 4H 2S 6D 7C 9S 4D ,    High Card
-JD 2C 8C 9C KC 3C JS ,    Straight Flush
+JD 2C 8C 9C KC 3C JS ,    Flush
 4S 2S 5H 10D 7C 8D 2H ,    High Card
 AC 6D KD QS JH 6H 10S ,    High Card
 9S 7D 10C AS 9D 10H 5D ,    High Card
@@ -8976,7 +8976,7 @@ JC 2H QD 6S 10C AS JD ,    High Card
 JD QC 6D AH 9C 10D 2S ,    High Card
 KS 4C 3D AC AD QD 5H ,    Pair
 6H JC 9H 6C 8S 5C JH ,    High Card
-9C QC KC JC QS 9S 4C ,    Straight Flush
+9C QC KC JC QS 9S 4C ,    Flush
 6H 7C AC 10C 10D 4S KD ,    High Card
 4H 5C JS 3H 8H AS 5D ,    High Card
 6C 8S 8D 7S 4D QD 9H ,    Pair
@@ -8994,7 +8994,7 @@ JH 9S 10C 5H 8S KH 7S ,    High Card
 6H KH QD KC 2S 8D JS ,    High Card
 7C 8C 5S 5C 10C QC 9D ,    Pair
 3C 2D AC KD JD QH 9H ,    High Card
-4S 2S 3S KS AH 2C JS ,    Straight Flush
+4S 2S 3S KS AH 2C JS ,    Flush
 5S 10H 9D 8H 7D QC 2D ,    High Card
 AS QD AC 5C KH 4C KD ,    Pair
 8S 5H 4S 8H KH 9H 10D ,    High Card
@@ -9017,7 +9017,7 @@ JC 5H 5D 8D 8H KS 9H ,    Two Pair
 5S JS 8C QH 4D KC 9D ,    High Card
 3S 5C KD 2S 7H 6S 7D ,    High Card
 4D AC KC 7S 4S 7D 10D ,    High Card
-9S KS QS 6S JD 7H JC ,    Straight Flush
+9S KS QS 6S JD 7H JC ,    Flush
 8H KH KD 2D 5H 10S 6H ,    Pair
 2D 3S AH 8C 9H 5C 7S ,    High Card
 6H QD 4C 3D 8S 10S 2S ,    High Card
@@ -9369,7 +9369,7 @@ QD 3D QC JC KS JD 2H ,    Pair
 7D 3C 10D 4S 7C AD AS ,    High Card
 KS 8H 7H AC 9D 5D 8S ,    High Card
 3S 6D 8D 2H KC 3H 10S ,    High Card
-QS 5S 8S KC 3S 7S 10H ,    Straight Flush
+QS 5S 8S KC 3S 7S 10H ,    Flush
 AS 2H 3D 2S JC 9S 3C ,    High Card
 6H KH QD 5D 10C 8C 7C ,    High Card
 QC 9D 7D 4H 3H 8D 4S ,    High Card
@@ -9452,7 +9452,7 @@ KD 5S QD AH 5C 10H 4H ,    High Card
 10H 5S 3S 5C 3C 9D 2H ,    High Card
 9C 6D 2S 8H 6S KH 3H ,    High Card
 AC KS AS 7C 7H 5D 4S ,    Two Pair
-5S 9S 7S 3S 7H KS QS ,    Straight Flush
+5S 9S 7S 3S 7H KS QS ,    Flush
 JS 10D AH 4H QD 3C 9H ,    High Card
 8S 6S KD 5C 8C 2S 4D ,    High Card
 3H 2H KD AS 8H QS 7D ,    High Card
@@ -9598,7 +9598,7 @@ JD 7C 10H 2C 5D JH 9D ,    High Card
 3H 2C AD 2S 2D 3C KC ,    Pair
 8S 6H AS 4H JC 9H QS ,    High Card
 JS JH 5C JD 6C QD AS ,    Pair
-5S 7S 4S 2S 6H AC 2H ,    Straight Flush
+5S 7S 4S 2S 6H AC 2H ,    Flush
 7D 8S 3D 10C 6S JH KD ,    High Card
 3C 9D 9C 4H 7H JD 8H ,    Pair
 KH AD KC 9H 9S 6C QD ,    Two Pair
@@ -9759,7 +9759,7 @@ AC 3C QH KS QD KD 6C ,    High Card
 8S JS KC 3S JC 2S 8D ,    High Card
 AH 7H 4H 7S 10D 2D 2H ,    High Card
 4S 9C 10H 5C 6D KH 4C ,    High Card
-4S 3D 8S 9S 2S KS QC ,    Straight Flush
+4S 3D 8S 9S 2S KS QC ,    Flush
 KD 2H 6S 4C 3S 5D KC ,    Straight
 7D 5C 8H 10S JH 4H 3C ,    High Card
 10C 2D QS 4S 7C 8C 8D ,    High Card
@@ -9797,7 +9797,7 @@ KS 7D 4S 10C 8S AS 9S ,    High Card
 2C 3D 2S 10C AD 9D KC ,    Pair
 10S AH 2D 6D 8D 7C KH ,    High Card
 8H 9C AC 7D 4D 9S JC ,    High Card
-2C 6C 10H 9C JC QS AC ,    Straight Flush
+2C 6C 10H 9C JC QS AC ,    Flush
 9H 3S JC QH JD 9C QC ,    High Card
 5C 6C 8H 8S 3D 10C AC ,    Pair
 9S KH 5H QS 7C KC 10D ,    High Card
@@ -9887,7 +9887,7 @@ QH 6C 5C 2C 7S AH 8C ,    High Card
 8S 6S 7H 3H 10H 2D 4C ,    High Card
 5S 8D 10S 5D KC JD AD ,    Pair
 JS 9C 10D 3D 6H QS JH ,    High Card
-5H 5C 8H 6H 9H 2H KC ,    Straight Flush
+5H 5C 8H 6H 9H 2H KC ,    Flush
 AS 9C QH 10H 2S 4S 9S ,    High Card
 KS 3H JC QC 8S 4D JS ,    High Card
 9D 2D 8C AH AC 2C AD ,    Pair
@@ -9919,11 +9919,11 @@ KH JC 10C 8C 5S 2C 2D ,    High Card
 10H QC 2S 5H 3S 4S KD ,    High Card
 6S QD 5C JC 4D 3D KH ,    High Card
 JH 10D AS 3H 7D 9C 2D ,    High Card
-JD 8D 7D KD AH 2S 10H ,    Straight Flush
+JD 8D 7D KD AH 2S 10H ,    Flush
 9H 5D 3C 9C 9D KH QH ,    Pair
 7H AD 6S 10D 3H 6H 7S ,    High Card
 10S KC 4S 10C QC QD 9S ,    Pair
-JH 7C AC 9C JC 2C 4S ,    Straight Flush
+JH 7C AC 9C JC 2C 4S ,    Flush
 10D 2S 10S 9D 8D QH 2D ,    High Card
 JD KC 4H 4D QD 3H 3C ,    Two Pair
 7H 8C 2C 8D 4S 10H 8H ,    High Card
@@ -10317,7 +10317,7 @@ AC 8H QS KD AD 4H 10H ,    High Card
 AS 7S 8H 5H 4C 10S 3S ,    High Card
 2H QH QS 2D 5C 6H 10C ,    Pair
 4C 4S AC AH 2S KC 3C ,    Two Pair
-JD 5D 3D 2D 8C 6C QH ,    Straight Flush
+JD 5D 3D 2D 8C 6C QH ,    Flush
 KS 2H 10S 7H 9H 8D 6D ,    High Card
 10H AH 4S KH KS 5D 4H ,    Pair
 9S 4C 6S 4D 10S KC 5S ,    High Card
@@ -10473,7 +10473,7 @@ AS 4S 4H 5C KH 7D QS ,    Pair
 8S AH QH KH 7H AC JD ,    High Card
 10H 3S 2D 8H 6D 7C 7D ,    High Card
 2H 4H 9S 5C KC JC KD ,    High Card
-AD 4D 6D JC 5D QD 10C ,    Straight Flush
+AD 4D 6D JC 5D QD 10C ,    Flush
 AS 3H 7S 2D 3S KS QC ,    High Card
 9D 7C 7D AH 6C 9C 6S ,    Pair
 8D 9H AS KS KC 5C 5D ,    Two Pair
@@ -10576,7 +10576,7 @@ QS 7D JS JD 2H KC 9D ,    Pair
 8S 8C JD 3C 3S 10H 5S ,    Two Pair
 4S 2D 8H 7C 9C 10S 7S ,    High Card
 KD 9S 2H 7D 6D KC 3D ,    High Card
-QD JS 4S 5S KS 8S KD ,    Straight Flush
+QD JS 4S 5S KS 8S KD ,    Flush
 7H 2C AD QC 6H JD AC ,    High Card
 7C 3H 6S 2H 8D QH 6C ,    High Card
 2D 9H 4D 9S 10S 10H 3S ,    High Card
@@ -10652,7 +10652,7 @@ JD 5C 5D QS QH QC 9C ,    Two Pair
 10H 3D JC 8S AS KS 7C ,    High Card
 JH 6D 9D 9C AH JD 4S ,    Pair
 5C 5D 10S 2D 2C 8H 2H ,    Two Pair
-9H AH 6H 2H 5H 4S 10D ,    Straight Flush
+9H AH 6H 2H 5H 4S 10D ,    Flush
 6D 4D KS 7H 7S 9C JH ,    Pair
 10S 10C QC 2C 3D 9S 4C ,    High Card
 AC KS 6C AS 7D 10C 3S ,    High Card
@@ -10719,7 +10719,7 @@ AS KD 8C 8H 9S 5C 6S ,    Pair
 3D 4C AS KD QD JH 7S ,    High Card
 4S AD AC 3C 5D KC 9H ,    Pair
 KS AH 9S 6H 5H 2S 8C ,    High Card
-10C 2S 7S JS AS 5S 7H ,    Straight Flush
+10C 2S 7S JS AS 5S 7H ,    Flush
 AC 4D 3D 5H 8S 10H QS ,    High Card
 10D 6D 9H 9S QC 8D 8C ,    Two Pair
 5C 2D KC QD 6S AD 9D ,    High Card
@@ -10760,7 +10760,7 @@ JH 6D 3H 8S 10H 7S JC ,    High Card
 2D 4D 9H 4H AC KH 2C ,    High Card
 7D 8H KC 7C AD AH JS ,    Pair
 10H 10C 7S 2H 3D QH 4H ,    High Card
-2C QD AD 5D 8D JD 3S ,    Straight Flush
+2C QD AD 5D 8D JD 3S ,    Flush
 7C AS AH 8H 10D QS 6D ,    Pair
 10D 4H 3C KC 7S 2C JS ,    High Card
 9H 2H 4C JC 4S AH QS ,    High Card
@@ -10822,7 +10822,7 @@ AD 10C KD 7S KH 6H 3D ,    High Card
 2H 7S 2S 7D QC KC 7C ,    Pair
 5H 5D 8C JC AD 8D JS ,    Pair
 4C 6H JH 6S 3S 7H 6C ,    High Card
-4S 9S 10H QS 8S 6D QH ,    Straight Flush
+4S 9S 10H QS 8S 6D QH ,    Flush
 KH 8C JH 2S 3C 8S 10S ,    High Card
 9H AC 3S 9D QS 2H 9C ,    High Card
 JS 7C 6H 8H 7D 2D AS ,    High Card
@@ -11009,7 +11009,7 @@ AD JC 8C 10C 3D 4D 3H ,    High Card
 3C 7S 10H AH QD 10C 8D ,    High Card
 3D JS 6S JD AC 9D 8H ,    High Card
 KC QH 6H 5H 9H 6D KD ,    High Card
-JH 8H KH 10D QH QS 3C ,    Straight Flush
+JH 8H KH 10D QH QS 3C ,    Flush
 4D 3S 5C 8C 8S 7D 9C ,    Pair
 6D 9S 10C 2D 7H JS 6H ,    High Card
 2S AS 4H KD 8D 10H AH ,    High Card
@@ -11109,7 +11109,7 @@ AH 3H 8H 2D 7S 3D 7H ,    High Card
 6C 7D JS 2S 9H 10D 4C ,    High Card
 JC 5C 10C JH 7C 2C 8S ,    Pair
 6H 4H KS 4S 5D AS KH ,    High Card
-2D 7D AD 6D 7H 8C QS ,    Straight Flush
+2D 7D AD 6D 7H 8C QS ,    Flush
 5D 5C 6C 3C QH 10S 4C ,    Pair
 10C 9D 7S KS QC 4H 10H ,    High Card
 AS 8C 6S 4S AD 3S 9S ,    High Card
@@ -11202,7 +11202,7 @@ JC KD 5S 2C KH JH 8D ,    High Card
 KC 6C 10S AH 7H 4H KH ,    High Card
 JD JS 4D AD JH 5D 10C ,    Pair
 7C 5S QH QC 7D 9H AS ,    Pair
-2C 4C JC 9C 4D QC 4S ,    Straight Flush
+2C 4C JC 9C 4D QC 4S ,    Flush
 9S 2D 2S AS 3S QD 9D ,    Pair
 5H 7H AH JD 6D 3H 7S ,    High Card
 QH QC 10D 6C KH 5S 8C ,    Pair
@@ -11301,7 +11301,7 @@ QD 5C 3D 4C 9S 2D 3S ,    High Card
 9D 2H 4S AS KH 3C 7H ,    High Card
 KC QC 2D 10H AD 4D 6D ,    High Card
 4H 4C 7D JH 6C KS 3D ,    Pair
-AC 7C 5C 10S 8C KD 8D ,    Straight Flush
+AC 7C 5C 10S 8C KD 8D ,    Flush
 QH 10S 7S JD 8H JS 2C ,    High Card
 AC KS 4H 9H 6D KD JC ,    High Card
 8S 10D 2D 10H AD 4D 6H ,    High Card
@@ -11330,7 +11330,7 @@ JH 3S JC QD 5D 2H 7C ,    Pair
 6S 10H 5H 3C 3D 5C QS ,    Pair
 8C 8D 10C 7H 2S JC 9S ,    Pair
 QD 2H 3S 4D 3H 6H AC ,    High Card
-8D 4D 6D AD 3H AH QC ,    Straight Flush
+8D 4D 6D AD 3H AH QC ,    Flush
 2S 4C 9D 10D 9S 6C 4S ,    Pair
 9C JD 8H 2H JC 7C 2C ,    High Card
 9D 5C 3H 9S KD 10H 2H ,    High Card
@@ -11425,7 +11425,7 @@ KS 2D 10S QH 5S AH 6C ,    High Card
 AC 10H 4H 2S 6D 4D 4C ,    High Card
 AD KC QC 6H 3C QH 7C ,    High Card
 2H 10H 5C 6D 4S 7S JH ,    High Card
-9C AC 8C 6C 7H 8D 4H ,    Straight Flush
+9C AC 8C 6C 7H 8D 4H ,    Flush
 JC 8H 4S QH 4D 6C 7C ,    High Card
 10D 3C KC 4C 8D 10S 7S ,    High Card
 8S AH KD 5S QD JH 3S ,    High Card
@@ -11453,7 +11453,7 @@ KC 9C 6D 4H 7D 2C 3D ,    High Card
 6D JC AS 7H QS 8H 3C ,    High Card
 7D AH 5H KH KC QD 10H ,    Pair
 2D 7D 4C 10S AC 7C 9D ,    High Card
-AH 5H 3H 6H 9C 5S QD ,    Straight Flush
+AH 5H 3H 6H 9C 5S QD ,    Flush
 3C AD QH KS JH QS 2S ,    High Card
 5H AS 8H 4H JD 10S 6D ,    High Card
 7C 2D 8C 9S KS 4D 10D ,    High Card
@@ -11941,7 +11941,7 @@ JC 10S JS 4D 8H 2S 4S ,    Pair
 2C 6D QD 7C JC 5H 9H ,    High Card
 8H JS AC QS 8C 3C 10H ,    High Card
 7D 9H 10D 9D 2H 4C 2D ,    Pair
-6D 4D 3D 7S KD 10S 8D ,    Straight Flush
+6D 4D 3D 7S KD 10S 8D ,    Flush
 JS QS KC 8H QC 9C 7C ,    High Card
 5D 4S AH 4H KH AS JC ,    High Card
 10C 5S 6D AD 4D JD JS ,    High Card
@@ -11978,7 +11978,7 @@ QS AS AD 6D 2D 5D 7H ,    Pair
 8C 4S QC KD KC 7H AH ,    Pair
 8D AH 9S 8C 9D 10H JH ,    High Card
 5H 6D 7S 6S 7H 2S 5C ,    High Card
-AS 5S 4S KC QS KS 9H ,    Straight Flush
+AS 5S 4S KC QS KS 9H ,    Flush
 KD 10D 2D 2H AC QC 8H ,    Pair
 10D JC 6H 7S 4D 4C 6S ,    Pair
 KH KC 2S 2D 8D 3S 9C ,    Two Pair
@@ -12004,7 +12004,7 @@ KD 3C 8H KH AS QC AD ,    High Card
 8D 9C 6D 4D 2H 5D 10H ,    High Card
 2S 4S 7D 10C 8D 6S JC ,    High Card
 KH 10S AD 8S KC 8H 9H ,    High Card
-8C 5C 7C 3C 5S 3H 2H ,    Straight Flush
+8C 5C 7C 3C 5S 3H 2H ,    Flush
 AD 4D AH 4S AS 5D 2D ,    Pair
 2C 8D 4C 2S JS KC QC ,    High Card
 AC 2H 10C JC 9C 6H 6D ,    High Card
@@ -12253,7 +12253,7 @@ KH 3D QD 10C KC 4D JD ,    High Card
 4C 2H 6C 5C 7H 10D JD ,    High Card
 KC 6D 3D 4D AC 8D 8S ,    High Card
 7C 8S JD KC 8C 6D 3D ,    High Card
-5D 2D KD 8D QH 4D 9C ,    Straight Flush
+5D 2D KD 8D QH 4D 9C ,    Flush
 7S AC QD 8H 4S QC 10S ,    High Card
 AS 5C 8H 3D 10H 4H KS ,    High Card
 8D AD QS 4D 9S 6S 8C ,    High Card
@@ -12333,7 +12333,7 @@ JC 6C 10C 3S 4C 7D 8H ,    High Card
 9S 2D 6D 10S QH JD 2S ,    High Card
 4C 2H JH QS 5D 8S 4D ,    High Card
 3H 10H JS 10D JC 4H 3D ,    Pair
-KH 5C 7H 9H 3H QH JS ,    Straight Flush
+KH 5C 7H 9H 3H QH JS ,    Flush
 3S 5D 9D 8D 7S 10H AS ,    High Card
 JC 10D 2C 7C 10S 2S KS ,    High Card
 4H QD 4C 9C 3C 5H 7D ,    Pair
@@ -12378,7 +12378,7 @@ KC QC KH 2D 3D 3H 10D ,    Two Pair
 QH 10D 5D AH 2H 10S 5C ,    High Card
 10C 10D 3H QC 9H 9D 8C ,    Pair
 3C 7S 9C 9S 6D 5H 7D ,    Pair
-QH AH 7H 4H AS 8H KS ,    Straight Flush
+QH AH 7H 4H AS 8H KS ,    Flush
 4D 2S 3S 2D JS 3D 2C ,    High Card
 9D 6S 10S 8S KS 7D 10D ,    High Card
 KH 10H 3C 8C 4C 4H 2S ,    Pair
@@ -12518,7 +12518,7 @@ AH AC 4H JS 2H QS QD ,    Two Pair
 8D 4D KD KS JH 6C 10C ,    Pair
 9S JS JH 6D 8D 6H 8C ,    Pair
 KD 7C 4H 10D 4S KC QC ,    Pair
-8H AH 10C KH 7H 10H 10S ,    Straight Flush
+8H AH 10C KH 7H 10H 10S ,    Flush
 4D 2D KH AH 5C JS QD ,    High Card
 6C 3D 3H 5H 8D 9C 9H ,    Two Pair
 QH 2H JD 7H 6D QS KC ,    High Card
@@ -12533,7 +12533,7 @@ JH AH 9C 4C 6H QC 8H ,    High Card
 AS 2D 8D 4D 8S AH 7C ,    High Card
 JC KC 2C 3D 4C 7D 7S ,    High Card
 KS 6H 2H 6C 9H 4H 7H ,    High Card
-AS 9S 8S 6S 10D JS QD ,    Straight Flush
+AS 9S 8S 6S 10D JS QD ,    Flush
 JC 10C KS QH 3C 2D 9H ,    High Card
 4D KD 3D 5C KC AH 8C ,    High Card
 8D 10S AD 7D 7C 7H 3H ,    Pair
@@ -12595,7 +12595,7 @@ QD 9D 8H JS 10C 3H 6S ,    High Card
 AH 4S KD AC QC JC 6C ,    High Card
 4D 5D QH 9C 5H 2C 9H ,    High Card
 7C 4C QC 3H KH JS 8D ,    High Card
-9S 5S 6S KS 4S 9D QH ,    Straight Flush
+9S 5S 6S KS 4S 9D QH ,    Flush
 10S AS 7S 10C 5C AC 6D ,    High Card
 10D 8S 4D 2H 8C 7H KH ,    High Card
 2H AD 7S 8D QD 3S QH ,    High Card
@@ -12609,7 +12609,7 @@ KC 10C 9H 10S 8S 4S 2C ,    High Card
 6S 9S 8D 2C 9D 5D JH ,    High Card
 7S 5C QD 3S 8H 6C 10S ,    High Card
 JC 3H 7H AC AS 2H 10D ,    Pair
-9S 7S JS AS 8H QD 6S ,    Straight Flush
+9S 7S JS AS 8H QD 6S ,    Flush
 10D KC KH AH 10C 2D 9C ,    Pair
 6H 3S 8D AD JD 10S 2C ,    High Card
 AD 10S AH 6S 9H QC AC ,    Pair
@@ -13008,7 +13008,7 @@ KH 8S QC 5D 6H 9H AC ,    High Card
 6H QC AD 7H QH JD 8S ,    High Card
 10C KH 6S QS JH KC 4D ,    High Card
 7S 5H KS 4H 5S 10D 9H ,    High Card
-7D 9C AC 2C 8C 6C 3D ,    Straight Flush
+7D 9C AC 2C 8C 6C 3D ,    Flush
 10H 3C 8H 10C 8C JD 9C ,    Pair
 JH 9S QD 4C AS 4S KD ,    High Card
 QS 2C 5H 7H 6S 9D 5S ,    High Card
@@ -13191,7 +13191,7 @@ AH 5C JS 9C KS 9D JH ,    High Card
 6C KH 6S 8H 8S 5H 2H ,    Two Pair
 QS 8D 2S 2C 7D 2D AD ,    Pair
 4S 9C 4D 9S JH 8D 6H ,    Pair
-5C QC JC 10C AC QD 5D ,    Straight Flush
+5C QC JC 10C AC QD 5D ,    Flush
 8S JS 6C 7C 2H 10H AH ,    High Card
 AD JD 6D 9H KC KS KD ,    Two Pair
 5C 3S JC 6C 8C 8S 9D ,    Pair
@@ -13220,7 +13220,7 @@ AH 8D 2S 3C KC 3S 5S ,    High Card
 2C KS 7C 4H 9H KC 10C ,    High Card
 6H AH 6S 3D AS JH 3H ,    Pair
 AC 5H KH 10S 10H 2S 7D ,    High Card
-5C AH 3C QC 2C 4C AS ,    Straight Flush
+5C AH 3C QC 2C 4C AS ,    Flush
 2D 3H JS 3S KD 8H 8C ,    High Card
 7S KS 7H QD JC 10D 9D ,    Pair
 2S 3S KS AH 8S 5D 5H ,    High Card
@@ -13233,7 +13233,7 @@ AD 7H 10D 10H 8C 4S 8H ,    High Card
 AC 4C 3D 6H 7D QH JC ,    High Card
 10H 8C 7C AS QS 8H 7S ,    High Card
 KS 3C 5S 8D 10S 9D AH ,    High Card
-5D 6D KD 10S AD 7D 8H ,    Straight Flush
+5D 6D KD 10S AD 7D 8H ,    Flush
 QC QD 5S 9S JC JS 4D ,    Two Pair
 AH 5H 4C 2S QH KC AC ,    High Card
 3C 10H 5C 2H 10C 4H 3D ,    High Card
@@ -13242,7 +13242,7 @@ AH 5H 4C 2S QH KC AC ,    High Card
 9S AC AS 7D QC 3C 6S ,    Pair
 3S 5S 4H 4C 8D 8H 5D ,    Two Pair
 2H 6D 6C 5H 5C 3D KD ,    Two Pair
-8S KS 6S 9S 3C 9H 6H ,    Straight Flush
+8S KS 6S 9S 3C 9H 6H ,    Flush
 8C JS QD AH KH AS 9C ,    High Card
 7C QD 4H AD KS 4S JH ,    High Card
 3C 4C 6S 6H 2D AS 5D ,    Straight
@@ -13281,7 +13281,7 @@ KD 4C AH QH 7D 3H 6D ,    High Card
 8C 4H KC 9C AH 5H 5C ,    High Card
 10H 8D 5S KS 4C QS AS ,    High Card
 10D AH 8D QS JH 4H KH ,    High Card
-AD JD 3D 7D 9C 4D 2H ,    Straight Flush
+AD JD 3D 7D 9C 4D 2H ,    Flush
 10S 2D 9H JC 2S AC 6S ,    High Card
 4S 8D QC 6D KD JH JC ,    High Card
 AH 6S 3H QD 10S 2H 8H ,    High Card
@@ -13354,7 +13354,7 @@ KS JD 3H 4H 8D JC 7C ,    High Card
 7D QH 9H QS 6S 5D 2S ,    High Card
 QH 4S 3H 5H 3D 5S KS ,    High Card
 6D 9S 4C KD 8C AH 5D ,    High Card
-6S 7S JS 8H 8S 3S JD ,    Straight Flush
+6S 7S JS 8H 8S 3S JD ,    Flush
 7C AH 5D 7H 6H KD JD ,    High Card
 QH 9S 2C 8H 3S 7D 6S ,    High Card
 10C 8D AC 9H QD 5H 8S ,    High Card
@@ -13457,7 +13457,7 @@ QS 2H AH QH 7S 9D QD ,    High Card
 KS QD 2C 10D QH 10H 7S ,    High Card
 5H 8H 3C QS 7C AC 7D ,    High Card
 4H QH JC 4D QC 6H AH ,    High Card
-5S AD 8D 9D 5D 10C KD ,    Straight Flush
+5S AD 8D 9D 5D 10C KD ,    Flush
 4C JD 9C 3D KS 10S 9S ,    High Card
 AS QS 10H 2S 7C 4S JC ,    High Card
 10D 7H QD 4H AH 10S 7S ,    High Card
@@ -13617,7 +13617,7 @@ AS QS 3C 8S 6C 9C KH ,    High Card
 5S 5D 8H 10H 7C JC QD ,    Pair
 5C 7H 2S 4H KC AH 4C ,    High Card
 AH 3D 3S 4S JC 8D 7D ,    Pair
-9C 2C 8C 5C 9D JS 9H ,    Straight Flush
+9C 2C 8C 5C 9D JS 9H ,    Flush
 QH 10H 10D 2D 5D 10C 3H ,    High Card
 QD 3H KS JC 7C 9C 2D ,    High Card
 4C QH 6D 5H 9H 6C 8H ,    High Card
@@ -13633,7 +13633,7 @@ AH 7H AS 8C QC 2H QS ,    Pair
 5C JC 8C 6D KC 10S 7H ,    High Card
 10C 8S 2H AC 2C 9C QH ,    High Card
 3S 6H JH KD 10H QS 8H ,    High Card
-5S 10D 9S 3S 6S 4S 8D ,    Straight Flush
+5S 10D 9S 3S 6S 4S 8D ,    Flush
 6C AH 4C KS 10H JH 2C ,    High Card
 2D KH 8S JS 4H 10C 8C ,    High Card
 AD 4D 2H 3H 5D 3D KD ,    High Card
@@ -13683,7 +13683,7 @@ AD 2D JS 2C 9D 9H AH ,    Pair
 KS 10C 6S 4S QC JH 9D ,    High Card
 4C 7D KD 9S 6D 6H 3H ,    Pair
 AD 2H 5C 7C JD 7S 8C ,    High Card
-8S 4S QS 3S JD KD 10H ,    Straight Flush
+8S 4S QS 3S JD KD 10H ,    Flush
 8C KS 7D 10D 6D 4D QC ,    High Card
 5C 7S 5H 10S AD 6S 9C ,    Pair
 6H AC 9D 5S 6C AS 3D ,    High Card
@@ -13742,7 +13742,7 @@ AH QC 8C 2D 4D AC 3D ,    High Card
 4D QH 6S KD JD 7C 3H ,    High Card
 KC 3H 3S 9S AH QH 5H ,    Pair
 7D 4C KD JH 4D 6D 6H ,    High Card
-8S 9H 4S AS QS KS 7S ,    Straight Flush
+8S 9H 4S AS QS KS 7S ,    Flush
 3D 5D 10H 5C QD AD 10S ,    Pair
 9D JD JH 9H 8H 8D 5D ,    Two Pair
 KD KC QS QH 3H 10D 5S ,    Two Pair
@@ -13886,7 +13886,7 @@ AD 10H 7D 10S KS 2D 9D ,    High Card
 7H 7D 2D JC 10D 4S 5D ,    Pair
 9D KH 5C AC 8D 4C QC ,    High Card
 AD 3D 5H QD 8C AH 7C ,    High Card
-8S 2S 3S 2H QS 7S 6H ,    Straight Flush
+8S 2S 3S 2H QS 7S 6H ,    Flush
 JC QH QC JH 5H 10C 2H ,    Pair
 7D 5C JS 6S 10D 10S 7S ,    High Card
 9H 7H 3S 2C QD 3H JD ,    High Card
@@ -13897,7 +13897,7 @@ QD 3H 5D 2C 10S JC 4C ,    High Card
 5C 9D JD 8H KS 10S 2S ,    High Card
 KD 6H 4D 5D AS 3H QC ,    High Card
 5H JH 9S AC 7H 10H 2C ,    High Card
-3H 3S QH AH 7H 8H KS ,    Straight Flush
+3H 3S QH AH 7H 8H KS ,    Flush
 AC 5S 2C 9S 2S 6H 8S ,    High Card
 8H 3S JC 6C 3H 7H 5C ,    High Card
 KC QD 4S 9D 7D 8C KD ,    High Card
@@ -14080,7 +14080,7 @@ QD JS 6D 4H 2D 9C QS ,    High Card
 8D 3H 4S KC 2D KH 9C ,    High Card
 5S 3C 8C AC 6C 5D QH ,    High Card
 4H 2H 10H 3S QC 10C 7D ,    High Card
-JS 8S QS KS 7C 7H 9S ,    Straight Flush
+JS 8S QS KS 7C 7H 9S ,    Flush
 3H 5H 8C 6D 10H QD 4H ,    High Card
 2S 5C 6H 4S 3D 7S 2D ,    Straight
 3S 3H QC JS 6C 7H 6S ,    Pair
@@ -14101,7 +14101,7 @@ JC 7H JH 8H QC QD 9S ,    Two Pair
 QC QD QH 5D 4S JS 6S ,    Three Kind
 9C 9H 2C 2D 7C JH 5C ,    Two Pair
 10C 9S 3S KD 9D 10H JC ,    High Card
-AS 5S 10D KS QS KC 8S ,    Straight Flush
+AS 5S 10D KS QS KC 8S ,    Flush
 10D 7C 9H QH 9S QS QD ,    High Card
 KD 10S 6C 9D AD JH 10H ,    High Card
 KH 5S 2H 4H 10C 4D 7S ,    Pair
@@ -14204,7 +14204,7 @@ KH 10D 2S KS 5H 2D 9D ,    High Card
 3H AD QH 4D 2H 4S JC ,    High Card
 9C JS 8D 6H AS 2S 9H ,    High Card
 5S KD QS 10C 9D 10D KS ,    High Card
-8H 7C 4H JH 3H QH 3D ,    Straight Flush
+8H 7C 4H JH 3H QH 3D ,    Flush
 KD JS 3S 5H 10S 7C 3H ,    High Card
 9S 6C KC 8S 5C JD 2C ,    High Card
 4C AC 6H QD 6S 9D 10D ,    High Card
@@ -14264,7 +14264,7 @@ JD KD JC 6C QC 9S 8D ,    Pair
 3D 8C AS 10S KH AC 7S ,    High Card
 7H 3H KC 10S AD 6H 6C ,    High Card
 8S 10H 9C 3C 6D KH 4S ,    High Card
-9D 3D 10C QD 5D 4C KS ,    Straight Flush
+9D 3D 10C QD 5D 4C KS ,    Flush
 2D 8D 4H KD 10D JD 8H ,    High Card
 2S 5C 7D 9H 7S 6S 10S ,    High Card
 KC 4D KH 3S 3D AS KD ,    Two Pair
@@ -14337,7 +14337,7 @@ AC 9H 8D JS JC KD 6D ,    Pair
 7C 2H 5D 5C 9S 10D KC ,    Pair
 KH 7H 9D 3D AC 9C 7S ,    High Card
 7D 8S 10C JS 6D 3C QD ,    High Card
-AC 3H QC KC 5C 4C AH ,    Straight Flush
+AC 3H QC KC 5C 4C AH ,    Flush
 8D JH 4S 5S 3S QD 2D ,    High Card
 KS 10H 4D 5H JD 2S 2C ,    High Card
 JS 7H 9C 4H KH 7C 7S ,    High Card
@@ -14366,14 +14366,14 @@ KC 6S 4S QC 8S 2H 3H ,    High Card
 9S KH 4C AH 7S 4H 10D ,    High Card
 7H QS 7C KS 9H AC 5H ,    Pair
 9C 6C 5C QD 3D 6D JC ,    High Card
-8D JD QD AD 9H 10H 2C ,    Straight Flush
+8D JD QD AD 9H 10H 2C ,    Flush
 AC 4C 4S 9D KS 10C 4H ,    Pair
 7H 10D 5C QS KD 9S JC ,    High Card
 QS 9C 5H JS 7C KD AH ,    High Card
 JD KS 6S QC 4D 8D 10H ,    High Card
 AD 9S 5D 4S 5S 2C AC ,    High Card
 AS 6C 2S 3D 3C 6H 7H ,    Pair
-4C 6S 8C QC 5C 2C AD ,    Straight Flush
+4C 6S 8C QC 5C 2C AD ,    Flush
 QH 7H 5D 3H 3S 2S 6D ,    Pair
 6H KS 9D 5H 6C 2H 10D ,    High Card
 4H 8C 9D 8H 5H AD 2D ,    High Card
@@ -14434,7 +14434,7 @@ JD AD QS AC 10C 5S 8S ,    High Card
 10H JS KS KD 6H 9D 8D ,    Pair
 7D 3S JH 9H 4S 10C 2S ,    High Card
 4D 5H 3C 3S 9D KH KC ,    Two Pair
-4S KD 8D 2D JD QD 7H ,    Straight Flush
+4S KD 8D 2D JD QD 7H ,    Flush
 3H 3D 10C 9S 4C 10H JC ,    Pair
 10S 5S 8C 9H JH 4H 2C ,    High Card
 4C 4D 2D 5S JH 10S 9D ,    Pair
@@ -14445,7 +14445,7 @@ QD KD 6C 8C 4C 8D 9D ,    High Card
 7D 7S 8H AC 4D 3H KS ,    Pair
 JD KC 6H 9S 4H AS QH ,    High Card
 10D 8H 6S 2S 7C KD QH ,    High Card
-4D AD 8D 4C 3D 9D 7D ,    Straight Flush
+4D AD 8D 4C 3D 9D 7D ,    Flush
 9C 5S 5D AS KH QC 10S ,    Pair
 AD KD 10H 4H 10D 6D 8D ,    High Card
 3H 8H 8S 5S KC AC 5C ,    Pair
@@ -14493,7 +14493,7 @@ AH AC KD JD 8C 10S 6D ,    Pair
 KS 5D 10C JH KC 5S 3D ,    High Card
 KH 7H QS QH JS KD AH ,    Pair
 8D 6C 10H AC AD JC 4C ,    Pair
-3H 8H 5H 2H 8C 8S 3C ,    Straight Flush
+3H 8H 5H 2H 8C 8S 3C ,    Flush
 10C 10S JD JS JC 2H 10H ,    Pair
 3D 7S AC 10D 5S QD 4D ,    High Card
 9S 7C 6H AD 2D QS 6C ,    High Card
@@ -14602,10 +14602,10 @@ KH QD 10H 7H 3C AH 8S ,    High Card
 4D 8C 2D 2H 10D 3S 2S ,    Pair
 AS 7D 6C 5H 2C 7C KD ,    High Card
 10C AC 9H 4C KC 3D JD ,    High Card
-7C KH 2H JH QH 8H 5S ,    Straight Flush
+7C KH 2H JH QH 8H 5S ,    Flush
 KD 8C QD 9C 7H 2S 9S ,    High Card
 KS 6H AD 10D 2D 5H JS ,    High Card
-AC 9C 10S 3C 5C 7H 6D ,    Straight Flush
+AC 9C 10S 3C 5C 7H 6D ,    Flush
 JD 10H 8H KH 2D QS 9D ,    High Card
 9H 5S 8C KC 2S KS 6S ,    High Card
 4D 10D QH JC 3H 3S 4H ,    Pair
@@ -14687,7 +14687,7 @@ AH JS 8S 3D 6H QS 3S ,    High Card
 8C 10C 10D 7C 8H 2S 9D ,    High Card
 JD KS 2H QD AD 4C QC ,    High Card
 KD 4H KC 7H 5H 6C 9C ,    Pair
-9C 4C 6C 7S AC 5C 9H ,    Straight Flush
+9C 4C 6C 7S AC 5C 9H ,    Flush
 QH 5D KS 10S JH 2C 6H ,    High Card
 4H 10C 3S 8D 4D 3C 9S ,    High Card
 5S 10D 6S 7D 9S 3D JS ,    High Card
@@ -14699,7 +14699,7 @@ JC 2C 7H 9H 10S QD QH ,    High Card
 2D 4D 10C AH 2H 6C 7D ,    High Card
 JH KD KC 7S 2D QD 5C ,    Pair
 JS 2S 7C 4D 10D 7S 6S ,    High Card
-7H KH JH 2D AH QH 4H ,    Straight Flush
+7H KH JH 2D AH QH 4H ,    Flush
 5S 3D 5D 6D 3S 8C 6C ,    Pair
 9D 5H AC 4S 8D QC QD ,    High Card
 QH KS 4D 8D 9H 3S 8C ,    High Card
@@ -14740,7 +14740,7 @@ QD 6S JC 3H 2H 7D QC ,    High Card
 5D 8H 10D QH 10S 7D JS ,    High Card
 10H JH QD 4C 5S AC 10C ,    High Card
 9D AS 9C 3S 3C KD JD ,    Two Pair
-2D 3D 4D AD 4S KD 3S ,    Straight Flush
+2D 3D 4D AD 4S KD 3S ,    Flush
 AS 6H JH 7S 4H 8S 7H ,    High Card
 JS QS JD KC 6S 10C 3C ,    Pair
 QC KS 5C 3H 2H 9S 8D ,    High Card
@@ -14820,7 +14820,7 @@ QH 5C 8D 2H 9C 10S 10C ,    High Card
 4H 5H 6D 4C 5S 10H KH ,    High Card
 10C 3H AS QH JH 6C KS ,    High Card
 4D 8C 7C 3S AC QH KC ,    High Card
-9D 2D 3D 5D 6C AH KS ,    Straight Flush
+9D 2D 3D 5D 6C AH KS ,    Flush
 8D KH 4C 7S JD 4S 5S ,    High Card
 AS 3C 2S 4H JS 10S 9C ,    High Card
 3C 6H 10D 6S 2S 4H 6C ,    Pair
@@ -14894,7 +14894,7 @@ AC 4S JH 6H 8H 9D 9C ,    High Card
 2D 4C AS AD QS 6D 2H ,    Pair
 JD KH 2S 2C JH 10D 4D ,    Pair
 5S 4H 5D AH 9H JC 8D ,    Pair
-JD AD 7D 4D 9H 10D 3S ,    Straight Flush
+JD AD 7D 4D 9H 10D 3S ,    Flush
 QD JC KS 3H 2S 9C 3D ,    High Card
 7C KH 2D JS QC 5D 6S ,    High Card
 JS 3C QS 5H 10D QD KS ,    High Card
@@ -15020,7 +15020,7 @@ QC 6H 7D 4C AH AC 5H ,    Pair
 3H 6C 9S 7H AH 2S QS ,    High Card
 10H KS 6D AC 4S 4C AS ,    Pair
 2S 8S JC 6H 7S 4D 7C ,    High Card
-AH JH 4H 10S 2H AC AS ,    Straight Flush
+AH JH 4H 10S 2H AC AS ,    Flush
 10H 5C 6D 2C 5H 6C 2D ,    High Card
 5D 7D 7H 9D KS 9C 3D ,    Pair
 5D AD AC JH 6H QS 5S ,    Pair
@@ -15041,7 +15041,7 @@ KD JC 10D 2H 10H AC 8S ,    High Card
 8S 8C KS 3C 8H AS QS ,    Pair
 6C 10S KC 3S 2C 6D AH ,    High Card
 10C 5H AH KS AS 2H 6H ,    High Card
-9S 3C 5C 9C 2C 10S AC ,    Straight Flush
+9S 3C 5C 9C 2C 10S AC ,    Flush
 8C 6C 7C QD JH 4D 3H ,    High Card
 7D JS 7H 8D KH 10H JD ,    Pair
 2S 3C 6D 5D 4C 9S QD ,    Straight
@@ -15052,7 +15052,7 @@ KH 9D 3D 8S 9S 8D KD ,    High Card
 7D 5C 3C AD KS 2S JC ,    High Card
 QD 9C 7H 6S 5H QH JH ,    High Card
 KC 10S 2H 6H AS 3H 7S ,    High Card
-AS 4C 6S 9S 4S 5S 2D ,    Straight Flush
+AS 4C 6S 9S 4S 5S 2D ,    Flush
 10S 3C 8D AD 6C 10H 6H ,    Pair
 JC 9H QD 7S 5D 4H AC ,    High Card
 6C 10C 7C 6H 9H KC 6D ,    High Card
@@ -15213,7 +15213,7 @@ JH 7C KH JS 9D 6D 6H ,    High Card
 5S QC 5H 9H 8H AD 9S ,    Pair
 3S 2D 7S 4S 5C 9C 4H ,    High Card
 5H AS QC 9C 3H KC 3D ,    High Card
-2S KS 6S 7S 6D 9S 5C ,    Straight Flush
+2S KS 6S 7S 6D 9S 5C ,    Flush
 4C KD QD 10S 2H AH 2C ,    High Card
 AC JH 10H 5S 7D QS 8S ,    High Card
 JC 5S 10D JS QH QD 9S ,    Two Pair
@@ -15238,7 +15238,7 @@ AH JH 4S 6D 6H JS 8H ,    Pair
 5C 4H JS 6C 9S 5S QC ,    High Card
 QH JH JC KS 9H 3C 8H ,    Pair
 7D KD AC 2D 5H 4C 3S ,    High Card
-JH 8H 6H 10H 7H 6C 3D ,    Straight Flush
+JH 8H 6H 10H 7H 6C 3D ,    Flush
 JS 2S AH 4D 4S KC KS ,    Two Pair
 6H 5H QD 10D 3D AC 9D ,    High Card
 AD 9C 4H KD QS 8D 2H ,    High Card
@@ -15714,7 +15714,7 @@ KH 9C 6D 9H 5D JH AD ,    High Card
 KD 8C JC 2H KS 5H 4D ,    High Card
 8C 7D 5D QH JD 5C KD ,    High Card
 3H 7C 3C JS 4H 3D 9D ,    Pair
-2H 9H KH 8H 10C AH 2D ,    Straight Flush
+2H 9H KH 8H 10C AH 2D ,    Flush
 10H 7S AD 10D JH 8D 4S ,    High Card
 QH 6S KH 4C 10H 9H 7D ,    High Card
 AD 2C 10D AC AH JS 5C ,    Pair
@@ -15725,7 +15725,7 @@ AC 6S KC 6H KD 5H 10S ,    High Card
 6C QS 7C 7S 9D 7H 2S ,    Pair
 5H 6S 4S 10C 4D 9S KH ,    Pair
 JD 10H AS QC 8C 5D KC ,    High Card
-JS QS 5S 3S AC JH 4H ,    Straight Flush
+JS QS 5S 3S AC JH 4H ,    Flush
 KH 10D 10C 7D 7S 9H JH ,    Pair
 5C QD 4H 5D 3S 3D QS ,    Pair
 2S 5S 2H 10S QH 3H AC ,    Pair
@@ -15994,8 +15994,8 @@ QC 3S QH 10C AD 5H 6D ,    Pair
 9D 9H JS KC 3C JC QH ,    Pair
 JD 9S KS 7H 3D 5C 10H ,    High Card
 AD 8C JH 7C 9C 2D KH ,    High Card
-9C AC QC JC 3H 9D 10H ,    Straight Flush
-7D 6H QD 3D JD AD 3S ,    Straight Flush
+9C AC QC JC 3H 9D 10H ,    Flush
+7D 6H QD 3D JD AD 3S ,    Flush
 8H KC 6S 4D 2S 8D KD ,    High Card
 3D 10C 9D QC 4S 4C 9H ,    Pair
 4S 7H 4H 7D 5S 8S JC ,    Pair
@@ -16003,7 +16003,7 @@ AD 8C JH 7C 9C 2D KH ,    High Card
 2C KS 9C 6D 8D KD 4C ,    High Card
 AD AH 3S 7C 8H KH AS ,    Pair
 4D 2S AH 8D 6C 10S 9S ,    High Card
-KH 10H 9H 2H 5H 6H 7S ,    Straight Flush
+KH 10H 9H 2H 5H 6H 7S ,    Flush
 KC QD 5S JS 10C 9C AC ,    High Card
 9H KS 5D 3C 10H QS 8D ,    High Card
 2C AC 5C AH JD 9D QD ,    High Card
@@ -16098,7 +16098,7 @@ QS 3S 4D 10S 8C 7C 4S ,    High Card
 AD 4C JS 2H 8S KS 2C ,    High Card
 QS 7S AH KD 3S 5H 7H ,    High Card
 AC 5C 8D KC 3S 5S AS ,    High Card
-2C AC KC 9C 10S QC 4S ,    Straight Flush
+2C AC KC 9C 10S QC 4S ,    Flush
 10H 5C 6D 4D KD JD QH ,    High Card
 4H 7C 7S 5S JC 10C 10D ,    Two Pair
 5H KH AH AS 6H 8C 2S ,    Pair
@@ -16184,7 +16184,7 @@ QD 7H 7C 3S 2S 3D 10S ,    Pair
 7S KC 9C 10D JH 7H 9H ,    High Card
 AS KS KH JS AD 6S 9D ,    Pair
 7H 10H 9H 4S 3S KH 3D ,    High Card
-JH JD QH 6H 3H 4H 5S ,    Straight Flush
+JH JD QH 6H 3H 4H 5S ,    Flush
 10C KS AS 10D AD AC 8S ,    Pair
 9D 8H 5H QS 9S JC 8C ,    High Card
 6D KH 7C JD 4D 10S 7S ,    High Card
@@ -16215,7 +16215,7 @@ AS JC QS 7C 9C 8C 8H ,    High Card
 QD 10C 5D 6D 7H 3D 4D ,    Straight
 QH KH KS AC 7C 6S JH ,    Pair
 8C 9H 6C 3C 10S 9C 8D ,    High Card
-2S AS 8S 9S AD QS 2C ,    Straight Flush
+2S AS 8S 9S AD QS 2C ,    Flush
 4H 10S 3S 2D 8D KH 7C ,    High Card
 KS JD 9D 3H 4S 9S 10H ,    High Card
 2S JC QC 6D 8C 8S 6C ,    Pair
@@ -16286,7 +16286,7 @@ JD 6S 9H 7D 10H 5S 7C ,    High Card
 5S KS 5H 7D 5D 2H 7H ,    Pair
 3D 6H AH 3S 10S QD 9D ,    High Card
 3H 8S JD 10D 10H QH 6C ,    High Card
-JC 4C 5C AC 4H 9S 9H ,    Straight Flush
+JC 4C 5C AC 4H 9S 9H ,    Flush
 5C 9D 8S 6C AD 2C 9C ,    High Card
 3H 4C JD 7H JS 3C 6S ,    High Card
 7S QS 5H 6D 4D AS 6H ,    High Card
@@ -16473,7 +16473,7 @@ JH 3S 5H JS 9C KH 8C ,    High Card
 6S AD JS QD 3D 4D JH ,    High Card
 3C 7C KH 4S AC 4H 9C ,    High Card
 5C AH QS 9H JC QH KS ,    High Card
-9C 4C 5C KC 9D 10C 4D ,    Straight Flush
+9C 4C 5C KC 9D 10C 4D ,    Flush
 9H JD QD 5S 6C 3C QC ,    High Card
 9S 4H JH 3D KH JC 8H ,    High Card
 2H 3C 7H 9D QD 4D 7S ,    High Card
@@ -16550,7 +16550,7 @@ JD 4S 10H 7H QH AH QD ,    High Card
 QD JH AD 2D 3D 8C JS ,    High Card
 3C 2H 3S 7C 7S 5C 7H ,    Two Pair
 JC 9S AC 6C QD QH 5H ,    Pair
-4D 6D JD 4S 8D 7D AH ,    Straight Flush
+4D 6D JD 4S 8D 7D AH ,    Flush
 KC 10S 8S AS 2D 4H 2C ,    High Card
 7S 5S 6H JH 9S QC 3H ,    High Card
 KD 2D 10D 4C JS KH 5D ,    High Card
@@ -16722,7 +16722,7 @@ QS 7S KC QD QH JC 8D ,    Pair
 3D QS 5H 8S 4S 8C 2H ,    High Card
 6H QD 10C 8H 4D 9D JD ,    High Card
 4C QC 9C 9H 6C 3S 5D ,    Pair
-3C 2C 7C AC JH 7D 3H ,    Straight Flush
+3C 2C 7C AC JH 7D 3H ,    Flush
 6S 4D AC AD 4H QH 7H ,    Pair
 5C 9S 5D 6D 9D 8C KS ,    Pair
 5H 2C 7D 7C 8D 9H 2D ,    Pair
@@ -16765,7 +16765,7 @@ KS AH 4H 6H AD 10C 8C ,    High Card
 8H KH 10S 4S 3D 7D 2D ,    High Card
 7H QS 9D 8D 5S 9C AS ,    High Card
 4C 7S 2S 7C 10H JH 3H ,    High Card
-4D 5C JC QC 3C 8C 3S ,    Straight Flush
+4D 5C JC QC 3C 8C 3S ,    Flush
 10D QC AH KS 6H 9H 5S ,    High Card
 KC QS 3S 7D 4S 9S 2D ,    High Card
 QH AD 9C 8H 6S JS JH ,    High Card
@@ -16849,7 +16849,7 @@ AH 3C 9C 10C 4S 2D 7H ,    High Card
 8H 4D 3H QH 6D JC 9D ,    High Card
 9H 10D 3D 10C 8S 8H 7D ,    Pair
 9D 7D 7S 2D 3D 6H QD ,    Pair
-KS JS 10H 9S 2S 4C 8D ,    Straight Flush
+KS JS 10H 9S 2S 4C 8D ,    Flush
 QH 5D KC 10D 10C 3C 6S ,    High Card
 5H 3H AH 3S 4H 8S 7C ,    High Card
 8S 7S 8D QS 8H KH 4H ,    Pair
@@ -16919,7 +16919,7 @@ JH 4S 4C 5D AS QD 4D ,    Pair
 QD 4D 5C 3C 7S AC 3S ,    High Card
 10S 2D JH 4C 8H 9C 4H ,    High Card
 2C 7C AS 5H 7H QH 9D ,    High Card
-AS JC JS 7S 4S 9S 5H ,    Straight Flush
+AS JC JS 7S 4S 9S 5H ,    Flush
 10D 8S 6H 8H 3H 7C 6S ,    High Card
 3D 4H QH 4D AD QC 8D ,    High Card
 8C 5S 2C KD 2S KS 9C ,    High Card
@@ -17138,7 +17138,7 @@ KH 9H JC 9D 8D 7H 7D ,    High Card
 KC 5S 5D 7H JD 3D QH ,    Pair
 QD JS 5H 3S 9S 2C 2S ,    High Card
 5S 3C KC 7C 7D 5H 6S ,    Pair
-9S 2H JH 4H KH 6H 4D ,    Straight Flush
+9S 2H JH 4H KH 6H 4D ,    Flush
 2D 6C JC AH 8C 3S 9C ,    High Card
 AH 6C AC AD 3C 6D 10C ,    Pair
 10D KH 3D 6S JD 3H 7S ,    High Card
@@ -17150,7 +17150,7 @@ JH 10H 5D 8C 3D JS 9D ,    High Card
 3S 6D 8D 6H 2H QD AS ,    High Card
 JD 5D AS KD 10S 5S 2D ,    High Card
 2H 3H 5C 10C KC QH JS ,    High Card
-JC 8C 4C 3C 10D 4S QD ,    Straight Flush
+JC 8C 4C 3C 10D 4S QD ,    Flush
 6S 9D QS 7D 2S 6C 6D ,    High Card
 6C AC 5C 2S 7H 5S 4H ,    High Card
 JC 4S 8C 10D 5D KH 3C ,    High Card
@@ -17164,7 +17164,7 @@ QC 7C 3S JH 10D 4S 7D ,    High Card
 9D 2H AH 8D 8H 2C JD ,    Pair
 2S QS QH 4H 5S 9D AD ,    Pair
 8S AH 9H 4S AS 3C 7H ,    High Card
-AC KC QC 2C 3D 10H 2H ,    Straight Flush
+AC KC QC 2C 3D 10H 2H ,    Flush
 7S KH 7D 4C 9C 5H 8D ,    Pair
 AH QH 6S 10S KS 6D 7S ,    High Card
 2C JC 8D 3C 10D 4S KC ,    High Card
@@ -17174,7 +17174,7 @@ QS 3D 10D 4D 9D JH 8S ,    High Card
 4H JD QH JS 5C 3H JC ,    High Card
 QD 7H 9C 2D 10S 7D 2C ,    High Card
 3D 2S AD 5C AH 2C JC ,    High Card
-9H JH 4H 3H 7S QH AS ,    Straight Flush
+9H JH 4H 3H 7S QH AS ,    Flush
 2H 10D 10C AC 9S QD 4C ,    High Card
 5H JH QC JD 7C 3D 5C ,    High Card
 9C KC 2S 5S 6D JC 10H ,    High Card
@@ -17199,7 +17199,7 @@ QH JD 7D 9H 7C 8H 4D ,    High Card
 7H KC 2C 8C 5D 6H 4S ,    Straight
 6D AC 9C 4S 10S 8C 3H ,    High Card
 AS 8H 8C 3D 2H KC AD ,    Pair
-QS 3S 10C 9S 8S JS 8D ,    Straight Flush
+QS 3S 10C 9S 8S JS 8D ,    Flush
 JC AH 2C 3H KH 6H 7C ,    High Card
 7S 6S 7D 3C 9D 4D 10H ,    Pair
 6S JH KS 5S 3S 4D 5H ,    High Card
@@ -17267,7 +17267,7 @@ JS AS 10C 8D 6H 5S 6C ,    High Card
 KS 7C 2C 8H 9C KH 3H ,    High Card
 3S JS 9D 6D QD 6C 10C ,    High Card
 3H JD 2H 4C AC QH 9S ,    High Card
-5H KH 8H 10S 7H QD AS ,    Straight Flush
+5H KH 8H 10S 7H QD AS ,    Flush
 AH 8D 5D JS 6C 4S 2D ,    High Card
 7C 2S 4S 4H 5H KD JC ,    Pair
 7S 8D 9H 5C AS 7D 10H ,    High Card
@@ -17310,7 +17310,7 @@ QC QS 7D 8H 8C 3H 4H ,    Two Pair
 KS 6D 5D 9D 8S QC AD ,    High Card
 4C AC JD 4S QS JS KC ,    High Card
 QC 6S 7H KH KS 10H 6C ,    Pair
-QD AD 5D AH 9D 2D 7D ,    Straight Flush
+QD AD 5D AH 9D 2D 7D ,    Flush
 7S 3S JC 10D AC 3C 10S ,    High Card
 3H 8C 7H 6C 4H KC 2D ,    High Card
 6S JS 7S 5D 10C QS QH ,    High Card
@@ -17337,7 +17337,7 @@ JD 4D 7S QS 2H 10H 3D ,    High Card
 4H 10C 8S 6S 3C 9C AS ,    High Card
 JC 8D KD 6C KH 2D 3H ,    High Card
 AH 4S QH KC QC 5C 10S ,    High Card
-QS 5S JS AS QH 4C JD ,    Straight Flush
+QS 5S JS AS QH 4C JD ,    Flush
 6H 7C 3S 2C 5D 9D 5C ,    High Card
 2S 10S KS QC 5H 6S 7H ,    High Card
 QS 9H 2S 10S 8H 9C 4S ,    High Card
@@ -17368,7 +17368,7 @@ QD 2C 3D 5D 4H 8C 2D ,    High Card
 QH 4C QC 9S 4D AD KC ,    Pair
 9H 5S 2S 5H 6D QC 2C ,    High Card
 5C 9D AS AH 8S 10H 6S ,    Pair
-2H 4H 7H 6C 6H QH 10D ,    Straight Flush
+2H 4H 7H 6C 6H QH 10D ,    Flush
 3H 8D 4D KS 9S 2H 10D ,    High Card
 2D 5D JD 4S 9D 4H 2S ,    High Card
 10H 3S 9H QC KH KC 3D ,    Pair
@@ -17548,7 +17548,7 @@ KH KD QS 8H 2C AH 9D ,    Pair
 AC 3S JD 2H AD 4D JC ,    High Card
 8H KH 9H 4S AS 2D 5D ,    High Card
 8D JH 2D 4C AD AC 4H ,    Pair
-5H 9H QH 6S JH 3H JC ,    Straight Flush
+5H 9H QH 6S JH 3H JC ,    Flush
 4S 4H 9D 7S AD 5D 2D ,    Pair
 5C 10H 8D KC KH 10C 7D ,    Pair
 4D 7H 6D 8H QD JS 3C ,    High Card
@@ -17556,10 +17556,10 @@ AC 3S JD 2H AD 4D JC ,    High Card
 10H 3H 3D KS KD QS 7S ,    Two Pair
 8D 2H 5D 5S 4S AC 2D ,    Pair
 6C QC 10H KC 5H 10D 5D ,    Pair
-8H KH JH 3H 4S 10S AC ,    Straight Flush
+8H KH JH 3H 4S 10S AC ,    Flush
 9C 4H JD QS JC 9D 9S ,    High Card
 AS 9H AH 10C 7D QD 8D ,    Pair
-2C 6C AC 3C AD 8D 8S ,    Straight Flush
+2C 6C AC 3C AD 8D 8S ,    Flush
 2S 10H 5S 7D JS 7S 6H ,    High Card
 3D 9C AH 5D 2D 9H 9S ,    High Card
 AC 10C 5C KC KS KH 10D ,    Pair
@@ -17676,7 +17676,7 @@ JC JD 7H 4S 7D KS 9D ,    Pair
 7S 6D JD KD 3C KS 10D ,    High Card
 AD 10H QH QD 7D 8S AC ,    Pair
 QC AS JS JC 6C 10C 5C ,    Pair
-5D 9D 6D 2D 2H 3C 8H ,    Straight Flush
+5D 9D 6D 2D 2H 3C 8H ,    Flush
 5S KH 8D 9S QS QH 7C ,    Pair
 8C KS 6S 3S 9C QC AC ,    High Card
 7H JC QD 3D JD 6H 6C ,    High Card
@@ -17821,7 +17821,7 @@ AD KD KS QH 4C 3C 3S ,    Two Pair
 9D 4S QS 6C JD 2H 2S ,    High Card
 6S QC QD QH 4D 10H JS ,    Pair
 2S 9S AH AS JD 5S 3S ,    Pair
-KC 9H JH 5H 4H 7H 9C ,    Straight Flush
+KC 9H JH 5H 4H 7H 9C ,    Flush
 KH AC 8D 8C 6D 7S 3D ,    Pair
 4H JH 7C 5C 4S 5H 10S ,    High Card
 3H QH AC 3D QD 9S 5S ,    High Card
@@ -17982,7 +17982,7 @@ AH 8H 8S 3D 4D KD 3H ,    Pair
 JD 6H KS 2S 2C 7H 10S ,    Pair
 3D 2H 8D 6C 4S 4C 8S ,    Pair
 5S QH JD 6D 4H AC 3H ,    High Card
-6H AH JH 7H QC 10H 10S ,    Straight Flush
+6H AH JH 7H QC 10H 10S ,    Flush
 2C 6H 10H 8C AD AH JD ,    Pair
 5C 5H KH 10D 8D 10C 6D ,    Pair
 KS KC 8S 8H 9H 3D 3H ,    Pair
@@ -18067,7 +18067,7 @@ QD 8S 6C QS KS 9C AS ,    High Card
 8H 2S 3D 6D 3C QH 5S ,    High Card
 7H 7D 4C AC 8D 9S 5C ,    Pair
 KH JC 6C QS 9D 2D 8H ,    High Card
-8S 7S KS 6S AC 2H AD ,    Straight Flush
+8S 7S KS 6S AC 2H AD ,    Flush
 JH AH 7C 6D KD 2S QH ,    High Card
 JC 2S 7S KH 10H 10S AH ,    High Card
 KC 8H QS 3S KD 5H 6H ,    High Card
@@ -18213,7 +18213,7 @@ JC 9S 3C 2S 4D JS 8S ,    High Card
 9H AD 2S 9C QC 7S 3C ,    High Card
 9D 10H 2C 3S 3H JS KD ,    Pair
 JH KS AH AS KC 8H 7S ,    Pair
-7D KD 2D 3D 2H 6C 10H ,    Straight Flush
+7D KD 2D 3D 2H 6C 10H ,    Flush
 3C 8C 5D JC 4C 9C 10S ,    High Card
 10C 8D QH 4D 5C AC KH ,    High Card
 KC AS 5D JC QD 10H JH ,    High Card
@@ -18261,7 +18261,7 @@ JC 4S 10S 3H JH 6C KD ,    High Card
 JD KC 9C 4C 9S 5D 5S ,    High Card
 QH 4S 6S AS JD JH 3C ,    Pair
 KC 4H 3D 6C 8H 7H 8D ,    High Card
-KH AD 4D 2D QD 6D 4C ,    Straight Flush
+KH AD 4D 2D QD 6D 4C ,    Flush
 8C 3S AC 3D QC JC 7S ,    High Card
 6C 2H 2C 9S 10H 5H 3H ,    Pair
 8H 7D JS 7C 10C 6S KS ,    High Card
@@ -18382,7 +18382,7 @@ JD KH 8H 8C 3H QH QD ,    Two Pair
 3C 8S 7S 4C KS 5D 9H ,    High Card
 QD 7S QC 2C 3D 5H JS ,    Pair
 AD 5C 10S 8H 10H 5S 2S ,    High Card
-6C 9C KC AH 7C 8C JD ,    Straight Flush
+6C 9C KC AH 7C 8C JD ,    Flush
 JS 8S 5H 6D 5D 5C 7C ,    Pair
 KH KC 9S 8D 4H 3D 10H ,    Pair
 AH 4C 2C 8H 10C 7S AC ,    High Card
@@ -18572,7 +18572,7 @@ JC 10H 3C 4S 8S 6S 10C ,    High Card
 6D 6C JS JC 5D AC 10D ,    Two Pair
 7S 8H JD QD 7C 2C 8D ,    High Card
 AD 7H 5H 10S 6S 4D 3C ,    Straight
-KH 4H QH 10H AH 9H 4C ,    Straight Flush
+KH 4H QH 10H AH 9H 4C ,    Flush
 QD KH KD KS 5C 8S 3H ,    Pair
 4C 5D 2C 10C QC 10D 2H ,    High Card
 7H 6D 6S 4H 3S JD 9H ,    Pair
@@ -18694,12 +18694,12 @@ QC 7H 7D 3D 8H QD JC ,    Pair
 KH KC JS AH 4H 8D JD ,    Pair
 9D JH 9H 7D KD 2D 3S ,    Pair
 7H 6D 7S QS 10S 8S 6S ,    Pair
-9H 2H 4H 7H 5H 6S JH ,    Straight Flush
+9H 2H 4H 7H 5H 6S JH ,    Flush
 10D 6D 2D 2C QD 6C KS ,    Pair
 7C 2S 6H QH 10S AS 8D ,    High Card
 8H 9C 3C AC 5S 2S QS ,    High Card
 9S 10D 5S JC KS 3C 9H ,    High Card
-6H JH 4H 3H 4C QC 8S ,    Straight Flush
+6H JH 4H 3H 4C QC 8S ,    Flush
 AH 3S KD 4D 7H 7C 8D ,    Pair
 QD 6D AS 9C 4S 6C 5H ,    High Card
 7C 10H 2H 7H 2C 8H JS ,    High Card
@@ -18727,7 +18727,7 @@ AS 5D 7C 4C 6C 10C KD ,    High Card
 8D 8C 5C 5S 9S 10S 7S ,    Two Pair
 AH KS QH 9H JH 3D 6H ,    High Card
 KH JD 5D 6C 8C 10H 3C ,    High Card
-KC JC 9C QC 7C KS QH ,    Straight Flush
+KC JC 9C QC 7C KS QH ,    Flush
 3H AS 4C 7S 5S 10S 8H ,    High Card
 AD 5C 3D QD 2H KD 4H ,    High Card
 AS 10C JC JD QS QD QH ,    Pair
@@ -18741,7 +18741,7 @@ AH 6H KD JD 8H QH AD ,    High Card
 JD AD 5C 9S 8S 3H JS ,    High Card
 6H KC 9C AC QC QD 4D ,    Pair
 4H KD KS 3S 4C 4D 8S ,    Two Pair
-JC 5C 6C 2C QS 3H 8D ,    Straight Flush
+JC 5C 6C 2C QS 3H 8D ,    Flush
 3D 9S 6S 5H 9C 7C 6H ,    High Card
 KH 7D AH 6D 8C 10H QC ,    High Card
 5S 10H 4D 5C 7H 6D KD ,    High Card
@@ -18774,7 +18774,7 @@ QS 7S 4C 3S 9S 7H 5S ,    High Card
 8H 5C 9C 9H 7D JH KH ,    Pair
 4D 2D 8C 2C QC 4S 10S ,    High Card
 JS 7C 10S QH JH KD 3D ,    High Card
-QD 9D 6D 5D JD 2H 10C ,    Straight Flush
+QD 9D 6D 5D JD 2H 10C ,    Flush
 4H 6C 5S 7D 4C 10D 10H ,    High Card
 2H 9D 8S JH KC 7S 4C ,    High Card
 9H 5H QC AC QS 2S 6D ,    High Card
@@ -18784,10 +18784,10 @@ KC 8C AS 8S KD 3S 9D ,    High Card
 10S 6C 7H 6H 9H 4S 10D ,    High Card
 3H 5C 7C 7D 6S 2C AH ,    Pair
 9H 8C 9C 4H 9S 2D 9D ,    Pair
-KC JC 3C QC 10S 7H QH ,    Straight Flush
+KC JC 3C QC 10S 7H QH ,    Flush
 KS 8S 7S 7D 10C 10D 5D ,    Pair
 JD 6C KD 10H JS 3S QD ,    High Card
-QS 6S 8S 5S 4C 3S 9D ,    Straight Flush
+QS 6S 8S 5S 4C 3S 9D ,    Flush
 QH 3H KC 2S 7C 5H KD ,    High Card
 2D JH 8D 6H 6D 2C 10S ,    Pair
 KD 8C 5H 9C 4C 7D KC ,    High Card
@@ -18861,7 +18861,7 @@ KH 2S AC 2H 6H 9H 2D ,    High Card
 KC 7C 4H 7D 5C 10S 8H ,    High Card
 QC 3H KH 3D 3C KC 7H ,    Pair
 QS 8C 6S AC 2C 2H 8D ,    Pair
-4D 6H 7D 9D QD 2D 9C ,    Straight Flush
+4D 6H 7D 9D QD 2D 9C ,    Flush
 9D 3D 4S 10H 6D 5H 5S ,    High Card
 KS 8D 6C QD 4D 9H KC ,    High Card
 8C QS 3C JH 8H KD 8S ,    High Card
@@ -18949,7 +18949,7 @@ KD 6C KH 10D 7S 8S 3H ,    Pair
 7H AS QD JC 7C 8C 3D ,    High Card
 JS 10D 4C 9C 5S 3H 7D ,    High Card
 9C AH 6C KS 9H JD 10D ,    High Card
-9S 4S AS QS 5C 4C 5S ,    Straight Flush
+9S 4S AS QS 5C 4C 5S ,    Flush
 2C 7S 2D 3C 3S KH 5H ,    Two Pair
 JC 4H 7D 2H 8D QC JS ,    High Card
 9D 8C QH QC KD AS QS ,    Pair
@@ -18981,7 +18981,7 @@ JH 8C JS KC AD 2S AS ,    Pair
 5C AD 5D 7D 10H 9C KH ,    Pair
 3H 9S QH 2H 3C 2S 8D ,    High Card
 AH 10H 9H KH KS JC 2H ,    Pair
-3D 5D QD 9D 7S 4D 9S ,    Straight Flush
+3D 5D QD 9D 7S 4D 9S ,    Flush
 4S 5H AS JD 2S 3C 6D ,    Straight
 4S 9C 2S 9D QS 6C QC ,    High Card
 2H AD 6H JS 4C 7D AH ,    High Card
@@ -19015,12 +19015,12 @@ KC 9H 2C 9D 4D 6C 7S ,    High Card
 9D 5S 3S 8H 8C 10D AC ,    Pair
 5C 7C 9S AH 2D QD KH ,    High Card
 JS 3D JD 5D 8S 10C AD ,    Pair
-4H QH 3H 5H 7H 10H QS ,    Straight Flush
+4H QH 3H 5H 7H 10H QS ,    Flush
 2S 8C 2H 5D AD 6D 8S ,    Pair
 KS 3H 8D 10H 6C 5C JD ,    High Card
 9S 9D AC QD AS QS 10C ,    Pair
 KD 9H 7H JC 5H QS 3C ,    High Card
-QD 7D JD 3D 6H 8H 2C ,    Straight Flush
+QD 7D JD 3D 6H 8H 2C ,    Flush
 5C KC JH 9C 5D 5S 4S ,    Pair
 KS 6S 2D AC AD 10H 7S ,    Pair
 4C 3S JH 5C 9C 7D 10C ,    High Card
@@ -19088,7 +19088,7 @@ AS 6D QC QS JD KD 7C ,    Pair
 JS QH 9H 9S QS 4H 3D ,    Pair
 KH KD AH 4D 7S 9D 10S ,    Pair
 3S 10S 2S JS 8H 9D 6D ,    High Card
-JC 6C QC 9C 7H QH AH ,    Straight Flush
+JC 6C QC 9C 7H QH AH ,    Flush
 5C QS 2C AD 4C 7C 5S ,    High Card
 2H 7H 7S 8S KH 9S AC ,    Pair
 4H AD JC QH 2D JD 5D ,    High Card
@@ -19171,7 +19171,7 @@ JS 6D JH 4C KC 3C QC ,    Pair
 6D QD 3D 4S JH AC QS ,    High Card
 5H 10S 8S 6D 10H 4H AH ,    High Card
 AS QD 8C 5D QS KH AD ,    High Card
-4S 3S KS 9S 2H 3C 2S ,    Straight Flush
+4S 3S KS 9S 2H 3C 2S ,    Flush
 QH JD 8D 2C 7D JC 2D ,    High Card
 AD 3D KS AS 2C JD 3S ,    High Card
 6S AH KD KC 10S 7S 6D ,    Pair
@@ -19201,7 +19201,7 @@ JS 6D 6H 3C 9D QS 7S ,    Pair
 QH 7C JC 3H 8S KC 2S ,    High Card
 4C 7H 10D 8D 6H AH 10S ,    High Card
 4S 7S 2H 9H 6S 3C 4H ,    High Card
-QD 7D 3D AD 2D KS QS ,    Straight Flush
+QD 7D 3D AD 2D KS QS ,    Flush
 JH 2C 5S 3C 4S 10H JS ,    High Card
 QH 6H 4D 8H 10D 2D JD ,    High Card
 3D AC 10S 4H 3S 9D AS ,    High Card
@@ -19317,7 +19317,7 @@ KD JD JH 3C AS JC 10D ,    Pair
 4D 8S 3S 7H 2H 8C 2S ,    High Card
 QD KH 6S 7D 4S 9S 6H ,    High Card
 2D 3H 7C JD 4H 10D JH ,    High Card
-5S AS 4S 8S 7S 2S 7D ,    Straight Flush
+5S AS 4S 8S 7S 2S 7D ,    Flush
 9D 5C 8D 4D 3S 3D 10S ,    Pair
 JD QS 3H 10S 10D 2C 3S ,    High Card
 KS 9C JC 7H 9H KD KC ,    High Card
@@ -19649,7 +19649,7 @@ QS JH 8H KD 7D JS 10D ,    High Card
 10C 5C 5S JH KH AD KS ,    Pair
 3C 2D QD 9C 7S 6D AS ,    High Card
 10C 5C 2C 4H 3H AH 2H ,    High Card
-7C AC KC JC 3S 7D 9H ,    Straight Flush
+7C AC KC JC 3S 7D 9H ,    Flush
 3D 10S JD 6H 9D 8H 8D ,    High Card
 6S QS KD 4D 7H 9S 5S ,    High Card
 10D 5D 5H 9C AC 3H 8C ,    Pair
@@ -19669,7 +19669,7 @@ AS 3H 5S 6C JS 6D AH ,    High Card
 QD KD AC 5C 10H 6C 3S ,    High Card
 9S 10C AH 9C 4C 3H 7C ,    High Card
 4S JS 3D 9D 10S JD KS ,    High Card
-8D 5D 6D 4C 3D AD 3S ,    Straight Flush
+8D 5D 6D 4C 3D AD 3S ,    Flush
 KH JS JD KC AC 6H KS ,    Pair
 8C JH 6S QD QC 10S 3C ,    Pair
 7C QH 10D AS 8H 5C 5S ,    High Card
@@ -19796,7 +19796,7 @@ JH JC QD KS 10H AS 4S ,    Pair
 AS QH 10H 8S 8C 2S 7C ,    Pair
 7H 2C 7S JD 4C 5H 3S ,    Pair
 8S 7C 6S 9C 2S 10H 3H ,    High Card
-8D 9D 7D QD QC 6C 4S ,    Straight Flush
+8D 9D 7D QD QC 6C 4S ,    Flush
 JH 9S 7D JS JD 8H 3C ,    Pair
 4C AC 6S 3S 4H JC QS ,    High Card
 6H 9S QD KS 4S 3H 5D ,    High Card
@@ -19836,7 +19836,7 @@ QS QH 4D AC KD KS 8H ,    Two Pair
 AD 5C QH 2H JH 3H 7S ,    High Card
 4D 5S QD KC JS 10H 9C ,    High Card
 5H AC 9S KH 8H 7H 7C ,    High Card
-5D 8D 10S JD KD 7D 10C ,    Straight Flush
+5D 8D 10S JD KD 7D 10C ,    Flush
 3D 2H 9C 5H 7S 3S QH ,    High Card
 10D 10H QD 9H 8C KD 7H ,    High Card
 5C KS 6S 7C KC AS 5D ,    High Card
@@ -20039,7 +20039,7 @@ KS 9S QD 10H JD JC QH ,    Pair
 4D 5C 3S 4S KD 6C 6H ,    High Card
 5C 6D 10D 7D 6C 3S 8C ,    High Card
 QH 2S AC QS 9D KD AH ,    High Card
-4C 7C QC 9C 8H 3H 5D ,    Straight Flush
+4C 7C QC 9C 8H 3H 5D ,    Flush
 AH 5D AD AS 8D 10H 10D ,    Two Pair
 9C 4D 10C 5H 4S JH JD ,    High Card
 6S 3D 8S QS 2C 3H AC ,    High Card
@@ -20142,7 +20142,7 @@ KS JC 10H 8C 6H 4S 4C ,    High Card
 7S 4C 6S 8H 2C AH QC ,    High Card
 9S KD AC 5H AD 9H 2S ,    High Card
 10D 2H 6S JS 3C 6D 5S ,    High Card
-JH 8H QH 3H 10C 4D 5D ,    Straight Flush
+JH 8H QH 3H 10C 4D 5D ,    Flush
 9D 3D QD 4S 9C 8D 3S ,    High Card
 5C AD 7H AS QH KS 6D ,    High Card
 4D 4S 8H JS 10H 7C 3H ,    Pair
@@ -20297,7 +20297,7 @@ JD AH 4D 2H 7S 10S 5H ,    High Card
 2C 9C 5C 4H QS 7C 9D ,    High Card
 6H 10C 10H QH AD KS KC ,    High Card
 3S JS 4D 9S 2S 3H 6C ,    High Card
-KS AS 9S 10H 5S 6H 5H ,    Straight Flush
+KS AS 9S 10H 5S 6H 5H ,    Flush
 3S 5H 2D 5C 7D 4H 7S ,    High Card
 10D 2H 6C 6D 4D 7H KD ,    Pair
 6S JS QS 6H 5D 5S AS ,    Pair
@@ -20536,7 +20536,7 @@ AH QD 5S 4H 8H 6D AS ,    High Card
 9C 5S 10D 4D 3D 7S 7C ,    High Card
 3H 2S QS 10H 2C 9H 6D ,    High Card
 KC AD KS 5D 10S 4C AS ,    Pair
-8H QD 7H 2H 6H 4H 6C ,    Straight Flush
+8H QD 7H 2H 6H 4H 6C ,    Flush
 2S 6C 4C 5H KH JH 9D ,    High Card
 7D 3H 7S 8C 9C 2H 9S ,    Pair
 KD 4H 5D JS 3C 9H 4D ,    High Card
@@ -20569,7 +20569,7 @@ JS 2S 10H 4C 8D 10C 6H ,    High Card
 9D 6H AC QH 5D QS 10S ,    High Card
 KC KS KD 7C QC AD 3D ,    Three Kind
 8C 3C 10C 3S 8H 5C 7H ,    Pair
-KH JH 2H 6H 10H JC 7C ,    Straight Flush
+KH JH 2H 6H 10H JC 7C ,    Flush
 9D 7S 2S AS 8H 4H 5C ,    High Card
 QC 5S 3C AD 4D 10D AH ,    High Card
 2D JS 6D 4S 9C 10S 4C ,    High Card
@@ -20581,7 +20581,7 @@ QC 5S 3C AD 4D 10D AH ,    High Card
 4C AH 4D 2S 8C QD JC ,    Pair
 KS KC AC 10D 9D KD 10S ,    Pair
 4C 3S 5H 5D 3H 10S AD ,    Pair
-9S KS 7S 4H 2S 4S AH ,    Straight Flush
+9S KS 7S 4H 2S 4S AH ,    Flush
 3C 8S 8D KH 9H JH 7C ,    Pair
 4H KS JH 3S 10D 9C KH ,    High Card
 6S 8S 8H JC 4D 6C 9S ,    Pair
@@ -20592,7 +20592,7 @@ KC 8D 10S AH 9H 8C 4D ,    High Card
 9D 8S 4C 9S 4H 2S 2C ,    High Card
 JH 3C JS 5S KS 4H 5C ,    Pair
 10H 2H 10D 2S JC 3S 8S ,    Pair
-QH 5H 6H 8H 2D 2C 6C ,    Straight Flush
+QH 5H 6H 8H 2D 2C 6C ,    Flush
 3H 8D 9C KC AS 7S 7H ,    High Card
 QS AD JC KS 7D 8H 4S ,    High Card
 5C 3S 7C 2D KH KD 2S ,    Pair
@@ -20826,7 +20826,7 @@ AC 6S KC 9H 4H AS 3S ,    High Card
 9H 4C JD 10H 9S 3S AD ,    High Card
 8H QC QH 5C 2C 2S 7C ,    Two Pair
 8S KS 3D 7S 7H AS 8C ,    Pair
-4C 3C AC 9C 9D 9S 7D ,    Straight Flush
+4C 3C AC 9C 9D 9S 7D ,    Flush
 QC 5C KS JC 2H 3S 7H ,    High Card
 10S 9H 3H 4H 3D JD 2S ,    High Card
 8S KD 10C QH 8D 4S 4D ,    High Card
@@ -20939,7 +20939,7 @@ KH 6H 7H 10D 7D KD KS ,    Two Pair
 8H 7C 4H QS AC 9C 3D ,    High Card
 10H KH KC 5D 7C QD JC ,    Pair
 6D 9C 4S 8H QH KS 4D ,    High Card
-6C 2C 3C QC 3H 10C AC ,    Straight Flush
+6C 2C 3C QC 3H 10C AC ,    Flush
 2S 4S AD JH 4D 5H 2C ,    High Card
 9C 4C QS QH AC 3H 6D ,    Pair
 7C QC 4H KS 9D 5D JC ,    High Card
@@ -20984,7 +20984,7 @@ KS KD 9S 6D 5C 7S 2C ,    Pair
 8S JS JH 6H JC 2D KD ,    Pair
 3H 10C KS 2H 5S AH 8D ,    High Card
 QS 7D 3H 5D KC 8D JH ,    High Card
-2C AS 8S 3S 4S KS 4H ,    Straight Flush
+2C AS 8S 3S 4S KS 4H ,    Flush
 KD 6D 6H 10C 2D KH 3D ,    Pair
 7S 8H 10H 5S 9D JC JS ,    High Card
 7S 9S 4S 9C 10D 9H 8H ,    Pair
@@ -21034,7 +21034,7 @@ AC AD 2S 6C 9D 5H 5C ,    Two Pair
 10C 6S 3S 7C 3H 8S 6D ,    High Card
 2H AS AH 4D 6H 5C 4H ,    Pair
 9C 9S 4H 4C 8H 7D JH ,    Two Pair
-5S 8C 4S 8S 6S AS 5D ,    Straight Flush
+5S 8C 4S 8S 6S AS 5D ,    Flush
 JD KH 7H QS KC AC 10S ,    High Card
 9H 10H QD JS KD QC 3S ,    High Card
 7H 7C 2S 3S JS 10D JH ,    Two Pair
@@ -21171,7 +21171,7 @@ AC 5C 10D 5S 3D 4C 8H ,    Pair
 8D 5D JS KH 4S QD 4D ,    High Card
 KH 4D 10D 2S 5D 3H 10H ,    High Card
 8S 7C AH 6S 2C 4S QC ,    High Card
-9C 3D 8C JC 5C 4C 7S ,    Straight Flush
+9C 3D 8C JC 5C 4C 7S ,    Flush
 KS 6C 4H 9H KC 6D 10C ,    High Card
 5S 7S JH AH 6D KS 5C ,    High Card
 QC JD 10S 2S KD 6S AS ,    High Card
@@ -21207,7 +21207,7 @@ JS 2S KC 4C 7C 7H 6H ,    Pair
 AS 5H AC 8S AH AD 3D ,    Pair
 3S JC AD KC AS 5S 3C ,    High Card
 10C 3H 10D 3D 9C 2H AC ,    Pair
-7S QS 10H 6S JS KH 2C ,    Straight Flush
+7S QS 10H 6S JS KH 2C ,    Flush
 6H KS 8D JD KD 2S 4D ,    High Card
 8C 8S 5S 8D 2C JC AS ,    Pair
 3H 3S 9D 4D 10H KS 6H ,    Pair
@@ -21348,7 +21348,7 @@ KC 4C 9D QS 7D 3D QH ,    High Card
 5D AD 6D 6H AC 10H 7D ,    Pair
 JH 2C 4D 5S 2D 9S 5H ,    High Card
 3S 5S KH 5H 9C QC 7D ,    High Card
-6C KC 10S 4C 7C 9H 6S ,    Straight Flush
+6C KC 10S 4C 7C 9H 6S ,    Flush
 9C 3S 3H QD 3D 5C AH ,    Pair
 KD QC 5H JH 10D 2S 9S ,    High Card
 5D 4H 10H 7S 8H 8S JS ,    Pair
@@ -21377,7 +21377,7 @@ QC KS 4D AH 9S 9H 7H ,    Pair
 JS 5S AD 5D KH 10C 9D ,    High Card
 QS 4D 2C 7S 8H 3S QD ,    High Card
 9H 6C 2D JS 3C 3S 8C ,    Pair
-5H 2H 4H 8H 8S 9S KC ,    Straight Flush
+5H 2H 4H 8H 8S 9S KC ,    Flush
 9C 6H QH 4D QS 4C 7C ,    High Card
 5S 10H AS 2C JD KH 5C ,    High Card
 9C 7D 2D 4D 7H QD 3H ,    High Card
@@ -21509,7 +21509,7 @@ KH JS 8C 10S 8D 8S 7D ,    Pair
 5C 5H JH 9D 7S KD AD ,    Pair
 3H 7H 9H 8D 4D QS 10S ,    High Card
 6H AC KH JD QH QC 4C ,    Pair
-5H 8H AH 6H 9H 4H 2S ,    Straight Flush
+5H 8H AH 6H 9H 4H 2S ,    Flush
 2C AC KC 3S 10C 7H 10H ,    High Card
 4S 8D 7S 7D KS 4D 3H ,    Pair
 KS 5H QD JH 6S AH JD ,    High Card
@@ -21566,7 +21566,7 @@ KS QC KD AC 10S 4C 8C ,    Pair
 KS JH QC 3C 2C JC KH ,    High Card
 7H KD 6D 6H 7C 5D 2H ,    Pair
 QS AD 9S AS QH 4S 5S ,    High Card
-6D 8D 7D 2D JH 4C KS ,    Straight Flush
+6D 8D 7D 2D JH 4C KS ,    Flush
 QD 7S 10S 10D KD 4H 2C ,    High Card
 3C KH JD 2H QC 10C AH ,    High Card
 9D 2H 4H 10H AC 7D 5S ,    High Card
@@ -21586,7 +21586,7 @@ KH KD JS 6C 6S 10C JC ,    Two Pair
 7C 6S QH 9S 3H AD 10H ,    High Card
 AC 10S QC 5C 7S 10C JD ,    High Card
 KD JC 5S 6C 8C 2C 6H ,    High Card
-JH 7H 9H 2H QD 6D 8S ,    Straight Flush
+JH 7H 9H 2H QD 6D 8S ,    Flush
 3H 4D QH 5D JS 10H 10C ,    High Card
 6C KS 8D 3C 6H 2H 7D ,    High Card
 KH JH QC 4C 5S 10S 2C ,    High Card
@@ -21741,7 +21741,7 @@ AH 6D 2S 2D 9S 3H 4H ,    Pair
 9C AD 4S 7H 4C 8C 5S ,    High Card
 4D 3D KH 5H 3C QH 9D ,    High Card
 10S AH 8H QH 3H 9C 2H ,    High Card
-3D 8S 9S QS 6S 3S 5H ,    Straight Flush
+3D 8S 9S QS 6S 3S 5H ,    Flush
 5C 6H 10D JC QC JD AS ,    High Card
 JS 4S 8C 4C 4H KH 7C ,    Pair
 4D 5S AD 9D JS JD KH ,    Pair
@@ -21939,7 +21939,7 @@ JD 3H 7H JC 10D 6S 10C ,    High Card
 JH 10H 2D AC 4S QD 8S ,    High Card
 9D AH 9S KD 3H AC 2S ,    Pair
 AS KS 7S 3C 10S 6D 6H ,    High Card
-KH 2H 9H 5H 3D 8C 9C ,    Straight Flush
+KH 2H 9H 5H 3D 8C 9C ,    Flush
 8H 3S AH 4S 6S 7D QD ,    High Card
 QC 9C 6H 4H 5H JH KC ,    High Card
 KH JD QH 10S KD 5S 10D ,    High Card
@@ -22034,7 +22034,7 @@ KC QH KH 10D 2H 7C 8D ,    Pair
 5S 8S 3H JD 6H 9D 9S ,    High Card
 8C 6D 4D AC 2S 3D 2C ,    High Card
 QC 7C 9H AC 3S 3H 10S ,    Pair
-4D QD 3D 4H 7D 5D 9S ,    Straight Flush
+4D QD 3D 4H 7D 5D 9S ,    Flush
 9D 9C 8C 6S 5C 5S 6D ,    Two Pair
 10H 2S 7H JH 5H AD KC ,    High Card
 10H JD 4D 9D 2S AS 8S ,    High Card
@@ -22045,7 +22045,7 @@ AH 6C 3S 10D 10H 10C 7C ,    High Card
 9D KD JS 7D 3D KC 8S ,    High Card
 4C QS 2D 6H 8D 4D 6S ,    High Card
 QD 6D 6S 2S AD 8S JS ,    Pair
-10D 2H AH 5H 8H 4H 6H ,    Straight Flush
+10D 2H AH 5H 8H 4H 6H ,    Flush
 3C 8D 10H 8C KC 3D 2C ,    Pair
 9H 2C 6S JS KC 3D KS ,    High Card
 7S 9D 2H 7H 8S 5D 9S ,    High Card
@@ -22252,7 +22252,7 @@ JD QS 9S AH AD 3S 2S ,    Pair
 JC 7C 3H 9S AH JS 5S ,    High Card
 8D 5H QD 8C 9D AC 6D ,    High Card
 3C 10S 2H 5D 4S 6C QH ,    Straight
-AS 5S KS JS AD 2S 10S ,    Straight Flush
+AS 5S KS JS AD 2S 10S ,    Flush
 KC 2C 5D 3C 5H QD 2H ,    High Card
 JH QC 6C 3H 4C 9H 4S ,    High Card
 9S 2H 7H 6C QS 10C 9D ,    High Card
@@ -22492,7 +22492,7 @@ KC 6D 5C KH 7H 9C 10H ,    High Card
 2H 7C 4C 10D 8S 6H QC ,    High Card
 7D 6D 5S 10S 9D AH 4C ,    High Card
 9C 7H KD KS 2S 6H QS ,    Pair
-JC 7C 10D 3C AC 2C AD ,    Straight Flush
+JC 7C 10D 3C AC 2C AD ,    Flush
 6S 6C 5C QD 4S 4H 2D ,    Two Pair
 9D 2S 7H 10C 5D AD 4D ,    High Card
 5H QC KD 6H 3C JS 6C ,    High Card
@@ -22527,7 +22527,7 @@ QH 4C JS 6C 6D 8D 2C ,    Pair
 9D QD AH 3D KD 10S 7C ,    High Card
 6H 9S 5C 4S JH KS 2H ,    High Card
 10C 10H 6C 7H 6H 5C 7C ,    High Card
-KD 7D 8D 5D 5H 9H 9D ,    Straight Flush
+KD 7D 8D 5D 5H 9H 9D ,    Flush
 QS 6S QC KS 7S 4C 2D ,    Pair
 3S 3D 4S 4D 8S 10D AC ,    Two Pair
 2H 5H 9H 6S 2C 6C QH ,    High Card
@@ -22983,7 +22983,7 @@ AS 9H 5C AD 2S 6D 8H ,    High Card
 2C QH QS 8C 7S 9D 4H ,    Pair
 2H 10D 4C AH 6C 7H 3H ,    High Card
 JD 4D 5H JC AS 8H 6S ,    High Card
-JD 4D 9D 3C 3D KD JS ,    Straight Flush
+JD 4D 9D 3C 3D KD JS ,    Flush
 8S 7H KC 5D 10C AS 6C ,    High Card
 QC 2S AC 5S AD 10H KS ,    High Card
 10S 8C JC 9C 6S QD 4H ,    High Card
@@ -23051,7 +23051,7 @@ AH 10H 3D AS QC 5D 2S ,    High Card
 JH QC KD 2C 7S 9S JS ,    High Card
 8D 7D JC 9D QD 3H 5S ,    High Card
 6H 8S 10H 2D 10C 5D 2H ,    High Card
-3S 2S 4S AS 4C KH 10S ,    Straight Flush
+3S 2S 4S AS 4C KH 10S ,    Flush
 7S QS AC KH 10S 7C 9D ,    High Card
 7H 2C 4C 5D 6H 3D AD ,    Straight
 4H QH 8H 6D 10D 2S 2D ,    High Card
@@ -23148,7 +23148,7 @@ QH 2S 5H AH 4S KH JH ,    High Card
 3C KS AD 4C JS 6C QC ,    High Card
 2C 6S 10S 8H 3S 5D 5S ,    High Card
 9C 4S 4H AH QH 2C QD ,    Pair
-9H 2H 5H 10H 6H 4H QD ,    Straight Flush
+9H 2H 5H 10H 6H 4H QD ,    Flush
 KC 3C AD 7C JC KH AC ,    High Card
 QS 8S 3H 6S 4D 7H 2D ,    High Card
 10C 10D QC 4S 5S JD AS ,    High Card
@@ -23521,8 +23521,8 @@ KC 9S QD JD 7S 8D KH ,    High Card
 5H 10H 4H 6D JC 3H AH ,    High Card
 2H 3H 7D 3S 5C QC 9D ,    High Card
 7S 10C 10H AH 3C 6D 8H ,    High Card
-4C 2C JC 9C 3D 7C 5D ,    Straight Flush
-JS QS KS 8S QD 6C 4D ,    Straight Flush
+4C 2C JC 9C 3D 7C 5D ,    Flush
+JS QS KS 8S QD 6C 4D ,    Flush
 KD KC 3D KH 10S KS JH ,    Pair
 2D 4D AH QD QS JD 5H ,    Pair
 6D 8D 3C 10H 8H 9S AD ,    High Card
@@ -23566,7 +23566,7 @@ KC JC 10D JD 10S 8S AS ,    Pair
 6S 7D AC JC 8D 9D JH ,    High Card
 4S KD 7S 10D 7H 8C 3H ,    Pair
 8H 3D AH KC 7C 5H JD ,    High Card
-5C 7C 4C AD 3C 9C JH ,    Straight Flush
+5C 7C 4C AD 3C 9C JH ,    Flush
 3S QS 8H 4S KS 9H KH ,    High Card
 10H 8D 6C JC JD 9S 5S ,    Pair
 JH KH 2D QS 7H QD 7D ,    High Card
@@ -23585,7 +23585,7 @@ AH KS QH 8C 9C 5H 5S ,    High Card
 7C KC 10H 2D 9H 8D 2H ,    High Card
 4S 8D 7C 7H QD 6C QH ,    Pair
 10H 4H 8H 7D 9C JH 3S ,    High Card
-5C QC 2C 3C 5D JC 8C ,    Straight Flush
+5C QC 2C 3C 5D JC 8C ,    Flush
 3D 10C 6S AD 10S 8S 5H ,    High Card
 7D 6S 7C 9H 4H 10C QS ,    Pair
 JD 8S 7S 3H AS 4C 2C ,    High Card
@@ -23602,7 +23602,7 @@ JD 8S 7S 3H AS 4C 2C ,    High Card
 KD AC QS 8D 4H 10D 9H ,    High Card
 9C 8C QD 3H 4D QC 8S ,    High Card
 7C 4S 10S 10H AS 2H JH ,    High Card
-3H 9H 5H 4H 8H 3S 8D ,    Straight Flush
+3H 9H 5H 4H 8H 3S 8D ,    Flush
 6C 4S 3C 5D 7C 9C JS ,    Straight
 AC 8S JD QC 7S 2S JH ,    High Card
 KS KC 7H 10S 3D JH 8D ,    Pair
@@ -23708,7 +23708,7 @@ KC 6S 5H 8D 10D JC 5D ,    High Card
 2S 4S 6H 7C 5C 10C 6D ,    High Card
 QD 6C 3D 2H AH 2C 10H ,    High Card
 QH AD 9D JS AC 3H KH ,    High Card
-AS QS 3S 7S KD 9H 10S ,    Straight Flush
+AS QS 3S 7S KD 9H 10S ,    Flush
 5H 5S 4S 6D 6S 7D 10C ,    Two Pair
 3D AD AH 5C QS 4H 2S ,    Pair
 KD 5D 9D 10D 6C QH 3S ,    High Card
@@ -23772,7 +23772,7 @@ JH 7C 4H 2S 6D 10C KD ,    High Card
 10C 3H 6C 6D QD 3S 5D ,    Pair
 4C KC KH AH QC 3C 9H ,    Pair
 5C 2C 3D 8D 8H 9S 4H ,    Pair
-QS AC KS 2S 6S 7S 4S ,    Straight Flush
+QS AC KS 2S 6S 7S 4S ,    Flush
 6D QC 9C AC KS JH JD ,    High Card
 QS 8H JC 2S KD 9S 4H ,    High Card
 4S 5S 3H 5H AS 6S 5D ,    High Card
@@ -23908,13 +23908,13 @@ JH QS 7C 6S 2H 10D KD ,    High Card
 3H KH 7S AS 6C 5C 2S ,    High Card
 10H 4H 9H 4C JS 9S 9C ,    High Card
 AD 4D 10C AC 8C 9D JH ,    Pair
-6D 2D 3D QD 4S 2H 10S ,    Straight Flush
+6D 2D 3D QD 4S 2H 10S ,    Flush
 10C 7H QD 9S 2D 3H 9H ,    High Card
 3D KD AC 4D KH 10H 7C ,    High Card
 9C AD 5D 2C 3C 5H 5C ,    High Card
 AS AH 4S 10C 7D 9H JD ,    Pair
 4C QD 4D 8S 5D 5C 3D ,    Two Pair
-8H 2H 7H JH JS KD JC ,    Straight Flush
+8H 2H 7H JH JS KD JC ,    Flush
 3C AC QH 6S 9S 6C 5S ,    High Card
 3H AC 10C 6C 9H 6D 5D ,    High Card
 8H KS 7S 9S AD 9D 2H ,    High Card
@@ -23976,7 +23976,7 @@ KC 10D JC 5S 6H 6C 7S ,    Pair
 5S 2S AH QD QC 2H 9C ,    Pair
 8S 8H 9S 7D 8C 9H 3D ,    Pair
 AS 10H JD 5H JC 8D KC ,    High Card
-6H 5H KH 2H QH 5C KD ,    Straight Flush
+6H 5H KH 2H QH 5C KD ,    Flush
 JS 3C 7H 4C 9C AD 7C ,    High Card
 9S 4D AS 8C 3D 8S 6C ,    High Card
 9D AH 10C 4H 2D KS 8H ,    High Card
@@ -24076,7 +24076,7 @@ KD 5D 8S 7H QH AS QS ,    High Card
 3D 7D KD QS 6D 8S QC ,    High Card
 9D 10S 10C 7C 2C 2D 5C ,    Pair
 QD 8D 6C 8H AD QH JD ,    High Card
-8D 2D 9D 5D 6C 10H KS ,    Straight Flush
+8D 2D 9D 5D 6C 10H KS ,    Flush
 JD 4C 3D 8C 6S 5S JC ,    High Card
 10D 2H 4S 4D 7H 7S 10S ,    Two Pair
 3S 2C JH QS AC 4H 9C ,    High Card
@@ -24090,7 +24090,7 @@ QC 9C 8S KS 9D 8C 10S ,    High Card
 3H 2C AD JS 6S QD 3D ,    High Card
 JC QC KD JH KC 8H 5S ,    High Card
 7D 7H 9H 3C 2D 5D AS ,    Pair
-KS 5S AS 6S 8S AH AD ,    Straight Flush
+KS 5S AS 6S 8S AH AD ,    Flush
 7D KD 5D JS 7H 3C QH ,    High Card
 2D 6C 6H 2H 4C 7C 6D ,    Pair
 AC QC 5H KC 3S 5C 8C ,    High Card
@@ -24357,7 +24357,7 @@ QD 7H QS JC 4H 7C KC ,    Pair
 QH JH 2S 6C 6H 4S JS ,    Pair
 7D 10D 9H 8C 7H KS 6C ,    High Card
 3S JD 5D 10S AD JS KD ,    High Card
-4S 4H AH 5H 2H JH 9C ,    Straight Flush
+4S 4H AH 5H 2H JH 9C ,    Flush
 7C 6H 9D 2S 10H 6D KH ,    High Card
 2D 7H KC 9D 4S 7C 3H ,    High Card
 4H QD QH 10S KS 3S 9C ,    Pair
@@ -24482,7 +24482,7 @@ JD QD 6H QS 4C 4S 9H ,    Pair
 AD 4H KD JS 8S 9D QC ,    High Card
 4D 7H 7C 10D QC JD AH ,    Pair
 2H 2S JS AC 8C 3S 9D ,    Pair
-4C JC 3C 5C JH 10H KD ,    Straight Flush
+4C JC 3C 5C JH 10H KD ,    Flush
 6S 5C 3C KH 4S 6C 10C ,    High Card
 3S 2H 5S 8H 6D AS 8S ,    High Card
 5D 10S 2S KD 9D 8C 9H ,    High Card
@@ -24566,7 +24566,7 @@ JD QS 7S 2D 10D 4D QC ,    High Card
 KD JC 10S AS 9D 8D QD ,    High Card
 3C QH KC 7H 5C 6C 5D ,    High Card
 5H JH AC 4S 3H 2C 3S ,    High Card
-7H AH 4H KH 4C 2S 8D ,    Straight Flush
+7H AH 4H KH 4C 2S 8D ,    Flush
 7S 2H 3C 10C 8S 9S KS ,    High Card
 KD QC 4D 5S KC QS 5H ,    High Card
 8H 8S 10C 3H 8C KD AS ,    Pair
@@ -24722,7 +24722,7 @@ QC 6S 5H 10C AD 10H 4C ,    High Card
 AC 10D 3D QS 7C JS 7S ,    High Card
 3S 5D 6S 2D 4C 8C 9D ,    High Card
 10H 10S KH 6C 9S AS 6H ,    High Card
-JH 5S 2H 8H 4H 9H AH ,    Straight Flush
+JH 5S 2H 8H 4H 9H AH ,    Flush
 5S AD QC KH 9H AS 8D ,    High Card
 2S JS 4C 5C 10S 5H 2D ,    Pair
 3S 8C AH 4D 6C 3D 9D ,    High Card
@@ -24948,7 +24948,7 @@ AS JC QD QC 9S QS KC ,    Pair
 7S QC QS 8H 10C 5S AD ,    Pair
 JD 2C QH 9D 5D QD 7D ,    High Card
 KH 3D 2S KS 9C 5C 8D ,    High Card
-6D 5D KD 4D 9H QD AH ,    Straight Flush
+6D 5D KD 4D 9H QD AH ,    Flush
 KC 4H 4C 9S JH 2D 10S ,    Pair
 10H 5C 10D QS QH 7H JC ,    Pair
 4S 8C 3C JS 2H 10C 7S ,    High Card
@@ -24962,7 +24962,7 @@ QD 9S 3D 5C JC 4C 4D ,    High Card
 6C KH 6D AD 2D 2C AS ,    Two Pair
 4H JS QC 7C JH 4S 2S ,    High Card
 QH 5D KD 7S 3C 7H KS ,    High Card
-QH 8H KH 5H 6S 10D 6H ,    Straight Flush
+QH 8H KH 5H 6S 10D 6H ,    Flush
 10S QC 3H 4C 6D 4H 3S ,    High Card
 7S 8D KS 7D 10C AD JD ,    High Card
 AH 7H KD 7C 2S 2H JH ,    Pair
@@ -25023,7 +25023,7 @@ KH 10H JS 5S 3S 5C 2D ,    High Card
 9D 3D 3C 8H JC 2S KD ,    Pair
 10S 4S JH 6C AS AH 4D ,    Pair
 2C KC KS 6S 4H 7C 6D ,    Pair
-QD 4D 5D JD QS 6H 6S ,    Straight Flush
+QD 4D 5D JD QS 6H 6S ,    Flush
 JS 2C JC 3H 10C 8S KC ,    Pair
 10S 2S AH QC KS AD 3C ,    High Card
 10H 7D 6C JD 2H 3S 8H ,    High Card
@@ -25073,7 +25073,7 @@ KS 6C JS KC 3C AD JC ,    High Card
 5H 5S 7C 7S QC 3C QD ,    Two Pair
 10C 10H 8C 9D 10S QH 3D ,    High Card
 2S 2H AC AD 9C 4H 9S ,    Two Pair
-4H KH JH 3H 6D 9H 4C ,    Straight Flush
+4H KH JH 3H 6D 9H 4C ,    Flush
 9D QH QS 7C 3D 8S 3S ,    Pair
 JC 8D 5D 9S 8C 7H 2C ,    High Card
 4C 5S AH 7D 9C KS 7S ,    High Card
@@ -25095,7 +25095,7 @@ AH QS 3C 2S 10S 4H 6S ,    High Card
 QH 9C 7S 3S 3H JH KD ,    Pair
 4S 10S QD 5D 3D 9H 5C ,    High Card
 AC KC 7H KS QH 2H AS ,    High Card
-3D KD 7D 6D JS 5C 3S ,    Straight Flush
+3D KD 7D 6D JS 5C 3S ,    Flush
 6C 9H 3H 10C 10H JD AD ,    High Card
 JH 5D 5C AD 8H KC 6H ,    Pair
 KD 3C 5D 7D QS JC 4C ,    High Card
@@ -25214,7 +25214,7 @@ KH 2H 7S 2C 3C 8H 10H ,    High Card
 10H 3C 4H 10S QS 10D KH ,    High Card
 3D 8C 6S 10C QD 7H QH ,    High Card
 AC 2C QC 7S 3H 5S JS ,    High Card
-9S 4S KS 8S 7C 8D KD ,    Straight Flush
+9S 4S KS 8S 7C 8D KD ,    Flush
 5D KH 5H JH QS 9D 2D ,    Pair
 3D AS 7C 10C 8D 2C 7H ,    High Card
 10H 4S JS QH 8C JC JD ,    High Card
@@ -25244,7 +25244,7 @@ KC AD QS 4D 7D 6H 7H ,    High Card
 10D KH 4C 2D 9C 9S 2H ,    Pair
 4H 4S 10C AC JD 5S KD ,    Pair
 5H 3D 10S 2C QH KS AH ,    High Card
-QD 9D 10H 7D 5D JH QS ,    Straight Flush
+QD 9D 10H 7D 5D JH QS ,    Flush
 8H 8C AH 6S 9S 6H JC ,    Pair
 KD 4H AC 8S 10C 4D 8D ,    High Card
 3D 4D 5H AH QC QS 6H ,    Pair
@@ -25312,9 +25312,9 @@ QH KD KS 7D 5H 8C 6H ,    Pair
 5H 7C 10S 7H 10D 8S 2C ,    Pair
 4H 9D 6H 7D 3D 8D 4D ,    High Card
 6D KD KC 6C AH 5S 9C ,    Pair
-JH QH 8H AH 9C AS 2D ,    Straight Flush
+JH QH 8H AH 9C AS 2D ,    Flush
 9H 5S AD 10C KD 9S 7S ,    High Card
-9D 4D 8D QD QC 2S JD ,    Straight Flush
+9D 4D 8D QD QC 2S JD ,    Flush
 10D 3S 6D 2C 5H 7D 10H ,    High Card
 5H 2S QH JS JD 2H 10C ,    Pair
 4S 4C 5C AH 6S 10H QC ,    Pair
@@ -25470,7 +25470,7 @@ JH 2H KS QS 3S 2S 5H ,    High Card
 QD 3H 3S 8C QH QC 2S ,    Two Pair
 4D 7D 6D JS 4C 4S 6S ,    Pair
 7C AH 7D 8D 5C QC 8H ,    Pair
-9C 6C JC 4C 10S KD 10C ,    Straight Flush
+9C 6C JC 4C 10S KD 10C ,    Flush
 KS AD 5H 3C JD 8C AS ,    High Card
 10H QH 3S KC 8S 7H QD ,    High Card
 2C KC JD QH 4C QC JC ,    High Card
@@ -25535,7 +25535,7 @@ AH JS 10C 9H 6S 6D 7H ,    Pair
 4D 7D AS 3H 7S KH 10D ,    High Card
 3D 6H 9C 7D 8C 2S 8H ,    High Card
 QD 8S 8D 5D 4D AH 3C ,    Pair
-3S 9S KS 4S QC QS 3H ,    Straight Flush
+3S 9S KS 4S QC QS 3H ,    Flush
 10H 10S 9D 10D JC 6S KC ,    High Card
 AD 9H 8H 7D 2H 5S 3D ,    High Card
 2S 6S 4H 10D 8D QS 5C ,    High Card
@@ -25544,7 +25544,7 @@ QD 6D QC 4S 5D 8S JH ,    Pair
 2H 2S KS 7S 5H QC 10D ,    Pair
 6S 3H QS JD 9C 6H JS ,    High Card
 KD 7C 10C 8D QH JH 8S ,    High Card
-5C 7C JC AC 6C 9C JH ,    Straight Flush
+5C 7C JC AC 6C 9C JH ,    Flush
 9H 10D 6S QH 9S 4D 4H ,    High Card
 10C 3D 8S 4S 9D KS QS ,    High Card
 JS 3H 10S 5S 6S 6H 2S ,    Pair
@@ -25563,7 +25563,7 @@ QC AC 4D 8D JD 4S 3D ,    High Card
 6C 10D 6S KH QC 9C 10H ,    Pair
 JD 2C 7S 4D 2H 10S 8C ,    High Card
 8H 2D 2H 8C 6S 7D 2C ,    Pair
-JH 4H QH 5H 4C 6D 2S ,    Straight Flush
+JH 4H QH 5H 4C 6D 2S ,    Flush
 7H QS 5S 9C AD 3C 9S ,    High Card
 10H 7C JC 3D AC 4D JS ,    High Card
 3S 2C KH QS QD 10D 8S ,    Pair
@@ -25684,7 +25684,7 @@ QC 7S QH KH AS 6H 2D ,    Pair
 KH 4C 9D 2D 3C 10D JH ,    High Card
 5H KC JD AH 10C 8D 2H ,    High Card
 7S 2C JC QH 6H KS 2H ,    High Card
-QS JH 9H 4H 7H 8H 10H ,    Straight Flush
+QS JH 9H 4H 7H 8H 10H ,    Flush
 2D 3C 3D JS 9D QC 10D ,    Pair
 AC 6D QD 10C KH 3S AD ,    High Card
 5D 3H 5S JC 2S 7D AC ,    Pair
@@ -25782,7 +25782,7 @@ JD 4D 4S KC AD 4H 3D ,    Pair
 7C AH KS 10H 2D QS 5C ,    High Card
 10S JC QD 5H AD 9D 6D ,    High Card
 JD 2D 10H 4S 3D 2S QS ,    High Card
-5C JH 8C AC QC 10D 9C ,    Straight Flush
+5C JH 8C AC QC 10D 9C ,    Flush
 JH 4S 8H AH QC KD 5H ,    High Card
 2H 9S 6H KH 5S 4H KC ,    High Card
 7C 9H 3D AS 3C JC 2C ,    High Card
@@ -25817,7 +25817,7 @@ QH 5D 4H 5H 5C 9H JD ,    Pair
 7D 3D 7C 6C 7S QS 9S ,    Pair
 KC AS AD 3C 2H 10S 8S ,    Pair
 JS 10C 10H 7D AH 7H 5S ,    High Card
-6D 3H KD 9D JD 8D 7C ,    Straight Flush
+6D 3H KD 9D JD 8D 7C ,    Flush
 2S 2D AC 7S 8H 6S AD ,    Pair
 QH 4H 3S 6H 9H AS 2S ,    High Card
 JD 6S 9C AD 7C QD 3H ,    High Card
@@ -25858,7 +25858,7 @@ KH 2H JD AD 5C AH 7H ,    High Card
 QH 4H JH KC 3C 4D 10C ,    High Card
 AC 7D 6D 10D 8D 9D 2H ,    High Card
 5C 5S KS 3H KD 8H 2D ,    Pair
-8S 3S 2S QS 9H JD 10H ,    Straight Flush
+8S 3S 2S QS 9H JD 10H ,    Flush
 4D 10S JC AH 5H KH 10D ,    High Card
 JS 8D 5C 6C 3H QS AC ,    High Card
 2C 6H 4S KD 9H QD AS ,    High Card
@@ -26137,7 +26137,7 @@ QH 7D 9C 10S 3D JH QC ,    High Card
 8S 7H 10S 7D 5S 2D QC ,    Pair
 3H 5H JC 6H JD 9H 5D ,    High Card
 AH 3D 8D KD 2C 10C JS ,    High Card
-3C 9C 7C 4C 2D 2H KS ,    Straight Flush
+3C 9C 7C 4C 2D 2H KS ,    Flush
 AS 6D AC QD KH JD JH ,    Two Pair
 JS AD 3S 2S 5D QH QC ,    High Card
 10D 8S 9S AD 7D KD 5H ,    High Card
@@ -26294,7 +26294,7 @@ AC 2H 3S 2D 8D JD 6H ,    High Card
 QD 7C 4S 5C JD JH 4D ,    Pair
 2C AC 3H KS 10S 6D 3D ,    High Card
 10H 5S KC 5D 7D 8S AD ,    High Card
-4H KH 5H 10H 9H QD 9C ,    Straight Flush
+4H KH 5H 10H 9H QD 9C ,    Flush
 QC 6D JD KD 8D 2S 2C ,    High Card
 5C 3H QH AS 4C 3S 10D ,    High Card
 3S 4S 9C 6S JS 8H 3D ,    High Card
@@ -26302,7 +26302,7 @@ JD AC 2S 10H JS KC 10C ,    High Card
 AS 6S 4D 10S 5C 7C 5S ,    High Card
 7H 6D 8S JC 9C 3C 4H ,    High Card
 8H 9S KH 5H 6H 8C AD ,    High Card
-QC 8C 6C 2C 3D JC AC ,    Straight Flush
+QC 8C 6C 2C 3D JC AC ,    Flush
 7S AH 9C 4D JD 3S 9S ,    High Card
 QH KS JH 6H 6D 6S 7C ,    Pair
 3S 6C 2D QD 10C 3D 6H ,    High Card
@@ -26369,7 +26369,7 @@ KS 4S AC 6C 2D KH QS ,    High Card
 10S 7S 2D 3C 2H JH KD ,    High Card
 8C KH KC 2S KS 5D JD ,    Pair
 8D QS 10D 3H QC 10H 4C ,    High Card
-9D JD 3D QD 3S 6S 4D ,    Straight Flush
+9D JD 3D QD 3S 6S 4D ,    Flush
 5H KH 10S JC 7C JS KC ,    High Card
 4S 2S AS 6D 7S 2H 4H ,    High Card
 10D 5C 5D 7H AH 9C QC ,    Pair
@@ -26409,7 +26409,7 @@ QC AC AS 4S 6S 7S QH ,    Pair
 8C 7S JD 5C 8S 6C 5H ,    High Card
 2H AC AS KD JS 7H QD ,    Pair
 AH 8H 3H 10D KC 6H 6S ,    High Card
-10C 8S 6S 4S 5S KS 3D ,    Straight Flush
+10C 8S 6S 4S 5S KS 3D ,    Flush
 5D 8H QC AS 2S 9H 8C ,    High Card
 2H AH 3S 4D 5H 7C 6H ,    Straight
 6D 5C 7C 8D 3D 9C 10H ,    Straight
@@ -26609,7 +26609,7 @@ AS 9C KH 5C 5H AC 7C ,    Pair
 JC 8H 8C 5C 6D 7S JD ,    Pair
 AS 5D 5H 6H 2C 3C 6C ,    Pair
 KS 10D 3S 4S 3H 9H 7H ,    High Card
-AS JH JS 6S 3S 9S 6H ,    Straight Flush
+AS JH JS 6S 3S 9S 6H ,    Flush
 AD 7C 3D 2S KH 9C 10C ,    High Card
 6C QC 9D 5S 4S KD 7S ,    High Card
 JS 9S 10H 4S QH JD 8D ,    High Card
@@ -26761,7 +26761,7 @@ QS 2D 10H KD 4S JC 10D ,    High Card
 6S 4H AC KH 7H 10C 4C ,    High Card
 10C 9D 8D KC 7C AD 10S ,    High Card
 AH 2D 4H 5H 3D 2S 2H ,    High Card
-AS 10H 9S 6S QS 8S 7H ,    Straight Flush
+AS 10H 9S 6S QS 8S 7H ,    Flush
 5S QC AH 9D 10S 7S 8C ,    High Card
 JD JH 8S 9S 3C KD 7H ,    Pair
 6H 3H 2D 5H 4C 7D JC ,    Straight
@@ -26893,7 +26893,7 @@ KD 9C QH 8S 4D 7C 5D ,    High Card
 JD 6H AS 5H 8H KD 3C ,    High Card
 4D 4H JH 9D 8C JC 3H ,    Pair
 4C 6S 2H 4S AD 10H 6D ,    High Card
-QD 2S 3S 5S QS 8S 8D ,    Straight Flush
+QD 2S 3S 5S QS 8S 8D ,    Flush
 6D AD 3H JD 9C 5D AS ,    High Card
 2H QH JH 10H KD 9H 8S ,    High Card
 2D 5C QD 5H 4D 5S 3S ,    High Card
@@ -26925,7 +26925,7 @@ KH 8H 6S 5C 5H 10C JC ,    Pair
 7D 5D JS 8S 2S 10S 4S ,    High Card
 10H 5D 2H 9C KD JD 6H ,    High Card
 2D AH 8S QS 2C 8H 4D ,    High Card
-JC KC 8C 6C 10C AC 8D ,    Straight Flush
+JC KC 8C 6C 10C AC 8D ,    Flush
 7H 2D 7D 10H 6H QS 4H ,    Pair
 JH 7S KD 2C 10C 5S AS ,    High Card
 QD 2S 9H 4C 3H 6C QH ,    High Card
@@ -26977,7 +26977,7 @@ JD 5H QC 3D 7S QD 7C ,    High Card
 KC 3H 5H KH 4C 4D 7H ,    Pair
 QH JC 10S JD 10C AD 2H ,    Pair
 QS 7H 10D 9H JD KH 6S ,    High Card
-2H 4H QH JH 8D 5H AH ,    Straight Flush
+2H 4H QH JH 8D 5H AH ,    Flush
 4D JS 8S 2S 5D 5C 3D ,    Pair
 10S 5S 9C 9D JC QC 8C ,    Pair
 5D 10H 7S 3S JH 4S 6C ,    Straight
@@ -27005,7 +27005,7 @@ QC 9S 2H 10H 4S 7C 6D ,    High Card
 AS 8D 10D 2D 6D AH 3S ,    High Card
 7H 8C QD 4H JC 9S 8S ,    High Card
 JS KH KC 10H 2C 9D 10C ,    Pair
-7S 10H 6S 3S 8S 5S JC ,    Straight Flush
+7S 10H 6S 3S 8S 5S JC ,    Flush
 KS 6D JS AC 2C 7C AD ,    High Card
 2D 5D 8H QS 4S 9H 3D ,    High Card
 10S KD 3H QC 2H 8D 6H ,    High Card
@@ -27123,8 +27123,8 @@ JD 6D 8S JS 5H 3S 7S ,    High Card
 10S 9H 7H 4H 3C 2H 8H ,    High Card
 10D 6S 7D 4S AC 10H 5H ,    High Card
 QD 8S 6C 4D 4C 9C KC ,    Pair
-KC 7C 4C QC 4S 7H 2D ,    Straight Flush
-5S 8S AS 7S 10C 2S 3C ,    Straight Flush
+KC 7C 4C QC 4S 7H 2D ,    Flush
+5S 8S AS 7S 10C 2S 3C ,    Flush
 KD 6C 9H JD 3S 7D 3H ,    High Card
 KD 6C 2C 2D 4S 8H 6S ,    Pair
 AD 7S 4C 10H 8D KS JS ,    High Card
@@ -27192,7 +27192,7 @@ KH 8H 2D 2H 4S AD 7S ,    Pair
 7H AH JC 2C 6C 8D 4H ,    High Card
 4C 9D QC QS KH 10H AH ,    Pair
 JD AS 10D 5D AD 8S 7H ,    High Card
-5S 4S KS 6S 2S 9S 2D ,    Straight Flush
+5S 4S KS 6S 2S 9S 2D ,    Flush
 4H 7D 3H 5H 7C 4D KD ,    High Card
 QH KC 3D 7D 8D JS 4D ,    High Card
 5C 6D 4H 6S 3H JC 9H ,    High Card
@@ -27230,7 +27230,7 @@ QH JD 5H 9S 9D 10H 3S ,    Pair
 10H 3S AS JS 7D 5H 6S ,    High Card
 2D 3H AD QC JH JC 4H ,    Pair
 7S 10D KH KC 9H AH KS ,    Pair
-5H 8H 6H 9H 10D 3C QD ,    Straight Flush
+5H 8H 6H 9H 10D 3C QD ,    Flush
 6C KH 7D 4D 9D 8S 3H ,    High Card
 7S QC 10S AH AS KC JC ,    Pair
 AH 4H KC 7H 4C 9C AC ,    High Card
@@ -27240,7 +27240,7 @@ AH 4H KC 7H 4C 9C AC ,    High Card
 QC 6D 7S 3S JD 9S AC ,    High Card
 4S QH 4D 3C 9D KS QS ,    Pair
 AH 6S JH KH 2D AD 6H ,    High Card
-7D 5D AD 6D JH JD KD ,    Straight Flush
+7D 5D AD 6D JH JD KD ,    Flush
 4D 8S 8H 7C 3D JC KH ,    Pair
 6C 10C 10H 3C 9C 10D JS ,    High Card
 4C 2S 3H 6H 6S 5C AH ,    Straight
@@ -27302,7 +27302,7 @@ QS JD QH 3D 8H 5H 6H ,    Pair
 JC 6C 7D JH 4S 2C AS ,    High Card
 3S 8D KD AH 9S 2S KS ,    High Card
 5S QC 10S 4D 10C 9H 2D ,    High Card
-3D QD AD 9D 3C KH 4S ,    Straight Flush
+3D QD AD 9D 3C KH 4S ,    Flush
 7D KS 5C KD 9C 4H 4D ,    High Card
 8S 5H QC 6S 9S 10H 7H ,    Straight
 4D 6H 4C AH 5H AC JC ,    Pair
@@ -27324,7 +27324,7 @@ AH 4H 3C 6S 4C 5C 5S ,    High Card
 JC 2S 5H JS QS AC JH ,    High Card
 AS 7S 9D 4D 10C 8S 5D ,    High Card
 7C JC 3C 5H AC 5S 10C ,    High Card
-6D JD 8D 6S 9D 7D 9H ,    Straight Flush
+6D JD 8D 6S 9D 7D 9H ,    Flush
 2H 5D JS 3S 10S 4H AS ,    High Card
 3H 3D 7C QS 8H 8C 8D ,    Pair
 2H 2C 3S 4D AS 7D JS ,    Pair
@@ -27431,7 +27431,7 @@ AS 8H 10H 6C 7C 2H 4C ,    High Card
 QH AD 5D 5S 2D 6H 6D ,    Two Pair
 10D 9H QC KD 4H QD 4D ,    High Card
 6S 4C QD AS 7H 5S KH ,    High Card
-9S 3S 8S 2S KC JD 6C ,    Straight Flush
+9S 3S 8S 2S KC JD 6C ,    Flush
 10H AD JH 7S 5H 7C KD ,    High Card
 9S 5H 8H QH 2D KH 4S ,    High Card
 JS AC 7D 7S QC 10H 3S ,    Pair
@@ -27480,7 +27480,7 @@ QC 6D 10H 7H 7S JH KC ,    Pair
 KD 9S 7H 2S 6H 2C 6C ,    High Card
 JD 2D 5S 6D KS 4H 4C ,    High Card
 AS 3H QS 9C 7D 5D JS ,    High Card
-JD 4D QD 8D 6C 5C 3D ,    Straight Flush
+JD 4D QD 8D 6C 5C 3D ,    Flush
 5S 9H 7S QH AD AS 8H ,    Pair
 3H KS 10S KH 4C 2C 9S ,    Pair
 3D 6S 9H 7H JD AC QS ,    High Card
@@ -27521,7 +27521,7 @@ KH 2H JS 8S AD 8D 6C ,    High Card
 9S 6S 8C KD JC 5H AD ,    High Card
 4D 2C 3D 10S 4H 4C KD ,    Pair
 9C 2H 7C 10C 10H 8H 7S ,    High Card
-AS KS 9S 2S 8D JD QH ,    Straight Flush
+AS KS 9S 2S 8D JD QH ,    Flush
 QC JS KC 4S AC 6S 10D ,    High Card
 KD 2H KH 6H 8H 9D 7S ,    Pair
 10C 8D 3H 7H KC 10S 6D ,    High Card
@@ -27718,7 +27718,7 @@ QH 4C 7D 6C 2D 6H KH ,    High Card
 3H 8S JC 2C 9D 4S QD ,    High Card
 QD 9S 7D 6C 2D 9D 7H ,    High Card
 9C AC 3S JD 2H AH 4H ,    High Card
-AS 8S 10H 10D QS 7S 6D ,    Straight Flush
+AS 8S 10H 10D QS 7S 6D ,    Flush
 6D 7C 8D 5H JC 9D 8H ,    Straight
 2S KD QH 6C 10H 7H 5D ,    High Card
 JS 4H 2H 9C QD KH AS ,    High Card
@@ -27768,13 +27768,13 @@ JD 8H 10D 9D JC 8S 10S ,    High Card
 5D QH 4S 2S 7S 2C KC ,    High Card
 4H 8S 5C 6C AH 10S 2S ,    High Card
 9S 2C 3D JD 2H AC 6H ,    High Card
-AD 7D 10C 6D 4D 6S 7H ,    Straight Flush
+AD 7D 10C 6D 4D 6S 7H ,    Flush
 KH JD AS 5S 6S 5H 10D ,    High Card
 2S 6D 9S 5D 10H QD 8C ,    High Card
 8H 3D 7D 7C QS QC 2H ,    Two Pair
 8S KC 4S 5C 10C 3S AD ,    High Card
 JD 2C KC 7D 7C KS 5C ,    Pair
-KD 5D 6D QD 9C 8D 4H ,    Straight Flush
+KD 5D 6D QD 9C 8D 4H ,    Flush
 QS 5S KH 2S 4D AH 3C ,    High Card
 5D JH QH QC 6H 10S 3D ,    Pair
 9H 2D KC 8H 4S 3C 7H ,    High Card
@@ -27801,7 +27801,7 @@ JS 7D 4C 3C AD 10C JC ,    High Card
 5S 3H 6S JD 4S 6C 2S ,    Straight
 5D 7H 6D KS KH AH 4D ,    Pair
 7D 2C QH 10C 6H QS 9H ,    High Card
-AS 8S 3S JS 9C QD 10H ,    Straight Flush
+AS 8S 3S JS 9C QD 10H ,    Flush
 8S 7D KC JC 5H KD 2H ,    High Card
 9H AH 4S AS 7H JD 2D ,    High Card
 6C 5S 2C 10S 4H JH 8H ,    High Card
@@ -27852,7 +27852,7 @@ QH QD KC QS JS 5C 2H ,    Pair
 3H 3C 8H AH AD 7D 7S ,    Pair
 JD 3D 5S 5C 7H JH 4S ,    Pair
 2C 6D QH 6C 2S KS 10H ,    High Card
-2C 4C JC 8C JD 7H 5H ,    Straight Flush
+2C 4C JC 8C JD 7H 5H ,    Flush
 7C KS 3C 9C 9S QD QS ,    Two Pair
 6H 8D 8H 10D 7S 2S 6D ,    Pair
 7S 4H 5C QC 10C AS 4S ,    High Card
@@ -27909,7 +27909,7 @@ JH 4C 8S 6H 10D 9C AH ,    High Card
 4S 2S 4C 5D 7H KC 8C ,    Pair
 QD JH 2C 5H 6H JS 8D ,    High Card
 10S 10C QH 10D 5S 2H 3D ,    High Card
-KS 4S 10H 2S 8S 5S QC ,    Straight Flush
+KS 4S 10H 2S 8S 5S QC ,    Flush
 7C 3C 2C 2H 4D 3H QH ,    Pair
 8C 2D 9S 4C QS 9C 10D ,    High Card
 QS 2H 8H AC 3D 4H 8C ,    High Card
@@ -27925,7 +27925,7 @@ QH KC QC 9H 3C 7S 4H ,    Pair
 9C 3C 7H 8C 9H 10C 7C ,    High Card
 7C 6C 7D 6D QD 8C AD ,    Pair
 2D 9S JD KC 3C 10S 2C ,    High Card
-8H 2H 5H KH 10H JH 3D ,    Straight Flush
+8H 2H 5H KH 10H JH 3D ,    Flush
 4S AD 2H 2S 10H 2C 10D ,    Pair
 QS 7S QH KH 4C 9D KC ,    Pair
 3S 5S QC 5D AC 5C 3C ,    High Card
@@ -27964,7 +27964,7 @@ JD 9H 3D 9C 2D 4C 3S ,    High Card
 9H 10S JD 5S 4H 2H AC ,    High Card
 QD AD 5C KS 5D 6H 4C ,    High Card
 4D 5S 5H 2C 7D 9D 2H ,    Pair
-AH JC 9H QH 7H KH KC ,    Straight Flush
+AH JC 9H QH 7H KH KC ,    Flush
 QS 4H AS QC 3S JH 8S ,    High Card
 10C 6S 2H 10D 4S JH 10H ,    High Card
 6D 4H QS KS 2C AD 3D ,    High Card
@@ -27974,7 +27974,7 @@ JH 5S 7H 10H AS AD 8D ,    Pair
 KH 10S 8H 2D 10C 3S JS ,    High Card
 6C JD QS 5C 9D 3H 4H ,    High Card
 7C 10S 8C JC 5C 2D 8D ,    High Card
-9S KS 6S 10C 8S 6C KC ,    Straight Flush
+9S KS 6S 10C 8S 6C KC ,    Flush
 3H 6D 2H 5H QS AS 5D ,    High Card
 8C KH 3S QC 3H AC AH ,    High Card
 10H QD JC AS QH 5C 3C ,    High Card
@@ -28013,7 +28013,7 @@ QH AH 7C 8D 10C 3C 5S ,    High Card
 JH 8H 5H 2C QD 5S 9D ,    High Card
 KH 10D 3S QC 4C QS 3H ,    High Card
 8D 5H JH 4H KD 4S KC ,    High Card
-3S QS 8S KS 3C QD 3H ,    Straight Flush
+3S QS 8S KS 3C QD 3H ,    Flush
 3D 6H KH 2S JD 4D 10S ,    High Card
 7S 8H QH 9C AH 9S AC ,    High Card
 10H JC 5H 9C 7H JH AS ,    High Card
@@ -28049,7 +28049,7 @@ JD QD 5C 4H 7H 4C 3H ,    High Card
 3D 7D 8H AS AC 8C 10C ,    Pair
 KS 5C JD 4C JS AS 10C ,    High Card
 10H 4H KC 5S 7S 2S 7D ,    High Card
-6C 2C QC 5C AD 7H AH ,    Straight Flush
+6C 2C QC 5C AD 7H AH ,    Flush
 JS 10C 3S 8C 9C 4C 6H ,    High Card
 JH KS JD 7C AC 9S JC ,    Pair
 2D 5D 8C 8H 3H 9H 5C ,    Pair
@@ -28074,7 +28074,7 @@ QS 4D 10H 6S AD JH 6H ,    High Card
 2C KC 3S 7S 4S 10D 10H ,    High Card
 QD 10C AS JS KS 9H AD ,    High Card
 2H 5C 8C 9H QS 4H 9S ,    High Card
-JS AS 10S 6S KS 4C 6H ,    Straight Flush
+JS AS 10S 6S KS 4C 6H ,    Flush
 5H 3S QH 2D AH QD 10D ,    High Card
 QC KH KS 6S 9H JD 7C ,    Pair
 4D AH 4S 9S 2D QD 6D ,    Pair
@@ -28220,7 +28220,7 @@ JC 2D KC 6S 4H 7S 5D ,    High Card
 JD 3D 10C QD 2S 8H JC ,    High Card
 2C 5H 5D QH 6C 7H 9H ,    Pair
 AS QH 4D 9C 10D JH 7C ,    High Card
-6C JC QC 8C 7H 7D KS ,    Straight Flush
+6C JC QC 8C 7H 7D KS ,    Flush
 4C 10S 5C AH 9S 5H 5S ,    High Card
 5D 3H JD 2S JS 7S 8H ,    High Card
 7D 4S 5C 3H AH 4D KC ,    High Card
@@ -28289,7 +28289,7 @@ JS 8S 10C 5D 2S 4S 4H ,    High Card
 9D 4D 7H 6D AS 8C JC ,    High Card
 10D 9C 5S 5H KD 4D KH ,    Pair
 7S QC QD KC JC 10S 7H ,    Pair
-7C 9H JH 4H QH 2H 8C ,    Straight Flush
+7C 9H JH 4H QH 2H 8C ,    Flush
 2H 4S 5S JH 9D KS 10H ,    High Card
 QS 8D 5C 5D 7D QD 10C ,    Pair
 7S 3H 6D 2D 6C 3S 10S ,    High Card
@@ -28419,7 +28419,7 @@ QD 2D AD 4H 3C JD 8S ,    High Card
 QD 6S 8S 5C 6C KS 10D ,    High Card
 5H 7S 10H 3C QH KC 10C ,    High Card
 8H 5S AD 6D 2H JS 9C ,    High Card
-AS 2S 6S 8S 5S 8H QC ,    Straight Flush
+AS 2S 6S 8S 5S 8H QC ,    Flush
 AD 3S JS QH 4H JC 7H ,    High Card
 KS 5C 3D 7D 9C 3C 6D ,    High Card
 8C 3H 4C 10H KH 7C 4S ,    High Card
@@ -28462,7 +28462,7 @@ JS 7C 4C 5S 6S AS 6D ,    High Card
 JD JS 4D 6S AH AS 3D ,    Two Pair
 QS KD QD 4H AC 4C 2C ,    Pair
 4S 6D 3C 10D 7H KS 6C ,    High Card
-JC AC 9C 5C 4S QH JS ,    Straight Flush
+JC AC 9C 5C 4S QH JS ,    Flush
 2H 8H 10H 7C 10S 3C QD ,    High Card
 KD 9D 5D QC AS JH 6S ,    High Card
 10C 6C 4H 3S 5S AH 10D ,    High Card
@@ -28498,7 +28498,7 @@ QC 4C JH 7H 3H 8S 3S ,    High Card
 4D AD 2C 7C JS 6D KH ,    High Card
 4S 8C AC 5S KS 10C QS ,    High Card
 9S 3H 4S KH QC 8S 10D ,    High Card
-8D 7D 3D AD 8H QS 10S ,    Straight Flush
+8D 7D 3D AD 8H QS 10S ,    Flush
 9S 10C 8S 4S KS AH JD ,    High Card
 5C 4H 5S KD 4D AS 6D ,    Pair
 2H 6C QD JS 4C 3H 9H ,    High Card
@@ -28520,7 +28520,7 @@ JS 3S AH 6S 2S QH QD ,    High Card
 3H 6H 4D AC QS JD 8D ,    High Card
 10D 8C KD 9H 10H AD 2H ,    High Card
 2C QD 7C AS 8C 4D 9D ,    High Card
-AH 8H KH QH 3S 10S 2H ,    Straight Flush
+AH 8H KH QH 3S 10S 2H ,    Flush
 6S 3D 5S 7D 8S KS AC ,    High Card
 JH 2D 10H JS 6D 7H 8D ,    Pair
 7D 4S AC 6D QD KD 6S ,    High Card
@@ -28546,7 +28546,7 @@ QH 3S 7H KS 2C JD 4H ,    High Card
 AC 9S 7S AH 3C 8C 2S ,    High Card
 9H 4C KD 3C 2H 10C 9C ,    High Card
 2C 6C JS 8S 8C JH 2S ,    Pair
-2D 4D JD AD KC 4S 9D ,    Straight Flush
+2D 4D JD AD KC 4S 9D ,    Flush
 8S 4H 5S 5C JC JH 9C ,    Two Pair
 3H 3D 9C QD JC 8C 2H ,    Pair
 4S AH 10D 8H 6S 9H JH ,    High Card
@@ -28582,7 +28582,7 @@ QS KH 9H JS 9S AC 3C ,    High Card
 7D 8D AD 8S QS 2H 8H ,    High Card
 6C 7S JD 10H 8H KH 3D ,    High Card
 JS 7D 2H 9C 5S 3S 5C ,    High Card
-6H 8C 9H QH 5H 10S 3H ,    Straight Flush
+6H 8C 9H QH 5H 10S 3H ,    Flush
 KH 10S 4C JD 3C 2C JC ,    High Card
 QH KD 9S 9C KS 7D 6S ,    Pair
 AC 9H 5C 7H 8D 5D KC ,    High Card
@@ -28739,8 +28739,8 @@ QH 3H 6D KD 9D 7D QS ,    High Card
 6S 8H KC JS 4C QC 9S ,    High Card
 9S JD 2H 8C 10D 10C 3H ,    High Card
 7H 8D 6C 5D KD KH 7C ,    Pair
-QS 4H 2S 4S KS 8S 5H ,    Straight Flush
-4H 6H 7H 2D KH AH JC ,    Straight Flush
+QS 4H 2S 4S KS 8S 5H ,    Flush
+4H 6H 7H 2D KH AH JC ,    Flush
 10S KD 9C 5D 7C 6S 2S ,    High Card
 10D 8H 8D JH 2C 7D 5H ,    Pair
 8S KS 10H 8C AC 9H 4C ,    Pair
@@ -28845,10 +28845,10 @@ QD 7C 10D AH 2D KS 6D ,    High Card
 3C 3D 8D 8S 8H JC 6H ,    Two Pair
 5S QC 3S AC 7C AH 2C ,    High Card
 4D KD 4S 6S 2S 6C 9D ,    Pair
-QH 6H 7H 5C 9H KH AH ,    Straight Flush
+QH 6H 7H 5C 9H KH AH ,    Flush
 AC 3C KS 6D 5D 3D AD ,    High Card
 3D QS KD KS QD 5H 7D ,    Pair
-JS 8S 4S KS QH 7D 2C ,    Straight Flush
+JS 8S 4S KS QH 7D 2C ,    Flush
 5D 4C 3S 8C 2D KD AC ,    High Card
 AS 9D 6S 10S 9H JD 3H ,    High Card
 JC 5C 5H 8H 6C 4D 2S ,    Pair
@@ -28968,7 +28968,7 @@ AS 6C QS 6S JC 9C 2H ,    High Card
 6D KS 9D AH 10C QS 2S ,    High Card
 5S KC 10S KD 7S 9S 4H ,    Pair
 6H JC 10C AH 8C QH 2S ,    High Card
-3H KH JH 5H 10H QC 10D ,    Straight Flush
+3H KH JH 5H 10H QC 10D ,    Flush
 10H 10S 3S QH 8C 10D 2C ,    High Card
 QC 2H 3H KC 8H 9S 6C ,    High Card
 2D 7D 4S 4C 8S 7C KH ,    Pair
@@ -28987,7 +28987,7 @@ QC 5C KD JH 8S JS 10S ,    High Card
 8H JD KD 4D 6S 10C 10H ,    High Card
 6C KH JH 4C KC 7S 9S ,    High Card
 8S 9C 7H AC QD AD QC ,    High Card
-3D 8C 2D JD 7D AD QD ,    Straight Flush
+3D 8C 2D JD 7D AD QD ,    Flush
 QH JH 5C QS 9S 3C 7S ,    High Card
 KD 8S 2C 9D 4C 4S AS ,    Pair
 5S JS 4C AD 9C JH 6H ,    High Card
@@ -29063,7 +29063,7 @@ AC 6H 7H AS 2S QH 7D ,    High Card
 9D 6S 4D 5S 8H 3H 10H ,    High Card
 JC 2H 5H 3D JH 9S 9H ,    High Card
 10D KH 3S JD JC 2C 9S ,    Pair
-4S AS 5S 10H 7S 8H 5H ,    Straight Flush
+4S AS 5S 10H 7S 8H 5H ,    Flush
 QD 4H 4C 5D JS 10S 9H ,    Pair
 10C QH QS 6C AH 8D KD ,    Pair
 10C 9C 8H 7S 2D 4S QS ,    High Card
@@ -29220,7 +29220,7 @@ JS 5C JH QD 5S 9D KS ,    Pair
 5D 10S JD 7S 5H QC 6D ,    High Card
 2H 2D AH QS 4C KC 6H ,    Pair
 2C 10D 5D 10S 5S 7S 9S ,    Pair
-QD 2D 6D 8D 8H QC 8C ,    Straight Flush
+QD 2D 6D 8D 8H QC 8C ,    Flush
 7H 9D AD 9C 8S 2H 5H ,    High Card
 QH AS 4S AC 6H 3C JC ,    High Card
 9D JC AD 5H AH JS 9S ,    High Card
@@ -29238,7 +29238,7 @@ JS KD KC QC 3C QS 10D ,    Pair
 6H 3H QH 6C 9H 6S 2H ,    High Card
 10H AD 5H 3S KS 7S 5D ,    High Card
 KC QH 3H 2C 9C 7C KS ,    High Card
-JH 4H AH 9H AS 10S 4D ,    Straight Flush
+JH 4H AH 9H AS 10S 4D ,    Flush
 JC QS 8S KH 4C AD 4S ,    High Card
 10S 8D 10C QC 3D QH 5S ,    High Card
 2D QD 7H 3C 7S AS 5C ,    High Card
@@ -29302,7 +29302,7 @@ KS JS 6D AS 8D KC 3C ,    High Card
 8H 6H 3S 5S 10H KD KC ,    High Card
 6S AD 9C QD AC 4C QC ,    High Card
 7C 2H 3D 6C JH 2D 10C ,    High Card
-4C 7C 9C 6C KH 7D KC ,    Straight Flush
+4C 7C 9C 6C KH 7D KC ,    Flush
 10S 5D QH JC 4S AS AH ,    High Card
 9D 6D 9S 6H 9H 3H 2S ,    Pair
 7D KH 7S 7H 7C JC 10H ,    Three Kind
@@ -29352,7 +29352,7 @@ KS 8S AS QC 6C JS JH ,    High Card
 QD 6S 6H 3H 10D 10C 4S ,    Pair
 2C 7S 5H 8D 8H 5S 8S ,    Pair
 6D 7H 6C QC QS 4D 5D ,    Two Pair
-9H QH KH 8H 4H AS KC ,    Straight Flush
+9H QH KH 8H 4H AS KC ,    Flush
 2S 3C 2C JC JH QD 10S ,    Two Pair
 9D 10D 6H 6S 10H 5S 9S ,    Pair
 6H 4D 6S 7H 2D 5H KC ,    Pair
@@ -29421,7 +29421,7 @@ KC 6C 3H QD 5D 3S JC ,    High Card
 AD 4H 8C JH 5H 10H 4C ,    High Card
 5H 5C KC 6C JS 3H 8H ,    Pair
 AS 9H 3S 2D JH 2C AC ,    High Card
-3D AD KD 9D 5D 10D QC ,    Straight Flush
+3D AD KD 9D 5D 10D QC ,    Flush
 10S 10H 7D 2S 10C 5S 7H ,    High Card
 8S 8H JS 8D 10S 6C KS ,    Pair
 5C 3H 2D QC AD 2C AC ,    High Card
@@ -29707,7 +29707,7 @@ KD 10C 3S 8C 2H 7S 3C ,    High Card
 4D QC 7C AD 8C 8S 5H ,    Pair
 6D 3S 9C 9S AH KH 5H ,    Pair
 3D 6H 2H KD 10H 7D 7C ,    High Card
-JC 3C 5C 6C 8H 4D KS ,    Straight Flush
+JC 3C 5C 6C 8H 4D KS ,    Flush
 QS AC 10S 4H KC 2D 10C ,    High Card
 10D 8S QC 4D 9S 5H 7D ,    High Card
 7H KD 4H 3D 4C 5S 8H ,    High Card
@@ -29976,7 +29976,7 @@ JH 2D 2S KH 10C 6D 7S ,    Pair
 KD 3H 9D 5C 5D JD 10H ,    Pair
 KH 3S QH AS 4D KS 9S ,    High Card
 4C 7S 8S 4H 2H KC 7C ,    High Card
-2S KS AS 10D 5S 10C 4C ,    Straight Flush
+2S KS AS 10D 5S 10C 4C ,    Flush
 KH 9H JH 8D 2C AC 5C ,    High Card
 4D 7C 10H 2D 5D 3H 5H ,    High Card
 4H QD JC QC 2H 6D 6H ,    High Card
@@ -30014,7 +30014,7 @@ JS 5S QD 3C 8S 4D 3D ,    High Card
 7H QD 3C AC 9H 9C AD ,    Pair
 8H 7H AS KD AD 2D 9D ,    High Card
 QH 6D AH 5D AC 8D 5C ,    High Card
-7S JD 2S 8S 3S KS 3H ,    Straight Flush
+7S JD 2S 8S 3S KS 3H ,    Flush
 8C QD 4H 2C 6H 5H 6S ,    High Card
 2C 8C 6H 7D 9H 9D 5S ,    Straight
 AS AH 4H JD 3C KH 4S ,    Pair
@@ -30205,7 +30205,7 @@ QD 8H 7H 6H KD 2C 7D ,    High Card
 8S 8C 5H 9S 9D 6D 6H ,    Pair
 7D 6S 7S JC 2C AS 7H ,    Pair
 KC JS KS QD AC 6C KD ,    Pair
-QC AC 3C 7C 3H AH 6D ,    Straight Flush
+QC AC 3C 7C 3H AH 6D ,    Flush
 KH AD KD 8S 4S KS AS ,    Pair
 7D QS KC JC 2S 5S 3D ,    High Card
 10S 2D JH 6H 5C JD 10H ,    High Card
@@ -30228,7 +30228,7 @@ KS 8H 6S 8C 7H 6H 2H ,    High Card
 QC 3H 3S 8C 2H 8S KH ,    Pair
 10D 9D 5C 6C KH QC 8H ,    High Card
 QD 6S 2S 2H 6H AS AH ,    Two Pair
-8C 4C 9C 3C 4D 5S 4S ,    Straight Flush
+8C 4C 9C 3C 4D 5S 4S ,    Flush
 AC 9S 8D KS 5D 10C 8S ,    High Card
 5S 7H KS QH 7D 3H 6C ,    High Card
 6S 7S AS 10S 8H 9H 3C ,    High Card
@@ -30316,7 +30316,7 @@ AH QH JC AS 7H KC 8C ,    High Card
 6C 4D 9D 2H 2S 10S 9S ,    Pair
 JD 2D 9H 6D 3D QD 7C ,    High Card
 9C JS 5D 8H 7D 8S QC ,    High Card
-4C 6C AC 10C JC KS 8S ,    Straight Flush
+4C 6C AC 10C JC KS 8S ,    Flush
 3D 2S 5D 3S 4D 3H 9D ,    High Card
 10D 4H 9S 4S 2D 6D 3C ,    High Card
 4C 5D 7D 9S 5H KC 10D ,    High Card
@@ -30407,7 +30407,7 @@ QD JH 4S 10D 4D 9C 8H ,    Pair
 3S 10D 7S 2S 4S 3D 5S ,    High Card
 AD 2C 8D 4H 4S QS 5H ,    Pair
 9S 9H 5C 5S 3S 10C 8C ,    Two Pair
-7C AC 3C KC 2S 9D 7D ,    Straight Flush
+7C AC 3C KC 2S 9D 7D ,    Flush
 7H 6S QD 4C 3D 8H 5D ,    Straight
 6S 6H 4D KC 9H 10H JC ,    Pair
 JH AC 7H 2D 10C KD QD ,    High Card
@@ -30583,7 +30583,7 @@ AS 2H QD QS AH 4C QC ,    Pair
 2C AC 8D AH 7C 3H 5C ,    High Card
 6D 10S 5S 7D KS 9C JH ,    High Card
 6C 4S 4C QH QD 7S 4H ,    Two Pair
-7H 8H 5H KH 2H 5C AD ,    Straight Flush
+7H 8H 5H KH 2H 5C AD ,    Flush
 6D 5S 9H 4S JC JH JD ,    Two Pair
 3C 6S 2D QS QH 8D KC ,    Pair
 9S QD 9C 7D 3H 8S 2S ,    Pair
@@ -30690,7 +30690,7 @@ JS 7H 5D AH JH 4H 4C ,    High Card
 JD 7D 8D 3H JC 10D KC ,    High Card
 KD AD 5C 7C 10S 4H AH ,    High Card
 8H 5H 3D 9H QH 4C QS ,    High Card
-8D QD 10D 9D JD KS 4C ,    Straight Flush
+8D QD 10D 9D JD KS 4C ,    Flush
 9C 5S 10S AD JS QS 2D ,    High Card
 5C 7H 2H 8H AH 2C 3H ,    High Card
 8C 3D 10C 6C 7D KD 5H ,    High Card
@@ -30720,7 +30720,7 @@ AS 3S 9H AC 9D 7H 6C ,    High Card
 QD 6D JS QC 5H 5S 7D ,    Pair
 8H 3D 5D 5C 4S AD 4C ,    Pair
 8H 2C 7C 2D JH 3C 10C ,    High Card
-QD KS KD 8D 9D 5D 8C ,    Straight Flush
+QD KS KD 8D 9D 5D 8C ,    Flush
 10H QH 9H AC 4C KC 4D ,    High Card
 QS 7D JS 7S QC 5S 10D ,    High Card
 9S 5H 6H KC 2S 2D 6C ,    Pair
@@ -30845,7 +30845,7 @@ AC 3H QS 7H 8D 8S 6D ,    Pair
 10H 8H QH 5D AC KH 3D ,    High Card
 10D 8S 7C 5H JH 2C JS ,    High Card
 8D 6H AD 9S 7S JS 5H ,    Straight
-QH JH 9H 10D 2H 3H 5C ,    Straight Flush
+QH JH 9H 10D 2H 3H 5C ,    Flush
 7C 6D 9D 4H 10C 7H 8H ,    High Card
 2D 4H 7S 7D 5C 9S QC ,    Pair
 5C 8D 8S 9D 5D 2C 10C ,    Pair
@@ -30936,7 +30936,7 @@ JS JH 7D 9H 6H 3H 5C ,    Pair
 5S JC 9D 4H 5D 6D 3C ,    High Card
 9H JD 8S JS AC 6C 8C ,    High Card
 QS 4C KD KH 8D 6H KC ,    Pair
-QC 5C 10H 10S 2C 9C JH ,    Straight Flush
+QC 5C 10H 10S 2C 9C JH ,    Flush
 QS QC 7C JD KS 10S 2H ,    Pair
 7D AH QH 7S 7H 4S 2C ,    Pair
 6C 8H 3D QD 8D 4C 5H ,    High Card
@@ -31083,7 +31083,7 @@ JH 3D 6C JD 9H 4C AD ,    High Card
 4S AD 9S 7C KD QC 4C ,    High Card
 8C 10S 7S 8D 7H 2S 9C ,    High Card
 2D 9H JC AS 8H 6H 10C ,    High Card
-6S 4S AS 9S QC 7C QD ,    Straight Flush
+6S 4S AS 9S QC 7C QD ,    Flush
 2H 6H 4C 3S 4D 9H 10C ,    High Card
 JC 6C JH JD QH JS KD ,    Pair
 QS 5S 10S KC 7D 5D 5H ,    High Card
@@ -31296,7 +31296,7 @@ KD 10D 7H 5C KH 4S 10C ,    High Card
 2H 4S 6C JD 2D 9S 10S ,    High Card
 AS AD 5S 8D 4D KS AC ,    Pair
 QC 7D JC 7C 6D 2S 3S ,    High Card
-2H 6H KH 10D 7H KC 10S ,    Straight Flush
+2H 6H KH 10D 7H KC 10S ,    Flush
 3S 8D 10C 6D 7C 9D 6H ,    High Card
 2D 6D 5C AC 7C 8C 10S ,    High Card
 9S AH QC 8D AS 4S 7S ,    High Card
@@ -31506,7 +31506,7 @@ JH 6C 4S 7D QS JS 8C ,    High Card
 4D AS 8S KS QS 4C 8C ,    High Card
 4H AH JS 6S KD 5C 7H ,    High Card
 KH AS QC AC QH 3D 6C ,    High Card
-4H 9H 7H 10S 5H JD 8C ,    Straight Flush
+4H 9H 7H 10S 5H JD 8C ,    Flush
 10D 4C 5S KC 2H 9S 6D ,    High Card
 3H 9D 9C 3S AD 7C 4S ,    Pair
 5D 10C 5C AD JD KH 8S ,    Pair
@@ -31636,7 +31636,7 @@ JC QS 2C 9H 7S 3S 8D ,    High Card
 QC 3D 7S QD 4H AD 2H ,    High Card
 KH 10S 2D 4S 5S 9S 8H ,    High Card
 QH AS 2S 5H JD 10D 9D ,    High Card
-AC 4C 7C 5C KC JS 5D ,    Straight Flush
+AC 4C 7C 5C KC JS 5D ,    Flush
 QS 9S AD KH 3C 3H 3D ,    Two Pair
 2C 5S QH 4C 10D 10C 7C ,    High Card
 8H 2S 2D 8C AC AS 5H ,    Two Pair
@@ -31662,9 +31662,9 @@ QD 7H 6H 10S JD AH QH ,    High Card
 4D 2C JH 5D KS QH JS ,    High Card
 7S AS 9D 9H 6D JD 3S ,    Pair
 10C 8H 7D 10D AC AD KC ,    Pair
-6S JS 8S 6D QS 3S 5S ,    Straight Flush
+6S JS 8S 6D QS 3S 5S ,    Flush
 9H 5H 10S AC QC KD 9S ,    High Card
-2H KH JH 3H KS JC 7H ,    Straight Flush
+2H KH JH 3H KS JC 7H ,    Flush
 3C QD AH 8C 2S 7C 6H ,    High Card
 5C JS 4C 3S 4H 10H 3H ,    High Card
 AH QS 9H 4D KC JH 5S ,    High Card
@@ -31676,7 +31676,7 @@ AS 6C 10D AD 2H 6S 3S ,    Pair
 3C 8C 7C 7D 9D JH 6S ,    Pair
 10C 6C 4C QH 2S 2C 4S ,    Pair
 6D 2D JD 5S 10S 7H AD ,    High Card
-9S 6S 8S QS 7S JD 3S ,    Straight Flush
+9S 6S 8S QS 7S JD 3S ,    Flush
 10C KD AS 5D AD 9H 2S ,    High Card
 3H KS 2H 8D 6D 5C 5S ,    High Card
 JC QH 2C 3C JH QC QD ,    High Card
@@ -31736,7 +31736,7 @@ AH 4D 9C KC 9S KD 3C ,    High Card
 KD 3S 5D 4S 2D 10H 10S ,    High Card
 AS 4C JH KH 7S 6S 6C ,    High Card
 AC 2H 8H JD 9H 6H 3D ,    High Card
-8C KC 3C QC JC QH 6D ,    Straight Flush
+8C KC 3C QC JC QH 6D ,    Flush
 3S 2D 8C 4S 9S 7D 2H ,    High Card
 6C QD AS 4D KS QH 3H ,    High Card
 JS 9D AH 6S 3C 5C KH ,    High Card
@@ -31872,7 +31872,7 @@ KH 3H 5S QD 6H 3C 7H ,    High Card
 6H QS 6C 9C 5D 2D 7S ,    Pair
 8S 10H 9H KC JS KS 10S ,    High Card
 QH 7D 7H 3H 2C 4S 6D ,    Pair
-3C 5C 7C 10C QC 2H 9D ,    Straight Flush
+3C 5C 7C 10C QC 2H 9D ,    Flush
 3H 5S 6H 8D 3S 8S JH ,    High Card
 10C KH 5C 7D 2C AH QH ,    High Card
 10S 6C 2H 9H KD 2S JS ,    High Card
@@ -31942,7 +31942,7 @@ AC 8H 4H QC 4S 2S 6D ,    High Card
 5D JD 7C QS 10C 3S 6H ,    High Card
 10H 7H 6C 10S 9C JD 8S ,    High Card
 3C AH 8D 9D 7C QS 3H ,    High Card
-7D KD AD 8H 3D 2D 10C ,    Straight Flush
+7D KD AD 8H 3D 2D 10C ,    Flush
 3S JC 6H 2H 10D QD 6D ,    High Card
 3S 6S KC 7S 10S QH 5C ,    High Card
 AH 9C 7H 2H AD 5S JS ,    High Card
@@ -32013,7 +32013,7 @@ QH 8C 2H 9S 6C JH 7H ,    High Card
 QC 3C 10H QS 3D 2C JS ,    Pair
 8H 4C AS JD 3S KC 5H ,    High Card
 2D 3S 8D JC 5D 4D 2C ,    High Card
-6S 5S 9S QS KD QD 8S ,    Straight Flush
+6S 5S 9S QS KD QD 8S ,    Flush
 9C KH JD 6C 7D 2H AH ,    High Card
 6D JS 5H 3C AC QC KS ,    High Card
 9C JC 2C 2H 4D KC 4H ,    Pair
@@ -32126,7 +32126,7 @@ JH 7D QC 9C 8H AD KD ,    High Card
 KC 4H 10S QC AC 8C 5S ,    High Card
 6D 4C 3C KD 7S 2D 9H ,    High Card
 3H 2S QD 7D 3S 3D 5H ,    Pair
-3S 2S 4S 6D 9S 6S AD ,    Straight Flush
+3S 2S 4S 6D 9S 6S AD ,    Flush
 10S 7S 2D JC AH JD 3C ,    High Card
 8C QD AS QC 2C 7C 2H ,    High Card
 8D QH KC 5H 8S 3H 9H ,    High Card
@@ -32355,7 +32355,7 @@ QS 6S 3D JD AH 4H 8S ,    High Card
 8C KC 6D 10H 3D KS QS ,    High Card
 4D 5H 8S 5C 6S JD 2H ,    High Card
 KH 6H 7S 8H 9S KD JS ,    High Card
-6C 9C QC KC 2C 6H AS ,    Straight Flush
+6C 9C QC KC 2C 6H AS ,    Flush
 10C 3S AD 8C QH JH 2S ,    High Card
 7H AH 5H 4D JC 9D 2H ,    High Card
 2D 7C 10D JS QD KH 8S ,    High Card
@@ -32387,7 +32387,7 @@ JD 3S AH 7C 8H 4H 7H ,    High Card
 3D AS 9C 5C 3H 2H 2S ,    High Card
 8D AH KH 8H 8S 5D 9S ,    Pair
 4C 3S 10C 4H 5H AD QD ,    Pair
-KD QD 7D 10D 9D 2C KS ,    Straight Flush
+KD QD 7D 10D 9D 2C KS ,    Flush
 8D 6H 6D KH 10H 3D 10C ,    Pair
 2S 6S 5D 9H 9S 10S QC ,    Pair
 5H AS 7S KS QC 8H 6H ,    High Card
@@ -32534,7 +32534,7 @@ KS 4H 8S 2H 9D JC 5H ,    High Card
 JD 10H 9D 6H 7S 2C 2S ,    High Card
 QD 10C 5H 9S 3C AC 8C ,    High Card
 5S 9D 3C AC 9H 2D 6H ,    High Card
-2H AH 5H KH 6D 7D 10H ,    Straight Flush
+2H AH 5H KH 6D 7D 10H ,    Flush
 8D QH 8H AD KD 7S 2S ,    Pair
 QD 7C 5C JH 4D 3H QC ,    High Card
 4H 2S 7S 7H 3C JH 2H ,    Pair
@@ -32575,7 +32575,7 @@ JS 10D 8H AC 4D 6H 6D ,    High Card
 JS 6S QH 3D JC 10S AD ,    High Card
 KH JD 5C 6D 4D 2D QH ,    High Card
 2H 9S 5D 9C KS 8H 8D ,    High Card
-3S 8S QS 4S 6H 4C 6C ,    Straight Flush
+3S 8S QS 4S 6H 4C 6C ,    Flush
 3S 7S AD 5H 6D QH QS ,    High Card
 8D KS KC 9C 7H KD 8H ,    Pair
 JS 10C 6S 8C JC 5D 10H ,    High Card
@@ -32592,7 +32592,7 @@ AD 8C 10D 7C 9C 4D 5C ,    High Card
 5C 5H QD JS KH 8S 3D ,    Pair
 KC 6C 3S 9C KH 3D 5C ,    High Card
 9D 9S 6D 10S 2S 8C 5D ,    Pair
-AS 4H 9H 6H 2H 7H 5H ,    Straight Flush
+AS 4H 9H 6H 2H 7H 5H ,    Flush
 8D KD 5S JS 7C QS 4C ,    High Card
 AS 3C 7S 7H 2C 4C QH ,    Pair
 JS JH 5C 8S 5D 6S 7D ,    Pair
@@ -32720,7 +32720,7 @@ JC 6D KH 7D 6C 3C KS ,    High Card
 2C QD 10H 6D 3S JS 7C ,    High Card
 2S 10S AS 7D 8D JD KH ,    High Card
 7S 9D 2H 3D KC JS KH ,    High Card
-4C 7C 10H QC 5C 8S 3S ,    Straight Flush
+4C 7C 10H QC 5C 8S 3S ,    Flush
 10D 4S 6D AS 5D JC 2C ,    High Card
 8D 2D AH KD QD 8H 6S ,    High Card
 7D 2D 8D 7S 4H QC 8H ,    High Card
@@ -32888,7 +32888,7 @@ JD 7S 8H 8C 4S AD 4H ,    Pair
 QD 10S 6S 10H 3H 8C KS ,    High Card
 QC 5H 6H AS AC 4D 9D ,    Pair
 5D JC 5C QC 2D 2C AC ,    Two Pair
-4S 3C 7S AS JS 8S 5S ,    Straight Flush
+4S 3C 7S AS JS 8S 5S ,    Flush
 4C 3S 9C 4D 3D KD KH ,    High Card
 9C 10H 7D JD 3S 3H 9H ,    Pair
 4C 5H JS 5S KC AS AD ,    High Card
@@ -32944,7 +32944,7 @@ JD 2H AS 2C 10D 7H 6H ,    High Card
 9H 4C QD 7D 10C KC 6D ,    High Card
 9C AC QS 2S 3D 6C 6S ,    High Card
 4D 8C JC KS JH 7C 9D ,    High Card
-9C 5C 2C 10C AC 4D 8H ,    Straight Flush
+9C 5C 2C 10C AC 4D 8H ,    Flush
 QD 7S 9S QH 5D 10S 8C ,    High Card
 KD JS 6H 10H 4C 9H KS ,    High Card
 3D 6S QC 7S 2C 6H 7H ,    High Card
@@ -32964,7 +32964,7 @@ JC 3S JH JS 3D 2D 3C ,    Pair
 KC 2H 7H 10H 5D 2C 5S ,    High Card
 10S 4D 4S 10D 2D 8S 3C ,    Pair
 JS 3D 5D AD 9C JC 4H ,    High Card
-6H JH 9H 5C AH KH KS ,    Straight Flush
+6H JH 9H 5C AH KH KS ,    Flush
 AC 8H 2H KC AS 3S 9D ,    High Card
 4C 3S 5S 5H 7S 10H 6H ,    Straight
 KH 9S AS 7C JC 5C 8C ,    High Card
@@ -33037,7 +33037,7 @@ QD JH JS 2C 6S KS AH ,    Pair
 3H KS QD JS 3S 2C 7S ,    High Card
 10C KH 7H JC 5S 10D 2H ,    High Card
 2D 6D 9C 4H 3C JD 10S ,    High Card
-JD KD 7D 6D 8S 5D QD ,    Straight Flush
+JD KD 7D 6D 8S 5D QD ,    Flush
 4D 10S 9C KC AC 4S 3S ,    High Card
 4C 5C QS 3C 2C 2S 6C ,    Straight
 2H 6C 7S 8H 4S 5H AS ,    Straight
@@ -33248,7 +33248,7 @@ KD JC AH 5H 9H 7H 3S ,    High Card
 2D 4S 4H 9S 9C KD 3S ,    Two Pair
 KS JS 9H 5C AS 8H KC ,    High Card
 QD 9C 7C 7S 5S 9S 4D ,    Pair
-JD QD AD 4D AH 5H 3D ,    Straight Flush
+JD QD AD 4D AH 5H 3D ,    Flush
 6S QS 2C 9C 8C 3H JH ,    High Card
 QC 10S AC 2S 10H 3S 2H ,    High Card
 JS 8D 10D 2D 7C 8S 4C ,    High Card
@@ -33285,7 +33285,7 @@ KH 10C 3D 8C JD KC 6S ,    High Card
 QH 4S 10S QC JD AD JH ,    Pair
 5C KC AS KS 4H 9S 4D ,    High Card
 KH 4C 2D QC 3D 6S 6D ,    High Card
-3H JD 7D KD 5D 9D 7S ,    Straight Flush
+3H JD 7D KD 5D 9D 7S ,    Flush
 9C 6H 2C 6C 2S QD 8D ,    High Card
 KS 7C 9D QH QD 9C 8H ,    Pair
 8S 10S JD 3S 10D QS JC ,    High Card
@@ -33426,7 +33426,7 @@ AH 8C 2S KC JH 2C KH ,    High Card
 7D JC 8C 7S 3H 3D AD ,    Pair
 JD 5D 3S 7H QS 5C JH ,    High Card
 QD 3C AH 5H 10H KS 4D ,    High Card
-3H 5H 10D 6H 8H JC 7H ,    Straight Flush
+3H 5H 10D 6H 8H JC 7H ,    Flush
 6S 6D 10H KH 4D 2D 5S ,    Pair
 5D 7D 4H 8S 10C 2H QS ,    High Card
 2S AH 9D 8C JH AD 7C ,    High Card
@@ -33434,7 +33434,7 @@ JD 5S JH 10C 6S 3H 6C ,    Pair
 AD 5H JC 8S KH 2H 9H ,    High Card
 4H 10H 7H KD 2C 8D KS ,    High Card
 7D KD 10C 8H 6S JS 5H ,    High Card
-2S QS 5S AS 6D QD QH ,    Straight Flush
+2S QS 5S AS 6D QD QH ,    Flush
 AD AC 7C 8D 8S 8C KH ,    Two Pair
 5D 10H KC 9C JC 3H 2D ,    High Card
 6D QH 5C 9D JH QC 7S ,    High Card
@@ -33586,7 +33586,7 @@ AD 4H 7C 2D 5C AC 4D ,    High Card
 KD 4C 7D 3H 2D 3D 8H ,    High Card
 4H 6D AC 2C KC JD 8S ,    High Card
 9S QS 5D 10D JS AH 10C ,    High Card
-QH 5H 9H 2H 9C 5C 7S ,    Straight Flush
+QH 5H 9H 2H 9C 5C 7S ,    Flush
 5C JS JC QD KS 8S 6D ,    Pair
 2C AH AC 8C 3S 4C 6S ,    Pair
 3C 2H 10H 9S KD 6H QC ,    High Card
@@ -33807,7 +33807,7 @@ QC 7D 2H 3S 5D AS KD ,    High Card
 6S AC 10C KH 2H 8S 3S ,    High Card
 AD 4C 8C KS QD 3S 10C ,    High Card
 AC 10D 7S QC JC 8D 5S ,    High Card
-AH 9H 6H 10H KH 4H 10S ,    Straight Flush
+AH 9H 6H 10H KH 4H 10S ,    Flush
 7C 6C KC 5H 5C 9S JH ,    Pair
 8H JS 2C 4C AH 10D 3H ,    High Card
 KD 6H 2S 2H 9H 9C 8S ,    Two Pair
@@ -33996,7 +33996,7 @@ JH QD 5C KD 7C 10D KC ,    High Card
 10C 3H 6D JD 4H QH 7H ,    High Card
 2C 4D QC 6D 5C 5S 9D ,    Pair
 KS 6S 10S JC 9C JD 6C ,    High Card
-JH QH 8H 9H 3D 4S 8D ,    Straight Flush
+JH QH 8H 9H 3D 4S 8D ,    Flush
 9C JH 5S AS 2S KH AD ,    High Card
 JS 9H KS 2C 3D QD 7C ,    High Card
 7H 7D 9C 10C 9D 8H QH ,    Two Pair
@@ -34084,7 +34084,7 @@ JH 10D 8D QD 5C 7H 4S ,    High Card
 7S 5S JH 5H 9S 2H 4D ,    High Card
 6C 2C 9H 6S 4S KS 3C ,    High Card
 5C 5H 6S 8S 2S 6C 6H ,    Two Pair
-KH 5S 9H QH AH 4H AS ,    Straight Flush
+KH 5S 9H QH AH 4H AS ,    Flush
 10C 8C 7D KD QC 3S 2H ,    High Card
 5D 9C 3H JD 9S 8D 4S ,    High Card
 AD 5S 7C 10S 5D QD 6C ,    High Card
@@ -34112,7 +34112,7 @@ KH 9S QH 8C 2C 10C 10H ,    High Card
 KH 3C 4C 7S 6S 3D 7C ,    High Card
 7H AD 8D 3S QC 10H QD ,    Pair
 8S 10C 3H 6D KS 7D KD ,    High Card
-4C JD 8C JC 5C 7C 8H ,    Straight Flush
+4C JD 8C JC 5C 7C 8H ,    Flush
 10D 7D KD JS 2D 9D QS ,    High Card
 8S 5D 6H 3C 10S KS 9C ,    High Card
 AC KH QH 9H 4H 4S QD ,    Pair
@@ -34281,7 +34281,7 @@ JC AD 4H 2H AC 8D 5S ,    High Card
 5C 7H 3H 6D 8S 5H KH ,    High Card
 AS 8C 3S 3C QH JD 9D ,    Pair
 4C QH 10D 9S 2S 5H 8D ,    High Card
-6D JD KD 5C 9D 7D 7H ,    Straight Flush
+6D JD KD 5C 9D 7D 7H ,    Flush
 2H 2D 6C JC 5S 10S AD ,    Pair
 5S 2D 4H AS 2S QS 4C ,    High Card
 5H QC 8H 7S 3H JS KH ,    High Card
@@ -34429,7 +34429,7 @@ JS 8C 7D KS 8D 8S 10D ,    Pair
 3D 7S 9H 3S JC 6H 9S ,    High Card
 AC 7C 2D 6C QH QC 8D ,    Pair
 9C JD 8C 10C AH JS 10H ,    High Card
-QD 7D 5D AD 2S JH KH ,    Straight Flush
+QD 7D 5D AD 2S JH KH ,    Flush
 2H 9S 8C 10H QD 6D AC ,    High Card
 5S JC 6H QH 6S KH 3S ,    High Card
 AH 3D 4S 2S JD 6C 5C ,    Straight
@@ -34621,7 +34621,7 @@ JC 3D JD KH 5C AD 9D ,    Pair
 AD 9D 8D 6S 2S 10H 5D ,    High Card
 JS 10H 7S 2D 7H 5H 4H ,    High Card
 AS AC 5S 4D 7D 2S 2C ,    Two Pair
-QC KH 5C 7C KC 4C JH ,    Straight Flush
+QC KH 5C 7C KC 4C JH ,    Flush
 JD 2H 5D 3H 4S 8D 6S ,    Straight
 5D JC QH QC QS 2S 7H ,    Pair
 3D 6H 7D 9S 5C 10D 3C ,    High Card
@@ -34914,7 +34914,7 @@ KC 4H QS 2H 6D 4C 3H ,    High Card
 7H 10S 9D 4D 7C JC JD ,    High Card
 9H 5H 10D 3D 4S QD KD ,    High Card
 5D 7S 2H 9S QH 3S 7C ,    High Card
-9D AD 2D JD 9C 6D AH ,    Straight Flush
+9D AD 2D JD 9C 6D AH ,    Flush
 8S 2C 3H 4D QS 4H 5S ,    High Card
 AD KS QS AS AC 6S 9D ,    Pair
 AH 9H 8H 5D KD 8D 4D ,    High Card
@@ -34957,7 +34957,7 @@ JC 2H 9C 10H KS QH 4D ,    High Card
 9H QS 10D 6S 8S AH 10C ,    High Card
 3C QS 6S 9D KD QC 7H ,    High Card
 10D 7S 9H 9S 5C 9C JH ,    Pair
-4D AD 7D 5D 4S 3H 10S ,    Straight Flush
+4D AD 7D 5D 4S 3H 10S ,    Flush
 QD QH 2H 10H 6D AS JC ,    Pair
 3C AD 9C QH 5H 6D JS ,    High Card
 2C 6C QC 7S 4C 7H 9S ,    High Card
@@ -35016,7 +35016,7 @@ QD 8S QS 7D 9C 6D 8D ,    Pair
 6S 9C 5H 5D QH 6D 8S ,    Pair
 6C 3H QD 7H JH 10S 7S ,    High Card
 9H 2D 2H 4H 10H 8C 7C ,    Pair
-2S JC 9C 7C 8C 6C 9D ,    Straight Flush
+2S JC 9C 7C 8C 6C 9D ,    Flush
 QD 4D 2D 7S KC AD 8S ,    High Card
 JD 3S KH 10H 3H 6H 7H ,    High Card
 QH 5H 3C 9S 6C 7C AD ,    High Card
@@ -35062,7 +35062,7 @@ KD AH 5H 10C 7D 2S 8H ,    High Card
 3C 10C 8S 10H 5S 5D 4H ,    Pair
 JS 4D 7D 2H AC 4C 9H ,    High Card
 QD AH 2S 9S 3D KS QC ,    High Card
-9H KH QH 5H 5S 7H 2S ,    Straight Flush
+9H KH QH 5H 5S 7H 2S ,    Flush
 8S QS AD 6H 3C KC AS ,    High Card
 6S 9C 8D 2D 7C JH JC ,    High Card
 JD 3H AH 9S KD 4S KS ,    High Card
@@ -35098,7 +35098,7 @@ QH 9H 4H JD 5H 3C KH ,    High Card
 7H 7C AS KS 8S JH 8H ,    Pair
 6S 3H 10C 3D 4S KC 8C ,    Pair
 QH KH AS 8S 3C 8C 8D ,    High Card
-AS 3H AH 5H 4H 8H 2H ,    Straight Flush
+AS 3H AH 5H 4H 8H 2H ,    Flush
 5D 3S KC KD QC 7S AC ,    Pair
 6H 2D 6S 6D 8C 10C JC ,    Pair
 9C QH 7C JH 9H JS QS ,    High Card
@@ -35145,7 +35145,7 @@ AD 6D AS 3H KH 3C 4S ,    Pair
 9C 5S 2S 5H 2H 5C 6H ,    High Card
 8S 7H 4H 3D 8D QD 8C ,    High Card
 9S 4H JD 2H KD 4C 5D ,    High Card
-5C 9C 3C 10S 7C QD 9H ,    Straight Flush
+5C 9C 3C 10S 7C QD 9H ,    Flush
 6S 3S 2S 10D JH 4S AS ,    High Card
 4H AH QC JS 2H JD 3D ,    High Card
 AD KS 3S AS 10C 4H JD ,    High Card
@@ -35258,7 +35258,7 @@ AH JH 3S 8D 6H 3D 2H ,    High Card
 3S 9H 3D 5C 2C 4C 9S ,    Pair
 AD JS 8S 10C JC 10S 6C ,    High Card
 5H 7C 9D 10H AS 4H 2D ,    High Card
-JH 7H QH 3H AH KS KC ,    Straight Flush
+JH 7H QH 3H AH KS KC ,    Flush
 8H 5H 5D QH JS 6H KC ,    Pair
 QC 8D AC 4H 10S 9S 7C ,    High Card
 QS KD 3C 10H 9H KS 4S ,    High Card
@@ -35269,12 +35269,12 @@ KS KH 7C 3S 5H 5S AS ,    Two Pair
 5D 8S 10S 3H 2H 9S 7H ,    High Card
 3S AC 5H 10C KS JH 10D ,    High Card
 7S 2C 4C 9D 7C KC AH ,    High Card
-5H QH 8H AH 4H 10S 5D ,    Straight Flush
+5H QH 8H AH 4H 10S 5D ,    Flush
 AD 8S 4D 2D 5S 10D 10H ,    High Card
 6S KH 3D 2S 2H KS KD ,    Two Pair
 10C 3S 4S QD JH 9H 6D ,    High Card
 7C 2C 2S JC 5S 5D AC ,    Two Pair
-7D 9D 3D JD 7H 9S 5C ,    Straight Flush
+7D 9D 3D JD 7H 9S 5C ,    Flush
 AD 2D KS 4C 6D QD 2H ,    High Card
 6S JS 8D 3H JH AC 5D ,    High Card
 3D 2H 8C QS AS 10C 8H ,    High Card
@@ -35384,7 +35384,7 @@ JH 8C 2C AH 4S JS 3S ,    High Card
 AC 10D 6D 9H 5D 6H 9C ,    High Card
 5H KS 4C 10H 6C QC KD ,    High Card
 6C 7C QS QD 9H 4C JS ,    Pair
-7H JH KH 6H 7D 5C KS ,    Straight Flush
+7H JH KH 6H 7D 5C KS ,    Flush
 5H 3C AD 4H 2D 5D JC ,    High Card
 2C 4S QH AS 6S AH AC ,    High Card
 QS 3C 7H 9C AC KS 6D ,    High Card
@@ -35630,7 +35630,7 @@ QD 8D AD 7C 7H KS KH ,    Two Pair
 5C AS 9H 3D AH 10H 2C ,    High Card
 10D 3S JD 9S 4C 5S QS ,    High Card
 7S JS 10S 4D 4S 6S 8H ,    Pair
-4S AS 2S QC 8S 6S 2C ,    Straight Flush
+4S AS 2S QC 8S 6S 2C ,    Flush
 10C 10D 8C AD 7H KH 3H ,    High Card
 JS 6H 9C QS 2D 4D 2H ,    High Card
 QD 4D QC 10C 7S 2C 6C ,    Pair
@@ -35844,7 +35844,7 @@ AS JC 7C 3C QS AD 8C ,    High Card
 AD 7C 10C AS 10D 8D 9S ,    Pair
 QC JD 5S KC 5D 8S 7D ,    High Card
 6S 6D QS 3S 10H JC 2S ,    Pair
-KD JD 5D 2D 9C 9D 3H ,    Straight Flush
+KD JD 5D 2D 9C 9D 3H ,    Flush
 4H 7D AD 6D 2C 8C 5H ,    Straight
 KS 10C JH AH JC 8D 7H ,    High Card
 QD AC 7D 6C KS AD 8S ,    High Card
@@ -35893,8 +35893,8 @@ JC 6D 5S 7C 8D KC 2H ,    High Card
 2C 2H 4H QS JD 7S 7D ,    Two Pair
 8S AS AD QD JS 9H KD ,    Pair
 6S 3H QH 10H KS 4C 4S ,    High Card
-8C 6C KC 3S 3C JC 2D ,    Straight Flush
-JS 5S KS 4S 10C 7S QS ,    Straight Flush
+8C 6C KC 3S 3C JC 2D ,    Flush
+JS 5S KS 4S 10C 7S QS ,    Flush
 2D 7C AC 6C 8H 7H 5D ,    High Card
 2C 5C 2H 4H 4C QH 4D ,    Two Pair
 4H 6D KH QC 5D 7D 10S ,    High Card
@@ -36007,8 +36007,8 @@ AH AD 7C 3S QH 3D 9D ,    Pair
 7C 2D 3C 4D 9H JH 3D ,    High Card
 3S 9D 4H 7S 10S 8H 7D ,    High Card
 9H 4S 8S 4D AC AS KS ,    Pair
-3C 8D 6C 7C 2C 9C QC ,    Straight Flush
-JH 2H 6H KH AD 5H QS ,    Straight Flush
+3C 8D 6C 7C 2C 9C QC ,    Flush
+JH 2H 6H KH AD 5H QS ,    Flush
 AC 9S AH 4C 4H 5D 9H ,    Two Pair
 6S 5C 4S 10C 10S QS 6D ,    High Card
 JS 2C 6H 5S AD JH KD ,    High Card
@@ -36105,7 +36105,7 @@ KD JS 9S 10H KC 2D 6H ,    High Card
 7S 7H KD 10S JH 9C 4C ,    Pair
 2D 5C 8C 7D 6S JS AS ,    High Card
 9D QS KC 5D 10C 3H 5H ,    High Card
-4C JD AC 6C QC 3C 7D ,    Straight Flush
+4C JD AC 6C QC 3C 7D ,    Flush
 9H 6S 10H 9D 7S 7C 10C ,    Two Pair
 9S AD 8S QS 8D JS 8C ,    High Card
 5D AS KD 4H QH 7H 10S ,    High Card
@@ -36347,11 +36347,11 @@ AC JH 2C 10D 8D 7H JS ,    High Card
 8S 9C 7S 6D 6C 10S 7D ,    Pair
 5H QC 7C KS 4D 10D 5S ,    High Card
 6S 7H 5D 9D QS 2D JH ,    High Card
-3H 8H 10H AH KH 2S 3D ,    Straight Flush
+3H 8H 10H AH KH 2S 3D ,    Flush
 3D 4D JH 9D 6D 9H 7H ,    High Card
 10S 10D KH 9C QS QC KC ,    Pair
 JC 5D AS 8S 5C 3C 5H ,    High Card
-7S JS 2S 2D 5S 9S AH ,    Straight Flush
+7S JS 2S 2D 5S 9S AH ,    Flush
 7S 6D JS KH QC 3C AD ,    High Card
 JC 9S 4H 3D 8C 10D 8S ,    Pair
 QD 7D 4D 3S 2D 6S 6C ,    High Card
@@ -36432,8 +36432,8 @@ JS 9H JD 5D 5H 4C 7H ,    Two Pair
 5C 7D 8S 2D 8C 9S 6C ,    Straight
 10C 6D JS 8S 10H 6H 9D ,    High Card
 AC 5D 8H AS 2S 8D 3S ,    High Card
-2C 9C 10S 7C 6C 6S 3D ,    Straight Flush
-8C 7C 2C 4C QS AH 4D ,    Straight Flush
+2C 9C 10S 7C 6C 6S 3D ,    Flush
+8C 7C 2C 4C QS AH 4D ,    Flush
 6H 6C JH 10D 8S AC 5D ,    Pair
 2D 9H 2S QC KC JS JD ,    Two Pair
 7D 5S JC 6S KD 10S 3S ,    High Card
@@ -36444,7 +36444,7 @@ QD 8S AS KD 7D 5H 7H ,    High Card
 4C JH 8D 8H 9S 5S 3S ,    Pair
 5C 6C 5D JS KH 10H QC ,    Pair
 3H 7C 10C AD AC KS 2C ,    Pair
-JC 8C 6C QS 7C 3C 8S ,    Straight Flush
+JC 8C 6C QS 7C 3C 8S ,    Flush
 AH 5S 3S 10C QC 4D 9S ,    High Card
 2H 3H 5D KS 2S KC 4H ,    High Card
 3H KH 7D 8H JS AC 8S ,    High Card
@@ -36467,7 +36467,7 @@ KD QH 6H 9C QC 10D 2C ,    High Card
 6S 2D 7H JD JS KH KS ,    Two Pair
 JC 4S 10S 5H 6C 5S 9D ,    High Card
 JD 6D 3S QC JS 6H AD ,    High Card
-7H JH AH 8S 4H 2H 9S ,    Straight Flush
+7H JH AH 8S 4H 2H 9S ,    Flush
 5S 7C 2D KC 9C 5H 2S ,    High Card
 3H 6H 10C 4H 8D 9H 5D ,    High Card
 KC 4C 4D 8S JD KS 9C ,    Pair
@@ -36512,17 +36512,17 @@ JD AH 4H 10S 10C QD 5H ,    High Card
 10H QS AH 4D QC 5H 3C ,    High Card
 KD 6H 2D 8C AC KH 4S ,    High Card
 6D AD 5S 9D QH 8S 9H ,    High Card
-8H 2H AH 9H AS 4C 4S ,    Straight Flush
+8H 2H AH 9H AS 4C 4S ,    Flush
 KH AC 5D 7S 8C 3H 3C ,    High Card
 10C 10S 9S JC QS 7H 10H ,    High Card
-2D QD 3D JD AD KS 5H ,    Straight Flush
+2D QD 3D JD AD KS 5H ,    Flush
 8H 6D 9S 6S 8S 8D QC ,    Pair
 4D 7D JC QS 3S 2D 4C ,    High Card
 5H KC 4H 9C KD JD AD ,    High Card
 10H 8D 3S 5D KS 6S 8S ,    High Card
-9H 3H 8H AH QH 2S QS ,    Straight Flush
+9H 3H 8H AH QH 2S QS ,    Flush
 10C 5C 4S 4C 5S AC 3C ,    Pair
-8C 6C 7C 9C 2H 9D 2C ,    Straight Flush
+8C 6C 7C 9C 2H 9D 2C ,    Flush
 3D 8D 7C 4S AC 10S AD ,    Pair
 JC 5H 7D 3S 5S AH KS ,    High Card
 9S 5D 5C 6H QC 2D KD ,    Pair
@@ -36618,7 +36618,7 @@ JC 4H 5C 7D KS AD JS ,    High Card
 2H 10S 5D JH QC 7H 9C ,    High Card
 3C 5C 8S 4D QC 9C 4S ,    High Card
 QD 3S QS AD 2D 8H 4C ,    Pair
-6C KC 8C AC 9D JS AS ,    Straight Flush
+6C KC 8C AC 9D JS AS ,    Flush
 6C QH 9S 8D 3H 6D 9C ,    High Card
 4S 3S JS 2H 10H KH JH ,    High Card
 4D JD 2S 6H QD 10S 7C ,    High Card
@@ -36749,7 +36749,7 @@ JS 5H 10C 10D 3D 6D AD ,    High Card
 3S 4C JH 6S 8S 2S 2D ,    High Card
 5H JS 6S 2S 10H 5D 3C ,    High Card
 AD JH JS 4H QH 7D KD ,    Pair
-6C 2C 7C KC 8D 9H QS ,    Straight Flush
+6C 2C 7C KC 8D 9H QS ,    Flush
 AS 8H 6D 5S 3H 2H 8S ,    High Card
 4C 3D 7S KS 6S 5D 10S ,    Straight
 8C KH 3C 9H 7S 5D 10D ,    High Card
@@ -36847,8 +36847,8 @@ JH 10H QH 8H 2S 5D 4S ,    High Card
 8D 4S 9D 2C 8H 6D 8S ,    High Card
 AH 4C 6H 3H AD 3D 2D ,    High Card
 5S 5C 7H KS 5H 10H 3S ,    Pair
-7H 2C 4C 3C JC 10D KC ,    Straight Flush
-3H JH KH 7H 9S 5H 3C ,    Straight Flush
+7H 2C 4C 3C JC 10D KC ,    Flush
+3H JH KH 7H 9S 5H 3C ,    Flush
 9H 10C 5C AD 8S 6D 8D ,    High Card
 6C 4S QS 4D 3D JC 2D ,    High Card
 4C 5S 9D 10D QD 7D JD ,    High Card
@@ -36860,7 +36860,7 @@ JH 7C KH 3C 2C KS 4D ,    High Card
 AS 6D 3C AD 3H 7D 8C ,    High Card
 KS QS KD JS 7H JD 2C ,    Pair
 3C KD AC 7D QC 9C 7H ,    High Card
-8S 9S 6S QS 6C 10H KC ,    Straight Flush
+8S 9S 6S QS 6C 10H KC ,    Flush
 JD 10S AD 8C 5S 7S JC ,    High Card
 2C 10S 3S KC 3D 6H AC ,    High Card
 AD 2H 4S AH 7D 9D 5S ,    High Card
@@ -36923,7 +36923,7 @@ JC 5C 8D 3D 4D 6C 10D ,    High Card
 2D 5H 9S 5D 6C KD 3S ,    High Card
 KH 7S 10C 5C 8C KS 3D ,    High Card
 6S JH 7D 4C 5S JD 8H ,    Straight
-QC AC 2C 3C 6C AH 10D ,    Straight Flush
+QC AC 2C 3C 6C AH 10D ,    Flush
 8H 9S 6H QS 2D 7D 2S ,    High Card
 4H 10C 9D AS 10S 4S JD ,    High Card
 7D 7H 3H QD JD 5D 4D ,    Pair
@@ -36941,7 +36941,7 @@ KC 8C 9D QS KD QD 7D ,    High Card
 3S 4C 9S 4S 10S 5D 6C ,    High Card
 6D 8S AC 9H 2H 3C 10C ,    High Card
 3S KH 3C 7D 8S QD 3H ,    Pair
-2H 8H 7H QH JC JD QC ,    Straight Flush
+2H 8H 7H QH JC JD QC ,    Flush
 AD 5C JS 10C 5D 6C 7S ,    High Card
 8C QS 6D 8D JH 6S 9H ,    High Card
 5C 6D 8C KD QH 5S 10C ,    High Card
@@ -36994,7 +36994,7 @@ KD 7S 10H 4C AC JC QS ,    High Card
 10D 10S 8D 4S 6S AD 9S ,    High Card
 3D 2D 3H JC 7C 2S 7S ,    Pair
 8H 7H AC 2C JH KC 2H ,    High Card
-QD KD 4D 9H 3D 7D 6S ,    Straight Flush
+QD KD 4D 9H 3D 7D 6S ,    Flush
 AD 7C KS QC 7S QH 4S ,    High Card
 AH 8S JH 2C QS 2D 10D ,    High Card
 JH 8H 9D 7S 8C 3C AD ,    High Card
@@ -37005,7 +37005,7 @@ AH 3H 5S 2H 10H 4C 8S ,    High Card
 3S 3D 9C QH 5H 2D AD ,    Pair
 2C JC 8H 7D 9H 3C AC ,    High Card
 5D JD JH QS JS KH 10S ,    Pair
-9D KD 10D 5D 3D 4H 4S ,    Straight Flush
+9D KD 10D 5D 3D 4H 4S ,    Flush
 3C KS 3S 9C 4D 7C 9S ,    Pair
 9H 2D 5H 7H JS 7D 10C ,    High Card
 2H 2S QC KC 5C 6C AD ,    Pair
@@ -37079,7 +37079,7 @@ JD 10D 5D 6D 8H 10C 8S ,    Pair
 AS 2C 10H KC AH 8S 3C ,    High Card
 9C 3S 5S 10C QD 2S 9S ,    High Card
 8C 3H 8H 5H 8D 4S JH ,    Pair
-JC 6C 7C 4C QS KD 7D ,    Straight Flush
+JC 6C 7C 4C QS KD 7D ,    Flush
 KH 4H 10C 10D 6D 6H QH ,    Pair
 7H 3D 9H 6C 10H JC AS ,    High Card
 AH 2D 10S JH 2H 9S 8D ,    High Card
@@ -37094,7 +37094,7 @@ JD JH 4C KD 10C 9C 9H ,    Two Pair
 AS 6H 4S QD 10C 2S 7H ,    High Card
 2C KH JS QH QS 6D 10H ,    Pair
 8H 8D 4H 9D QC 8S 5S ,    Pair
-5H QH 7H AH AC 3D AS ,    Straight Flush
+5H QH 7H AH AC 3D AS ,    Flush
 10C 2S KC 6D 3S 9H 8D ,    High Card
 4H KH 9S 7D 7S AD 2D ,    Pair
 KD 4S 6H KH QD 6D 4C ,    High Card
@@ -37159,7 +37159,7 @@ AD 8S QH QS JD 6D JS ,    Pair
 2C 9H QC 9S AH 4D 7S ,    High Card
 5H 3C 5C 10S 7H KC 8D ,    Pair
 QH 2H JD 5S 5D 2D 9C ,    Pair
-8S 9S QS 5S 2C JS 10S ,    Straight Flush
+8S 9S QS 5S 2C JS 10S ,    Flush
 KD 6C 7S 3S 2D 9D 4H ,    High Card
 10H 2H 10C KC 3H 7C JC ,    High Card
 8C KD 3D JH 7S AS 8S ,    High Card
@@ -37221,7 +37221,7 @@ JC 6S 3C 9C 3S QS 8S ,    High Card
 7H 8S 5D 6H JD AS AD ,    High Card
 6D AH 4H 7C 10C 3H QH ,    High Card
 7D JS 5C 3C 9C 10S 5H ,    High Card
-KC QC 2C 8C 9S 3D QD ,    Straight Flush
+KC QC 2C 8C 9S 3D QD ,    Flush
 4D 10H 9H 4C 9D KD 5S ,    High Card
 4C 9D AH 9H KD 8C KH ,    High Card
 QD QH AD 2D 2S 2C AS ,    Two Pair
@@ -37288,7 +37288,7 @@ JS 5S 3D QD KS 8H 4C ,    High Card
 10H JC 9H 7S 2S JD 7H ,    High Card
 AC 8C 6C 6S 4H 2C 3S ,    Pair
 8C 5D 7C 3D 2D 5C JS ,    High Card
-6S KS 5S QS 6C 8S 4D ,    Straight Flush
+6S KS 5S QS 6C 8S 4D ,    Flush
 5H QD JD JC KH 8D 9S ,    Pair
 9C JH JC 10C 6S 5S 3H ,    Pair
 JS 8S 10D 8D 7H KH 8C ,    Pair
@@ -37378,7 +37378,7 @@ AC 7D QS 6S 2D KD KC ,    High Card
 QC AH 10D 5S JD 9C 3S ,    High Card
 JD KD AS QC 9S QD 7D ,    High Card
 JH 8C 2H 2C KH 9D 3H ,    Pair
-2S 8S 4S QS 6S 3S 9C ,    Straight Flush
+2S 8S 4S QS 6S 3S 9C ,    Flush
 3D 8D 6D 7S 4C 10C 5D ,    Straight
 QH 7S 7H 10H QD 10D KH ,    Pair
 3C 5H 2C AH QS 6H 2H ,    High Card
@@ -37595,7 +37595,7 @@ AD 7C 5C 9C 5D 5H 10H ,    Pair
 AC 3S KD 3D 9D 6C AS ,    High Card
 JC QH KH KS 2C 10S 5S ,    Pair
 3D 4S 7D 2H 7H QD 8D ,    High Card
-QH 2D JH 3H 6H 4H 9D ,    Straight Flush
+QH 2D JH 3H 6H 4H 9D ,    Flush
 9C AC AD 6C JD 8H 9H ,    Pair
 9D 7S 6S 5S 10H 8H 5D ,    Straight
 9S KS 2C 4D 7D JS 6C ,    High Card
@@ -37630,7 +37630,7 @@ JD AS 4C 6D 5C 2H 8S ,    High Card
 5D 8C 2S JC 6C 3H 10S ,    High Card
 5S AD 9D 8H 7C 10C KS ,    High Card
 JD KH 3D KD QD KC 6S ,    High Card
-5H JH 3H QH 10H 2S JD ,    Straight Flush
+5H JH 3H QH 10H 2S JD ,    Flush
 KH 2H 3D 8S 3C 4H 7H ,    High Card
 9H JS 2D AC 8H KC 10S ,    High Card
 2D KD 4C 4D JS 9C 5H ,    Pair
@@ -37650,7 +37650,7 @@ JD QS 8D 4H 9S 8C QD ,    High Card
 9D 9C 7C 2H 10D 6D 3H ,    Pair
 2D 9H KD QD 2C 10D 2H ,    Pair
 AH 7S JC 3S AD 10H 3D ,    High Card
-AC QC 5C 4C JD 6H 6S ,    Straight Flush
+AC QC 5C 4C JD 6H 6S ,    Flush
 5H AS 9S 6D 8D 2S 10S ,    High Card
 AH 2C 8D 8H 5C AS JS ,    Pair
 9C QC JD 5D 5H 2S QH ,    Pair
@@ -37720,7 +37720,7 @@ QD 8C 4C 10S AH QC 2S ,    High Card
 KD AD 9C 4D 10D 7S 10H ,    High Card
 3H 9H JS 5H 3S 6S KS ,    High Card
 8D 6C 4D 9H 3D 9C 9D ,    High Card
-5C KC 2C 4C 2H KH 7D ,    Straight Flush
+5C KC 2C 4C 2H KH 7D ,    Flush
 5D 10H 3C 6H AS 5S 10C ,    High Card
 QH 8H 8S 6S AC 6D JS ,    Pair
 JS QC 4S 8S AC AS 7C ,    Pair
@@ -37821,7 +37821,7 @@ JS 4C JC KH AD 2C 5C ,    Pair
 10C 3H 4D 5S KD 5H QD ,    High Card
 QD 9H 5C 7D 4C JS 2D ,    High Card
 AD 3D 8H JC 3H KS AC ,    High Card
-8S QS 7S 9S KC 9C JH ,    Straight Flush
+8S QS 7S 9S KC 9C JH ,    Flush
 6C 5S 10S 8C 4D 3S QH ,    High Card
 9D KD QC 6S 6C 6D 8C ,    Pair
 2D KC 4C 5C 3D JH 9H ,    High Card
@@ -37923,7 +37923,7 @@ JC 3H JH 4S 6S 7C 2C ,    Pair
 8C 6S 3D JS 4H 6C 9H ,    High Card
 10D KD 2D 3H QH 3S 6D ,    High Card
 QD 4S JD JC 5H 8D 8S ,    Two Pair
-4H 3D 7D 9D JD 5D 3C ,    Straight Flush
+4H 3D 7D 9D JD 5D 3C ,    Flush
 8D 8S 8H 2S 5C 9C QD ,    Three Kind
 7H 10D 3H 2D KH QS 8C ,    High Card
 6C KC 8D AS 3H KD AD ,    High Card
@@ -37938,7 +37938,7 @@ KD 2H AC QH 9H KC 8H ,    High Card
 10H 3D 6D 10C 9C 10D 8D ,    High Card
 KH 8C 5S 2S QD QS KS ,    Pair
 9C 10H KD 4C 3H 10D AC ,    High Card
-AH 6S 5S KS 9S AS KH ,    Straight Flush
+AH 6S 5S KS 9S AS KH ,    Flush
 6H 8C 9D 5H 2C 7D 2H ,    Straight
 3H 9C 9H 6H 9S KD QD ,    Pair
 JD AD QS KC 10D 5C 6C ,    High Card
@@ -37989,10 +37989,10 @@ KS 8C 8H QD AD 2S 10D ,    Pair
 3C 10C AS KC 7D 10S 6C ,    High Card
 4H 8C JH 9H 8D 3D 3C ,    High Card
 JC AC 5C 2H 5S 10H 7H ,    High Card
-AD JD KD 10S QD AH QS ,    Straight Flush
+AD JD KD 10S QD AH QS ,    Flush
 6H 9C 9H 5H 5S KH JH ,    Two Pair
 7S JS 3C 4S QS QD 5C ,    Pair
-QC JC KC 2C AC 2S 3D ,    Straight Flush
+QC JC KC 2C AC 2S 3D ,    Flush
 4D 10H 2D 8S 4H 10C 10S ,    High Card
 2H 4H JC 9D 7C 8S 5C ,    High Card
 5H 4C 2S 7H 2D KS 10H ,    High Card
@@ -38007,7 +38007,7 @@ AS 2S 9H 6C 5S JD AC ,    High Card
 QD QH 5H 7C 2D 9D JS ,    Pair
 5S 9H 7D 6H 2D AS KD ,    High Card
 7S 9D 5C 3C 3S 6S KC ,    Pair
-5H 4H 3H 7H AC QC KS ,    Straight Flush
+5H 4H 3H 7H AC QC KS ,    Flush
 10C 9S 7C JH 10H QS AD ,    High Card
 QC 2C 6H 4C 5H 5D 6D ,    Pair
 6C AS QS AD KD JS QH ,    High Card
@@ -38044,14 +38044,14 @@ JC QH 3S 3C 4H 9S AD ,    Pair
 8C 3S QS 10S 8H 3C 2D ,    High Card
 JD JC 4S QC 3H 2H KS ,    Pair
 9D 9C 3D 9H 6D 6C 10C ,    Two Pair
-QH KH 2H 8D 9H 7H 7C ,    Straight Flush
+QH KH 2H 8D 9H 7H 7C ,    Flush
 AH JH 4S 9D 7S KD 10C ,    High Card
 JD 6S 5H 8H 2D 5D 5C ,    High Card
 6H 8H 3D AS 2C 9H 5D ,    High Card
 KD 3C 2D AH QS 9H KH ,    High Card
 3S 4H 2C 6D 2S 7D JS ,    High Card
 AD 8S 7H 6H 8H KC 3H ,    High Card
-9D QD 3D 8D AS 10D 5D ,    Straight Flush
+9D QD 3D 8D AS 10D 5D ,    Flush
 9H 2S 10C 8H QD 2C AH ,    High Card
 6S 6H 10H QS 6C KC 3S ,    Pair
 5D AC 4C 5S 3H AS 8C ,    High Card
@@ -38061,7 +38061,7 @@ QS JH 6S 7H KC AH 9C ,    High Card
 4H 8S 4C 5H AC 9H QH ,    Pair
 4H 6C JD QD 6H 3D 3S ,    High Card
 2D AC 5C 8D 9H 8H KC ,    High Card
-7S 6S 9S JS AD 4S 8S ,    Straight Flush
+7S 6S 9S JS AD 4S 8S ,    Flush
 2H 6C 9D KS 8C 3D AH ,    High Card
 2S JS 5S 5D KC 7C 10H ,    Pair
 5C QS 6D 3H 4H 3C KD ,    High Card
@@ -38084,7 +38084,7 @@ KC 3H 4H 7S JS JH KD ,    Pair
 10S 3C KH QH 2S QC 7D ,    High Card
 4S JD 5C 9D 10C JC QS ,    High Card
 JC 4D JD 5D 8S 6D KC ,    Pair
-8H 9H 6H 10S KH 4H 9D ,    Straight Flush
+8H 9H 6H 10S KH 4H 9D ,    Flush
 4C 4S AD 7H 5S 5H 8D ,    Two Pair
 3D KS 2D AH 9S 10H 6C ,    High Card
 AH AD 7S QD 9H 6S 8H ,    Pair
@@ -38138,7 +38138,7 @@ JH KD 10S JD KH KC QC ,    Two Pair
 5S QC KC 4H 9C QH 7D ,    High Card
 5D 10H 8H 2D 4S 8S 7H ,    High Card
 6C 9C AD 10C 8D 5D 6S ,    High Card
-6H 8H 2H 10D 5H AH KS ,    Straight Flush
+6H 8H 2H 10D 5H AH KS ,    Flush
 AC 9H 7S 10H KH JS 4S ,    High Card
 4C KD 7C 8C 4H QC QD ,    High Card
 2C 7H JD 7D JS 9D KS ,    High Card
@@ -38241,7 +38241,7 @@ AH 3S QD 2C 5S 3H AD ,    High Card
 JS 6H 4S QD 8S QH 2D ,    High Card
 10C 10H 5H 5C 8C QC 9S ,    Pair
 KH 10H 10C 3H 7D QS 10S ,    High Card
-3D JD KD 7S 9D 2D 3C ,    Straight Flush
+3D JD KD 7S 9D 2D 3C ,    Flush
 7C QD 2C 4D AS 6S 9H ,    High Card
 4S 5C 6H AC 2S 8H 8D ,    High Card
 JC 2D KC 6H AD 3S QD ,    High Card
@@ -38601,7 +38601,7 @@ JD 3D 10S 9H 8D 7H 2S ,    High Card
 8D 7H 4C 9H 6S 3H 2D ,    High Card
 AC AS 8S QC 4H 8C KD ,    Pair
 4D 9C 10D 5C JC 7C KS ,    High Card
-JS 2S 9S JD 5S 4S AD ,    Straight Flush
+JS 2S 9S JD 5S 4S AD ,    Flush
 5D 4D 9C JD KC QC 3S ,    High Card
 4C 4S 7H 3C AS 5H 6S ,    Straight
 4H 5C 9D 2C 10C AC JC ,    High Card
@@ -38795,7 +38795,7 @@ JH 7D 5H 6S 7S 10H QH ,    High Card
 4D KD 10D 10S 8H 4C 5C ,    High Card
 3H QS 9C 6D 6C 7C AH ,    Pair
 2S 10D KC 7H 10S 4D 2D ,    High Card
-8C 3C 6C 10C 4C JS JD ,    Straight Flush
+8C 3C 6C 10C 4C JS JD ,    Flush
 JH 3H 10H 2H AC 7C AH ,    High Card
 5H AC 3D 5C 10H 2H JH ,    High Card
 7D 2C 4H 5H 10C 10D KH ,    High Card
@@ -38812,13 +38812,13 @@ AS 5H 10D QS 9S 7H 6D ,    High Card
 QH QD AH 2D QC 9C 4H ,    Pair
 9S AD 3D 4S 5S 2H AS ,    High Card
 10H 8C AC JH 9D 6D 4C ,    High Card
-KH QH 4H 6H 8H AH 3S ,    Straight Flush
+KH QH 4H 6H 8H AH 3S ,    Flush
 5H 2S 9C 4C 6S 9H QS ,    High Card
 7H 6D KC 7C KD 4D AD ,    High Card
 JH 9S AS 7D 8S 4S 5S ,    High Card
 8H 5C 4D 5H 3H 6D JS ,    High Card
 KH AH QD 2C 2H 9C 10C ,    Pair
-2D 9D 10H JD 8D 2S 4H ,    Straight Flush
+2D 9D 10H JD 8D 2S 4H ,    Flush
 5D AS 9D 4S 6D QH 8S ,    High Card
 10H AH JS 8H 2H 10C 3C ,    High Card
 9C 6S 5S 4H 4C 2S QC ,    Pair
@@ -38915,7 +38915,7 @@ KC QD 10D 5H 4C 2C 4S ,    High Card
 10D 4C QH KC AS JC 3S ,    High Card
 6C 5D 9S 6H 7C 5H 8D ,    Straight
 10H 2D AH 3D 2C 9H 4D ,    High Card
-JS 8S 6S 5S 2H 2S 8C ,    Straight Flush
+JS 8S 6S 5S 2H 2S 8C ,    Flush
 6C JH 8D KD 6D 2H 7H ,    High Card
 3H 6H AS 5D 9D JC 3C ,    High Card
 3S 10C 10D 2D 4D 2S QS ,    High Card
@@ -38926,13 +38926,13 @@ QD 9S 3S 4H 8H KS 4S ,    High Card
 10H 7D JC 3C 6S JD 5H ,    High Card
 10D 8H 2C 9H 7C 4S 2D ,    High Card
 9C 7H 3S JH AD 10C 6H ,    High Card
-9C QC 6C KC KS 9D 7C ,    Straight Flush
+9C QC 6C KC KS 9D 7C ,    Flush
 5D 4S 5C 7D 7H 3C JH ,    Two Pair
 10S KD QH 6D 2H 5H JS ,    High Card
 3H 9H 4H AC 8S 3S 9S ,    High Card
 5H 3D 6H 8D 4C 3S JH ,    High Card
 10H 2D 3H JD 10D 5C 6S ,    High Card
-KS 4S 10C QS 8S 9S QH ,    Straight Flush
+KS 4S 10C QS 8S 9S QH ,    Flush
 AC KH 9S 3C 9D JD 10S ,    High Card
 QC 3S KD 8S QS 10H 7S ,    High Card
 6C 6S 10D 10C QD 6H 6D ,    Two Pair
@@ -38955,7 +38955,7 @@ AC 8H 5H QD KS KC JH ,    Pair
 AD JH 5C 8H 10D 9D 4D ,    High Card
 2S KS 7H 3S KC 5H 7S ,    High Card
 9S QS 8D AS 6H 10S 7C ,    High Card
-3D 6D 8D 5D KH 2H KD ,    Straight Flush
+3D 6D 8D 5D KH 2H KD ,    Flush
 4S KS 10C 8C 3C QH 5C ,    High Card
 5S 2C 2S JH 8H 4D 3H ,    Pair
 9C 3S 2D 7S 5H 6S 7H ,    High Card
@@ -38974,7 +38974,7 @@ AC 8D 3S 8S QS KS 3D ,    High Card
 4C 8H 7C 6D AD 4D JS ,    High Card
 5S 2D 4H AH KD JC 10S ,    High Card
 9D 9C JH 2S 5C KC 8S ,    Pair
-AD KD QD 5D 2D 10C 10S ,    Straight Flush
+AD KD QD 5D 2D 10C 10S ,    Flush
 3D 10H KH 4D 8H JD 3H ,    High Card
 JD 2H JH 3S 6S QH 10D ,    Pair
 JC KC 9C AH 7H 4S 9H ,    High Card
@@ -39062,7 +39062,7 @@ QH 6H 2H KC 7S 4S 10S ,    High Card
 KC 5D 10D 6S 10H 3C KH ,    High Card
 10S 8H 2D 8S 7D 3H 9D ,    High Card
 8D 6D JD 9S 7S AH 7C ,    High Card
-JH 6H 9H 3H 4C 3S 7S ,    Straight Flush
+JH 6H 9H 3H 4C 3S 7S ,    Flush
 10S 5C JC 7D 2C 8C AS ,    High Card
 KD 6C KC 10C QS 9C AC ,    Pair
 5S JD 3D 6S QH 4S 7H ,    High Card
@@ -39114,7 +39114,7 @@ KC QH 9D 4H 9C 2C AD ,    High Card
 8S KS 2S 7C 6C 3S QD ,    High Card
 9D 6C 6S 4C QS 3D KD ,    Pair
 AC 7C 6D 5D 2D 7H JD ,    High Card
-KH 3H QH KS 8H 10S 2H ,    Straight Flush
+KH 3H QH KS 8H 10S 2H ,    Flush
 4D 3S 5H JH AS 2S 5S ,    High Card
 8C AD JC 10D 6D JD 3S ,    High Card
 QC KS 4D 4S 2H JH 2D ,    Pair
@@ -39199,7 +39199,7 @@ KH 9S 10D JC AC 5D 7S ,    High Card
 7H 3S 2C 2S 8S 3C 5C ,    Pair
 KC 9D 10D 5C 5H 3D 4D ,    Pair
 AS 3S QD KH 8C 7C KC ,    High Card
-JS 5S 4S 6S 7S 2S 9S ,    Straight Flush
+JS 5S 4S 6S 7S 2S 9S ,    Flush
 7H 8S 8H QC 9C 5C 4D ,    Pair
 KD 9H 6C 3C 8D 2D 3D ,    High Card
 KD JC AD 7H KS 3H JD ,    High Card
@@ -39431,7 +39431,7 @@ KD AH 5S 4C 10S JD 4D ,    High Card
 AS JS 8S 5H 3D QH 6D ,    High Card
 6S 10D 8C 7S 9S 5D QC ,    Straight
 QH KD 4S QS QD 10C 9H ,    Pair
-4H AH 10D JH 2H 4D 8C ,    Straight Flush
+4H AH 10D JH 2H 4D 8C ,    Flush
 9S JD AD 7S 6D AC 3C ,    High Card
 6S KD 8D 2C 6D 2S 5D ,    High Card
 3D KS 2H 5S 7H 5C 2D ,    High Card
@@ -39462,7 +39462,7 @@ AC QS 10D 7C AS JD 2D ,    High Card
 8C 6H 10C 2C JS 4C JH ,    High Card
 10S QS 9S 8D 7S 5D 6S ,    Straight
 2S 3S JC KS 7D 4D QC ,    High Card
-QS AS KS QH JS 6S 8D ,    Straight Flush
+QS AS KS QH JS 6S 8D ,    Flush
 5H 4H 3C 2C KC 8C 9H ,    High Card
 JH 4C 2S 3D 5C 10H 9S ,    High Card
 3H KD QD 2H AD JD 2D ,    High Card
@@ -39475,7 +39475,7 @@ JS QH KS 6H 4H 5D 5S ,    High Card
 8D AS JD 10H QS KH 8H ,    High Card
 3H 9S 8S 2S 6H AH 5C ,    High Card
 6D 9D 4D 7H 10S 4H 10C ,    High Card
-2C 6C 3C 7C JS 4S 3D ,    Straight Flush
+2C 6C 3C 7C JS 4S 3D ,    Flush
 KH 10S 4D 9H 5D 3S JH ,    High Card
 6D 4H 2H 3D QS 4C 8H ,    High Card
 5S JC 7H 10C 5H 10H 6H ,    High Card
@@ -39565,7 +39565,7 @@ AS AH 7D KH 7C 7H JH ,    Two Pair
 6C AC KD 8S 4S JS 10S ,    High Card
 8H 2S QS 5H QC 8D AS ,    High Card
 9H KH 3S 3C 9D 4H 7H ,    Pair
-3D 4D 5D 10H JD 6D KC ,    Straight Flush
+3D 4D 5D 10H JD 6D KC ,    Flush
 AC 4D JC 5C AS 10D JH ,    High Card
 2D 2S 10S KS 6C 3D KD ,    Pair
 3H 5H 2H 6S AH JD KC ,    High Card
@@ -39655,9 +39655,9 @@ KD JD 2C 4C 4D JH 6H ,    Pair
 AD 9D 9C 4H 9H 5S 8S ,    Pair
 5H JS 4S 7S 8C 6H AC ,    Straight
 QC 4C 8D 4D AS 3H 8H ,    High Card
-KS QS 6S 4S 10D QD AH ,    Straight Flush
+KS QS 6S 4S 10D QD AH ,    Flush
 JH JC 4H 10C 2D 10H 6C ,    Pair
-6H 7H 8H 3H 8S 2S 7S ,    Straight Flush
+6H 7H 8H 3H 8S 2S 7S ,    Flush
 5D 7D 6D 9C 5H AC 4C ,    High Card
 6C 2S 4D 6D KD 2C 9S ,    High Card
 AD 3D KH 10H 10S QC 8D ,    High Card
@@ -39971,7 +39971,7 @@ JC JD 10C AD KD 8S 3S ,    Pair
 10H 2H 8D 8C 6S 6H 3D ,    Two Pair
 2C 9S 10S QC KH 10H 2S ,    High Card
 4S JD QH JS 2D KC JC ,    High Card
-4C AC 6C 9C 6S 6D 3D ,    Straight Flush
+4C AC 6C 9C 6S 6D 3D ,    Flush
 2H 3H AS AD 10C 7C QS ,    Pair
 8C JH 3S 9D 6S KC 4S ,    High Card
 6C AH 9H 8D 9C 4D AC ,    High Card
@@ -40030,7 +40030,7 @@ KH 5C 2S 2D 9C JD 10D ,    Pair
 QH 3C 5D 4H 2C 3D QS ,    High Card
 10S AC AH 3S KD 4D 5S ,    Pair
 KH QD AS 8S 7C KS 6D ,    High Card
-JS 3S KS 2S AH 9H 10C ,    Straight Flush
+JS 3S KS 2S AH 9H 10C ,    Flush
 4H QS 7C JH 5D 3D 9S ,    High Card
 AC 8C 7H 2C 9D 2H 6S ,    High Card
 5C 2D 6H 4S 2H KS 7S ,    High Card
@@ -40137,7 +40137,7 @@ JS QC 2C QS 9D KS 8S ,    High Card
 9H 10S 5H 4C 5S AH QD ,    High Card
 3S 4D 10C 6C JH 9S 8H ,    High Card
 AS 3H 7C 7S 7D 6S QH ,    Pair
-KH 6H 8H 10C QH AH 10H ,    Straight Flush
+KH 6H 8H 10C QH AH 10H ,    Flush
 QC 4H KS 7D 6D 6C 6S ,    Two Pair
 JD AC 8D 10D 5S 3S 7C ,    High Card
 9S 8S KD AC AH QH JC ,    Pair
@@ -40148,7 +40148,7 @@ JD 7D 7C 10D 9D 2D 10H ,    Pair
 5D QD QS 2S 3S JD 2H ,    Pair
 KD JH 10C 9C 4H 8S QC ,    High Card
 4C 8S 10C 6H 3C JC 4S ,    High Card
-KC 6C 4C AC QH 8H 5S ,    Straight Flush
+KC 6C 4C AC QH 8H 5S ,    Flush
 2C 7H 2S 8D 6H JD 4D ,    Pair
 9S 3S 7S 8C QC KH 8S ,    High Card
 10H KD 4S 10C 5C 9H JH ,    High Card
@@ -40280,12 +40280,12 @@ QS 7D KC 10S 4D JH 8D ,    High Card
 JH 6C KS 9D 5S 8C 8D ,    High Card
 4H AD 4S KH AC 10C 4C ,    Pair
 2C 6H KD 4D JS QH 2H ,    High Card
-JS 8S 7S 6S 5H KH 7C ,    Straight Flush
+JS 8S 7S 6S 5H KH 7C ,    Flush
 2D KC AC 10D 3D 5C 3C ,    High Card
 8C 7D 9C AD 10H 9H 9S ,    High Card
 9C 8D 7D KD 4D 8H QS ,    High Card
 2S 3S JH JC 7C 3H 6C ,    Pair
-4H 5H 10D 10S 9H QH 8C ,    Straight Flush
+4H 5H 10D 10S 9H QH 8C ,    Flush
 7S 9S 6S 2H 3C AD 5S ,    High Card
 9H AS 6S 2C 8D 4H 10S ,    High Card
 10D 4S 9S 9D 2D 9C 4C ,    Pair
@@ -40336,7 +40336,7 @@ KS JS 3D KH 2D AD 7D ,    High Card
 4S 3C AD 5D 4C 5S JS ,    High Card
 JC KD 9S 4H QD 6D 4D ,    High Card
 KH 2D 9D 10S 6S JD 5H ,    High Card
-KC QC 7C AC 9H 3D 7D ,    Straight Flush
+KC QC 7C AC 9H 3D 7D ,    Flush
 2D 8S 6C 10D 4S 3S 9C ,    High Card
 10C KC 5S AC 4C QD 8D ,    High Card
 7D 2H 10H 6D JS 5C 5H ,    High Card
@@ -40419,7 +40419,7 @@ AS 7H JD 3S 3D 10C 9S ,    Pair
 9C 3D 8S 5H 2S 8D 10D ,    High Card
 6H KC KH 9D 9S 10H 4C ,    Two Pair
 6C 6D JH 7H QC 2D JS ,    Pair
-10H JS 7S 2S 6S 9S 7C ,    Straight Flush
+10H JS 7S 2S 6S 9S 7C ,    Flush
 7H 6C AH 5H 8S 9D AS ,    Straight
 10S 4C 4S 4D 3H QH 2D ,    Pair
 QD 9H 2H 5C KS 2C 7D ,    High Card
@@ -40543,7 +40543,7 @@ QH 10D 9S QD 10C 8C QS ,    High Card
 8C 10D 3H JC 8S 6D 4S ,    High Card
 3D 5H 4D QH 10H AC 7C ,    High Card
 6C JH 9S 6H 2D 8D 4H ,    High Card
-QC 9C KC 2C 10C 3S KD ,    Straight Flush
+QC 9C KC 2C 10C 3S KD ,    Flush
 10H 7H 2H KS 10D 6H 6D ,    High Card
 8D 8H KD 5S 8C 9C AS ,    Pair
 6S JD 3D 2C JH 4C QH ,    High Card
@@ -40708,7 +40708,7 @@ QH 10C 2H AD JC KC 6D ,    High Card
 6D 4H JH 3S 9C 7S KD ,    High Card
 10C 4D KS 5H 7D JD 5C ,    High Card
 AD 9H 5S AH 7C AS 10H ,    High Card
-8C QC KC 6C 2H QD 3H ,    Straight Flush
+8C QC KC 6C 2H QD 3H ,    Flush
 4C 9H JC 4D QC 3H AD ,    High Card
 2D AH AS 4S 10H JH 2S ,    Pair
 6S QD KH AC 5C KC 9S ,    High Card
@@ -40787,7 +40787,7 @@ QH 2D 10D QS 4D QC 5C ,    Pair
 KD 2D 8H AD 2H 4D 8C ,    High Card
 8S 5C 7H 7C 8D 10H 5S ,    Pair
 3S 6D 10S 5H 10C 7S KH ,    High Card
-JD 9D AD 5D 2S 10D 2D ,    Straight Flush
+JD 9D AD 5D 2S 10D 2D ,    Flush
 6H 7D 2C AS 10S 10H QS ,    High Card
 3S 6S 3C 10C 4H 4C 3H ,    Two Pair
 AS QD 10D 10S 6S 3H 2C ,    High Card
@@ -40915,7 +40915,7 @@ KH 3H 4H 6S KC JS 7S ,    High Card
 2D KD 7D 3H KH 8H 6S ,    High Card
 5D JS 6H KS 10H 8C 5C ,    High Card
 2C 4D JH AD 9H 3S JD ,    High Card
-QC 4C JC 3C 6C 5S 10D ,    Straight Flush
+QC 4C JC 3C 6C 5S 10D ,    Flush
 JS QD 10S 9H 5D QH AD ,    High Card
 2C 4D 10C 10D 8H 3H 4S ,    High Card
 10H 9S 6S 7S 8C 6D AS ,    High Card
@@ -41068,7 +41068,7 @@ AS 8D 8C 10C 4C 9C 3S ,    Pair
 QH JH 2H 4S KH 2D 3C ,    High Card
 AC 10C AD 2H QH 10D 7S ,    Pair
 9S 2D 5C KD 9D 3H 6H ,    High Card
-6C 2C 9C JC AH 9H 6S ,    Straight Flush
+6C 2C 9C JC AH 9H 6S ,    Flush
 9H QH 5D 6C AH 6S 9C ,    High Card
 3D KH 3C JC 3S 7C JS ,    Pair
 7D 6H 4D 7H 10C 7S 4C ,    Pair
@@ -41090,7 +41090,7 @@ QD 3D 2C 3H 8C 9D 7C ,    High Card
 QH 2D QC KD 9H 2C 3C ,    Pair
 5D 6S 9D 4C AS 3S 9S ,    High Card
 7S QD 10D 4S 3D JH JD ,    High Card
-2D AD JD 8D AH 10H 9D ,    Straight Flush
+2D AD JD 8D AH 10H 9D ,    Flush
 6S 4S 5H 8H 6H JS 5D ,    High Card
 KD KH 7S 3C 5C 4H 3D ,    Pair
 4C QS 5S 6C 3S AS QD ,    High Card
@@ -41100,7 +41100,7 @@ KD KH 7S 3C 5C 4H 3D ,    Pair
 10H AD 6H 6S 9C 2D 8S ,    Pair
 9C KC 5S 7D 10D 2C AS ,    High Card
 6D 7S 10C AH 7H QS 8C ,    High Card
-4H 6H QH 5H 9D JH 9S ,    Straight Flush
+4H 6H QH 5H 9D JH 9S ,    Flush
 4S QC JC KD 5D 3H 4D ,    High Card
 5D 10C 4H 5C QH 10D 10S ,    High Card
 KC 5S 8S JD AD 4S KS ,    High Card
@@ -41224,7 +41224,7 @@ AH 3H 5H 2D 10C KD 10D ,    High Card
 KH QD 2D AD 3S 9C 10S ,    High Card
 3C 7C 5S 4H 6H 9S 6S ,    Straight
 5C 3S QS 2H 4S 4D 7H ,    Pair
-7S 2C JC 8C 4C 3C 5H ,    Straight Flush
+7S 2C JC 8C 4C 3C 5H ,    Flush
 10S 10H 9C QH 4H KC 2D ,    High Card
 JC 4D 8H 2S QC 9H 5C ,    High Card
 7H 3C 8S 8C 6D 10D 3H ,    Pair
@@ -41409,7 +41409,7 @@ KD 10D 6H 3C 8S AD QC ,    High Card
 8S 6H QD 3H 2S 5S 4C ,    Straight
 10C 3D 3C AH 6S 3S KH ,    Pair
 7C AC 10S 9H KD 9S 4D ,    High Card
-2H 8D 6H 5H 7H QH 7S ,    Straight Flush
+2H 8D 6H 5H 7H QH 7S ,    Flush
 KD 5S 10H 5D 9C QD KH ,    Pair
 8S 2C 6S KS AC 9D 7C ,    High Card
 AC QH 6H JC QS 3C KC ,    High Card
@@ -41450,7 +41450,7 @@ JH 7S 8C JD 3H 10C AS ,    High Card
 10H JH 10C 3H AD 10D JS ,    High Card
 QH 8D 10S 5S 2C 9C 6C ,    High Card
 10D KS 9H 5C KH 9S 6H ,    High Card
-3C AC 4C JC 5D JH 2S ,    Straight Flush
+3C AC 4C JC 5D JH 2S ,    Flush
 7D 8H 3S KD 7S JD QS ,    High Card
 KC 5H 6D 3S JD 4S 6H ,    High Card
 9D 5D 2C AS 8D 2S JH ,    High Card
@@ -41484,7 +41484,7 @@ KD 10H 7S AH 6H QC 6C ,    High Card
 9S AC AS QD 8C 3H 8D ,    Pair
 4C 10S 7D QH QS 9C 3C ,    Pair
 8H QH 6D 7D 4S QC 10H ,    High Card
-9D 2D JD KD 4H 6C 3D ,    Straight Flush
+9D 2D JD KD 4H 6C 3D ,    Flush
 JC 5D 3H 10C 5H 5S 8C ,    Pair
 AH AS AC 8D 5C 2S 7H ,    Three Kind
 8D KD 2C 3C 2D 6C AC ,    High Card
@@ -41618,7 +41618,7 @@ QC 10S 6D 7S 5D 9D 2H ,    High Card
 10D QS 10H 8H 3D 9D 5S ,    High Card
 6D 9H KH 9D QS AH AC ,    High Card
 5S 3S 7D 4D 8C 9C 7H ,    High Card
-AD 2D 5D 3D 8H 6C JC ,    Straight Flush
+AD 2D 5D 3D 8H 6C JC ,    Flush
 KC KH 3D 8C QH AH 6S ,    Pair
 6C JH 4D 9D 3C 7H 5C ,    Straight
 8H 4C 4S 6H 5H AD 10S ,    Pair
@@ -41752,7 +41752,7 @@ QS 5C 7C 8C 9H 9D 3S ,    Pair
 9S 9H 6C KS 8S 8D JC ,    Two Pair
 3H AS JD AC 2H 4C QD ,    High Card
 10D 9D 7C 7D 5D 2C 10H ,    Pair
-8S 7S JS 2C 6S KS 2S ,    Straight Flush
+8S 7S JS 2C 6S KS 2S ,    Flush
 QH 3S 7H JH 9D QD QS ,    High Card
 3H 10D 7D AD 9H 4D 2H ,    High Card
 AD 5C 10D AH 7H JD QC ,    Pair
@@ -41780,13 +41780,13 @@ AD QD 5H QS 9D KH 10S ,    High Card
 KC QH 3H 2H 5D 5H 10C ,    Pair
 JD 2C 5C AH 7H 9H 4S ,    High Card
 3C 4D 9C 10S JC 3S AD ,    High Card
-9C 5C QC AC 8D 3S 5D ,    Straight Flush
+9C 5C QC AC 8D 3S 5D ,    Flush
 9D KC 7C JS QH 2C 3C ,    High Card
 10D 4S 6D 10S 2H 8C 10C ,    High Card
 7C 7D KH 2H QC QH 10S ,    Two Pair
 9C 5H 9H 3D AH 3H 2S ,    Pair
 8C 5C 9S 3S QD 10C KS ,    High Card
-2D 4D 5D 2C 9D 8D 4S ,    Straight Flush
+2D 4D 5D 2C 9D 8D 4S ,    Flush
 4S 10H 9S AC 8H 4H 5C ,    High Card
 7H 9D QS AH 2D 7D QC ,    High Card
 KC 4D 2H 8D 10C 3C 10D ,    High Card
@@ -41912,7 +41912,7 @@ KD JD KH 7H 9S 10H 9H ,    Two Pair
 6D 9C 10D 9D 8S 4C QD ,    Pair
 8H QC QH 10S 3H KS JD ,    Pair
 JH 4H 5C 2H 2D 9S KH ,    Pair
-3C 7C JC 7D KC 5C 7S ,    Straight Flush
+3C 7C JC 7D KC 5C 7S ,    Flush
 QH 8S 2C 10S JD 9S 10C ,    High Card
 JH 3S 4C JS AS 8H 6S ,    High Card
 6D 9H AC AD 2S 10D 6H ,    Pair
@@ -41929,7 +41929,7 @@ AC 7S 7D 10D 7H 2H QH ,    Pair
 8S 2H 6S 2D 9D 7H 4C ,    High Card
 4S KC QH 3D 8H AC AH ,    High Card
 AD 10C 6D JD KH 5H 8D ,    High Card
-KS JS 9S 7S 4D 3H KD ,    Straight Flush
+KS JS 9S 7S 4D 3H KD ,    Flush
 10S 3C 9C 5S AD 8H 10H ,    High Card
 AH QH 8D 9H 2D 4D KS ,    High Card
 3D KH 6D 6H JD 9S QD ,    Pair
@@ -42065,7 +42065,7 @@ AS 2S KC JD 7H KS 5D ,    High Card
 QH 2C 6H 7H 9H 8S KD ,    High Card
 4S 5D 6D 8D KH 3S 5S ,    High Card
 5C QC 10S 3H JC 7C 10H ,    High Card
-7S 6S KS 2S 9C 9S 3D ,    Straight Flush
+7S 6S KS 2S 9C 9S 3D ,    Flush
 QH JD 2D 10S 10C 6H 6D ,    High Card
 4C AC KC 5D KS 7D QS ,    High Card
 2C 3S 5S AD 4S 2S 7S ,    High Card
@@ -42262,7 +42262,7 @@ KC AD AC JH 3D 3S 10C ,    Two Pair
 7S 4S 8S 7H 5H JD 6C ,    Straight
 7D 3H 7C AD 8H 9S 10C ,    Pair
 10S 6D 3C QC AS KD KH ,    High Card
-JD 10S AD 3D 8D 2D JS ,    Straight Flush
+JD 10S AD 3D 8D 2D JS ,    Flush
 10H 5C QH 6D 5S 4H 10C ,    High Card
 3H 10D AS KD 7H 6C JC ,    High Card
 3C JH 3S 6S QC 2S 9D ,    Pair
@@ -42602,7 +42602,7 @@ QC 2D 6D 10H 6S 3C QH ,    Pair
 8D 2H 8S 10H 4C 2C 3H ,    Pair
 4H QS KD JS 5H 6C 2D ,    High Card
 8C 7S 4D KC 4S 9C 3C ,    High Card
-3C 4C 2C 7C KH 10H QH ,    Straight Flush
+3C 4C 2C 7C KH 10H QH ,    Flush
 10D 9H 6C 5C 5D 5H JS ,    Pair
 4H 9C 7H JD KD 3H 6D ,    High Card
 10H 7D QD 2D AC 2C AD ,    High Card
@@ -42763,7 +42763,7 @@ QC AC 2D KC 8S 3H AD ,    High Card
 10C 3D AD 6S 5S 2H 8H ,    High Card
 JS 10S 7S AS 4D 4C 9D ,    Pair
 10C 4D JS AD 8D 2C QD ,    High Card
-KH 3H JH QH KC 10D 2S ,    Straight Flush
+KH 3H JH QH KC 10D 2S ,    Flush
 5H 7C JD KD 5C 6C 7H ,    High Card
 9D AC 7S 10S 9C 9H 6H ,    Pair
 6D 2C JS 8C 3D QD 3S ,    High Card
@@ -42845,7 +42845,7 @@ KD 9H 10D AH JC 2S 3S ,    High Card
 9S 8H 8D 6S 2H QD 7D ,    Pair
 JS 5D 6D QH 9C AD 5C ,    High Card
 4C KD 6H 10H 9C 6C 10S ,    High Card
-7D 8D QD 3D QC 4D 8H ,    Straight Flush
+7D 8D QD 3D QC 4D 8H ,    Flush
 KC 2C 7S 9H JC 9D 3C ,    High Card
 KD 5S 8H 3H 9S 7D 10H ,    High Card
 7C 5S 9S AC 6H 3H 10S ,    High Card
@@ -42863,7 +42863,7 @@ QD 2D 3S 6D 5D 8C 8H ,    High Card
 3D QD 7H AC 4D 6C 5D ,    Straight
 3H 4C JD 2S 9C 6H 10D ,    High Card
 6H 5C QC 8D 6D 5D 6S ,    High Card
-KS 9S 10D 2S AS KD 4H ,    Straight Flush
+KS 9S 10D 2S AS KD 4H ,    Flush
 KH 10H 10S 4D AC QS 8H ,    High Card
 QD 6C 9H AH 3C 2D 3H ,    High Card
 6D JD 10C 7C KH JC 8C ,    High Card
@@ -43037,7 +43037,7 @@ AC 5H 5S AH 2H JH 2C ,    Pair
 KS 4C 7H 7S 4S KH 9D ,    Pair
 10D KC 6C 10H QH 2S 9H ,    High Card
 6S 4D 7C JS 3D 10S 8H ,    High Card
-7D QD 10H KD 9D 4D 5D ,    Straight Flush
+7D QD 10H KD 9D 4D 5D ,    Flush
 8H QC 8S 6H 9C QH AC ,    Pair
 4H 3C AH QS 5H 9S KC ,    High Card
 6S 9H QS AC KC 10D AH ,    High Card
@@ -43053,7 +43053,7 @@ AH 3C KS 6S 3D KD QC ,    High Card
 8S AH 3S 3C 3D 10H 5D ,    Pair
 7H 9H 10C 7D QD QS 10S ,    Two Pair
 6S 7C 4C AS 7S 9C JH ,    High Card
-9D 8C 8D 2D 6D KD 2H ,    Straight Flush
+9D 8C 8D 2D 6D KD 2H ,    Flush
 AH KS 5H 7D 8S 3H 3S ,    High Card
 JH 3C 7C JS 2D 8C 6S ,    High Card
 5D 8S 2H AS 9S KH 5S ,    High Card
@@ -43238,7 +43238,7 @@ KC 6S QC 4D 4H AC JH ,    Pair
 AS 5D 2H KC 10S AH 5C ,    High Card
 6D QS 10C JD JC 5S 7H ,    Pair
 QC 9S 3C 7S 5S JH 10S ,    High Card
-4C JC 7C 3S KC 9C KS ,    Straight Flush
+4C JC 7C 3S KC 9C KS ,    Flush
 7H 2D 10D 5D 10C 8C QD ,    High Card
 8S AH 9S QS 4H 10D 7D ,    High Card
 4C 5D JC 5S 3S 2C 6C ,    Straight
@@ -43271,7 +43271,7 @@ JS 10C 8S 7C 6C KD 5H ,    High Card
 QD 4D 2S 5C KS 2D 8H ,    High Card
 9S KS 10D 5H AS AD QH ,    Pair
 8H 3S 5C 4H 10S 4D 2H ,    Pair
-8C 2C KC AC 6H 2D JD ,    Straight Flush
+8C 2C KC AC 6H 2D JD ,    Flush
 3D 4S AH 2S JC QC KH ,    High Card
 AC KC JD AD KS QD KH ,    High Card
 4C JS 3S 5C QH 3C 2H ,    High Card
@@ -43348,7 +43348,7 @@ AS QD 2H 5H 4D KD 9S ,    High Card
 2D JC 9H JH 10H 10C 8D ,    High Card
 10S QC 10D 8S 4C QH 8C ,    High Card
 6D AS 5H 5D 10D JH 3S ,    Pair
-JC KC 3C AD 9C QC 2C ,    Straight Flush
+JC KC 3C AD 9C QC 2C ,    Flush
 2S 5S 6C 6S KD 8C 6H ,    Pair
 7D 9S 4S JD QD 2D JH ,    High Card
 2H 9D 5D 10H 3S 5C QS ,    High Card
@@ -43439,7 +43439,7 @@ AC 2C AD 9D KH 10D 6C ,    Pair
 5S 10C QC 6S AS 6D 2S ,    High Card
 5C 10H 10S 7H KD 5S 6D ,    High Card
 5H 9H 3H JS KC KS AS ,    Pair
-KH 4S 8S 7S 2S 6S QC ,    Straight Flush
+KH 4S 8S 7S 2S 6S QC ,    Flush
 KC 10D JD 8D 9S 8H JC ,    High Card
 5H 2H 3S 9C JS QH 10H ,    High Card
 AD QS KD 8S 2C 5S AS ,    High Card
@@ -43450,7 +43450,7 @@ AD QS KD 8S 2C 5S AS ,    High Card
 6H 9D 3S 5D 8S KS 3C ,    High Card
 4C QD 5H 8S QS KS 8C ,    High Card
 3H AH 6H 10D 7D 7C 4H ,    Pair
-6D 3D JD 9S AD 10C 9D ,    Straight Flush
+6D 3D JD 9S AD 10C 9D ,    Flush
 5C KH QC 8H 3C AS 10H ,    High Card
 9H 3D QH JD 10C 4D 5H ,    High Card
 10D KH 8S AC 5C 3H KD ,    High Card
@@ -43739,7 +43739,7 @@ QS JS QC 2H KC 10H 4C ,    Pair
 JC JD 9D 10S QH 5D AC ,    Pair
 6C 5D 3C 7C 8S 9S KS ,    Straight
 KH AC 8C 2C 10H 7H QS ,    High Card
-4D 6D 2D KD 10D 6S 3H ,    Straight Flush
+4D 6D 2D KD 10D 6S 3H ,    Flush
 4C 4S JC JH 7H 2D AS ,    Two Pair
 9D 3C 10D 2C 3D 9S 2H ,    High Card
 AC 6D 3H 6H 3S 8S 10H ,    High Card
@@ -43752,7 +43752,7 @@ KH 4D 10H KS AH JH 4C ,    Pair
 9C 3S JH 3H 9H 6C 4C ,    High Card
 2D AS JS 6H 4D 8D AH ,    High Card
 6D AC 10D KS 8S QD QH ,    High Card
-2D 8D AD 5D 6H KS JD ,    Straight Flush
+2D 8D AD 5D 6H KS JD ,    Flush
 KH 3H QS 2C 4S 10C QH ,    High Card
 7D 10D 7H 6D 10S 9D QC ,    Pair
 9C 5H 8S 7H 9D QS KH ,    High Card
@@ -43961,7 +43961,7 @@ JC 8H 5S QH 4H QC 6D ,    High Card
 5H 10S 5C 8C 8D 7D KC ,    Two Pair
 6D 9D 2S AD 6S 4C 7D ,    High Card
 AS 2D 10S 6H QD QS 5S ,    Pair
-AC 9C 2C KC 4D 3S 5H ,    Straight Flush
+AC 9C 2C KC 4D 3S 5H ,    Flush
 JS KH 9H 8S AS AH 2S ,    Pair
 9S 2C 8C 10D QD 3D 3S ,    High Card
 2D 5C JD 3H 7C 2H QH ,    High Card
@@ -44079,7 +44079,7 @@ JC JH AS 5H 9H QC 8S ,    Pair
 9S KS 9H AC 5H 4H 2H ,    Pair
 JC 10S AH 2C 4S 3C KH ,    High Card
 JS KD 7D 3H QH 10D 5S ,    High Card
-8C 7C 10C 4C KC AD 5C ,    Straight Flush
+8C 7C 10C 4C KC AD 5C ,    Flush
 10H JC 9S 5C 10S 9C 6S ,    High Card
 7D 3S 10D 9D QH QD 4S ,    Pair
 9H 3H 7S AD 4D 2S KD ,    High Card
@@ -44173,7 +44173,7 @@ QC JC AH 6D KS KC 6S ,    Pair
 JS 10S KS 6S AC JC 7C ,    High Card
 3D 7D 8S 10D 8H 4D 7S ,    Pair
 2S AH 5H 8C 9H 4H 3C ,    High Card
-8D JD 2D 10S 10H 4D 7H ,    Straight Flush
+8D JD 2D 10S 10H 4D 7H ,    Flush
 QS 10C KC 5H 7D 3H AH ,    High Card
 KH QD JH 3S 8H 8S 6C ,    Pair
 2C JC 8H 10H KS 3D QH ,    High Card
@@ -44295,7 +44295,7 @@ KH 6H AC 10S 6C 5H 3C ,    High Card
 8S 7H KS 8C 6S KC AS ,    High Card
 7D 4C 10D 8H AH 4S 5H ,    High Card
 4S 3C 5H 2C 8H JC 3S ,    High Card
-3H 9H JH AH 7D QS 5S ,    Straight Flush
+3H 9H JH AH 7D QS 5S ,    Flush
 8D 10H 10D KS 9S 9C 2D ,    Pair
 6C JC 3D 5S KH 4H 8H ,    High Card
 6S 8D 6C 4H 10C AH 5D ,    Pair
@@ -44429,7 +44429,7 @@ KD 6S QS 10D 6H 2H QD ,    High Card
 AS 5C 8D 8S QD 9D 4D ,    Pair
 2C 10C 7S 4C 6H 7C 7H ,    High Card
 AD JD 3C 4S 9S 10H 2D ,    High Card
-AH JS 9H KH 3H 8H 6S ,    Straight Flush
+AH JS 9H KH 3H 8H 6S ,    Flush
 JS 7D AD 3C 5H 4C 9C ,    High Card
 3D KS 6S 7C 5S JD JC ,    High Card
 10D 7H 7S 2D 8H 10S 5D ,    Pair
@@ -44444,7 +44444,7 @@ KS 5S JS 4D 10D QH JH ,    High Card
 JC QH 6C 4H AH 6H KS ,    High Card
 2S 3H 4S QC 2H AS 6S ,    High Card
 10C QD AD 9H JD KD 5H ,    High Card
-QC 6C 2C KC 6H AC JC ,    Straight Flush
+QC 6C 2C KC 6H AC JC ,    Flush
 9D 8D 7C JD QS QH 2S ,    Pair
 9C 3S JS 7S 5D 4H 8S ,    High Card
 4H AD JC KC 9H 8S KD ,    High Card
@@ -44667,7 +44667,7 @@ KH KS 3C 6D 8D 5S 5H ,    Two Pair
 AS 2H QC 7H 8S 4C 10C ,    High Card
 QD 5D 8D 3C 5H 3H 5C ,    High Card
 AC 3D 6C 10D 5H QS 8D ,    High Card
-AH 7H 9H 4H 6H KS 8H ,    Straight Flush
+AH 7H 9H 4H 6H KS 8H ,    Flush
 2D 10C 10S 8C 9C 7S 7C ,    High Card
 10S 5D QH 2S KH AD 3H ,    High Card
 KD 6S 10H 4D 7H 10D 7D ,    Pair
@@ -44719,7 +44719,7 @@ QS 10C 4S 8S 6S QH 6C ,    High Card
 JS 10S 10D QC KD 10H 3S ,    High Card
 QD 5D 10C 6D KS 3C 4H ,    High Card
 9C 8S 3H AH 4D AC 2S ,    High Card
-8S 5S QS 7S 4C 9S 7C ,    Straight Flush
+8S 5S QS 7S 4C 9S 7C ,    Flush
 KD 6H JS 6S 5D JH KC ,    High Card
 QD 10C 4S 3D 7H 5C 7D ,    High Card
 9C 6D 2H KS 4H 2C 9D ,    High Card
@@ -44727,7 +44727,7 @@ QD 10C 4S 3D 7H 5C 7D ,    High Card
 5D 7C JS AD 3D 8H 2H ,    High Card
 5C QS 7H 2C 2D 8C QH ,    Pair
 2H JC 8D 9S QD 3H KH ,    High Card
-3C 2C 7C QC 7D AD QS ,    Straight Flush
+3C 2C 7C QC 7D AD QS ,    Flush
 10H 4H JD 5D 3D 5H 9C ,    High Card
 2D 6D KD 9H 4D AH 6S ,    High Card
 2H 7D 3D 4C 2S 5H 2D ,    High Card
@@ -44897,7 +44897,7 @@ AH 7H QD QS AC KC JH ,    Pair
 8C 9D 3H 5H QH 6C 8D ,    High Card
 AC 6D QS AH 7C 4D KC ,    High Card
 5C 9S JC 5D 6S 4S 3C ,    High Card
-4S KS 6S 3S QD 6D JS ,    Straight Flush
+4S KS 6S 3S QD 6D JS ,    Flush
 QD JH AC 6H QC 5C 9S ,    High Card
 9C 9H 6C 2S 2C QH 8H ,    Two Pair
 AH JD 10C KC KH AD QS ,    Pair
@@ -44986,7 +44986,7 @@ KS 5D KH 9C 8C 7H 8H ,    Pair
 7D 4S 10C 2C 5D 6H 5S ,    High Card
 2H 8H 10D 9D JC JD KD ,    Pair
 8C 2D KS 9C 3D 3S KC ,    Pair
-QC 6C 4C 3C AH 2S 7S ,    Straight Flush
+QC 6C 4C 3C AH 2S 7S ,    Flush
 4H AH 10H 5C 7D 2H 2D ,    High Card
 3H 4D 9C JS 6S AS QH ,    High Card
 8S 9D AD KC KD 8D 5D ,    Pair
@@ -44998,7 +44998,7 @@ JS 8S QD 4D JC 9C 10S ,    High Card
 2S 2D KD AD 3S 10H 8C ,    Pair
 9S 3D KC 8H 6C QC 5C ,    High Card
 4D 5S AS 3H AD QC 9D ,    High Card
-KS JS 6S 5D 2S 4S 9H ,    Straight Flush
+KS JS 6S 5D 2S 4S 9H ,    Flush
 2C 7D 2D 7S QD 10C QS ,    Two Pair
 3S 5C JH 6D 5H AS 7C ,    High Card
 2H 3C 8D 4H 8H 5S 3H ,    High Card
@@ -45022,7 +45022,7 @@ KC QH 5D 2C 9D 3S AS ,    High Card
 KS KH 5D 6C QH 3S 6D ,    Pair
 9C AH 7S KD 9D JD JH ,    High Card
 7D 10S 5H QC 8D 6H 2S ,    High Card
-JC 4C AC 7C 9H JS AD ,    Straight Flush
+JC 4C AC 7C 9H JS AD ,    Flush
 8C 3C 2D JH 4D 6D 9S ,    High Card
 5C JD KH KD 7C 3H 6H ,    Pair
 QD KC AH AC AS 10S AD ,    Three Kind
