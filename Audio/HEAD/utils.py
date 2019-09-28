@@ -1,4 +1,6 @@
 import numpy as np
+import librosa
+import time
 import sys
 import os
 
@@ -19,7 +21,22 @@ def piped_input():
     return data
 
 
-def process_song(audio_data, name):
+def read_audio_spectum(filename):
+    """
+    Reads wav file and produces spectrum
+    Fourier phases are ignored
+    :param filename:
+    :return stfft, file:
+    """
+    N_FFT = 2048
+    x, fs = librosa.load(filename)
+    S = librosa.stft(x, N_FFT)
+
+    S = np.log1p(np.abs(S[:, :]))
+    return S, fs
+
+
+def process_song_mean(audio_data, name):
     sample_rate = audio_data[0]
     raw_audio = audio_data[1]
     len_sec = raw_audio.shape[0]/float(sample_rate)
