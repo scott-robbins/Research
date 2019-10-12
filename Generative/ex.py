@@ -4,12 +4,13 @@ import numpy as np
 import scipy.misc
 import scipy.io
 import time
+import sys
 import os
 
 IMAGE_W = 400
-IMAGE_H = 350
-CONTENT_IMG = 'Seeds/young_trey.jpeg'
-STYLE_IMG = 'Seeds/grey_tool.jpeg'
+IMAGE_H = 343
+CONTENT_IMG = 'Seeds/me_slice.jpg'
+STYLE_IMG = 'Seeds/fractal.jpg'
 OUTOUT_DIR = './results'
 OUTPUT_IMG = 'results.png'
 VGG_MODEL = 'imagenet-vgg-verydeep-19.mat'
@@ -19,6 +20,14 @@ ITERATION = 500
 
 CONTENT_LAYERS = [('conv4_2', 1.)]
 STYLE_LAYERS = [('conv1_1', 1.), ('conv2_1', 1.), ('conv3_1', 1.), ('conv4_1', 1.), ('conv5_1', 1.)]
+''' Allow for user to define content/style image(s) through commandline '''
+if '-do' in sys.argv:
+    if len(sys.argv) < 4:
+        print 'Incorrect Usage! Ex:'
+        print '$ python ex.py -do <content.img> <style.img>'
+    else:
+        CONTENT_IMG = sys.argv[2]
+        STYLE_IMG = sys.argv[3]
 
 MEAN_VALUES = np.array([123, 117, 104]).reshape((1, 1, 1, 3))
 
@@ -116,6 +125,8 @@ def main():
     sess = tf.Session()
     sess.run(tf.initialize_all_variables())
     noise_img = np.random.uniform(-20, 20, (1, IMAGE_H, IMAGE_W, 3)).astype('float32')
+
+
     content_img = read_image(CONTENT_IMG)
     style_img = read_image(STYLE_IMG)
 
@@ -144,7 +155,6 @@ def main():
         sess.run(train)
         if i % 100 == 0:
             result_img = sess.run(net['input'])
-            # print sess.run(cost_total)
             write_image(os.path.join(OUTOUT_DIR, '%s.png' % (str(i).zfill(4))), result_img)
             bar.update(100)
     print '\033[31m\033[1mFINISHED [%ss Elapsed]\033[0m' % str(time.time()-tic)
