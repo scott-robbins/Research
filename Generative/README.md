@@ -13,8 +13,14 @@ to find interesting 'style' content (as not all style transfers the same in term
 distorting/enhancing the content). For example, the artist Alex Grey is known for a 
 very particular style (much like Van Gogh and starry night), however his style is not
 only a lot of interesting background textures, but there's also the way he highlights
-the body of a subject. Taking the following image of Trey Anastasio (lead guitar and 
-frontman of rock band Phish) and a painting of Alex Grey's, the result is quite neat.
+the body of a subject. 
+
+Taking the following image of Trey Anastasio (lead guitar and frontman of rock band Phish)
+and a painting of Alex Grey's, the result is quite neat.
+
+![ContentIm](https://github.com/scott-robbins/Research/blob/master/Generative/Seeds/young_trey.jpeg)
+![StyleIm](https://raw.githubusercontent.com/scott-robbins/Research/master/Generative/Seeds/grey_tool.jpeg)
+
 
 ![greyTrey](https://github.com/scott-robbins/Research/blob/master/Generative/results/RESULTS/grey_trey_0.png)
 
