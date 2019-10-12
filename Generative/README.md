@@ -24,3 +24,12 @@ and a painting of Alex Grey's, the result is quite neat.
 
 ![greyTrey](https://github.com/scott-robbins/Research/blob/master/Generative/results/RESULTS/grey_trey_0.png)
 
+The next thing I wanted to look at was less artistic style and more spatially repeated 
+patterns like fractals, mandalas and mosaics. Images of these kind seem to transfer
+style quite well because of the self-similar and spatially repeated nature of the style.
+So taking a picture of a smilin' Bernie Sanders, and a mosaic with a fractal like style
+we get the following:
+![Bern](https://raw.githubusercontent.com/scott-robbins/Research/master/Generative/Seeds/bern.jpeg)
+![Tiles](https://raw.githubusercontent.com/scott-robbins/Research/master/Generative/Seeds/mosaic.jpeg)
+Result:
+![TileBern](https://github.com/scott-robbins/Research/blob/master/Generative/results/RESULTS/tiled_bern.png)
