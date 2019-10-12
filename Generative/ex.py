@@ -15,8 +15,8 @@ OUTOUT_DIR = './results'
 OUTPUT_IMG = 'results.png'
 VGG_MODEL = 'imagenet-vgg-verydeep-19.mat'
 INI_NOISE_RATIO = 0.7
-STYLE_STRENGTH = 500
-ITERATION = 500
+STYLE_STRENGTH = 300
+ITERATION = 5000
 
 CONTENT_LAYERS = [('conv4_2', 1.)]
 STYLE_LAYERS = [('conv1_1', 1.), ('conv2_1', 1.), ('conv3_1', 1.), ('conv4_1', 1.), ('conv5_1', 1.)]
