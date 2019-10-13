@@ -12,7 +12,8 @@ import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
 
 
-!wget -nc  https://storage.googleapis.com/download.tensorflow.org/models/inception5h.zip && unzip -n inception5h.zip
+# !wget -nc  https://storage.googleapis.com/download.tensorflow.org/models/inception5h.zip &&
+# unzip -n inception5h.zip
 
 
 model_fn = 'tensorflow_inception_graph.pb'
