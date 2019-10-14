@@ -20,7 +20,7 @@ from __future__ import print_function
 import tensorflow as tf
 import os
 
-# Dataset Parameters - CHANGE HERE
+# Data set Parameters
 MODE = 'folder'                     # or 'file', if you choose a plain text file (see above).
 DATASET_PATH = '/path/to/dataset/'  # the dataset file or root folder path.
 
@@ -180,7 +180,6 @@ with tf.Session() as sess:
         else:
             # Only run the optimization op (backprop)
             sess.run(train_op)
-
     print("Optimization Finished!")
 
     # Save your model
