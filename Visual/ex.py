@@ -7,16 +7,16 @@ import time
 import sys
 import os
 
-IMAGE_W = 854
+IMAGE_W = 640
 IMAGE_H = 480
 CONTENT_IMG = 'Seeds/me_slice.jpg'
-STYLE_IMG = 'Seeds/grey_skull_trimmed.jpeg'
-OUTOUT_DIR = './results'
+STYLE_IMG = 'Seeds/grey_skull_trimmed_2.jpeg'
+OUTPUT_DIR = './results'
 OUTPUT_IMG = 'results.png'
 VGG_MODEL = 'imagenet-vgg-verydeep-19.mat'
 INI_NOISE_RATIO = 0.7
-STYLE_STRENGTH = 300
-ITERATION = 200
+STYLE_STRENGTH = 375
+ITERATION = 300
 
 CONTENT_LAYERS = [('conv4_2', 1.)]
 STYLE_LAYERS = [('conv1_1', 1.), ('conv2_1', 1.), ('conv3_1', 1.), ('conv4_1', 1.), ('conv5_1', 1.)]
@@ -144,12 +144,13 @@ def main():
     sess.run(tf.initialize_all_variables())
     sess.run(net['input'].assign(INI_NOISE_RATIO * noise_img + (1. - INI_NOISE_RATIO) * content_img))
 
-    if not os.path.exists(OUTOUT_DIR):
-        os.mkdir(OUTOUT_DIR)
+    if not os.path.exists(OUTPUT_DIR):
+        os.mkdir(OUTPUT_DIR)
 
     bar = tqdm(total=ITERATION)
     tic = time.time()
-    os.system('clear')
+    if os.name() != 'nt':
+        os.system('clear')
     print '\033[1mTraining Started on \033[31m%s\033[0m\033[1m <--> \033[32m%s\033[0m' %\
           (CONTENT_IMG, STYLE_IMG)
 
@@ -157,10 +158,15 @@ def main():
         sess.run(train)
         if i % 100 == 0:
             result_img = sess.run(net['input'])
-            write_image(os.path.join(OUTOUT_DIR, '%s.png' % (str(i).zfill(4))), result_img)
+            write_image(os.path.join(OUTPUT_DIR, '%s.png' % (str(i).zfill(4))), result_img)
             bar.update(100)
+    bar.close()
     print '\033[31m\033[1mFINISHED [%ss Elapsed]\033[0m' % str(time.time()-tic)
-    write_image(os.path.join(OUTOUT_DIR, OUTPUT_IMG), result_img)
+    write_image(os.path.join(OUTPUT_DIR, OUTPUT_IMG), result_img)
+
+    if '-dashboard' in sys.argv:
+        ''' Look at the Training Graphs'''
+        os.system('tensorboard --logdir logs')
 
 
 if __name__ == '__main__':

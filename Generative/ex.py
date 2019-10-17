@@ -7,8 +7,8 @@ import time
 import sys
 import os
 
-IMAGE_W = 400
-IMAGE_H = 343
+IMAGE_W = 450
+IMAGE_H = 360
 CONTENT_IMG = 'Seeds/me_slice.jpg'
 STYLE_IMG = 'Seeds/fractal.jpg'
 OUTOUT_DIR = './results'
@@ -16,7 +16,7 @@ OUTPUT_IMG = 'results.png'
 VGG_MODEL = 'imagenet-vgg-verydeep-19.mat'
 INI_NOISE_RATIO = 0.7
 STYLE_STRENGTH = 300
-ITERATION = 5000
+ITERATION = 500
 
 CONTENT_LAYERS = [('conv4_2', 1.)]
 STYLE_LAYERS = [('conv1_1', 1.), ('conv2_1', 1.), ('conv3_1', 1.), ('conv4_1', 1.), ('conv5_1', 1.)]
@@ -150,8 +150,11 @@ def main():
 
     bar = tqdm(total=ITERATION)
     tic = time.time()
+    os.system('clear')
+    print '\033[1mTraining Started\033[0m'
 
     for i in tqdm(range(ITERATION)):
+
         sess.run(train)
         if i % 100 == 0:
             result_img = sess.run(net['input'])

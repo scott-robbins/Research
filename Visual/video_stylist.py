@@ -46,22 +46,23 @@ if '-frame' in sys.argv and len(sys.argv) >= 3:
 
 if '-styled' in sys.argv and len(sys.argv) >= 3:
     img_name = sys.argv[2]
-    cmd = 'ls results/*00.png | while read n; do rm $n; mv results/results.png %s; rm %s' %\
-          (img_name.split('.')[0]+'.png;done', img_name)
+    im = img_name.split('.')[0].split('/')[-1]+'.png'
+
+    cmd = 'ls results/*00.png | while read n; do rm $n; done; mv results/results.png results/%s;' % im
     print cmd
     os.system(cmd)
 
 if '-run' in sys.argv:
     ''' Use -vi option to extract a video into still frames '''
-    run_cmd_base = 'ls Frames/img*.png| while read n; do ' \
+    run_cmd_base = 'ls Images/img*.png | while read n; do ' \
                    'python ex.py -do $n Seeds/lateralus_slice.jpg;' \
                    'python video_stylist.py -styled $n; done'
     os.system(run_cmd_base)
     ''' Now Reassamble into stylized video'''
-    #recombine = pack_vid_cmd+'stylized.mp4'
-    #os.system(recombine)
+    # recombine = pack_vid_cmd+'stylized_treflip.mp4'
+    # os.system(recombine)
     ''' Look at the Training Graphs'''
-    #os.system('tensorboard --logdir logs')
+    os.system('tensorboard --logdir logs')
     ''' clean up'''
     # rm_imgs = 'ls *.jpg | while read n; do rm $n; done'
 if 'ani' in sys.argv:
@@ -78,5 +79,5 @@ if 'ani' in sys.argv:
         reel.append([plt.imshow(state)])
     a = animation.ArtistAnimation(f,reel,interval=180,blit=True,repeat_delay=900)
     w = FFMpegWriter(fps=5, bitrate=1800)
-    a.save('stylized_kickflip.mp4', writer=w)
+    a.save('stylized_treflip.mp4', writer=w)
     plt.show()

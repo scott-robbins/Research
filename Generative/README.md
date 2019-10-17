@@ -31,5 +31,7 @@ So taking a picture of a smilin' Bernie Sanders, and a mosaic with a fractal lik
 we get the following:
 ![Bern](https://raw.githubusercontent.com/scott-robbins/Research/master/Generative/Seeds/bern.jpeg)
 ![Tiles](https://raw.githubusercontent.com/scott-robbins/Research/master/Generative/Seeds/mosaic.jpeg)
+
 Result:
 ![TileBern](https://github.com/scott-robbins/Research/blob/master/Generative/results/RESULTS/tiled_bern.png)
+
