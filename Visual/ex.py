@@ -149,8 +149,7 @@ def main():
 
     bar = tqdm(total=ITERATION)
     tic = time.time()
-    if os.name() != 'nt':
-        os.system('clear')
+    os.system('clear')
     print '\033[1mTraining Started on \033[31m%s\033[0m\033[1m <--> \033[32m%s\033[0m' %\
           (CONTENT_IMG, STYLE_IMG)
 

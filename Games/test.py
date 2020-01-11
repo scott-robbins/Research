@@ -2,10 +2,9 @@ import Tkinter as Tk
 import PIL.ImageTk
 import PIL.Image as Image
 import time
-import io
 
 root = Tk.Tk()
-canvas = Tk.Canvas(root, height = 500, width = 500)
+canvas = Tk.Canvas(root, height=500, width=500)
 tic = time.time()
 
 # Create two images
@@ -59,21 +58,17 @@ def leftKey(event):
     print "< Left key pressed"
     click(event)
 
-
 def rightKey(event):
     print ">  Right key pressed"
     click(event)
-
 
 def downKey(event):
     print "v Down"
     click(event)
 
-
 def upKey(event):
     print '^ Up '
     click(event)
-
 
 def enter(event):
     print '[Enter]'
