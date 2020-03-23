@@ -182,15 +182,16 @@ if __name__ == '__main__':
     state[:, :, 0] = maze_img
     state[:, :, 1] = maze_img
     state[:, :, 2] = maze_img
-    # state[start[0]-1:start[0]+1, start[1]-1:start[1]+1, :] = [1, 0, 0]
+
     state[stop[0]-1:stop[0]+1, stop[1]-2:stop[1]+1, :] = [0, 1, 0]
-    print 'Starting At: %s' % str(start)
-    print 'Stopping At: %s' % str(stop)
 
     if'start' in sys.argv and len(sys.argv) >=4:
         start[0] = int(sys.argv[2])
         start[1] = int(sys.argv[3])
+    state[start[0]-1:start[0]+1, start[1]-1:start[1]+1, :] = [1, 0, 0]
+    print 'Starting At: %s' % str(start)
+    print 'Stopping At: %s' % str(stop)
 
-    stop = [0, 240]
+    # stop = [0, 240]
     # test_walk(state, start, stop)
     solver_one(state, start, stop)
