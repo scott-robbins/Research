@@ -21,10 +21,11 @@ from tensorflow.keras.callbacks import ModelCheckpoint
 from tensorflow.keras.datasets import cifar10
 from tensorflow.keras.utils import plot_model
 from tensorflow.keras import backend as K
-
+import local_datasets
 import numpy as np
 import matplotlib.pyplot as plt
 import os
+
 
 def rgb2gray(rgb):
     """Convert from color image (RGB) to grayscale.
@@ -40,6 +41,17 @@ def rgb2gray(rgb):
 
 # load the CIFAR10 data
 (x_train, _), (x_test, _) = cifar10.load_data()
+
+# TODO: DEBUGGING For Custom Data Sets
+# data_path = '/home/tylersdurden/Desktop/Crawler/timelapse/smart_security/'
+# packed_imgs, labels = local_datasets.load_images(data_path,{'x0':1200,
+#                                                             'x1':1800,
+#                                                             'y0':600,
+#                                                             'y1':1200,
+#                                                             'is':True})
+#
+# x_train_custom = local_datasets.image_data_to_tensor(packed_imgs)
+# print(x_train_custom.shape)
 
 # input image dimensions
 # we assume data format "channels_last"
