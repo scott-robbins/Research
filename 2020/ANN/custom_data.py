@@ -13,8 +13,8 @@ import random
 import cv2
 import os
 
-DATADIR = "/home/tylersdurden/Desktop/Crawler/timelapse/AI"
-CATEGORIES = ["Negative", "Positive"]
+DATADIR = "ToyData/"
+CATEGORIES = ["Square", "Circle"]
 IMG_SIZE = 150
 
 
@@ -58,7 +58,7 @@ def create_training_data():
     return training_data, X, y
 
 
-def pre_process_single_img(path,img):
+def pre_process_single_img(img):
     img_array = np.array(plt.imread(img).astype(np.float))
     new_array = cv2.resize(img_array, (IMG_SIZE, IMG_SIZE))
     vec = []
@@ -93,26 +93,35 @@ def build_network(Xdat):
     return model
 
 
-if not os.path.isfile('X.pickle') and not os.path.isfile('y.pickle'):
-    # This will create training data from given datadir and categories
-    # Training data is saved to disk for easy reloading
-    data, X, Y = create_training_data()
-else:
-    # Now use our custom data set!
-    pickle_in = open("X.pickle","rb")
-    X = pickle.load(pickle_in)
-    pickle_in = open("y.pickle","rb")
-    y = pickle.load(pickle_in)
-X = X/255.0
+if __name__ == '__main__':
+    if not os.path.isfile('X.pickle') and not os.path.isfile('y.pickle'):
+        # This will create training data from given datadir and categories
+        # Training data is saved to disk for easy reloading
+        data, X, y = create_training_data()
+    else:
+        # Now use our custom data set!
+        pickle_in = open("X.pickle", "rb")
+        X = pickle.load(pickle_in)
+        pickle_in = open("y.pickle", "rb")
+        y = pickle.load(pickle_in)
+    X = X / 255.0
 
-'''             BUILD NETWORK              '''
-if not os.path.isfile('model.h5'):
-    m = build_network(X)
-    '''             TRAIN NETWORK       '''
-    # Only using 3 Training Epochs for now
-    m.fit(X, y, batch_size=32, epochs=3, validation_split=0.3)
-    # Save the Model
-    m.save('model.h5')
-else:
-    print '\033[1m\033[31m[*] Loading Pre-Trained Model\033[0m'
-    m = load_model("model.h5")
+    '''             BUILD NETWORK              '''
+    if not os.path.isfile('model.h5'):
+        m = build_network(X)
+        '''             TRAIN NETWORK       '''
+        # Only using 3 Training Epochs for now
+        m.fit(X, y, batch_size=32, epochs=5, validation_split=0.3)
+        # Save the Model
+        m.save('model.h5')
+    else:
+        print '\033[1m\033[31m[*] Loading Pre-Trained Model\033[0m'
+        m = load_model("model.h5")
+
+    os.remove('X.pickle')
+    os.remove('y.pickle')
+    test_A, ya = pre_process_single_img('ToyData/Square/square17.png')
+    test_B, yb = pre_process_single_img('ToyData/Circle/circle109.png')
+    print m.predict_classes(test_A)
+    print m.predict_classes(test_B)
+
