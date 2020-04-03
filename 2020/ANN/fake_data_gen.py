@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
-import numpy as np
 import scipy.misc as misc
+from tqdm import tqdm
+import numpy as np
 import os
 
 
@@ -37,14 +38,15 @@ h = 550
 N = 200
 os.mkdir('ToyData')
 os.mkdir('ToyData/Square')
-for i in range(N):
+print '[*] Generating Square Images'
+for i in tqdm(range(N)):
     state = np.zeros((w, h))
     sq = draw_centered_box(state,i+1,1,False)
     name = 'ToyData/Square/square%d.png' % i
     misc.imsave(name, sq)
-
+print '[*] Generating Circle Images'
 os.mkdir('ToyData/Circle')
-for j in range(N):
+for j in tqdm(range(N)):
     state = np.zeros((w, h))
     circ = draw_centered_circle(state,j+2,1,False)
     name = 'ToyData/Circle/circle%d.png' % j

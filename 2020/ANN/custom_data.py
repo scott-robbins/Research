@@ -111,7 +111,7 @@ if __name__ == '__main__':
         m = build_network(X)
         '''             TRAIN NETWORK       '''
         # Only using 3 Training Epochs for now
-        m.fit(X, y, batch_size=32, epochs=5, validation_split=0.3)
+        m.fit(X, y, batch_size=32, epochs=4, validation_split=0.4)
         # Save the Model
         m.save('model.h5')
     else:
@@ -120,8 +120,10 @@ if __name__ == '__main__':
 
     os.remove('X.pickle')
     os.remove('y.pickle')
-    test_A, ya = pre_process_single_img('ToyData/Square/square17.png')
-    test_B, yb = pre_process_single_img('ToyData/Circle/circle109.png')
+    test_A, ya = pre_process_single_img('ToyData/Square/square177.png')
+    test_B, yb = pre_process_single_img('ToyData/Circle/circle99.png')
+    os.system('clear')
+    print m.summary()
     print m.predict_classes(test_A)
     print m.predict_classes(test_B)
 
