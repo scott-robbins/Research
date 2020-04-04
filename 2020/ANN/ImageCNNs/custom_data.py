@@ -13,18 +13,18 @@ import random
 import cv2
 import os
 
-DATADIR = "ToyData/"
-CATEGORIES = ["Square", "Circle"]
+DATADIR = "/home/tylersdurden/Desktop/Crawler/timelapse/AI"
+CATEGORIES = ["Negative", "Positive"]
 IMG_SIZE = 150
 
 
 def create_training_data():
     training_data = []
+    ii = 0
     for category in CATEGORIES:  # do dogs and cats
-
         path = os.path.join(DATADIR,category)  # create path to dogs and cats
-        class_num = CATEGORIES.index(category)  # get the classification  (0 or a 1). 0=dog 1=cat
-
+        # class_num = CATEGORIES.index(category)  # get the classification  (0 or a 1). 0=dog 1=cat
+        class_num = ii
         for img in tqdm(os.listdir(path)):  # iterate over each image per dogs and cats
             try:
                 img_array = cv2.imread(os.path.join(path,img) ,cv2.IMREAD_GRAYSCALE)  # convert to array
@@ -32,6 +32,7 @@ def create_training_data():
                 training_data.append([new_array, class_num])  # add this to our training_data
             except Exception as e:  # in the interest in keeping the output clean...
                 pass
+        ii += 1
     random.shuffle(training_data)
     X = []
     y = []
@@ -68,7 +69,7 @@ def pre_process_single_img(img):
         X.append(features)
     X = np.array(X).reshape(-1, IMG_SIZE, IMG_SIZE, 1)
     X = X / 255.0
-    return X, y
+    return X
 
 
 def build_network(Xdat):
@@ -77,7 +78,6 @@ def build_network(Xdat):
     model.add(Conv2D(256, (3, 3), input_shape=Xdat.shape[1:]))
     model.add(Activation('relu'))
     model.add(MaxPooling2D(pool_size=(2, 2)))
-
     model.add(Conv2D(256, (3, 3)))
     model.add(Activation('relu'))
 
@@ -95,6 +95,7 @@ def build_network(Xdat):
 
 if __name__ == '__main__':
     if not os.path.isfile('X.pickle') and not os.path.isfile('y.pickle'):
+        os.system('python fake_data_gen.py')
         # This will create training data from given datadir and categories
         # Training data is saved to disk for easy reloading
         data, X, y = create_training_data()
@@ -120,10 +121,10 @@ if __name__ == '__main__':
 
     os.remove('X.pickle')
     os.remove('y.pickle')
-    test_A, ya = pre_process_single_img('ToyData/Square/square177.png')
-    test_B, yb = pre_process_single_img('ToyData/Circle/circle99.png')
+    test_A = pre_process_single_img('ToyData/Square/square177.png')
+    test_B = pre_process_single_img('ToyData/Circle/circle99.png')
     os.system('clear')
     print m.summary()
-    print m.predict_classes(test_A)
-    print m.predict_classes(test_B)
+    print 'Square Prediction: %s Correct: %s' %\
+          (str(m.predict_classes(test_A)[0]), m.output_names)
 
