@@ -47,7 +47,8 @@ def load_images(dataset, cut):
 
 def extract_features(eigen, images, i, plot):
     test_im = np.array(images[types[0]][i]).astype(np.float32)
-    feature_map = test_im[:,:,0] * eigen[:, :, 0] - test_im[:, :, 0].mean()
+    # feature_map = test_im[:,:,0] * eigen[:, :, 0] - test_im[:, :, 0].mean()
+    feature_map = (test_im[:,:,0]>50)*(eigen[:,:,0]>0)
     # Show the result
     if plot:
         f, ax = plt.subplots(1, 2, sharex=True, sharey=True, figsize=(10, 8))
@@ -83,12 +84,13 @@ images, types = load_images(test_path, {'is': True,
 #     ims.append([plt.imshow(test)])
 # a = animation.ArtistAnimation(f,ims,interval=125,blit=True,repeat_delay=900)
 # plt.show()
-k = [[1,1,1],[1,0,1],[1,1,1]]
-
+# k = [[1,1,1],[1,0,1],[1,1,1]]
+k = np.ones((12, 12))
+k[8:10,8:10] = 0
 '''     TRAINING_PIPELINE '''
 # Layer One - Mean Image Creator
 print '[*] Feeding %d Images into Training Data Pipeline' % len(images[types[1]])
 avg_img = training_pipe(images, types)
 
 '''     USING TRAINING IMAGE TO EXTRACT FEATURES FROM A TEST IMAGE '''
-features = extract_features(avg_img,images,1,True)
+features = extract_features(avg_img, images, 2, True)

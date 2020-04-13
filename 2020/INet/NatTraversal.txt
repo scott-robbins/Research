@@ -1,0 +1,33 @@
+# How to NAT Traversal?
+
+
+Need 3 Hosts on Seperate Networks 
+
+      +++++++++++ =========
+     | client A |        ||<----]
+     +++++++++++ =========      |   ========= ++++++++++++
+                                +---||        | client c |
+                                |   ========= ++++++++++++
+                                \     
+     ++++++++++++ =========      \     
+     | client B |        ||<-----]
+     ++++++++++++ =========
+
+===============================================================================
+DIRECT METHOD:   TCP HOLE PUNCHING
+
+Assumed that each peer knows the remote peer endpoints.
+Both peers will make a simultaneous TCP open. 
+
+1. * Peer A sends a SYN to Peer B
+   * Peer B Sends a SYN to Peer A
+
+2. * When NAT-a see outgoing SYN from Peer A, internal state machine creates mapping
+   * When NAT-b see outgoing SYN from Peer B, internal state machine creates mapping
+
+3. Both SYN cross along network *somewhere* and then:
+    * SYN from Peer A reached NAT-b, SYN from Peer B freached NAT-a
+    * Depending on timing, at least one of the NAT will let incoming SYN through
+    and map it ito the internal destination peer.
+
+4. Upon receipt of SYN, the peer sends a SYN+ACK back and connection is established.

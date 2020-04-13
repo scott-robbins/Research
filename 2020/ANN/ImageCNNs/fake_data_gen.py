@@ -32,22 +32,40 @@ def draw_centered_box(state, sz, value, show):
     return state
 
 
-w = 550
-h = 550
+def generate_square_data(data_path, W, H, n):
+    if not os.path.isdir('%s/Square' % data_path):
+        os.mkdir('%s/Square' % data_path)
+    print '[*] Generating Square Images'
+    for i in tqdm(range(n)):
+        state = np.zeros((W, H))
+        sq = draw_centered_box(state, i + 1, 1, False)
+        name = '%s/Square/square%d.png' % (data_path,i)
+        misc.imsave(name, sq)
+    print '[*] Finished Generating Square Data'
 
-N = 200
-os.mkdir('ToyData')
-os.mkdir('ToyData/Square')
-print '[*] Generating Square Images'
-for i in tqdm(range(N)):
-    state = np.zeros((w, h))
-    sq = draw_centered_box(state,i+1,1,False)
-    name = 'ToyData/Square/square%d.png' % i
-    misc.imsave(name, sq)
-print '[*] Generating Circle Images'
-os.mkdir('ToyData/Circle')
-for j in tqdm(range(N)):
-    state = np.zeros((w, h))
-    circ = draw_centered_circle(state,j+2,1,False)
-    name = 'ToyData/Circle/circle%d.png' % j
-    misc.imsave(name, circ)
+
+def generate_circle_data(data_path, W, H, n):
+    if not os.path.isdir('%s/Circle' % data_path):
+        os.mkdir('%s/Circle' % data_path)
+    print '[*] Generating Circle Images'
+    for j in tqdm(range(n)):
+        state = np.zeros((W, H))
+        circ = draw_centered_circle(state, j + 2, 1, False)
+        name = '%s/Circle/circle%d.png' % (data_path, j)
+        misc.imsave(name, circ)
+    print '[*] Finished Generating Circle Data'
+
+
+if __name__ == '__main__':
+
+    # Dimensions of each test image
+    # and number of images per shape
+    w = 550
+    h = 550
+    N = 200
+
+    # Make the ToyData
+    os.mkdir('ToyData/')
+    generate_circle_data('ToyData', w, h, N)
+    generate_square_data('ToyData', w, h, N)
+
